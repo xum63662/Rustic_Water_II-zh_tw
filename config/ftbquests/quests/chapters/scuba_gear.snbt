@@ -1,0 +1,547 @@
+{
+	id: "77FC18D587513B13"
+	group: ""
+	order_index: 4
+	filename: "scuba_gear"
+	title: "Sub Nautical"
+	icon: {
+		id: "better_diving:seamoth"
+		Count: 1b
+		tag: {
+			"better_diving:item_stack_handler": {
+				Size: 1
+				Items: [ ]
+			}
+		}
+	}
+	default_quest_shape: "diamond"
+	default_hide_dependency_lines: false
+	images: [{
+		x: -5.0d
+		y: -1.5d
+		width: 22.48d
+		height: 11.52d
+		rotation: 0.0d
+		image: "rusticwaters:textures/page7.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			x: -5.0d
+			y: -3.0d
+			description: ["This set of scuba gear will give you a total breathing time of 2.5 minutes before needing to resurface for air.  Scuba gear is great for exploring the ocean depths, but combined with your Seamoth Submarine, it will be even more useful.  You will not get the full bonuses of your scuba gear if you only wear a few pieces.  You must equip the Mask, Wetsuit, Leggings, and Flippers."]
+			dependencies: ["33079DF85A520C53"]
+			id: "0988FEA4D06F9878"
+			tasks: [
+				{
+					id: "774D9BE3E7AE368E"
+					type: "item"
+					item: {
+						id: "better_diving:diving_mask"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3BE926D7BD75A88B"
+					type: "item"
+					item: {
+						id: "better_diving:standard_o2_tank"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "48C58361EAB467F2"
+				type: "item"
+				item: "decimal_coins:coin_5"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -2.0d
+			subtitle: "Your diving gear can be repaired in an anvil using the bolts of cloth that it was made with."
+			description: ["This set of scuba gear will give you a total breathing time of 2 minutes before needing to resurface for air.  Scuba gear is great for exploring the ocean depths, but combined with your Seamoth Submarine, it will be even more useful."]
+			dependencies: ["0988FEA4D06F9878"]
+			id: "787DA1981B99C37A"
+			tasks: [
+				{
+					id: "56A723B8B66E02FD"
+					type: "item"
+					item: {
+						id: "better_diving:wetsuit_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1D4831D28DDB20FB"
+					type: "item"
+					item: {
+						id: "better_diving:fins"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "355D11A3A386BC62"
+				type: "item"
+				item: "storagedrawers:gold_storage_upgrade"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -1.0d
+			description: ["The Reinforced Scuba gear is better in nearly every way compared to the basic Scuba gear.  It will allow you to breathe underwater for up to 6 minutes before needing to resurface.  Keep in mind though, the larger capacity of the tank means you will need to resurface for longer to refill it.  You can hover over the tank in your inventory to see its Oxygen refill status."]
+			dependencies: ["787DA1981B99C37A"]
+			id: "3910BFDED827E969"
+			tasks: [{
+				id: "545C480E79756453"
+				type: "item"
+				item: "rustic_resources:signalumcloth"
+				count: 14L
+			}]
+			rewards: [{
+				id: "1C27989DB9B70029"
+				type: "item"
+				item: "rustic_resources:keyfragment"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 0.0d
+			subtitle: "Check JEI for the recipe on how to turn colored Coral Blocks into dye using the spinning wheel."
+			description: [
+				""
+				"Your Scuba Gear can be repaired in a Repair Chest or the Powered Diamond Anvil."
+			]
+			dependencies: ["3910BFDED827E969"]
+			id: "04C2A2258E7A5607"
+			tasks: [
+				{
+					id: "149AA1961FD62B69"
+					type: "item"
+					item: {
+						id: "better_diving:reinforced_diving_mask"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "66C681A5A3B34506"
+					type: "item"
+					item: {
+						id: "better_diving:high_capacity_o2_tank"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "78C2665974378D03"
+					type: "item"
+					item: {
+						id: "better_diving:improved_wetsuit_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4B1A5587D927D853"
+					type: "item"
+					item: {
+						id: "better_diving:ultra_glide_fins"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "1044D88E25ED1269"
+				type: "item"
+				item: "decimal_coins:coin_100"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -3.0d
+			subtitle: "The Rocket Booster upgrade will allow you to speed boost your plane by clicking with gunpowder while in flight."
+			description: [
+				""
+				"Your plane will move forward on its own whenever you press one of the directional WASD keys.  Press \"W\" to go up, \"S\" to go down.  There are no complicated buttons to land... simply glide down to ground level and the plane will take care of the rest.  "
+			]
+			dependencies: ["56282F439302AB44"]
+			id: "2A1570864329BFAB"
+			tasks: [
+				{
+					id: "2F08880C50130EAA"
+					type: "item"
+					item: "simpleplanes:propeller"
+				}
+				{
+					id: "08718F780EB30797"
+					type: "item"
+					item: "create:brown_seat"
+					count: 2L
+				}
+			]
+			rewards: [{
+				id: "7D3777C3C9E96725"
+				type: "item"
+				item: "simpleplanes:booster"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -2.0d
+			subtitle: "Once you have built and placed your plane, right click it with one of your Electric Engines to install it.  It may be a good idea to place a Charging Station at the surface of the water, which you can drive over to recharge."
+			description: ["Your plane will be a crucial part of your exploration in this dimension and others.  It works in the Dark Caverns, Space, the Nether and End.  Before you bring it along though, it would be wise to install some helpful upgrades which will improve its functionality."]
+			dependencies: ["2A1570864329BFAB"]
+			id: "49C20857E8A82017"
+			tasks: [{
+				id: "78033656902EE653"
+				type: "item"
+				item: {
+					id: "simpleplanes:large_plane"
+					Count: 1b
+					tag: {
+						EntityTag: {
+							max_health: 10
+							material: "rustic_resources:planehull"
+							Used: 1b
+							health: 10
+							max_speed: 1.0f
+							upgrades: {
+								"simpleplanes:electric_engine": {
+									energy: 480000
+								}
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "0323A649A920AA6E"
+				type: "item"
+				item: {
+					id: "simpleplanes:helicopter"
+					Count: 1b
+					tag: {
+						EntityTag: {
+							material: "rustic_resources:planehull"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.0d
+			subtitle: "TNT Can be dropped from your plane like Bombs by right clicking it onto the plane like an upgrade, and then using flint and steel while in flight."
+			description: ["Floaty Bedding is likely the most important upgrade for your plane in this adventure.  Right click it onto your plane to be able to take off and land on water."]
+			dependencies: ["49C20857E8A82017"]
+			id: "1489FC2D4EFDCBDE"
+			tasks: [{
+				id: "1F6C9098543FD06B"
+				type: "item"
+				item: "simpleplanes:floaty_bedding"
+			}]
+			rewards: [{
+				id: "24FDA82DB43C8190"
+				type: "item"
+				item: "minecraft:tnt"
+				count: 4
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			subtitle: "Your Plane's health is indicated by icons on the right of your GUI when you get into it.  The Quick Fix Kit will allow you to repair the plane by right clicking it."
+			description: ["Clicking your plane with a Dispenser will install \"Shooters\".  Right clicking with Fireworks or Fire Chargers while in flight will fire them at enemies."]
+			dependencies: ["1489FC2D4EFDCBDE"]
+			id: "012C26E30789B1D6"
+			tasks: [{
+				id: "6883467367B77D01"
+				type: "item"
+				item: "minecraft:dispenser"
+			}]
+			rewards: [{
+				id: "3C8B0E54412F659B"
+				type: "item"
+				item: "simpleplanes:healing"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -4.0d
+			shape: "hexagon"
+			description: ["Scuba gear allows you to function underwater with higher efficiency.  This includes breathing, swimming, and breaking blocks."]
+			id: "33079DF85A520C53"
+			tasks: [{
+				id: "66D1A79B044912ED"
+				type: "item"
+				item: "rustic_resources:invarcloth"
+				count: 14L
+			}]
+			rewards: [{
+				id: "60F6C1C6B71282E1"
+				type: "item"
+				item: "rustic_resources:keyfragment"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -4.0d
+			subtitle: "Planes are a great way to cover large distances over water or in other dimensions.  Your pets can even travel with you."
+			description: [
+				""
+				"The Simple Planes mod allows you to build easy to fly planes that can be charged with up to 500,000 FE as fuel.  Place or Drive your plane onto a Charging Pad to recharge it's Electric Engine."
+				"{image:rusticwaters:textures/puppers.png width:100 height:100 align:1}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["5DBD68E3DE18CB2E"]
+			id: "56282F439302AB44"
+			tasks: [{
+				id: "6EE2BB631E37D87D"
+				type: "item"
+				item: "rustic_resources:planehull"
+				count: 4L
+			}]
+			rewards: [{
+				id: "1F27ED79AAC5D7AC"
+				type: "item"
+				item: "simpleplanes:charging_station"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -5.5d
+			shape: "hexagon"
+			description: ["The Seamoth submarine is a fast transportation vehicle that will enable you to travel long distances underwater."]
+			id: "1961B7EE4CB588F1"
+			tasks: [{
+				id: "7D57B4ABC15467E1"
+				type: "item"
+				item: "rustic_resources:subframe"
+			}]
+			rewards: [
+				{
+					id: "33AB23E2A6B0E624"
+					type: "item"
+					item: "rustic_resources:fasteners"
+					count: 8
+				}
+				{
+					id: "464304B13BCECF88"
+					type: "item"
+					item: "decimal_coins:coin_10"
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -4.5d
+			description: ["The Seamoth has a GUI that can be accessed from inside the cockpit by pressing E.  This will allow you to exchange fuel cells."]
+			dependencies: ["1961B7EE4CB588F1"]
+			id: "0B862F5FC4C058C4"
+			tasks: [{
+				id: "5BCBC6462919353E"
+				type: "item"
+				item: "rustic_resources:reinforcedwood"
+				count: 8L
+			}]
+			rewards: [{
+				id: "014FB623B134EDB0"
+				type: "item"
+				item: "pamhc2foodextended:fruitcreamfestivalbreaditem"
+				count: 2
+			}]
+		}
+		{
+			x: -1.5d
+			y: -3.5d
+			subtitle: "You are making 4 engines but will only use two for your submarine.  The other two will be used shortly."
+			description: ["You are impervious to attacks from most sea life while inside your Seamoth but be particularly careful around Naval Mines floating around the ocean floor."]
+			dependencies: ["0B862F5FC4C058C4"]
+			id: "5DBD68E3DE18CB2E"
+			tasks: [{
+				id: "4F133DD4CCE1AF36"
+				type: "item"
+				item: "simpleplanes:electric_engine"
+				count: 4L
+			}]
+			rewards: [{
+				id: "47DDA84DC250BD56"
+				type: "item"
+				item: "rustic_resources:keyfragment"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -2.0d
+			description: ["Energy Cells hold 2,000,000 rf.  The seamoth uses 100 FE/t"]
+			dependencies: ["30EBEBC95FD964C1"]
+			id: "3709A98AFFBB20EB"
+			tasks: [{
+				id: "43DEAAD27D6788FF"
+				type: "item"
+				item: {
+					id: "better_diving:power_cell"
+					Count: 1b
+					tag: {
+						"better_diving:energy_storage": 2000000
+					}
+				}
+			}]
+			rewards: [{
+				id: "51C336D7C949C5E5"
+				type: "item"
+				item: "rustic_resources:keyfragment"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -2.0d
+			description: ["Connect power to your charger or place it on top of a capacitor.  Right click the charger with the item that requires charging to begin the process."]
+			dependencies: ["394D7DD89152D029"]
+			id: "5A533C86BE3932DF"
+			tasks: [{
+				id: "663BD148E7FB1412"
+				type: "item"
+				item: "immersiveengineering:charging_station"
+			}]
+			rewards: [{
+				id: "09053248FC548E4A"
+				type: "loot"
+				table_id: 3729081586183020876L
+			}]
+		}
+		{
+			x: -1.5d
+			y: -2.0d
+			description: ["Right Click to place your Seamoth in the water.  Punching or breaking your Seamoth will return it to your inventory."]
+			dependencies: ["5DBD68E3DE18CB2E"]
+			size: 2.0d
+			id: "58E1B492D2AEF288"
+			tasks: [{
+				id: "00713D357DA0CB04"
+				type: "item"
+				item: {
+					id: "better_diving:seamoth"
+					Count: 1b
+					tag: {
+						"better_diving:item_stack_handler": {
+							Size: 1
+							Items: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "776471558AAA4E37"
+				type: "loot"
+				table_id: 1459128794121417282L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			description: ["Craft a Copper Coil block to build a Charger.  You will have faster charging options once your technology improves."]
+			dependencies: ["58E1B492D2AEF288"]
+			id: "394D7DD89152D029"
+			tasks: [{
+				id: "7BE5C8263A19F8AB"
+				type: "item"
+				item: "immersiveengineering:coil_lv"
+			}]
+			rewards: [{
+				id: "6F036B4FBDDD269E"
+				type: "item"
+				item: "decimal_coins:coin_10"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -2.0d
+			description: ["Seamoth Energy Cells are crafted partially charged.  While this may be convenient to get you home in a pinch, you will want to make sure to recharge them to full before heading out on long trips."]
+			dependencies: ["58E1B492D2AEF288"]
+			id: "30EBEBC95FD964C1"
+			tasks: [
+				{
+					id: "4874E276AFFCC648"
+					type: "item"
+					item: "rustic_resources:redstonewire"
+					count: 2L
+				}
+				{
+					id: "4490CC407E7A70CE"
+					type: "item"
+					item: "minecraft:redstone_block"
+				}
+			]
+			rewards: [{
+				id: "456ED6C738861935"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			icon: "rustic_resources:hubexpankey"
+			x: -1.5d
+			y: 0.5d
+			shape: "gear"
+			subtitle: "You will receive additional Key Fragments for quest rewards as you progress, though there will not be a quest linked to them.  Open your Hub Expansions whenever you get enough keys."
+			description: ["Congratulations on completing the content up to this point in the adventure.  Use this key to expand your base."]
+			hide_dependency_lines: false
+			dependencies: ["58E1B492D2AEF288"]
+			size: 2.0d
+			id: "1276E9F59721A251"
+			tasks: [{
+				id: "68F4879ED7CA097C"
+				type: "item"
+				item: "rustic_resources:hubexpankey"
+			}]
+			rewards: [{
+				id: "514C1D25F6CB0A62"
+				type: "item"
+				item: {
+					id: "vanillahammers:obsidian_hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								lvl: 1s
+								id: "cyclic:magnet"
+							}
+							{
+								lvl: 3s
+								id: "minecraft:efficiency"
+							}
+						]
+					}
+				}
+			}]
+		}
+	]
+}

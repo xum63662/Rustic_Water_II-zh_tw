@@ -1,0 +1,30 @@
+{
+  "config": {
+    "maxCharges": 8,
+    "chargeRegenerationTime": 12,
+    "damage": 15,
+    "throwCooldown": 15,
+    "bounceChanceMultiplier": 0.015,
+    "bounceRadius": 7,
+    "projectileSpeed": 0.5,
+    "maxBounces": 10
+  },
+  "durability": {
+    "maxDurability": 100
+  },
+  "level": {
+    "maxLevel": 10,
+    "initialExp": 100,
+    "expRatio": 250
+  },
+  "loot": [
+    {
+      "table": [
+        "minecraft:chests/end_city_treasure"
+      ],
+      "chance": 0.0,
+      "baseCount": 1,
+      "additionalCount": 0
+    }
+  ]
+}

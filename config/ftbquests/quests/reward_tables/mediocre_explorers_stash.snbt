@@ -1,0 +1,1155 @@
+{
+	id: "4447D5AD0B572F5A"
+	order_index: 0
+	title: "Mediocre Explorer's Stash"
+	loot_size: 4
+	hide_tooltip: true
+	use_title: true
+	rewards: [
+		{ item: "minecraft:string", count: 16, weight: 10 }
+		{ item: "minecraft:green_glazed_terracotta", count: 64 }
+		{ item: "atum:ceramic_black", count: 64 }
+		{ item: "atum:ceramic_green", count: 64 }
+		{ item: "atum:ceramic_gray", count: 64 }
+		{ item: "atum:ceramic_pink", count: 64 }
+		{ item: "atum:ceramic_white", count: 64 }
+		{ item: "atum:ceramic_cyan", count: 64 }
+		{ item: "atum:ceramic_magenta", count: 64 }
+		{ item: "atum:ceramic_light_blue", count: 64 }
+		{ item: "atum:ceramic_orange", count: 64 }
+		{ item: "atum:ceramic_red", count: 64 }
+		{ item: "atum:ceramic_purple", count: 64 }
+		{ item: "atum:ceramic_brown", count: 64 }
+		{ item: "atum:ceramic_yellow", count: 64 }
+		{ item: "atum:ceramic_light_gray", count: 64 }
+		{ item: "atum:ceramic_lime", count: 64 }
+		{ item: "atum:ceramic_blue", count: 64 }
+		{ item: "pamhc2foodextended:fruitcreamfestivalbreaditem", count: 2 }
+		{ item: "pamhc2foodextended:meringueitem", count: 2 }
+		{ item: "pamhc2foodextended:sesameballitem", count: 2 }
+		{ item: "pamhc2foodextended:candiedsweetpotatoesitem", count: 2 }
+		{ item: "pamhc2foodextended:grilledskewersitem", count: 2 }
+		{ item: "pamhc2foodextended:fishlettucewrapitem", count: 2 }
+		{ item: "pamhc2foodextended:gourmetmuttonburgeritem", count: 2 }
+		{ item: "pamhc2foodextended:energydrinkitem", count: 2 }
+		{ item: "pamhc2foodextended:spagettiandmeatballsitem", count: 2 }
+		{ item: "pamhc2foodcore:baconcheeseburgeritem", count: 2 }
+		{ item: "pamhc2foodcore:potatochipsitem", count: 2 }
+		{ item: "pamhc2foodextended:grandmasmacaronicasseroleitem", count: 2 }
+		{ item: "pamhc2foodextended:toadintheholeitem", count: 2 }
+		{ item: "pamhc2foodextended:batteredsausageitem", count: 2 }
+		{ item: "pamhc2foodextended:corndogitem", count: 2 }
+		{ item: "pamhc2foodextended:spicygreensitem", count: 2 }
+		{ item: "pamhc2foodextended:potstickersitem", count: 2 }
+		{ item: "pamhc2foodextended:chickengumboitem", count: 2 }
+		{ item: "pamhc2foodextended:pitepaltitem", count: 2 }
+		{ item: "pamhc2foodextended:lamingtonitem", count: 2 }
+		{ item: "upgrade_aquatic:bedroll" }
+		{ item: "upgrade_aquatic:black_bedroll" }
+		{ item: "upgrade_aquatic:blue_bedroll" }
+		{ item: "upgrade_aquatic:brown_bedroll" }
+		{ item: "upgrade_aquatic:cyan_bedroll" }
+		{ item: "minecraft:soul_campfire" }
+		{ item: "minecraft:soul_lantern" }
+		{ item: "minecraft:soul_sand", count: 4 }
+		{ item: "minecraft:soul_soil", count: 4 }
+		{ item: "minecraft:soul_torch", count: 12 }
+		{ item: "minecraft:sponge" }
+		{ item: "cyclic:dark_glass_connected", count: 6 }
+		{ item: "cyclic:dark_glass", count: 6 }
+		{ item: "cyclic:terra_glass", count: 6 }
+		{ item: "darkutils:dark_glass", count: 6 }
+		{ item: "industrialforegoing:dark_glass", count: 6 }
+		{ item: "mysticalagriculture:soul_glass", count: 4 }
+		{ item: "thermal:enderium_glass", count: 4 }
+		{ item: "thermal:lumium_glass", count: 4 }
+		{ item: "thermal:obsidian_glass", count: 4 }
+		{ item: "thermal:signalum_glass", count: 4 }
+		{ item: "upgrade_aquatic:gray_bedroll" }
+		{ item: "upgrade_aquatic:green_bedroll" }
+		{ item: "upgrade_aquatic:light_blue_bedroll" }
+		{ item: "upgrade_aquatic:light_gray_bedroll" }
+		{ item: "upgrade_aquatic:lime_bedroll" }
+		{ item: "upgrade_aquatic:magenta_bedroll" }
+		{ item: "upgrade_aquatic:orange_bedroll" }
+		{ item: "upgrade_aquatic:pink_bedroll" }
+		{ item: "upgrade_aquatic:purple_bedroll" }
+		{ item: "upgrade_aquatic:red_bedroll" }
+		{ item: "upgrade_aquatic:white_bedroll" }
+		{ item: "upgrade_aquatic:yellow_bedroll" }
+		{ item: "upgrade_aquatic:glass_door" }
+		{ item: "upgrade_aquatic:glass_trapdoor" }
+		{ item: "pamhc2foodextended:lasagnaitem", count: 2 }
+		{ item: "pamhc2foodextended:chickenbiscuititem", count: 2 }
+		{ item: "pamhc2foodextended:pineappleupsidedowncakeitem", count: 2 }
+		{ item: "pamhc2foodextended:swedishmeatballsitem", count: 2 }
+		{ item: "pamhc2foodextended:kohlundpinkelitem", count: 2 }
+		{ item: "pamhc2foodextended:pokebowlitem", count: 2 }
+		{ item: "pamhc2foodextended:wafflesitem", count: 2 }
+		{ item: "pamhc2foodextended:dangoitem", count: 2 }
+		{ item: "pamhc2foodextended:maplesyrupwafflesitem", count: 2 }
+		{ item: "pamhc2foodextended:mashedsweetpotatoesitem", count: 2 }
+		{ item: "pamhc2foodextended:hazelnutchocolateitem", count: 2 }
+		{ item: "pamhc2foodextended:garlicchickenitem", count: 2 }
+		{ item: "pamhc2foodcore:carrotmuffinitem", count: 2 }
+		{ item: "pamhc2foodextended:cheddarandsourcreampotatochipsitem", count: 2 }
+		{ item: "pamhc2foodextended:sunflowerwheatrollsitem", count: 2 }
+		{ item: "pamhc2foodextended:manjuuitem", count: 2 }
+		{ item: "pamhc2foodextended:ranchfriedchickenitem", count: 2 }
+		{ item: "pamhc2foodextended:bakedbeansitem", count: 2 }
+		{ item: "pamhc2foodextended:meringuerouladeitem", count: 2 }
+		{ item: "pamhc2foodextended:chocovoxelsitem", count: 2 }
+		{ item: "pamhc2foodextended:scallionbakedpotatoitem", count: 2 }
+		{ item: "pamhc2foodextended:crackersandcheeseitem", count: 2 }
+		{ item: "pamhc2foodextended:onigiriitem", count: 2 }
+		{ item: "pamhc2foodcore:potroastitem", count: 2 }
+		{ item: "pamhc2foodextended:friedriceitem", count: 2 }
+		{ item: "pamhc2foodextended:applefritteritem", count: 2 }
+		{ item: "pamhc2foodextended:chocolatecoconutbaritem", count: 2 }
+		{ item: "pamhc2foodextended:walnutraisinbreaditem", count: 2 }
+		{ item: "pamhc2foodextended:sorbetitem", count: 2 }
+		{ item: "pamhc2foodcore:epicbaconitem", count: 2 }
+		{ item: "pamhc2foodextended:pineapplehamitem", count: 2 }
+		{ item: "pamhc2foodextended:okrachipsitem", count: 2 }
+		{ item: "pamhc2foodextended:tacoitem", count: 2 }
+		{ item: "pamhc2foodextended:imitationcrabsticksitem", count: 2 }
+		{ item: "pamhc2foodextended:candycornitem", count: 2 }
+		{ item: "pamhc2foodextended:cherryicecreamitem", count: 2 }
+		{ item: "pamhc2foodcore:hotdogitem", count: 2 }
+		{ item: "pamhc2foodextended:cantonesegreensitem", count: 2 }
+		{ item: "pamhc2foodextended:peanutchocolatebaritem", count: 2 }
+		{ item: "pamhc2foodextended:deluxecheeseburgeritem", count: 2 }
+		{ item: "pamhc2foodextended:tatertotsitem", count: 2 }
+		{ item: "pamhc2foodextended:sausagerollitem", count: 2 }
+		{ item: "pamhc2foodcore:rabbitjerkyitem", count: 2 }
+		{ item: "pamhc2foodextended:braisedonionsitem", count: 2 }
+		{ item: "pamhc2foodextended:vindalooitem", count: 2 }
+		{ item: "pamhc2foodextended:meringuecookieitem", count: 2 }
+		{ item: "pamhc2foodextended:sprinklescupcakeitem", count: 2 }
+		{ item: "pamhc2foodcore:porkjerkyitem", count: 2 }
+		{ item: "pamhc2foodextended:cracklinsitem", count: 2 }
+		{ item: "pamhc2foodextended:tomatoherbchickenitem", count: 2 }
+		{ item: "pamhc2foodextended:baconwrappedchiliitem", count: 2 }
+		{ item: "pamhc2foodextended:chickentendersitem", count: 2 }
+		{ item: "pamhc2foodextended:garlicsteakitem", count: 2 }
+		{ item: "pamhc2foodextended:sourcreamandonionpotatochipsitem", count: 2 }
+		{ item: "pamhc2foodextended:yorkshirepuddingitem", count: 2 }
+		{ item: "pamhc2foodextended:vegetarianlettucewrapitem", count: 2 }
+		{ item: "pamhc2foodextended:fortunecookieitem", count: 2 }
+		{ item: "pamhc2foodextended:onionhamburgeritem", count: 2 }
+		{ item: "pamhc2foodcore:jellydonutitem", count: 2 }
+		{ item: "pamhc2foodcore:gummybearsitem", count: 2 }
+		{ item: "pamhc2foodcore:fishandchipsitem", count: 2 }
+		{ item: "pamhc2foodextended:cinnamonsugardonutitem", count: 2 }
+		{ item: "pamhc2foodextended:stuffedchilipeppersitem", count: 2 }
+		{ item: "pamhc2foodextended:mushroomlasagnaitem", count: 2 }
+		{ item: "pamhc2foodextended:imagawayakiitem", count: 2 }
+		{ item: "pamhc2foodextended:mushroomsteakitem", count: 2 }
+		{ item: "pamhc2foodextended:stuffedpepperitem", count: 2 }
+		{ item: "pamhc2foodextended:sundayroastitem", count: 2 }
+		{ item: "pamhc2foodextended:slawdogitem", count: 2 }
+		{ item: "pamhc2foodextended:maplesausageitem", count: 2 }
+		{ item: "pamhc2foodextended:liverandonionsitem", count: 2 }
+		{ item: "pamhc2foodcore:carrotbreaditem", count: 2 }
+		{ item: "pamhc2foodextended:bentoboxitem", count: 2 }
+		{
+			item: {
+				id: "simplesponge:compressed_magmatic_sponge_on_a_stick"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "simplesponge:compressed_sponge_on_a_stick"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "simplesponge:energized_sponge_on_a_stick" }
+		{
+			item: {
+				id: "simplesponge:magmatic_sponge_on_a_stick"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "simplesponge:magmatic_sponge" }
+		{
+			item: {
+				id: "simplesponge:sponge_on_a_stick"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "simplesponge:sponge" }
+		{ item: "simplylight:edge_light_top" }
+		{ item: "simplylight:edge_light" }
+		{ item: "simplylight:illuminant_block_on" }
+		{ item: "simplylight:illuminant_block" }
+		{ item: "simplylight:illuminant_panel" }
+		{ item: "simplylight:illuminant_slab" }
+		{ item: "simplylight:lightbulb" }
+		{ item: "simplylight:rodlamp" }
+		{ item: "simplylight:wall_lamp" }
+		{ item: "pipez:energy_pipe", count: 4 }
+		{ item: "pipez:fluid_pipe", count: 4 }
+		{ item: "pipez:item_pipe", count: 4 }
+		{ item: "pipez:basic_upgrade" }
+		{ item: "pipez:improved_upgrade" }
+		{
+			item: {
+				id: "redstonepen:pen"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "supplementaries:jar_tinted" }
+		{ item: "supplementaries:jar" }
+		{ item: "supplementaries:pulley_block" }
+		{ item: "supplementaries:item_shelf" }
+		{ item: "supplementaries:redstone_illuminator" }
+		{
+			item: {
+				id: "supplementaries:rope_arrow"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "storagedrawers:gold_storage_upgrade" }
+		{ item: "storagedrawers:illumination_upgrade" }
+		{ item: "storagedrawers:iron_storage_upgrade" }
+		{ item: "supplementaries:sconce_ender", count: 2 }
+		{ item: "supplementaries:sconce_glow", count: 2 }
+		{ item: "supplementaries:sconce_green", count: 2 }
+		{ item: "supplementaries:sconce_lever", count: 2 }
+		{ item: "supplementaries:sconce_soul", count: 2 }
+		{ item: "supplementaries:sconce", count: 2 }
+		{ item: "supplementaries:clock_block" }
+		{ item: "supplementaries:cog_block" }
+		{ item: "supplementaries:copper_lantern", count: 2 }
+		{ item: "supplementaries:crimson_lantern", count: 2 }
+		{ item: "supplementaries:deepslate_lamp", count: 2 }
+		{ item: "supplementaries:end_stone_lamp", count: 2 }
+		{ item: "supplementaries:faucet" }
+		{ item: "storagedrawers:spruce_full_drawers_1" }
+		{ item: "storagedrawers:spruce_full_drawers_2" }
+		{ item: "storagedrawers:spruce_full_drawers_4" }
+		{ item: "storagedrawers:spruce_half_drawers_1" }
+		{ item: "storagedrawers:spruce_half_drawers_2" }
+		{ item: "storagedrawers:spruce_half_drawers_4" }
+		{ item: "storagedrawers:oak_full_drawers_1" }
+		{ item: "storagedrawers:oak_full_drawers_2" }
+		{ item: "storagedrawers:oak_full_drawers_4" }
+		{ item: "storagedrawers:oak_half_drawers_1" }
+		{ item: "storagedrawers:oak_half_drawers_2" }
+		{ item: "storagedrawers:oak_half_drawers_4" }
+		{ item: "storagedrawers:jungle_full_drawers_1" }
+		{ item: "storagedrawers:jungle_full_drawers_2" }
+		{ item: "storagedrawers:jungle_full_drawers_4" }
+		{ item: "storagedrawers:jungle_half_drawers_1" }
+		{ item: "storagedrawers:jungle_half_drawers_2" }
+		{ item: "storagedrawers:jungle_half_drawers_4" }
+		{ item: "storagedrawers:dark_oak_full_drawers_1" }
+		{ item: "storagedrawers:dark_oak_full_drawers_2" }
+		{ item: "storagedrawers:dark_oak_full_drawers_4" }
+		{ item: "storagedrawers:dark_oak_half_drawers_1" }
+		{ item: "storagedrawers:dark_oak_half_drawers_2" }
+		{ item: "storagedrawers:dark_oak_half_drawers_4" }
+		{ item: "storagedrawers:acacia_full_drawers_1" }
+		{ item: "storagedrawers:acacia_full_drawers_2" }
+		{ item: "storagedrawers:acacia_full_drawers_4" }
+		{ item: "storagedrawers:acacia_half_drawers_1" }
+		{ item: "storagedrawers:acacia_half_drawers_2" }
+		{ item: "storagedrawers:acacia_half_drawers_4" }
+		{ item: "storagedrawers:birch_full_drawers_1" }
+		{ item: "storagedrawers:birch_full_drawers_2" }
+		{ item: "storagedrawers:birch_full_drawers_4" }
+		{ item: "storagedrawers:birch_half_drawers_1" }
+		{ item: "storagedrawers:birch_half_drawers_2" }
+		{ item: "storagedrawers:birch_half_drawers_4" }
+		{ item: "betteranimalsplus:deerhead_1" }
+		{ item: "betteranimalsplus:deerhead_2" }
+		{ item: "betteranimalsplus:deerhead_3" }
+		{ item: "betteranimalsplus:deerhead_4" }
+		{ item: "betteranimalsplus:feralwolfhead_brown" }
+		{ item: "betteranimalsplus:blackbearhead_black" }
+		{ item: "betteranimalsplus:moosehead_4" }
+		{ item: "betteranimalsplus:feralwolfhead_timber" }
+		{ item: "betteranimalsplus:moosehead_1" }
+		{ item: "betteranimalsplus:moosehead_2" }
+		{ item: "betteranimalsplus:moosehead_3" }
+		{ item: "betteranimalsplus:blackbearhead_kermode" }
+		{ item: "betteranimalsplus:reindeerhead_1" }
+		{ item: "betteranimalsplus:reindeerhead_2" }
+		{ item: "betteranimalsplus:reindeerhead_3" }
+		{ item: "betteranimalsplus:reindeerhead_4" }
+		{ item: "betteranimalsplus:coyotehead_1" }
+		{ item: "betteranimalsplus:feralwolfhead_arctic" }
+		{ item: "betteranimalsplus:feralwolfhead_snowy" }
+		{ item: "betteranimalsplus:feralwolfhead_red" }
+		{ item: "betteranimalsplus:brownbearhead_1" }
+		{ item: "betteranimalsplus:feralwolfhead_black" }
+		{
+			item: {
+				id: "betteranimalsplus:wolf_cape_brown"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "betteranimalsplus:wolf_cape_timber"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "betteranimalsplus:bear_cape_kermode"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "betteranimalsplus:wolf_cape_red"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "betteranimalsplus:bear_cape_black"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "betteranimalsplus:wolf_cape_black"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "betteranimalsplus:wolf_cape_classic"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "betteranimalsplus:wolf_cape_arctic"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "betteranimalsplus:bear_cape_brown"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "create:brass_casing" }
+		{ item: "create:brass_encased_shaft" }
+		{ item: "create:brass_funnel" }
+		{ item: "create:brass_hand" }
+		{ item: "create:brass_sheet" }
+		{ item: "create:brass_tunnel" }
+		{ item: "create:black_valve_handle" }
+		{ item: "create:blue_valve_handle" }
+		{ item: "create:brown_valve_handle" }
+		{ item: "create:copper_valve_handle" }
+		{ item: "create:cyan_valve_handle" }
+		{ item: "create:gray_valve_handle" }
+		{ item: "create:green_valve_handle" }
+		{ item: "create:light_blue_valve_handle" }
+		{ item: "create:light_gray_valve_handle" }
+		{ item: "create:lime_valve_handle" }
+		{ item: "create:magenta_valve_handle" }
+		{ item: "create:orange_valve_handle" }
+		{ item: "create:pink_valve_handle" }
+		{ item: "create:purple_valve_handle" }
+		{ item: "create:red_valve_handle" }
+		{ item: "create:white_valve_handle" }
+		{ item: "create:yellow_valve_handle" }
+		{ item: "create:basin" }
+		{ item: "create:belt_connector" }
+		{ item: "create:andesite_tunnel" }
+		{ item: "create:attribute_filter" }
+		{ item: "create:analog_lever" }
+		{ item: "create:andesite_alloy", count: 8 }
+		{ item: "create:andesite_casing" }
+		{ item: "create:andesite_encased_shaft" }
+		{ item: "create:andesite_funnel" }
+		{ item: "create:adjustable_chain_gearshift" }
+		{ item: "create:adjustable_crate" }
+		{ item: "create:adjustable_pulse_repeater" }
+		{ item: "create:adjustable_repeater" }
+		{ item: "create:cart_assembler" }
+		{ item: "create:chest_minecart_contraption" }
+		{ item: "create:chute", count: 4 }
+		{ item: "create:clutch" }
+		{ item: "create:cogwheel", count: 2 }
+		{ item: "create:content_observer" }
+		{ item: "create:controller_rail" }
+		{ item: "create:copper_casing" }
+		{ item: "create:copper_ingot", count: 4 }
+		{ item: "create:zinc_ingot", count: 4 }
+		{ item: "immersiveengineering:ingot_aluminum", count: 4 }
+		{ item: "immersiveengineering:ingot_constantan", count: 4 }
+		{ item: "immersiveengineering:ingot_copper", count: 4 }
+		{ item: "immersiveengineering:ingot_electrum", count: 4 }
+		{ item: "immersiveengineering:ingot_lead", count: 4 }
+		{ item: "immersiveengineering:ingot_nickel", count: 4 }
+		{ item: "immersiveengineering:ingot_silver", count: 4 }
+		{ item: "immersiveengineering:ingot_steel", count: 4 }
+		{ item: "mekanism:ingot_bronze", count: 4 }
+		{ item: "mekanism:ingot_copper", count: 4, weight: 6 }
+		{ item: "mekanism:ingot_lead", count: 4 }
+		{ item: "mekanism:ingot_steel", count: 4 }
+		{ item: "mekanism:ingot_tin", count: 4 }
+		{ item: "mekanism:ingot_uranium", count: 4 }
+		{ item: "minecraft:gold_ingot", count: 4 }
+		{ item: "minecraft:iron_ingot", count: 4, weight: 8 }
+		{ item: "thermal:bronze_ingot", count: 4 }
+		{ item: "thermal:constantan_ingot", count: 4 }
+		{ item: "thermal:copper_ingot", count: 4 }
+		{ item: "thermal:electrum_ingot", count: 4 }
+		{ item: "thermal:enderium_ingot", count: 4 }
+		{ item: "thermal:invar_ingot", count: 4 }
+		{ item: "thermal:lead_ingot", count: 4 }
+		{ item: "thermal:lumium_ingot", count: 4 }
+		{ item: "thermal:nickel_ingot", count: 4 }
+		{ item: "thermal:signalum_ingot", count: 4 }
+		{ item: "thermal:silver_ingot", count: 4 }
+		{ item: "thermal:tin_ingot", count: 4 }
+		{ item: "create:copper_ore", count: 4 }
+		{ item: "create:zinc_ore", count: 4 }
+		{ item: "mekanism:copper_ore", count: 4 }
+		{ item: "mekanism:lead_ore", count: 4 }
+		{ item: "mekanism:tin_ore", count: 4 }
+		{ item: "minecraft:coal_ore", count: 4 }
+		{ item: "minecraft:diamond_ore", count: 4 }
+		{ item: "minecraft:emerald_ore", count: 4 }
+		{ item: "minecraft:gold_ore", count: 4 }
+		{ item: "minecraft:iron_ore", count: 4 }
+		{ item: "minecraft:nether_gold_ore", count: 4 }
+		{ item: "minecraft:redstone_ore", count: 4 }
+		{ item: "mysticalagriculture:inferium_ore", count: 4 }
+		{ item: "mysticalagriculture:prosperity_ore", count: 4 }
+		{ item: "mysticalagriculture:soulium_ore", count: 4 }
+		{ item: "thermal:apatite_ore", count: 4 }
+		{ item: "thermal:cinnabar_ore", count: 4 }
+		{ item: "thermal:copper_ore", count: 4 }
+		{ item: "thermal:lead_ore", count: 4 }
+		{ item: "thermal:nickel_ore", count: 4 }
+		{ item: "thermal:niter_ore", count: 4 }
+		{ item: "thermal:silver_ore", count: 4 }
+		{ item: "thermal:sulfur_ore", count: 4 }
+		{ item: "thermal:tin_ore", count: 4 }
+		{ item: "create:deployer" }
+		{ item: "create:depot" }
+		{ item: "create:electron_tube" }
+		{ item: "create:empty_blaze_burner" }
+		{ item: "create:encased_chain_drive" }
+		{ item: "create:encased_fan" }
+		{ item: "create:filter" }
+		{ item: "create:fluid_pipe", count: 4 }
+		{ item: "create:fluid_tank" }
+		{ item: "create:fluid_valve" }
+		{ item: "create:framed_glass", count: 12 }
+		{ item: "create:gantry_carriage" }
+		{ item: "create:gantry_shaft", count: 4 }
+		{ item: "create:gearbox" }
+		{ item: "create:gearshift" }
+		{ item: "create:copper_sheet", count: 4 }
+		{ item: "create:golden_sheet", count: 4 }
+		{ item: "create:hand_crank" }
+		{ item: "create:hose_pulley" }
+		{ item: "create:iron_sheet", count: 4 }
+		{ item: "create:item_drain" }
+		{ item: "create:large_cogwheel", count: 2 }
+		{ item: "create:nixie_tube" }
+		{ item: "create:nozzle" }
+		{ item: "create:powered_latch" }
+		{ item: "create:powered_toggle_latch" }
+		{ item: "create:pulse_repeater" }
+		{ item: "create:rope_pulley" }
+		{ item: "create:shaft", count: 4 }
+		{ item: "create:smart_chute", count: 2 }
+		{ item: "create:smart_fluid_pipe", count: 2 }
+		{ item: "create:speedometer" }
+		{ item: "create:spout" }
+		{ item: "create:sticky_mechanical_piston" }
+		{ item: "create:stockpile_switch" }
+		{ item: "create:stressometer" }
+		{
+			item: {
+				id: "create:super_glue"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "create:turntable" }
+		{ item: "create:vertical_gearbox" }
+		{ item: "createaddition:zinc_sheet", count: 4 }
+		{ item: "minecraft:anvil" }
+		{ item: "minecraft:armor_stand" }
+		{ item: "minecraft:bee_nest" }
+		{ item: "minecraft:beehive" }
+		{ item: "minecraft:bamboo", count: 12, weight: 4 }
+		{ item: "minecraft:black_dye", count: 6 }
+		{ item: "minecraft:blue_dye", count: 6 }
+		{ item: "minecraft:brown_dye", count: 6 }
+		{ item: "minecraft:cyan_dye", count: 6 }
+		{ item: "minecraft:gray_dye", count: 6 }
+		{ item: "minecraft:green_dye", count: 6 }
+		{ item: "minecraft:light_blue_dye", count: 6 }
+		{ item: "minecraft:light_gray_dye", count: 6 }
+		{ item: "minecraft:lime_dye", count: 6 }
+		{ item: "minecraft:magenta_dye", count: 6 }
+		{ item: "minecraft:orange_dye", count: 6 }
+		{ item: "minecraft:pink_dye", count: 6 }
+		{ item: "minecraft:purple_dye", count: 6 }
+		{ item: "minecraft:red_dye", count: 6 }
+		{ item: "minecraft:white_dye", count: 6 }
+		{ item: "minecraft:yellow_dye", count: 6 }
+		{ item: "minecraft:black_wool", count: 6 }
+		{ item: "minecraft:blue_wool", count: 6 }
+		{ item: "minecraft:brown_wool", count: 6 }
+		{ item: "minecraft:cyan_wool", count: 6 }
+		{ item: "minecraft:gray_wool", count: 6 }
+		{ item: "minecraft:green_wool", count: 6 }
+		{ item: "minecraft:light_blue_wool", count: 6 }
+		{ item: "minecraft:light_gray_wool", count: 6 }
+		{ item: "minecraft:lime_wool", count: 6 }
+		{ item: "minecraft:magenta_wool", count: 6 }
+		{ item: "minecraft:orange_wool", count: 6 }
+		{ item: "minecraft:pink_wool", count: 6 }
+		{ item: "minecraft:purple_wool", count: 6 }
+		{ item: "minecraft:red_wool", count: 6 }
+		{ item: "minecraft:white_wool", count: 6 }
+		{ item: "minecraft:yellow_wool", count: 6 }
+		{ item: "minecraft:bone_meal", count: 4 }
+		{ item: "minecraft:bone", count: 4 }
+		{ item: "minecraft:book", count: 2, weight: 4 }
+		{ item: "minecraft:bookshelf" }
+		{ item: "minecraft:brown_mushroom", count: 4 }
+		{ item: "minecraft:cactus", count: 6 }
+		{
+			item: {
+				id: "minecraft:carrot_on_a_stick"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "minecraft:cauldron" }
+		{ item: "minecraft:chain", count: 4 }
+		{ item: "minecraft:charcoal", count: 12 }
+		{ item: "minecraft:clock" }
+		{ item: "minecraft:coal_block", count: 2 }
+		{ item: "minecraft:coal", count: 12 }
+		{ item: "minecraft:coarse_dirt", count: 16 }
+		{ item: "minecraft:cobweb", count: 4 }
+		{ item: "minecraft:comparator" }
+		{ item: "minecraft:compass" }
+		{ item: "minecraft:composter" }
+		{ item: "minecraft:daylight_detector" }
+		{ item: "minecraft:dispenser" }
+		{ item: "minecraft:dropper" }
+		{ item: "minecraft:enchanted_golden_apple" }
+		{ item: "minecraft:feather", count: 6, weight: 4 }
+		{ item: "minecraft:fermented_spider_eye", count: 4 }
+		{ item: "minecraft:fire_charge", count: 4 }
+		{ item: "minecraft:firework_rocket", count: 4 }
+		{
+			item: {
+				id: "minecraft:fishing_rod"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:flint_and_steel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "minecraft:flower_pot" }
+		{ item: "minecraft:furnace_minecart" }
+		{ item: "minecraft:glass_bottle" }
+		{ item: "minecraft:glistering_melon_slice" }
+		{ item: "minecraft:golden_apple" }
+		{ item: "minecraft:glass", count: 16, weight: 6 }
+		{ item: "minecraft:grass_block", count: 6, weight: 6 }
+		{ item: "minecraft:gunpowder", count: 4 }
+		{ item: "minecraft:hay_block" }
+		{ item: "minecraft:honey_block" }
+		{ item: "minecraft:honey_bottle", count: 4 }
+		{ item: "minecraft:honeycomb_block" }
+		{ item: "minecraft:honeycomb", count: 4 }
+		{ item: "minecraft:hopper_minecart" }
+		{ item: "minecraft:hopper" }
+		{ item: "minecraft:ice", count: 4 }
+		{ item: "minecraft:ink_sac", count: 4 }
+		{ item: "minecraft:iron_door" }
+		{ item: "minecraft:iron_trapdoor" }
+		{ item: "minecraft:item_frame" }
+		{ item: "minecraft:jack_o_lantern" }
+		{ item: "minecraft:jukebox" }
+		{ item: "minecraft:kelp", count: 8 }
+		{ item: "minecraft:lantern" }
+		{ item: "minecraft:leather", count: 4 }
+		{ item: "minecraft:name_tag", weight: 4 }
+		{ item: "minecraft:note_block" }
+		{ item: "minecraft:packed_ice", count: 6 }
+		{ item: "minecraft:painting" }
+		{ item: "minecraft:paper", count: 8, weight: 4 }
+		{ item: "minecraft:piston" }
+		{ item: "minecraft:poisonous_potato", count: 4 }
+		{ item: "minecraft:prismarine", count: 6 }
+		{ item: "minecraft:redstone_block" }
+		{ item: "minecraft:redstone_lamp" }
+		{ item: "minecraft:redstone_torch" }
+		{ item: "minecraft:redstone", count: 8 }
+		{ item: "minecraft:repeater" }
+		{ item: "minecraft:rotten_flesh", count: 6 }
+		{ item: "minecraft:saddle" }
+		{ item: "minecraft:scaffolding", count: 12 }
+		{ item: "minecraft:sea_lantern" }
+		{ item: "minecraft:sea_pickle", count: 4 }
+		{
+			item: {
+				id: "minecraft:shears"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:shield"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "minecraft:slime_ball", count: 8, weight: 4 }
+		{ item: "minecraft:slime_block" }
+		{ item: "minecraft:snow_block", count: 8 }
+		{ item: "minecraft:snowball", count: 12 }
+		{ item: "minecraft:spider_eye", count: 4, weight: 8 }
+		{ item: "minecraft:sticky_piston" }
+		{ item: "minecraft:sugar_cane", count: 8 }
+		{ item: "minecraft:sugar", count: 6 }
+		{ item: "minecraft:terracotta", count: 24 }
+		{ item: "minecraft:tipped_arrow", count: 16 }
+		{ item: "minecraft:tnt_minecart" }
+		{ item: "minecraft:tnt", count: 4 }
+		{ item: "minecraft:torch", count: 32, weight: 4 }
+		{ item: "minecraft:turtle_egg" }
+		{ item: "minecraft:vine", count: 16 }
+		{ item: "minecraft:water_bucket", weight: 4 }
+		{ item: "thermal:bronze_gear" }
+		{ item: "thermal:constantan_gear" }
+		{ item: "thermal:copper_gear" }
+		{ item: "thermal:gold_gear" }
+		{ item: "thermal:invar_gear" }
+		{ item: "thermal:iron_gear" }
+		{ item: "thermal:lapis_gear" }
+		{ item: "thermal:lead_gear" }
+		{ item: "thermal:nickel_gear" }
+		{ item: "thermal:silver_gear" }
+		{ item: "thermal:tin_gear" }
+		{ item: "thermal:earth_grenade", count: 4 }
+		{ item: "thermal:ender_grenade", count: 4 }
+		{ item: "thermal:explosive_grenade", count: 4 }
+		{ item: "thermal:fire_grenade", count: 4 }
+		{ item: "thermal:glowstone_grenade", count: 4 }
+		{ item: "thermal:ice_grenade", count: 4 }
+		{ item: "thermal:lightning_grenade", count: 4 }
+		{ item: "thermal:nuke_grenade", count: 4 }
+		{ item: "thermal:phyto_grenade", count: 4 }
+		{ item: "thermal:redstone_grenade", count: 4 }
+		{ item: "thermal:slime_grenade", count: 4 }
+		{ item: "xreliquary:holy_hand_grenade", count: 4 }
+		{ item: "thermal:earth_tnt", count: 4 }
+		{ item: "thermal:ender_tnt", count: 4 }
+		{ item: "thermal:fire_tnt", count: 4 }
+		{ item: "thermal:glowstone_tnt", count: 4 }
+		{ item: "thermal:ice_tnt", count: 4 }
+		{ item: "thermal:lightning_tnt", count: 4 }
+		{ item: "thermal:nuke_tnt", count: 4 }
+		{ item: "thermal:phyto_tnt", count: 4 }
+		{ item: "thermal:redstone_tnt", count: 4 }
+		{ item: "thermal:slime_tnt", count: 4 }
+		{ item: "thermal:bronze_plate" }
+		{ item: "thermal:constantan_plate" }
+		{ item: "thermal:copper_plate" }
+		{ item: "thermal:invar_plate" }
+		{ item: "thermal:iron_plate" }
+		{ item: "thermal:lead_plate" }
+		{ item: "thermal:nickel_plate" }
+		{ item: "thermal:tin_plate" }
+		{ item: "thermal:apatite_dust" }
+		{ item: "thermal:bronze_dust" }
+		{ item: "thermal:cinnabar_dust" }
+		{ item: "thermal:constantan_dust" }
+		{ item: "thermal:copper_dust" }
+		{ item: "thermal:invar_dust" }
+		{ item: "thermal:iron_dust" }
+		{ item: "thermal:lead_dust" }
+		{ item: "thermal:nickel_dust" }
+		{ item: "thermal:niter_dust" }
+		{ item: "thermal:sulfur_dust" }
+		{ item: "thermal:tin_dust" }
+		{ item: "tipsy:bitterlilybud", count: 4 }
+		{ item: "tipsy:redwort", count: 4 }
+		{ item: "tipsy:wort", count: 4 }
+		{ item: "tipsy:yeast", count: 4 }
+		{ item: "tipsy:yellow_wort", count: 4 }
+		{ item: "torchbowmod:multitorch" }
+		{ item: "upgrade_aquatic:blue_jelly_torch", count: 16 }
+		{ item: "upgrade_aquatic:green_jelly_torch", count: 16 }
+		{ item: "upgrade_aquatic:orange_jelly_torch", count: 16 }
+		{ item: "upgrade_aquatic:pink_jelly_torch", count: 16 }
+		{ item: "upgrade_aquatic:purple_jelly_torch", count: 16 }
+		{ item: "upgrade_aquatic:red_jelly_torch", count: 16 }
+		{ item: "upgrade_aquatic:white_jelly_torch", count: 16 }
+		{ item: "upgrade_aquatic:yellow_jelly_torch", count: 16 }
+		{ item: "uppers:upper" }
+		{
+			item: {
+				id: "waterstrainer:strainer_survivalist"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "waterstrainer:string_mesh" }
+		{ item: "thermal:sawdust", count: 4 }
+		{ item: "thermal:slag", count: 4 }
+		{ item: "thermal:sulfur", count: 4 }
+		{ item: "thermal:tar", count: 4 }
+		{ item: "thermal:rich_slag", count: 2 }
+		{ item: "thermal:rosin", count: 2 }
+		{ item: "thermal:rubber", count: 2 }
+		{ item: "thermal:redstone_servo" }
+		{ item: "thermal:rf_coil" }
+		{ item: "thermal:oil_sand", count: 4 }
+		{ item: "thermal:phytogro", count: 4 }
+		{ item: "thermal:lightning_charge", count: 4 }
+		{ item: "thermal:earth_charge", count: 4 }
+		{ item: "thermal:ice_charge", count: 4 }
+		{ item: "thermal:cinnabar", count: 4 }
+		{ item: "thermal:coal_coke", count: 4 }
+		{ item: "xreliquary:bullets/blaze_bullet", count: 16 }
+		{ item: "xreliquary:bullets/buster_bullet", count: 16 }
+		{ item: "xreliquary:bullets/concussive_bullet", count: 16 }
+		{ item: "xreliquary:bullets/ender_bullet", count: 16 }
+		{ item: "xreliquary:bullets/exorcism_bullet", count: 16 }
+		{ item: "xreliquary:bullets/sand_bullet", count: 16 }
+		{ item: "xreliquary:bullets/seeker_bullet", count: 16 }
+		{ item: "xreliquary:bullets/storm_bullet", count: 16 }
+		{
+			item: {
+				id: "mekanismtools:bronze_axe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "mekanismtools:bronze_boots"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "mekanismtools:bronze_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "mekanismtools:bronze_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "mekanismtools:bronze_hoe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "mekanismtools:bronze_leggings"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "mekanismtools:bronze_paxel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "mekanismtools:bronze_pickaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "mekanismtools:bronze_shield"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "mekanismtools:bronze_shovel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "mekanismtools:bronze_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "mekanismtools:lapis_lazuli_axe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "mekanismtools:lapis_lazuli_boots"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "mekanismtools:lapis_lazuli_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "mekanismtools:lapis_lazuli_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "mekanismtools:lapis_lazuli_hoe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "mekanismtools:lapis_lazuli_leggings"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "mekanismtools:lapis_lazuli_paxel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "mekanismtools:lapis_lazuli_pickaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "mekanismtools:lapis_lazuli_shield"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "mekanismtools:lapis_lazuli_shovel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "mekanismtools:lapis_lazuli_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "mekanismtools:iron_paxel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "ironfurnaces:copper_furnace" }
+		{ item: "ironfurnaces:gold_furnace" }
+		{ item: "ironfurnaces:iron_furnace" }
+		{ item: "ironfurnaces:silver_furnace" }
+		{ item: "ironchest:copper_chest" }
+		{ item: "ironchest:copper_to_iron_chest_upgrade" }
+		{ item: "ironchest:copper_to_silver_chest_upgrade" }
+		{ item: "industrialforegoing:pity_black_hole_tank" }
+		{ item: "industrialforegoing:pity_black_hole_unit" }
+		{ item: "industrialforegoing:tinydryrubber" }
+		{ item: "industrialforegoing:dryrubber" }
+		{ item: "industrialforegoing:conveyor_blinking_upgrade" }
+		{ item: "industrialforegoing:conveyor_bouncing_upgrade" }
+		{ item: "industrialforegoing:conveyor_detection_upgrade" }
+		{ item: "industrialforegoing:conveyor_dropping_upgrade" }
+		{ item: "industrialforegoing:conveyor_extraction_upgrade" }
+		{ item: "industrialforegoing:conveyor_insertion_upgrade" }
+		{ item: "industrialforegoing:conveyor_splitting_upgrade" }
+		{ item: "industrialforegoing:conveyor" }
+		{ item: "industrialforegoing:common_black_hole_tank" }
+		{ item: "industrialforegoing:common_black_hole_unit" }
+		{
+			item: {
+				id: "immersiveengineering:wirecutter"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "immersiveengineering:wire_aluminum", count: 2 }
+		{ item: "immersiveengineering:wire_copper", count: 2 }
+		{ item: "immersiveengineering:wire_electrum", count: 2 }
+		{ item: "immersiveengineering:wire_lead", count: 2 }
+		{ item: "immersiveengineering:wire_steel", count: 2 }
+		{ item: "immersiveengineering:treated_wood_horizontal", count: 12 }
+		{ item: "immersiveengineering:conveyor_basic", count: 4 }
+		{ item: "immersiveengineering:conveyor_covered", count: 4 }
+		{ item: "immersiveengineering:conveyor_dropper", count: 2 }
+		{ item: "immersiveengineering:conveyor_droppercovered", count: 4 }
+		{ item: "immersiveengineering:conveyor_extract", count: 2 }
+		{ item: "immersiveengineering:conveyor_extractcovered", count: 2 }
+		{ item: "immersiveengineering:conveyor_redstone", count: 2 }
+		{ item: "immersiveengineering:conveyor_splitter", count: 4 }
+		{ item: "immersiveengineering:conveyor_splittercovered", count: 4 }
+		{ item: "immersiveengineering:conveyor_vertical", count: 4 }
+		{ item: "immersiveengineering:conveyor_verticalcovered", count: 4 }
+		{ item: "glassential:glass_dark_ethereal_reverse", count: 16 }
+		{ item: "glassential:glass_dark_ethereal", count: 16 }
+		{ item: "glassential:glass_dark", count: 16 }
+		{ item: "glassential:glass_ethereal_reverse", count: 16 }
+		{ item: "glassential:glass_ethereal", count: 16 }
+		{ item: "glassential:glass_ghostly", count: 16 }
+		{ item: "glassential:glass_light", count: 16 }
+		{ item: "glassential:glass_redstone", count: 16 }
+		{ item: "ftbsluice:sluice_speed_upgrade" }
+		{ item: "ftbsluice:sluice_consumption_upgrade" }
+		{ item: "ftbsluice:iron_sluice" }
+		{ item: "ftbsluice:oak_sluice" }
+		{ item: "xreliquary:pedestals/black_pedestal" }
+		{ item: "xreliquary:pedestals/blue_pedestal" }
+		{ item: "xreliquary:pedestals/brown_pedestal" }
+		{ item: "xreliquary:pedestals/cyan_pedestal" }
+		{ item: "xreliquary:pedestals/gray_pedestal" }
+		{ item: "xreliquary:pedestals/green_pedestal" }
+		{ item: "xreliquary:pedestals/light_blue_pedestal" }
+		{ item: "xreliquary:pedestals/light_gray_pedestal" }
+		{ item: "xreliquary:pedestals/lime_pedestal" }
+		{ item: "xreliquary:pedestals/magenta_pedestal" }
+		{ item: "xreliquary:pedestals/orange_pedestal" }
+		{ item: "darkutils:filter_animal", count: 4 }
+		{ item: "darkutils:filter_arthropod", count: 4 }
+		{ item: "darkutils:filter_boss", count: 4 }
+		{ item: "darkutils:filter_child", count: 4 }
+		{ item: "darkutils:filter_explosion_immune", count: 4 }
+		{ item: "darkutils:filter_fire_immune", count: 4 }
+		{ item: "darkutils:filter_golem", count: 4 }
+		{ item: "darkutils:filter_hostile", count: 4 }
+		{ item: "darkutils:filter_illager", count: 4 }
+		{ item: "darkutils:filter_named", count: 4 }
+		{ item: "darkutils:filter_pet", count: 4 }
+		{ item: "darkutils:filter_player", count: 4 }
+		{ item: "darkutils:filter_raid", count: 4 }
+		{ item: "darkutils:filter_slime", count: 4 }
+		{ item: "darkutils:filter_undead", count: 4 }
+		{ item: "darkutils:filter_villager", count: 4 }
+		{ item: "darkutils:filter_water", count: 4 }
+		{ item: "darkutils:item_grate" }
+		{ item: "darkutils:redstone_randomizer" }
+		{ item: "darkutils:rune_blindness", count: 4 }
+		{ item: "darkutils:rune_damage_player", count: 4 }
+		{ item: "darkutils:rune_damage", count: 4 }
+		{ item: "darkutils:rune_fatigue", count: 4 }
+		{ item: "darkutils:rune_fire", count: 4 }
+		{ item: "darkutils:rune_glowing", count: 4 }
+		{ item: "darkutils:rune_hunger", count: 4 }
+		{ item: "darkutils:rune_nausea", count: 4 }
+		{ item: "darkutils:rune_poison", count: 4 }
+		{ item: "darkutils:rune_slowness", count: 4 }
+		{ item: "darkutils:rune_weakness", count: 4 }
+		{ item: "darkutils:rune_wither", count: 4 }
+		{ item: "darkutils:shielded_redstone" }
+		{ item: "cyclic:user" }
+		{ item: "cyclic:trash" }
+		{ item: "cyclic:soundproofing" }
+		{ item: "cyclic:sound_data" }
+		{ item: "cyclic:sound_player" }
+		{ item: "cyclic:sound_recorder" }
+		{ item: "cyclic:scaffold_fragile", count: 2 }
+		{ item: "cyclic:scaffold_replace", count: 2 }
+		{ item: "cyclic:scaffold_responsive", count: 2 }
+		{ item: "cyclic:apple_bone" }
+		{ item: "cyclic:apple_chocolate" }
+		{ item: "cyclic:apple_chorus" }
+		{ item: "cyclic:apple_diamond" }
+		{ item: "cyclic:apple_emerald" }
+		{ item: "cyclic:apple_ender" }
+		{ item: "cyclic:apple_honey" }
+		{ item: "cyclic:apple_iron" }
+		{ item: "cyclic:apple_lapis" }
+		{ item: "cyclic:apple_lofty_stature" }
+		{ item: "cyclic:apple_prismarine" }
+		{
+			item: {
+				id: "mysticalagriculture:infusion_crystal"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "xreliquary:pedestals/pink_pedestal" }
+		{ item: "xreliquary:pedestals/purple_pedestal" }
+		{ item: "xreliquary:pedestals/red_pedestal" }
+		{ item: "xreliquary:pedestals/white_pedestal" }
+		{ item: "xreliquary:pedestals/yellow_pedestal" }
+		{ item: "decimal_coins:coin_1", count: 3, weight: 65 }
+		{ item: "decimal_coins:coin_5", weight: 35 }
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 0
+			monster: 0
+		}
+		color: 3120708
+		string_id: "mediocre_explorer_s_stash"
+	}
+}

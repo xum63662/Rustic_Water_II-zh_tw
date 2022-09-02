@@ -1,0 +1,15 @@
+{
+    "name": "Comforted Diet Craving",
+    "icon": "pamhc2foodextended:chocolatesprinklecakeitem",
+    "category": "patchouli:diet",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "The Comforted craving represents how satisfied you have become with the amount of comfort foods you have eaten.  Comfort foods usually consist of snacks and sugary sweets. You can view all foods that fulfill this category by searching 'comforted' in JEI."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item":  "pamhc2foodextended:chocolatesprinklecakeitem",
+            "text": "Maintaining a Comforted craving level above 80% will give you +25% Attack Speed, +25% Movement Speed, and Regeneration II."
+        }    ]
+}

@@ -1,0 +1,32 @@
+{
+    "name": "The Imperator",
+    "icon": "hats:h_plus_crown_helmet",
+    "category": "patchouli:lore",
+    "sortnum": 4,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Caladan has operated with a Unitary System of Government for centuries.  Hereditary succession of leadership dictates that the first born of each ruler inherits the crown upon the passing of their father.  Rufus Valentine, the current Imperator of Caladan had two children, Lucas and Michelle Valentine.  Annabelle Valentine, their mother, died when the children were just five and three years old."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "The Imperator has always been favored by the people of his Kingdom.  He has enacted laws which protect the agricultural traditions that Caladan was built on, while also dedicating resources to further Caladan’s technological advancements. $(br2)   Just over a decade ago, under Rufus’ instruction, the Interstellar Reconnaissance Fleet (IRF) was unveiled.  Fourteen Class B frigates were reconditioned for interstellar travel. The IRF had one purpose: to acquire resources"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "from distant unpopulated planets and return them to Caladan for research and preservation. $(br2)   Rufus could think of no better way to endear his son Lucas to the nation he would lead someday, than to place him as Captain of the flagship Recon Frigate.  Lucas had already served thirteen years in Caladan’s Armed Forces and become a highly decorated Captain in his own right.  His leadership accolades made him the perfect officer for the"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "position, regardless of his relation to the Imperator. $(br2)  The first two years that IRF was in operation proved very successful.  New animal species were discovered, some which could be sustained and bred locally on Caladan.  New minerals were found, including Enderium and Soulium, which proved to be extremely useful materials for the production of electronics and building materials.  Sadly, after countless successful missions, Lucas and eight of his crew were"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "killed in an ambush by an army of indigenous creatures while exploring a planet known as Aether. $(br2)  The Imperator was devastated.  He retreated into a mournful hibernation, shutting himself away for months.  It was not until his daughter, Michelle Valentine returned from deployment to console her father that he found solace.  She vowed to uphold the traditions and duties which her brother had been sadly deprived of. She"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "would carry the mantle of responsibility for her father, her brother, and for Caladan. "
+        }
+    ]
+}

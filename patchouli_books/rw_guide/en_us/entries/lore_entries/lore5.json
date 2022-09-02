@@ -1,0 +1,28 @@
+{
+    "name": "Caladan Defense Force",
+    "icon": "xreliquary:hero_medallion",
+    "category": "patchouli:lore",
+    "sortnum": 2,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "The Caladan Defense Force (CDF) is a powerful organization of dedicated men and women who defend Caladan whether the threat is on land or in space.  It is not required, but usually expected that any members of political office, the Royal Family, or the Royal Guard serve in the CDF.  Enlistment is currently voluntary, though this was not always the case."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Both Lucas and Michelle Valentine, the Imperator’s children, served or serve currently in the CDF.  Lucas Valentine was killed in action four years ago in his fifteenth year of service.  Michelle Valentine has since been appointed the role as Captain of the flagship vessel in the IDF.  This Class B Frigate is called “Liberty.” $(br2)   There are "
+        },
+        {
+            "type": "patchouli:text",
+            "text": "multiple branches of the CDF.  In addition to the Military Division there is a Science Division.  The Science Division is responsible for the development of Caladan’s weapons, equipment, and more importantly, the ships that comprise its military force, including the Interstellar Reconnaissance Fleet.$(br2)   The Science Division of the CDF is led by Francis Peel.  Unknown to most, Peel is not Francis’ real surname, it is Valentine.  He took his"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "mother’s maiden name in protest of the injustice he perceived that his family received. $(br2)  Francis is Rufus Valentine's cousin.  Francis’ father was the twin brother of the previous Imperator, Rufus’ father.  There was heavy animosity between the two brothers for many decades due to the hereditary succession falling to Rufus’ father instead of Francis’ father.  In an attempt to mend family ties, Rufus gave Francis a position"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "within the hierarchy of Caladan’s leadership, the prestigious role as head of the Science Division of the CDF.$(br2)   Despite this generosity, Francis still holds a deep-seated grudge towards his cousin Imperator Valentine and believes the role of Imperator of Caladan should have been his."
+        }
+    ]
+}

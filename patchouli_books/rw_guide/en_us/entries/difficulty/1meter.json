@@ -1,0 +1,14 @@
+{
+    "name": "Difficulty Meter",
+    "icon": "ftbsluice:sluice_speed_upgrade",
+    "category": "patchouli:difficulty",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "The difficulty meter appears occasionally in the bottom left of your screen.  You can also set a keybind to toggle it within your control options. Your difficulty meter rises VERY slowly as you play.$(br2)  Don't let this worry you... the scaling speed has been reduced greatly for this pack.  As the meter grows, the mobs that spawn in the world will gain stat increases."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "With the bountiful assortment of weapons, magic spells, and armor in this pack, this should not pose much of a hinderance if you prepare yourself. It takes quite a while before you will even notice a difference in the mobs.$(br2)  You can choose to let your meter slowly fill, increase it, or reduce it.  This is done with Enchanted and Cursed Hearts.  These will be covered in the next entries."
+        }    ]
+}

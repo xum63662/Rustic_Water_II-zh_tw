@@ -1,0 +1,35 @@
+{
+  "input": [
+    {
+      "tag": "forge:plastic"
+    },
+    {
+      "tag": "industrialforegoing:machine_frame/simple"
+    },
+    {
+      "tag": "forge:plastic"
+    },
+    {
+      "item": "thermal:upgrade_augment_1"
+    },
+    {
+      "item": "thermal:upgrade_augment_1"
+    },
+    {
+      "tag": "forge:ingots/gold"
+    },
+    {
+      "tag": "forge:gears/lapis"
+    },
+    {
+      "tag": "forge:ingots/gold"
+    }
+  ],
+  "inputFluid": "{FluidName:\"thermal:glowstone\",Amount:1000}",
+  "processingTime": 300,
+  "output": {
+    "item": "industrialforegoing:machine_frame_advanced",
+    "count": 1
+  },
+  "type": "industrialforegoing:dissolution_chamber"
+}

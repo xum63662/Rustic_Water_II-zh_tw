@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SXS",
+    "X X",
+    "SXS"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:clay_ball"
+    },
+    "X": {
+      "tag": "forge:ingots/steel"
+    }
+  },
+  "result": {
+    "item": "chisel:factory/dots",
+    "count": 8
+  }
+}

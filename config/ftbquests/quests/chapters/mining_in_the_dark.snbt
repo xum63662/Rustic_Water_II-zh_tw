@@ -1,0 +1,361 @@
+{
+	id: "56DC073134701216"
+	group: ""
+	order_index: 6
+	filename: "mining_in_the_dark"
+	title: "The Dark Caverns"
+	icon: "dark_caverns:glimmergrass_block"
+	subtitle: ["The Dark Cavern is your early to mid-game resource mining dimension.  You can find ores in this dimension that you won't find in the Overworld."]
+	default_quest_shape: "rsquare"
+	default_hide_dependency_lines: false
+	images: [{
+		x: 1.5d
+		y: 0.5d
+		width: 18.0d
+		height: 10.0d
+		rotation: 0.0d
+		image: "rusticwaters:textures/darkcaverns.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			x: 3.0d
+			y: 0.0d
+			description: ["Using the power of portals you can teleport back and forth between dimensions.  To get to the Dark Caverns, you must build a 3x4 frame, with a Portal Controller as the bottom center block."]
+			dependencies: ["5E33048707DB4425"]
+			id: "58CBAF9EB265D166"
+			tasks: [{
+				id: "24DB022C2BAB8355"
+				type: "item"
+				item: "rustic_resources:xpidol"
+			}]
+			rewards: [{
+				id: "5A631B5A501BB47D"
+				type: "item"
+				item: "supplementaries:clock_block"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			description: ["The Portal Controller is the bottom center of your Portal Frame.  If you right click on it, you will see a UI that allows you to colorize your portal frame."]
+			dependencies: ["58CBAF9EB265D166"]
+			id: "2D0CFD177A331383"
+			tasks: [{
+				id: "3D0896F9072D4D8C"
+				type: "item"
+				item: "versatileportals:portal_controller"
+			}]
+			rewards: [{
+				id: "4138A24D046520FB"
+				type: "item"
+				item: "xreliquary:holy_hand_grenade"
+				count: 8
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			description: ["Once you walk through your portal, you will arrive in the other dimension with a prebuilt return portal, make sure to waypoint it using the Journeymap interface so you can return through it when finished.  The Dark Caverns has three biomes, a few hostile mobs, and even a friendly trader or two. "]
+			dependencies: ["58CBAF9EB265D166"]
+			id: "0FB5C727E4A6A719"
+			tasks: [{
+				id: "679A6220BE84BBDF"
+				type: "item"
+				item: {
+					id: "versatileportals:portal_lighter"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "76F33E8D8DB6936D"
+				type: "item"
+				item: {
+					id: "mekanismtools:diamond_paxel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.0d
+			description: ["You will need an Imbued Idol of Sacrifice to make the portal crystal.  Right click while holding an Idol of Sacrifice to Imbue it.  This will cost you 10 Levels of XP, and also set your health and hunger to low levels.  Open the GUI of the Portal Controller and place the Portal Crystal into the slot."]
+			dependencies: ["58CBAF9EB265D166"]
+			id: "58D2C2E558B7102D"
+			tasks: [{
+				id: "73046D8F5B0DCD06"
+				type: "item"
+				item: {
+					id: "versatileportals:existing_world_control"
+					Count: 1b
+					tag: {
+						WorldID: "dark_caverns:dark_caverns"
+						display: {
+							Name: "{\"text\":\"Dark Cavern Portal Crystal\"}"
+						}
+						Color: 4350309
+					}
+				}
+			}]
+			rewards: [{
+				id: "28B602BFACB0411E"
+				type: "item"
+				item: "supplementaries:globe"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -1.0d
+			shape: "hexagon"
+			subtitle: "Dark Caverns has ores such as Gold, Certus Quartz, Lapis, and more."
+			description: ["The Dark Caverns is a dimension void of light, but just damp enough for mushrooms to thrive.  It is ripe with ores of nearly all types, including those not easily found in the Overworld."]
+			id: "5E33048707DB4425"
+			tasks: [{
+				id: "65CB634F21BDFA33"
+				type: "item"
+				item: "versatileportals:portal_frame"
+				count: 9L
+			}]
+			rewards: [{
+				id: "6AC2A50A10552E18"
+				type: "item"
+				item: "storagedrawers:quantify_key"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 0.0d
+			description: ["The Tarantula Hawk Elytra works just like a vanilla Elytra.  This, combined with grappling hooks, should allow you to traverse the caverns with ease.  Certain ores can only be found at certain Y-levels or biomes."]
+			dependencies: ["0FD784125D9FE256"]
+			id: "0F50842F00651722"
+			tasks: [{
+				id: "5C914A163A4D8AE4"
+				type: "item"
+				item: {
+					id: "alexsmobs:tarantula_hawk_elytra"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "6D33765EB65D4D66"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:slow_falling"
+					}
+				}
+				count: 2
+			}]
+		}
+		{
+			x: 0.5d
+			y: -1.5d
+			description: ["Tarantula Hawks can be found on the surface of the water, usually at night.  Hang around an island, or create a platform at the surface if you want to camp them out.  Hunt a few and gather their wings; they will help you in your trek through the Dark Caverns."]
+			dependencies: ["58CBAF9EB265D166"]
+			id: "0FD784125D9FE256"
+			tasks: [{
+				id: "0DED2B5B5418959B"
+				type: "item"
+				item: "alexsmobs:tarantula_hawk_wing"
+				count: 4L
+			}]
+			rewards: [{
+				id: "3E904BFA34A9FB64"
+				type: "item"
+				item: {
+					id: "spartanweaponry:arrow_iron_tipped"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:long_poison"
+					}
+				}
+				count: 32
+			}]
+		}
+		{
+			x: 0.5d
+			y: 1.5d
+			description: ["Grappling Hook Launchers do exactly what you would think.  They allow you to latch onto and hoist yourself to locations that would be too tedious to reach otherwise."]
+			dependencies: ["58CBAF9EB265D166"]
+			id: "14991685426AAA92"
+			tasks: [{
+				id: "387B4B6AB9D79110"
+				type: "item"
+				item: {
+					id: "adhooks:prototype_launcher"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "3A84962CF3E450EB"
+				type: "item"
+				item: "minecraft:scaffolding"
+				count: 16
+			}]
+		}
+		{
+			x: 2.0d
+			y: 3.0d
+			description: ["There are three hook types:  Pudge, Web, and Spear.  Each hook has different attributes.  You can hold shift while hovering over each hook to see their hook strengths.  For your purposes in the Dark Caverns, the Webhook has the longest rope length and attachability.  You can use two hooks for increased mobility and to \"always keep one hook on the wall\"."]
+			dependencies: ["14991685426AAA92"]
+			id: "58F51E4F29CA8F88"
+			tasks: [{
+				id: "14A17EAB3DD087A2"
+				type: "item"
+				item: "adhooks:web_hook"
+			}]
+			rewards: [{
+				id: "4BDBD2D87F4E270C"
+				type: "item"
+				item: "dark_caverns:throwable_luminite_torch"
+				count: 16
+			}]
+		}
+		{
+			x: 4.0d
+			y: 3.0d
+			description: ["While a hook is in your main hand, launch it with Left Mouse Button (LMB); Reel/Unhook by pressing LMB + Left Shift; Pull by pressing or holding LMB; Loosen by pressing or holding LMB + Left Control.  You can also swing to get momentum with WASD and \"Tarzan Jump\" for distance by double tapping SPACE."]
+			dependencies: ["58F51E4F29CA8F88"]
+			id: "21E0AC01C409B624"
+			tasks: [{
+				id: "6D764E0B87EBB710"
+				type: "item"
+				item: {
+					id: "adhooks:web_launcher"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "6F072960371306A7"
+				type: "item"
+				item: "decimal_coins:coin_20"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 1.5d
+			description: ["You have spent so much time in the deep ocean that when you venture to the surface, or to other dimensions, you are affected by decompression sickness, also known as \"The Bends\".  This causes your body to go into recovery mode, and you will find yourself constantly suffering hunger to regain your strength.  Make sure to bring plenty of food with you when you plan to go to other dimensions or spend time on the surface."]
+			dependencies: ["58CBAF9EB265D166"]
+			id: "403BD313EB1DFB79"
+			tasks: [{
+				id: "7D849D4BEB467ACC"
+				type: "item"
+				item: "artifacts:novelty_drinking_hat"
+			}]
+			rewards: [{
+				id: "13353AA22156E4BA"
+				type: "item"
+				item: "scalinghealth:enchanted_heart"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 0.0d
+			subtitle: "Be aware that each time the Feeder Module feeds you it uses durability."
+			description: ["The Feeder Helmet Module can be attached to any helmet you come across.  It will automatically feed you food from your inventory.  The module will try not to waste food so if you only have large meals in your inventory, it will wait until you are VERY hungry or injured to feed you those foods.  It's best to have small to medium meals in your inventory if you want to utilize the Feeder Module."]
+			dependencies: ["403BD313EB1DFB79"]
+			id: "4D5AB1B21B781AAA"
+			tasks: [{
+				id: "1D1DA062A432D207"
+				type: "item"
+				item: "feederhelmet:feeder_helmet_module"
+			}]
+			rewards: [{
+				id: "2F3F8EAF062E0750"
+				type: "item"
+				item: "pamhc2foodcore:baconandeggsitem"
+				count: 8
+			}]
+		}
+		{
+			x: 2.0d
+			y: -3.0d
+			description: [
+				"As your technology progresses you will be able to upgrade to higher tiers of backpacks, up to 158 slots."
+				"{image:rusticwaters:textures/warning.png width:120 height:120 align:1}"
+			]
+			dependencies: ["70721F6F357A8978"]
+			id: "0D9837493D0AF2FE"
+			tasks: [{
+				id: "61745B32E2D91B86"
+				type: "item"
+				item: {
+					id: "simplybackpacks:commonbackpack"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "75C8AFBD1B66BEF4"
+				type: "item"
+				item: "immersiveengineering:creosote_bucket"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -1.5d
+			subtitle: "Explosive Arrows are great for taking out dungeon spawners from afar."
+			description: ["If you are going to be travelling to the Dark Caverns, you will want to make sure you have the bag space to carry all your goods.  The backpack is an essential tool for your travels."]
+			dependencies: ["58CBAF9EB265D166"]
+			id: "3A9FCA110D8DF973"
+			tasks: [
+				{
+					id: "50E81AD0CB6E2D24"
+					type: "item"
+					item: "ironchest:copper_chest"
+				}
+				{
+					id: "1235DAB7A9A82087"
+					type: "item"
+					item: "minecraft:leather"
+					count: 2L
+				}
+			]
+			rewards: [{
+				id: "4B6986D81D3AE43C"
+				type: "item"
+				item: "spartanweaponry:arrow_explosive"
+				count: 16
+			}]
+		}
+		{
+			x: 4.0d
+			y: -3.0d
+			description: ["You can hold your backpack and right click to open it or set the hotkey in your Options/Controls to open it.  Shift+Clicking with it will open the GUI to enable Magnet Mode along with Whitelisting/Blacklisting item pickup."]
+			dependencies: ["3A9FCA110D8DF973"]
+			id: "70721F6F357A8978"
+			tasks: [{
+				id: "45A8A7398079586C"
+				type: "item"
+				item: "atum:linen_cloth"
+				count: 4L
+			}]
+			rewards: [{
+				id: "590543DCBAF5C168"
+				type: "item"
+				item: "pamhc2foodextended:chipsanddipitem"
+				count: 2
+			}]
+		}
+	]
+}

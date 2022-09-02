@@ -1,0 +1,7 @@
+{
+  "type": "advgenerators:liquid_fuel",
+  "fuel": {
+    "fluid": "immersiveengineering:ethanol"
+  },
+  "fePerMb": 1000
+}

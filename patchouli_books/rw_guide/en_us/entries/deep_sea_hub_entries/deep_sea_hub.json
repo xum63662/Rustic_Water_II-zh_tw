@@ -1,0 +1,16 @@
+{
+    "name": "Deep Sea Hub",
+    "icon": "create:framed_glass",
+    "category": "patchouli:deep_sea_hub",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "This vast ocean planet is filled with water from ground level to near build height.  It seems this world is not void of resources, but it is void of most dry land.  You notice that there are 'Hub Expansion Locks' on each wall and ceiling.  Your only hope is to gather resoureces and advance your technology until you can find a more suitable place to call home."
+        },
+        {
+            "type": "patchouli:image",
+            "images":  ["rwguide:textures/categories/hub.png"]
+        }
+    ]
+}

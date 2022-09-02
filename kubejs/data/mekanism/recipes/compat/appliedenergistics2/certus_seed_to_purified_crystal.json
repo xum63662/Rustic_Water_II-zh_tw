@@ -1,0 +1,1 @@
+{"type":"mekanism:enriching","conditions":[{"modid":"xxx","type":"forge:mod_loaded"}],"input":{"ingredient":{"item":"appliedenergistics2:certus_crystal_seed"}},"output":{"item":"appliedenergistics2:purified_certus_quartz_crystal"}}

@@ -1,0 +1,37 @@
+{
+	id: "06CEC82DA3CA323D"
+	group: ""
+	order_index: 5
+	filename: "interlude_2"
+	title: "    Act II"
+	icon: "rustic_resources:placeholder"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: -1.0d
+		y: 0.0d
+		width: 7.0d
+		height: 5.0d
+		rotation: 0.0d
+		image: "rusticwaters:textures/act2.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [{
+		icon: "ars_nouveau:blank_parchment"
+		x: 0.65d
+		y: 0.25d
+		description: [
+			"Now that you have built some basic machines to allow you to harvest and process resources from your immediate surroundings, it's time to branch out and explore what other wonders this planet has to offer."
+			"The following quest chapter involves visiting structures around the ocean, travelling to other dimensions to gain advanced resources, and arming yourself with the tools and weapons needed to navigate the dangers you will face."
+		]
+		size: 1.75d
+		id: "7C97F3EE233CD1D4"
+		tasks: [{
+			id: "5813E1ADDE4F9BCC"
+			type: "checkmark"
+		}]
+	}]
+}

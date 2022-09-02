@@ -1,0 +1,16 @@
+{
+    "name": "Hub Expansion Locks",
+    "icon": "rustic_resources:hubexpankey",
+    "category": "patchouli:deep_sea_hub",
+    "sortnum": 2,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "There are 5 Hub Expansion Locks in your hub, one on each wall, and one on the ceiling.  These will expand to create an additional room onto your main hub, giving you more space to build.  These can only be opened using a Hub Expansion Key.  You will receive key fragments by completing quests.  Combine the fragments into a key that will unlock your Hub Expansions"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item":  "rustic_resources:hubblock_1"
+        }
+    ]
+}

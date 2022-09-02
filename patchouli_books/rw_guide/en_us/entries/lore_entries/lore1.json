@@ -1,0 +1,24 @@
+{
+    "name": "Caladan",
+    "icon": "alexsmobs:void_worm_eye",
+    "category": "patchouli:lore",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Planet Caladan is a telluric planet found in the Andromeda Galaxy.  It is similar to Earth in significant ways.  Its gravity is 8.9m/s which is only slightly lower than Earth’s and its atmosphere is similarly comprised of mostly nitrogen and oxygen.  Caladan orbits the Alpheratz star, in much the same way as Earth Orbits the sun.  Though it is commonly referred to in the singular, the Alpheratz is actually"
+        },
+        {
+            "type": "patchouli:text",
+            "text": " a pair of stars revolving around each other.  Because of this, every ninety-seven days or so, when the larger of the two stars is “closest” to Caladan the planet experiences a Torrid Summer.$(br2)   During the Torrid Summer, crop growth for most indigenous plants ceases, with the exception of Malose Grain.  This hearty wheat-like crop thrives in the fluctuating temperatures of Caladan, which is the only planet which can sustain its growth."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "  Malose grain has a sweet pulpy flavor that is frequently compared to what “Manna from heaven” would taste like.  Malose grain is by far Caladan’s most lucrative export and nearly forty percent of the population are farmers.  Caladan is roughly half the size of planet Earth and has a much smaller population of roughly one billion citizens.  Unlike Earth, Caladan consists of a single massive Pangea-like continent that covers three-fourths of the planet.  "
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Though this land mass is portioned into 14 regional “countries”, as a whole it is governed primarily by one person… The Imperator.  Each region within Caladan’s land mass has a presiding Duke that governs the fifty to three hundred million citizens within their borders.  In addition, each Duke has a small infrastructure of political representatives, regional officials, and though rarely needed, law enforcement."
+        }
+    ]
+}

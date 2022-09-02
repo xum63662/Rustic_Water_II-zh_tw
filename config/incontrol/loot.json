@@ -1,0 +1,136 @@
+[
+      {
+    "mob": [
+          "upgrade_aquatic:glow_squid",
+          "alexsmobs:blobfish",
+          "abyssaldepths:butterflyfish",
+          "abyssaldepths:raccoon_butterflyfish",
+          "abyssaldepths:clownfish",
+          "alexsmobs:lobster",
+          "alexsmobs:mantis_shrimp",
+          "betteranimalsplus:barracuda",
+          "betteranimalsplus:shark",
+          "betteranimalsplus:squid_colossal",
+          "betteranimalsplus:squid_giant",
+          "betteranimalsplus:eel_freshwater",
+          "betteranimalsplus:eel_saltwater",
+          "minecraft:dolphin",
+          "minecraft:pufferfish",
+          "minecraft:salmon",
+          "minecraft:squid",
+          "betteranimalsplus:flying_fish",
+          "betteranimalsplus:jellyfish",
+          "betteranimalsplus:nautilus",
+          "abyssaldepths:swordfish",
+          "alexsmobs:alligator_snapping_turtle",
+          "abyssaldepths:sailfish",
+          "alexsmobs:orca",
+          "upgrade_aquatic:nautilus",
+          "upgrade_aquatic:thrasher",
+          "alexsmobs:frilled_shark",
+          "alexsmobs:hammerhead_shark",
+          "betteranimalsplus:whale",
+          "alexsmobs:cachalot_whale"
+          ],
+    "random": 0.55,
+    "player": true,
+    "item": "rustic_resources:fishturd"
+  },
+  {
+    "mob": [
+          "upgrade_aquatic:glow_squid",
+          "alexsmobs:blobfish",
+          "abyssaldepths:butterflyfish",
+          "abyssaldepths:raccoon_butterflyfish",
+          "abyssaldepths:clownfish",
+          "alexsmobs:lobster",
+          "alexsmobs:mantis_shrimp",
+          "betteranimalsplus:barracuda",
+          "betteranimalsplus:shark",
+          "betteranimalsplus:squid_colossal",
+          "betteranimalsplus:squid_giant",
+          "betteranimalsplus:eel_freshwater",
+          "betteranimalsplus:eel_saltwater",
+          "minecraft:dolphin",
+          "minecraft:pufferfish",
+          "minecraft:salmon",
+          "minecraft:squid",
+          "betteranimalsplus:flying_fish",
+          "betteranimalsplus:jellyfish",
+          "betteranimalsplus:nautilus",
+          "abyssaldepths:swordfish",
+          "alexsmobs:alligator_snapping_turtle",
+          "abyssaldepths:sailfish",
+          "alexsmobs:orca",
+          "upgrade_aquatic:nautilus",
+          "upgrade_aquatic:thrasher",
+          "alexsmobs:frilled_shark",
+          "alexsmobs:hammerhead_shark",
+          "betteranimalsplus:whale",
+          "alexsmobs:cachalot_whale"
+          ],
+    "random": 0.6,
+    "player": true,
+    "item": "rustic_resources:leatherscrap"
+  },
+  {
+    "mob": [
+    "mowziesmobs:frostmaw",
+    "mowziesmobs:barako",
+    "dungeons_mobs:redstone_golem",
+    "dungeons_mobs:squall_golem"
+  ],
+    "item": "rustic_resources:bosskey"
+  },
+  {
+    "mob": [
+    "dungeons_mobs:redstone_golem",
+    "dungeons_mobs:squall_golem"
+  ],
+    "item": "minecraft:netherite_scrap"
+  },
+    {
+    "mob": "mowziesmobs:frostmaw",
+    "item": "rustic_resources:hatefulheart"
+},
+{
+    "mob": "alexsmobs:snow_leopard",
+    "item": "rustic_resources:catnip"
+},
+    {
+    "mob": "mowziesmobs:barako",
+    "item": "rustic_resources:hatefulheart"
+},
+    {
+    "mob": "alexsmobs:void_worm",
+    "random": 0.20,
+    "item": "rustic_resources:hatefulheart"
+},
+    {
+    "mob": "dungeons_mobs:redstone_golem",
+    "item": "rustic_resources:hatefulheart"
+},
+    {
+    "mob": "dungeons_mobs:squall_golem",
+    "item": "rustic_resources:hatefulheart"
+},
+    {
+    "mob": "ars_nouveau:wilden_boss",
+    "item": "rustic_resources:hatefulheart"
+},
+  {
+    "mob": "alexsmobs:tarantula_hawk",
+    "random": 0.7,
+    "item": "alexsmobs:tarantula_hawk_wing"
+  }, 
+  {
+    "mob": "alexsmobs:cachalot_whale",
+    "random": 0.8,
+    "item": "minecraft:bone_block"
+  }, 
+  {
+    "mob": "alexsmobs:orca",
+    "random": 0.8,
+    "item": "minecraft:bone_block"
+  }
+]

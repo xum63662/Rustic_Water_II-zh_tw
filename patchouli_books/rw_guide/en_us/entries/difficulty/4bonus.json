@@ -1,0 +1,15 @@
+{
+    "name": "Difficulty Bonuses",
+    "icon": "inventorypets:holiday_gift",
+    "category": "patchouli:difficulty",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "As mentioned before, there is no penalty for keeping your difficulty low.  There are bonuses for increasing it though.  As your meter passes certain thresholds the mobs you fight will have a chance to drop helpful items for your adventure. These bonuses are described on the right side of this page."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "scalinghealth:power_crystal",
+            "text": "Meter level 100 and higher allows Scaling Health Heart and Power crystals to drop. These can be used to permanently upgrade your health or attack power respectively.  You can reach a maximum of 80 health (40 hearts) and +20 Attack Power (10 hearts of damage).$(br2)  Meter level 200 and higher allows Netherite and Draconium to occasionally drop from mobs.  These are powerful end-game crafting components."
+        }    ]
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "create:cinder_flour"
+  },
+  "result": "create:blaze_cake_base",
+  "experience": 0.2,
+  "cookingtime": 200
+}

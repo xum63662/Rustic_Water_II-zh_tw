@@ -1,0 +1,34 @@
+{
+	id: "560154774D67E982"
+	group: ""
+	order_index: 11
+	filename: "act_iii"
+	title: "    Act III"
+	icon: "rustic_resources:placeholder"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: -1.5d
+		y: 0.0d
+		width: 7.0d
+		height: 5.0d
+		rotation: 0.0d
+		image: "rusticwaters:textures/act3.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [{
+		icon: "ars_nouveau:blank_parchment"
+		x: 0.15d
+		y: 0.25d
+		description: ["This third chapter of quests will transition you from a struggling survivor into thriving explorer.  You will learn how to generate mid game energy, harness arcane powers to combat your foes, and develop an infrastructure to manage all of your resources."]
+		size: 1.75d
+		id: "09112F5832E42B01"
+		tasks: [{
+			id: "725FFA2072EC4645"
+			type: "checkmark"
+		}]
+	}]
+}

@@ -1,0 +1,3356 @@
+{
+	id: "33C05BF1F2E3A14C"
+	order_index: 1
+	title: "Honored Explorer's Cache"
+	loot_size: 3
+	hide_tooltip: true
+	rewards: [
+		{ item: "pamhc2foodextended:sesamesnapsitem", count: 2 }
+		{ item: "pamhc2foodextended:cheezepuffsitem", count: 2 }
+		{ item: "pamhc2foodextended:couscousitem", count: 2 }
+		{ item: "pamhc2foodextended:sweetandsourmeatballsitem", count: 2 }
+		{ item: "pamhc2foodextended:coleslawitem", count: 2 }
+		{ item: "pamhc2foodextended:hashitem", count: 2 }
+		{ item: "pamhc2foodextended:gourmetbeefburgeritem", count: 2 }
+		{ item: "pamhc2foodcore:carrotcakeitem", count: 2 }
+		{ item: "pamhc2foodextended:bbqchickenbiscuititem", count: 2 }
+		{ item: "pamhc2foodextended:bakedcactusitem", count: 2 }
+		{ item: "pamhc2foodextended:potatoesobrienitem", count: 2 }
+		{ item: "pamhc2foodextended:applecideritem", count: 2 }
+		{ item: "pamhc2foodextended:rivermudcakeitem", count: 2 }
+		{ item: "pamhc2foodextended:jambalayaitem", count: 2 }
+		{ item: "atum:ra_godshard", count: 2 }
+		{ item: "atum:montu_godshard", count: 2 }
+		{ item: "atum:geb_godshard", count: 2 }
+		{ item: "atum:anput_godshard", count: 2 }
+		{ item: "atum:nuit_godshard", count: 2 }
+		{ item: "atum:horus_godshard", count: 2 }
+		{ item: "atum:seth_godshard", count: 2 }
+		{ item: "atum:ptah_godshard", count: 2 }
+		{ item: "atum:anubis_godshard", count: 2 }
+		{ item: "atum:shu_godshard", count: 2 }
+		{ item: "atum:isis_godshard", count: 2 }
+		{ item: "atum:atem_godshard", count: 2 }
+		{ item: "atum:osiris_godshard", count: 2 }
+		{ item: "atum:tefnut_godshard", count: 2 }
+		{ item: "atum:nepthys_godshard", count: 2 }
+		{ item: "pamhc2foodextended:maplecandiedbaconitem", count: 2 }
+		{ item: "pamhc2foodcore:cocoapowderitem", count: 2 }
+		{ item: "pamhc2foodextended:turkishdelightitem", count: 2 }
+		{ item: "pamhc2foodextended:crispyricepuffbarsitem", count: 2 }
+		{ item: "pamhc2foodextended:cashewchickenitem", count: 2 }
+		{ item: "pamhc2foodextended:poutineitem", count: 2 }
+		{ item: "pamhc2foodcore:stewitem", count: 2 }
+		{ item: "pamhc2foodextended:mushroomrisottoitem", count: 2 }
+		{ item: "pamhc2foodextended:mettbrotchenitem", count: 2 }
+		{ item: "pamhc2foodextended:salisburysteakitem", count: 2 }
+		{ item: "pamhc2foodextended:cinnamonbreaditem", count: 2 }
+		{ item: "pamhc2foodextended:sausagebeanmeltitem", count: 2 }
+		{ item: "pamhc2foodextended:mangochutneyitem", count: 2 }
+		{ item: "pamhc2foodextended:sausageinbreaditem", count: 2 }
+		{ item: "pamhc2foodcore:pumpkinbreaditem", count: 2 }
+		{ item: "pamhc2foodextended:loadedbakedpotatoitem", count: 2 }
+		{ item: "pamhc2foodextended:chocolatemilkitem", count: 2 }
+		{ item: "pamhc2foodextended:festivalbreaditem", count: 2 }
+		{ item: "pamhc2foodextended:sushiitem", count: 2 }
+		{ item: "pamhc2foodextended:deluxechickencurryitem", count: 2 }
+		{ item: "pamhc2foodextended:enchiladaitem", count: 2 }
+		{ item: "pamhc2foodextended:mcpamitem", count: 2 }
+		{ item: "pamhc2foodextended:padthaiitem", count: 2 }
+		{ item: "pamhc2foodextended:raspberrytrifleitem", count: 2 }
+		{ item: "pamhc2foodextended:lambkebabitem", count: 2 }
+		{ item: "pamhc2foodextended:babaganoushitem", count: 2 }
+		{ item: "pamhc2foodextended:surfandturfitem", count: 2 }
+		{ item: "pamhc2foodextended:potatocakesitem", count: 2 }
+		{ item: "pamhc2foodcore:carrotcupcakeitem", count: 2 }
+		{ item: "pamhc2foodcore:pickledbeetsitem", count: 2 }
+		{ item: "pamhc2foodextended:beanburritoitem", count: 2 }
+		{ item: "pamhc2foodextended:chocolateorangebiscuititem", count: 2 }
+		{ item: "pamhc2foodextended:veggiestirfryitem", count: 2 }
+		{ item: "pamhc2foodextended:lemonchickenitem", count: 2 }
+		{ item: "pamhc2foodcore:chocolatecaramelfudgeitem", count: 2 }
+		{ item: "pamhc2foodextended:honeyglazedhamitem", count: 2 }
+		{ item: "pamhc2foodextended:beansandriceitem", count: 2 }
+		{ item: "pamhc2foodextended:neapolitanicecreamitem", count: 2 }
+		{ item: "pamhc2foodextended:porklomeinitem", count: 2 }
+		{ item: "pamhc2foodcore:caramelcupcakeitem", count: 2 }
+		{ item: "pamhc2foodextended:eggsbenedictitem", count: 2 }
+		{ item: "pamhc2foodextended:mochidessertitem", count: 2 }
+		{ item: "pamhc2foodcore:fruitpunchitem", count: 2 }
+		{ item: "pamhc2foodextended:kalechipsitem", count: 2 }
+		{ item: "pamhc2foodextended:potatoandcheesepirogiitem", count: 2 }
+		{ item: "pamhc2foodextended:pinacoladaitem", count: 2 }
+		{ item: "pamhc2foodextended:cornedbeefandcabbageitem", count: 2 }
+		{ item: "pamhc2foodextended:fishfingersandcustarditem", count: 2 }
+		{ item: "pamhc2foodextended:cantonesenoodlesitem", count: 2 }
+		{ item: "pamhc2foodcore:pumpkincupcakeitem", count: 2 }
+		{ item: "pamhc2foodextended:omeletitem", count: 2 }
+		{ item: "pamhc2foodcore:pumpkinmuffinitem", count: 2 }
+		{ item: "pamhc2foodextended:vegemiteitem", count: 2 }
+		{ item: "pamhc2foodextended:hotwingsitem", count: 2 }
+		{ item: "pamhc2foodextended:aebleskiversitem", count: 2 }
+		{ item: "pamhc2foodextended:suaderoitem", count: 2 }
+		{ item: "pamhc2foodextended:steakfajitaitem", count: 2 }
+		{ item: "pamhc2foodextended:stuffedeggplantitem", count: 2 }
+		{ item: "pamhc2foodextended:chiliitem", count: 2 }
+		{ item: "pamhc2foodextended:greenbeancasseroleitem", count: 2 }
+		{ item: "pamhc2foodextended:chilidogitem", count: 2 }
+		{ item: "pamhc2foodcore:grilledcheeseitem", count: 2 }
+		{ item: "pamhc2foodextended:chickenkatsuitem", count: 2 }
+		{ item: "pamhc2foodextended:creamofchickenitem", count: 2 }
+		{ item: "pamhc2foodextended:cheesytacotortillachipsitem", count: 2 }
+		{ item: "pamhc2foodextended:baconwrappeddatesitem", count: 2 }
+		{ item: "pamhc2foodcore:beefjerkyitem", count: 2 }
+		{ item: "pamhc2foodextended:ovenroastedcaulifloweritem", count: 2 }
+		{ item: "pamhc2foodextended:eggnogitem", count: 2 }
+		{ item: "pamhc2foodcore:friedchickenitem", count: 2 }
+		{ item: "pamhc2foodcore:basiccheeseburgeritem", count: 2 }
+		{ item: "pamhc2foodextended:chickenandwafflesitem", count: 2 }
+		{ item: "pamhc2foodcore:chocolatemuffinitem", count: 2 }
+		{ item: "storagedrawers:void_upgrade" }
+		{ item: "storagedrawers:obsidian_storage_upgrade" }
+		{ item: "storagedrawers:one_stack_upgrade" }
+		{ item: "storagedrawers:redstone_upgrade" }
+		{
+			item: {
+				id: "spartanweaponry:battleaxe_invar"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:boomerang_invar"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:dagger_invar"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:flanged_mace_invar"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:glaive_invar"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:greatsword_invar"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:halberd_invar"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:hammer_invar"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:heavy_crossbow_invar"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:javelin_invar"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:katana_invar"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:lance_invar"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:longbow_invar"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:longsword_invar"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:pike_invar"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:quarterstaff_invar"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:rapier_invar"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:saber_invar"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:spear_invar"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:throwing_knife_invar"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:tomahawk_invar"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:warhammer_invar"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:battleaxe_gold"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:boomerang_gold"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:dagger_gold"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:flanged_mace_gold"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:glaive_gold"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:greatsword_gold"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:halberd_gold"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:hammer_gold"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:heavy_crossbow_gold"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:javelin_gold"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:katana_gold"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:lance_gold"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:longbow_gold"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:longsword_gold"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:pike_gold"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:quarterstaff_gold"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:rapier_gold"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:saber_gold"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:throwing_knife_gold"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:warhammer_gold"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:battleaxe_silver"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:boomerang_silver"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:flanged_mace_silver"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:glaive_silver"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:greatsword_silver"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:halberd_silver"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:javelin_silver"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:katana_silver"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:lance_silver"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:longsword_silver"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:pike_silver"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:quarterstaff_silver"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:saber_silver"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:spear_silver"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:throwing_knife_silver"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:tomahawk_silver"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:warhammer_silver"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:battleaxe_steel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:boomerang_steel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:dagger_steel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:flanged_mace_steel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:glaive_steel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:greatsword_steel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:halberd_steel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:hammer_steel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:heavy_crossbow_steel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:katana_steel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:lance_steel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:longsword_steel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:pike_steel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:quarterstaff_steel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:rapier_steel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:saber_steel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:throwing_knife_steel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:tomahawk_steel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:warhammer_steel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "spartanweaponry:arrow_explosive" }
+		{
+			item: {
+				id: "spartanweaponry:cestus"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:quiver_arrow_huge"
+				Count: 1b
+				ForgeCaps: {
+					Parent: {
+						Size: 12
+						Items: [ ]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:quiver_arrow_large"
+				Count: 1b
+				ForgeCaps: {
+					Parent: {
+						Size: 9
+						Items: [ ]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:quiver_arrow_medium"
+				Count: 1b
+				ForgeCaps: {
+					Parent: {
+						Size: 6
+						Items: [ ]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:quiver_arrow_small"
+				Count: 1b
+				ForgeCaps: {
+					Parent: {
+						Size: 4
+						Items: [ ]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:quiver_bolt_huge"
+				Count: 1b
+				ForgeCaps: {
+					Parent: {
+						Size: 12
+						Items: [ ]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:quiver_bolt_large"
+				Count: 1b
+				ForgeCaps: {
+					Parent: {
+						Size: 9
+						Items: [ ]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:quiver_bolt_medium"
+				Count: 1b
+				ForgeCaps: {
+					Parent: {
+						Size: 6
+						Items: [ ]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:quiver_bolt_small"
+				Count: 1b
+				ForgeCaps: {
+					Parent: {
+						Size: 4
+						Items: [ ]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanshields:shield_tower_gold"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanshields:shield_tower_invar"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanshields:shield_mekanism_powered_basic"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "botanypots:hopper_black_botany_pot" }
+		{ item: "botanypots:hopper_blue_botany_pot" }
+		{ item: "botanypots:hopper_botany_pot" }
+		{ item: "botanypots:hopper_brown_botany_pot" }
+		{ item: "botanypots:hopper_cyan_botany_pot" }
+		{ item: "botanypots:hopper_gray_botany_pot" }
+		{ item: "botanypots:hopper_green_botany_pot" }
+		{ item: "botanypots:hopper_light_blue_botany_pot" }
+		{ item: "botanypots:hopper_light_gray_botany_pot" }
+		{ item: "botanypots:hopper_lime_botany_pot" }
+		{ item: "botanypots:hopper_magenta_botany_pot" }
+		{ item: "botanypots:hopper_orange_botany_pot" }
+		{ item: "botanypots:hopper_pink_botany_pot" }
+		{ item: "botanypots:hopper_purple_botany_pot" }
+		{ item: "botanypots:hopper_red_botany_pot" }
+		{ item: "botanypots:hopper_white_botany_pot" }
+		{ item: "botanypots:hopper_yellow_botany_pot" }
+		{ item: "appliedenergistics2:black_smart_cable", count: 2 }
+		{ item: "appliedenergistics2:black_smart_dense_cable", count: 2 }
+		{ item: "appliedenergistics2:blue_smart_cable", count: 2 }
+		{ item: "appliedenergistics2:blue_smart_dense_cable", count: 2 }
+		{ item: "appliedenergistics2:brown_smart_cable", count: 2 }
+		{ item: "appliedenergistics2:brown_smart_dense_cable", count: 2 }
+		{ item: "appliedenergistics2:cyan_smart_cable", count: 2 }
+		{ item: "appliedenergistics2:cyan_smart_dense_cable", count: 2 }
+		{ item: "appliedenergistics2:fluix_smart_cable", count: 2 }
+		{ item: "appliedenergistics2:fluix_smart_dense_cable", count: 2 }
+		{ item: "appliedenergistics2:gray_smart_cable", count: 2 }
+		{ item: "appliedenergistics2:gray_smart_dense_cable", count: 2 }
+		{ item: "appliedenergistics2:green_smart_cable", count: 2 }
+		{ item: "appliedenergistics2:green_smart_dense_cable", count: 2 }
+		{ item: "appliedenergistics2:light_blue_smart_cable", count: 2 }
+		{ item: "appliedenergistics2:light_blue_smart_dense_cable", count: 2 }
+		{ item: "appliedenergistics2:light_gray_smart_cable", count: 2 }
+		{ item: "appliedenergistics2:light_gray_smart_dense_cable", count: 2 }
+		{ item: "appliedenergistics2:lime_smart_cable", count: 2 }
+		{ item: "appliedenergistics2:lime_smart_dense_cable", count: 2 }
+		{ item: "appliedenergistics2:magenta_smart_cable", count: 2 }
+		{ item: "appliedenergistics2:magenta_smart_dense_cable", count: 2 }
+		{ item: "appliedenergistics2:orange_smart_cable", count: 2 }
+		{ item: "appliedenergistics2:orange_smart_dense_cable", count: 2 }
+		{ item: "appliedenergistics2:pink_smart_cable", count: 2 }
+		{ item: "appliedenergistics2:pink_smart_dense_cable", count: 2 }
+		{ item: "appliedenergistics2:purple_smart_cable", count: 2 }
+		{ item: "appliedenergistics2:purple_smart_dense_cable", count: 2 }
+		{ item: "appliedenergistics2:red_smart_cable", count: 2 }
+		{ item: "appliedenergistics2:red_smart_dense_cable", count: 2 }
+		{ item: "appliedenergistics2:white_smart_cable", count: 2 }
+		{ item: "appliedenergistics2:white_smart_dense_cable", count: 2 }
+		{ item: "appliedenergistics2:yellow_smart_cable", count: 2 }
+		{ item: "appliedenergistics2:yellow_smart_dense_cable", count: 2 }
+		{ item: "appliedenergistics2:black_covered_dense_cable", count: 2 }
+		{ item: "appliedenergistics2:blue_covered_dense_cable", count: 2 }
+		{ item: "appliedenergistics2:brown_covered_dense_cable", count: 2 }
+		{ item: "appliedenergistics2:cyan_covered_dense_cable", count: 2 }
+		{ item: "appliedenergistics2:fluix_covered_dense_cable", count: 2 }
+		{ item: "appliedenergistics2:gray_covered_dense_cable", count: 2 }
+		{ item: "appliedenergistics2:green_covered_dense_cable", count: 2 }
+		{ item: "appliedenergistics2:light_blue_covered_dense_cable", count: 2 }
+		{ item: "appliedenergistics2:light_gray_covered_dense_cable", count: 2 }
+		{ item: "appliedenergistics2:lime_covered_dense_cable", count: 2 }
+		{ item: "appliedenergistics2:magenta_covered_dense_cable", count: 2 }
+		{ item: "appliedenergistics2:orange_covered_dense_cable", count: 2 }
+		{ item: "appliedenergistics2:pink_covered_dense_cable", count: 2 }
+		{ item: "appliedenergistics2:purple_covered_dense_cable", count: 2 }
+		{ item: "appliedenergistics2:red_covered_dense_cable", count: 2 }
+		{ item: "appliedenergistics2:white_covered_dense_cable", count: 2 }
+		{ item: "appliedenergistics2:yellow_covered_dense_cable", count: 2 }
+		{ item: "appliedenergistics2:1k_cell_component" }
+		{ item: "appliedenergistics2:1k_crafting_storage" }
+		{ item: "appliedenergistics2:1k_fluid_cell_component" }
+		{ item: "appliedenergistics2:1k_fluid_storage_cell" }
+		{ item: "appliedenergistics2:1k_storage_cell" }
+		{ item: "appliedenergistics2:4k_cell_component" }
+		{ item: "appliedenergistics2:4k_crafting_storage" }
+		{ item: "appliedenergistics2:4k_fluid_cell_component" }
+		{ item: "appliedenergistics2:4k_fluid_storage_cell" }
+		{ item: "appliedenergistics2:4k_portable_cell" }
+		{ item: "appliedenergistics2:4k_storage_cell" }
+		{
+			item: {
+				id: "spartanweaponry:boomerang_copper"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:dagger_copper"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:flanged_mace_copper"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:glaive_copper"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:greatsword_copper"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:halberd_copper"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:hammer_copper"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:heavy_crossbow_copper"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:javelin_copper"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:katana_copper"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:lance_copper"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:longbow_copper"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:longsword_copper"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:pike_copper"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:quarterstaff_copper"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:rapier_copper"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:saber_copper"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:spear_copper"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:throwing_knife_copper"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:tomahawk_copper"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:warhammer_copper"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:battleaxe_tin"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:boomerang_tin"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:dagger_tin"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:flanged_mace_tin"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:glaive_tin"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:greatsword_tin"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:halberd_tin"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:hammer_tin"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:heavy_crossbow_tin"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:javelin_tin"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:katana_tin"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:lance_tin"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:longbow_tin"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:longsword_tin"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:pike_tin"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:quarterstaff_tin"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:rapier_tin"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:saber_tin"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:tomahawk_tin"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:warhammer_tin"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:battleaxe_lead"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:boomerang_lead"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:flanged_mace_lead"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:glaive_lead"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:greatsword_lead"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:halberd_lead"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:hammer_lead"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:javelin_lead"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:katana_lead"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:lance_lead"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:longsword_lead"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:pike_lead"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:rapier_lead"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:saber_lead"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:spear_lead"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:tomahawk_lead"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:warhammer_lead"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:battleaxe_nickel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:dagger_nickel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:flanged_mace_nickel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:glaive_nickel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:greatsword_nickel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:halberd_nickel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:hammer_nickel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:javelin_nickel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:katana_nickel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:lance_nickel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:longsword_nickel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:pike_nickel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:quarterstaff_nickel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:rapier_nickel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:saber_nickel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:spear_nickel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:throwing_knife_nickel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:tomahawk_nickel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:warhammer_nickel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "spartanweaponry:arrow_iron_tipped" }
+		{ item: "spartanweaponry:arrow_iron" }
+		{
+			item: {
+				id: "spartanweaponry:battleaxe_iron"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:boomerang_iron"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:dagger_iron"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:flanged_mace_iron"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:glaive_iron"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:greatsword_iron"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:halberd_iron"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:hammer_iron"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:heavy_crossbow_iron"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:javelin_iron"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:katana_iron"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:lance_iron"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:longbow_iron"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:longsword_iron"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:pike_iron"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:quarterstaff_iron"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:rapier_iron"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:saber_iron"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:spear_iron"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:throwing_knife_iron"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:tomahawk_iron"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:warhammer_iron"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:battleaxe_bronze"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:boomerang_bronze"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:dagger_bronze"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:flanged_mace_bronze"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:glaive_bronze"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:greatsword_bronze"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:halberd_bronze"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:hammer_bronze"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:heavy_crossbow_bronze"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:javelin_bronze"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:katana_bronze"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:lance_bronze"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:longbow_bronze"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:longsword_bronze"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:pike_bronze"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:quarterstaff_bronze"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:rapier_bronze"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:saber_bronze"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:spear_bronze"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:throwing_knife_bronze"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:tomahawk_bronze"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:warhammer_bronze"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "spartanweaponry:dynamite" }
+		{
+			item: {
+				id: "spartanweaponry:battleaxe_copper"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "botanypots:black_botany_pot" }
+		{ item: "botanypots:blue_botany_pot" }
+		{ item: "botanypots:botany_pot" }
+		{ item: "botanypots:brown_botany_pot" }
+		{ item: "botanypots:cyan_botany_pot" }
+		{ item: "botanypots:gray_botany_pot" }
+		{ item: "botanypots:green_botany_pot" }
+		{ item: "botanypots:light_blue_botany_pot" }
+		{ item: "botanypots:light_gray_botany_pot" }
+		{ item: "botanypots:lime_botany_pot" }
+		{ item: "botanypots:magenta_botany_pot" }
+		{ item: "botanypots:orange_botany_pot" }
+		{ item: "botanypots:pink_botany_pot" }
+		{ item: "botanypots:purple_botany_pot" }
+		{ item: "botanypots:red_botany_pot" }
+		{ item: "botanypots:white_botany_pot" }
+		{ item: "botanypots:yellow_botany_pot" }
+		{ item: "archers_paradox:blaze_arrow" }
+		{ item: "archers_paradox:diamond_arrow", count: 16 }
+		{ item: "archers_paradox:displacement_arrow", count: 16 }
+		{ item: "archers_paradox:ender_arrow", count: 16 }
+		{ item: "archers_paradox:explosive_arrow", count: 16 }
+		{ item: "archers_paradox:frost_arrow", count: 16 }
+		{ item: "archers_paradox:glowstone_arrow", count: 16 }
+		{ item: "archers_paradox:lightning_arrow", count: 16 }
+		{ item: "archers_paradox:phantasmal_arrow", count: 16 }
+		{ item: "archers_paradox:prismarine_arrow", count: 16 }
+		{ item: "archers_paradox:quartz_arrow", count: 16 }
+		{ item: "archers_paradox:redstone_arrow", count: 16 }
+		{ item: "archers_paradox:shulker_arrow", count: 16 }
+		{ item: "archers_paradox:slime_arrow", count: 16 }
+		{ item: "archers_paradox:spore_arrow", count: 16 }
+		{ item: "archers_paradox:verdant_arrow", count: 16 }
+		{ item: "appliedenergistics2:black_glass_cable", count: 2 }
+		{ item: "appliedenergistics2:blue_glass_cable", count: 2 }
+		{ item: "appliedenergistics2:brown_glass_cable", count: 2 }
+		{ item: "appliedenergistics2:cyan_glass_cable", count: 2 }
+		{ item: "appliedenergistics2:fluix_glass_cable", count: 2 }
+		{ item: "appliedenergistics2:gray_glass_cable", count: 2 }
+		{ item: "appliedenergistics2:green_glass_cable", count: 2 }
+		{ item: "appliedenergistics2:light_blue_glass_cable", count: 2 }
+		{ item: "appliedenergistics2:light_gray_glass_cable", count: 2 }
+		{ item: "appliedenergistics2:lime_glass_cable", count: 2 }
+		{ item: "appliedenergistics2:magenta_glass_cable", count: 2 }
+		{ item: "appliedenergistics2:orange_glass_cable", count: 2 }
+		{ item: "appliedenergistics2:pink_glass_cable", count: 2 }
+		{ item: "appliedenergistics2:purple_glass_cable", count: 2 }
+		{ item: "appliedenergistics2:red_glass_cable", count: 2 }
+		{ item: "appliedenergistics2:white_glass_cable", count: 2 }
+		{ item: "appliedenergistics2:yellow_glass_cable", count: 2 }
+		{ item: "appliedenergistics2:silicon", count: 6 }
+		{ item: "mekanism:ingot_osmium", count: 2 }
+		{ item: "mekanism:ingot_refined_glowstone" }
+		{ item: "mekanism:ingot_refined_obsidian" }
+		{ item: "minecraft:blaze_powder", count: 2 }
+		{ item: "minecraft:blaze_rod" }
+		{ item: "minecraft:diamond", count: 2 }
+		{ item: "minecraft:lapis_block" }
+		{ item: "minecraft:lapis_lazuli", count: 4 }
+		{ item: "minecraft:lava_bucket" }
+		{ item: "minecraft:magma_block" }
+		{ item: "minecraft:magma_cream", count: 4 }
+		{ item: "minecraft:nether_brick", count: 12 }
+		{ item: "minecraft:nether_wart", count: 4 }
+		{ item: "minecraft:netherrack", count: 12 }
+		{ item: "minecraft:observer" }
+		{ item: "minecraft:obsidian", count: 4 }
+		{ item: "minecraft:wither_rose", count: 4 }
+		{ item: "minecraft:wither_skeleton_skull" }
+		{ item: "miniutilities:angel_block" }
+		{ item: "thermal:apple_block" }
+		{ item: "thermal:bamboo_block" }
+		{ item: "thermal:beetroot_block" }
+		{ item: "thermal:carrot_block" }
+		{ item: "thermal:charcoal_block" }
+		{ item: "thermal:apatite_block" }
+		{ item: "thermal:bitumen_block" }
+		{ item: "thermal:bronze_block" }
+		{ item: "thermal:cinnabar_block" }
+		{ item: "thermal:coal_coke_block" }
+		{ item: "thermal:constantan_block" }
+		{ item: "thermal:copper_block" }
+		{ item: "thermal:gunpowder_block" }
+		{ item: "thermal:lead_block" }
+		{ item: "thermal:nickel_block" }
+		{ item: "thermal:niter_block" }
+		{ item: "thermal:potato_block" }
+		{ item: "thermal:silver_block" }
+		{ item: "thermal:slag_block" }
+		{ item: "thermal:sugar_cane_block" }
+		{ item: "thermal:sulfur_block" }
+		{ item: "thermal:tar_block" }
+		{ item: "thermal:tin_block" }
+		{ item: "mysticalagriculture:inferium_gemstone" }
+		{
+			item: {
+				id: "mysticalagriculture:prudentium_hoe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "mysticalagriculture:prudentium_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "mysticalagriculture:inferium_leggings"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "mysticalagriculture:inferium_furnace" }
+		{ item: "mysticalagriculture:prudentium_furnace" }
+		{ item: "mysticalagriculture:inferium_reprocessor" }
+		{
+			item: {
+				id: "mysticalagriculture:inferium_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "mysticalagriculture:prudentium_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "mysticalagriculture:prudentium_axe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "mysticalagriculture:prudentium_boots"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "mysticalagriculture:inferium_boots"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "mysticalagriculture:inferium_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "mysticalagriculture:prudentium_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "mysticalagriculture:prosperity_ingot" }
+		{ item: "mysticalagriculture:prudentium_ingot" }
+		{ item: "mysticalagriculture:experience_droplet" }
+		{
+			item: {
+				id: "mysticalagriculture:inferium_shovel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "mysticalagriculture:inferium_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "mysticalagriculture:inferium_ingot" }
+		{ item: "mysticalagriculture:inferium_staff" }
+		{
+			item: {
+				id: "mysticalagriculture:inferium_axe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "mysticalagriculture:machine_frame" }
+		{ item: "mysticalagriculture:master_infusion_crystal" }
+		{
+			item: {
+				id: "mysticalagriculture:prudentium_pickaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "mysticalagriculture:prudentium_leggings"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "mysticalagriculture:inferium_hoe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "mysticalagriculture:infusion_crystal"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "mysticalagriculture:mystical_fertilizer" }
+		{
+			item: {
+				id: "mysticalagriculture:prudentium_shovel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "mysticalagriculture:inferium_pickaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "mysticalagriculture:prudentium_staff" }
+		{ item: "mysticalagriculture:basic_reprocessor" }
+		{ item: "mysticalagriculture:prudentium_gemstone" }
+		{ item: "mysticalagriculture:prosperity_gemstone" }
+		{ item: "mysticalagriculture:prudentium_reprocessor" }
+		{ item: "mysticalagriculture:prudentium_watering_can" }
+		{ item: "mysticalagriculture:inferium_watering_can" }
+		{ item: "mysticalagriculture:imperium_watering_can" }
+		{ item: "mysticalagriculture:supremium_watering_can" }
+		{ item: "mysticalagriculture:tertium_watering_can" }
+		{
+			item: {
+				id: "mysticalagriculture:imperium_pickaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "mysticalagriculture:imperium_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "mysticalagriculture:imperium_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "mysticalagriculture:imperium_furnace" }
+		{
+			item: {
+				id: "mysticalagriculture:imperium_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "mysticalagriculture:imperium_gemstone" }
+		{
+			item: {
+				id: "mysticalagriculture:imperium_leggings"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "mysticalagriculture:imperium_ingot" }
+		{ item: "mysticalagriculture:imperium_staff" }
+		{
+			item: {
+				id: "mysticalagriculture:imperium_boots"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "mysticalagriculture:imperium_axe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "mysticalagriculture:imperium_shovel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "mysticalagriculture:imperium_reprocessor" }
+		{
+			item: {
+				id: "mysticalagriculture:imperium_hoe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "draconicevolution:draconium_nugget" }
+		{ item: "thermal:electrum_plate", count: 2 }
+		{ item: "thermal:gold_plate", count: 2 }
+		{ item: "thermal:silver_plate", count: 2 }
+		{ item: "thermal:electrum_dust", count: 2 }
+		{ item: "thermal:lumium_dust", count: 2 }
+		{ item: "thermal:quartz_dust", count: 2 }
+		{ item: "thermal:silver_dust", count: 2 }
+		{ item: "thermal:ender_pearl_dust", count: 2 }
+		{ item: "thermal:gold_dust", count: 2 }
+		{ item: "mysticalagriculture:witherproof_glass", count: 4 }
+		{ item: "tipsy:corals_lite" }
+		{ item: "tipsy:honeyken" }
+		{ item: "tipsy:poobst" }
+		{ item: "tipsy:fermenterbarrel" }
+		{ item: "waterstrainer:iron_mesh" }
+		{ item: "waterstrainer:obsidian_mesh" }
+		{ item: "waterstrainer:strainer_base" }
+		{ item: "thermal:energy_cell_frame" }
+		{ item: "thermal:fluid_cell_frame" }
+		{ item: "thermal:blitz_powder" }
+		{ item: "thermal:blitz_rod" }
+		{ item: "thermal:blizz_powder" }
+		{ item: "thermal:blizz_rod" }
+		{ item: "thermal:basalz_powder" }
+		{ item: "thermal:basalz_rod" }
+		{ item: "mekanism:basic_bin" }
+		{ item: "mekanism:basic_chemical_tank" }
+		{ item: "mekanism:basic_control_circuit" }
+		{ item: "mekanism:basic_logistical_transporter", count: 2 }
+		{ item: "mekanism:basic_mechanical_pipe", count: 2 }
+		{ item: "mekanism:basic_pressurized_tube", count: 2 }
+		{ item: "mekanism:basic_fluid_tank" }
+		{
+			item: {
+				id: "mekanismtools:osmium_axe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "mekanismtools:osmium_boots"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "mekanismtools:osmium_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "mekanismtools:osmium_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "mekanismtools:osmium_hoe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "mekanismtools:osmium_leggings"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "mekanismtools:osmium_paxel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "mekanismtools:osmium_pickaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "mekanismtools:osmium_shield"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "mekanismtools:osmium_shovel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "mekanismtools:osmium_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "mekanismtools:diamond_paxel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "mekanismtools:refined_glowstone_axe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "mekanismtools:refined_glowstone_boots"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "mekanismtools:refined_glowstone_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "mekanismtools:refined_glowstone_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "mekanismtools:refined_glowstone_hoe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "mekanismtools:refined_glowstone_leggings"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "mekanismtools:refined_glowstone_paxel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "mekanismtools:refined_glowstone_pickaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "mekanismtools:refined_glowstone_shield"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "mekanismtools:refined_glowstone_shovel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "mekanismtools:refined_glowstone_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "ironfurnaces:upgrade_copper" }
+		{ item: "ironfurnaces:upgrade_crystal" }
+		{ item: "ironfurnaces:upgrade_diamond" }
+		{ item: "ironfurnaces:upgrade_emerald" }
+		{ item: "ironfurnaces:upgrade_gold" }
+		{ item: "ironfurnaces:upgrade_gold2" }
+		{ item: "ironfurnaces:upgrade_iron" }
+		{ item: "ironfurnaces:upgrade_iron2" }
+		{ item: "ironfurnaces:upgrade_netherite" }
+		{ item: "ironfurnaces:upgrade_obsidian" }
+		{ item: "ironfurnaces:upgrade_obsidian2" }
+		{ item: "ironfurnaces:upgrade_silver" }
+		{ item: "ironfurnaces:upgrade_silver2" }
+		{ item: "ironfurnaces:augment_blasting" }
+		{ item: "ironfurnaces:augment_fuel" }
+		{ item: "ironfurnaces:augment_smoking" }
+		{ item: "ironfurnaces:augment_speed" }
+		{ item: "ironchest:gold_chest" }
+		{ item: "ironchest:gold_to_diamond_chest_upgrade" }
+		{ item: "ironchest:iron_chest" }
+		{ item: "ironchest:iron_to_gold_chest_upgrade" }
+		{ item: "ironchest:obsidian_chest" }
+		{ item: "ironchest:silver_chest" }
+		{ item: "ironchest:silver_to_gold_chest_upgrade" }
+		{ item: "ironchest:wood_to_copper_chest_upgrade" }
+		{ item: "ironchest:wood_to_iron_chest_upgrade" }
+		{ item: "industrialforegoing:pink_slime" }
+		{ item: "industrialforegoing:plastic", count: 4 }
+		{ item: "industrialforegoing:common_black_hole_tank" }
+		{ item: "industrialforegoing:common_black_hole_unit" }
+		{ item: "industrialforegoing:block_breaker" }
+		{ item: "industrialforegoing:block_placer" }
+		{
+			item: {
+				id: "immersivepetroleum:speedboat"
+				Count: 1b
+				ForgeCaps: {
+					Parent: {
+						Size: 4
+						Items: [ ]
+					}
+				}
+			}
+		}
+		{ item: "immersiveengineering:wirecoil_copper" }
+		{ item: "immersiveengineering:wirecoil_electrum" }
+		{ item: "immersiveengineering:wirecoil_redstone" }
+		{ item: "immersiveengineering:wirecoil_steel" }
+		{ item: "immersiveengineering:turret_chem" }
+		{ item: "immersiveengineering:turret_gun" }
+		{ item: "immersiveengineering:connector_hv_relay" }
+		{ item: "immersiveengineering:connector_hv" }
+		{ item: "immersiveengineering:connector_lv_relay" }
+		{ item: "immersiveengineering:connector_lv" }
+		{ item: "immersiveengineering:connector_mv_relay" }
+		{ item: "immersiveengineering:connector_mv" }
+		{ item: "immersiveengineering:connector_probe" }
+		{ item: "immersiveengineering:connector_redstone" }
+		{ item: "immersiveengineering:breaker_switch" }
+		{ item: "ftbsluice:sluice_fortune_upgrade" }
+		{ item: "ftbsluice:diamond_sluice" }
+		{ item: "ftbsluice:netherite_sluice" }
+		{ item: "ftbsluice:empowered_sluice" }
+		{ item: "darkutils:ender_hopper" }
+		{ item: "cyclic:tank" }
+		{ item: "cyclic:spikes_curse", count: 4 }
+		{ item: "cyclic:spikes_diamond", count: 4 }
+		{ item: "cyclic:spikes_fire", count: 4 }
+		{ item: "cyclic:spikes_iron", count: 4 }
+		{ item: "cyclic:spawner_seeker" }
+		{
+			item: {
+				id: "cyclic:spell_ice"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "cyclic:spell_water"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "cyclic:screen" }
+		{ item: "cyclic:placer_fluid" }
+		{ item: "cyclic:placer" }
+		{ item: "cyclic:plate_launch_redstone" }
+		{ item: "cyclic:plate_launch" }
+		{ item: "cyclic:packager" }
+		{ item: "cyclic:hopper_fluid" }
+		{ item: "cyclic:hopper_gold" }
+		{ item: "cyclic:lever_remote" }
+		{
+			item: {
+				id: "cyclic:ice_scepter"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "cyclic:glove_climb"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "cyclic:glowing_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "cyclic:fluid_pipe", count: 4 }
+		{
+			item: {
+				id: "cyclic:fire_scepter"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "cyclic:fireplace" }
+		{ item: "cyclic:eye_teleport" }
+		{ item: "cyclic:fan_slab" }
+		{ item: "cyclic:fan" }
+		{ item: "cyclic:energy_pipe", count: 4 }
+		{
+			item: {
+				id: "cyclic:evoker_fang"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "cyclic:ender_shelf" }
+		{ item: "cyclic:dropper" }
+		{ item: "cyclic:detector_entity" }
+		{ item: "cyclic:detector_item" }
+		{ item: "cyclic:detector_moon" }
+		{ item: "cyclic:detector_weather" }
+		{ item: "cyclic:collector_fluid" }
+		{ item: "cyclic:collector" }
+		{ item: "cyclic:conveyor" }
+		{
+			item: {
+				id: "cyclic:boomerang_carry"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "cyclic:boomerang_damage"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "cyclic:boomerang_stun"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "cyclic:breaker" }
+		{
+			item: {
+				id: "cyclic:build_scepter"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "cyclic:battery"
+				Count: 1b
+				ForgeCaps: {
+					Parent: {
+						energy: {
+							energy: 0
+						}
+					}
+				}
+			}
+		}
+		{ item: "cyclic:anvil_magma" }
+		{ item: "cyclic:anvil" }
+		{
+			item: {
+				id: "atum:eyes_of_atem"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "atum:body_of_atem"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "atum:legs_of_atem"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "atum:feet_of_atem"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "atum:halo_of_ra"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "atum:legs_of_ra"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "atum:feet_of_ra"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "dark_caverns:shroomstone_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "dark_caverns:shroomstone_leggings"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "dark_caverns:shroomstone_boots"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "dark_caverns:hellstone_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "dark_caverns:hellstone_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "dark_caverns:hellstone_leggings"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "dark_caverns:hellstone_boots"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "dark_caverns:shroomstone_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "atum:eyes_of_atem"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "immersiveengineering:capacitor_lv" }
+		{ item: "immersiveengineering:capacitor_hv" }
+		{ item: "immersiveengineering:capacitor_mv" }
+		{ item: "immersivepetroleum:gas_generator" }
+		{ item: "industrialforegoing:machine_frame_simple" }
+		{
+			item: {
+				id: "animalcrops:seeds"
+				Count: 1b
+				tag: {
+					entity: "minecraft:bee"
+				}
+			}
+		}
+		{
+			item: {
+				id: "animalcrops:seeds"
+				Count: 1b
+				tag: {
+					entity: "minecraft:cat"
+				}
+			}
+		}
+		{
+			item: {
+				id: "animalcrops:seeds"
+				Count: 1b
+				tag: {
+					entity: "minecraft:chicken"
+				}
+			}
+		}
+		{
+			item: {
+				id: "animalcrops:seeds"
+				Count: 1b
+				tag: {
+					entity: "minecraft:cow"
+				}
+			}
+		}
+		{
+			item: {
+				id: "animalcrops:seeds"
+				Count: 1b
+				tag: {
+					entity: "minecraft:donkey"
+				}
+			}
+		}
+		{
+			item: {
+				id: "animalcrops:seeds"
+				Count: 1b
+				tag: {
+					entity: "minecraft:fox"
+				}
+			}
+		}
+		{
+			item: {
+				id: "animalcrops:seeds"
+				Count: 1b
+				tag: {
+					entity: "minecraft:horse"
+				}
+			}
+		}
+		{
+			item: {
+				id: "animalcrops:seeds"
+				Count: 1b
+				tag: {
+					entity: "minecraft:llama"
+				}
+			}
+		}
+		{
+			item: {
+				id: "animalcrops:seeds"
+				Count: 1b
+				tag: {
+					entity: "minecraft:mooshroom"
+				}
+			}
+		}
+		{
+			item: {
+				id: "animalcrops:seeds"
+				Count: 1b
+				tag: {
+					entity: "minecraft:ocelot"
+				}
+			}
+		}
+		{
+			item: {
+				id: "animalcrops:seeds"
+				Count: 1b
+				tag: {
+					entity: "minecraft:panda"
+				}
+			}
+		}
+		{
+			item: {
+				id: "animalcrops:seeds"
+				Count: 1b
+				tag: {
+					entity: "minecraft:parrot"
+				}
+			}
+		}
+		{
+			item: {
+				id: "animalcrops:seeds"
+				Count: 1b
+				tag: {
+					entity: "minecraft:pig"
+				}
+			}
+		}
+		{
+			item: {
+				id: "animalcrops:seeds"
+				Count: 1b
+				tag: {
+					entity: "minecraft:polar_bear"
+				}
+			}
+		}
+		{
+			item: {
+				id: "animalcrops:seeds"
+				Count: 1b
+				tag: {
+					entity: "minecraft:rabbit"
+				}
+			}
+		}
+		{
+			item: {
+				id: "animalcrops:seeds"
+				Count: 1b
+				tag: {
+					entity: "minecraft:sheep"
+				}
+			}
+		}
+		{
+			item: {
+				id: "animalcrops:seeds"
+				Count: 1b
+				tag: {
+					entity: "minecraft:villager"
+				}
+			}
+		}
+		{
+			item: {
+				id: "animalcrops:seeds"
+				Count: 1b
+				tag: {
+					entity: "minecraft:wolf"
+				}
+			}
+		}
+		{
+			item: {
+				id: "animalcrops:anemonemal"
+				Count: 1b
+				tag: {
+					entity: "minecraft:cod"
+				}
+			}
+		}
+		{
+			item: {
+				id: "animalcrops:anemonemal"
+				Count: 1b
+				tag: {
+					entity: "minecraft:dolphin"
+				}
+			}
+		}
+		{
+			item: {
+				id: "animalcrops:anemonemal"
+				Count: 1b
+				tag: {
+					entity: "minecraft:pufferfish"
+				}
+			}
+		}
+		{
+			item: {
+				id: "animalcrops:anemonemal"
+				Count: 1b
+				tag: {
+					entity: "minecraft:salmon"
+				}
+			}
+		}
+		{
+			item: {
+				id: "animalcrops:anemonemal"
+				Count: 1b
+				tag: {
+					entity: "minecraft:squid"
+				}
+			}
+		}
+		{
+			item: {
+				id: "animalcrops:anemonemal"
+				Count: 1b
+				tag: {
+					entity: "minecraft:tropical_fish"
+				}
+			}
+		}
+		{
+			item: {
+				id: "animalcrops:anemonemal"
+				Count: 1b
+				tag: {
+					entity: "minecraft:turtle"
+				}
+			}
+		}
+		{
+			item: {
+				id: "animalcrops:spores"
+				Count: 1b
+				tag: {
+					entity: "minecraft:piglin"
+				}
+			}
+		}
+		{ item: "immersiveengineering:casull", count: 8 }
+		{ item: "immersiveengineering:armor_piercing", count: 8 }
+		{ item: "immersiveengineering:buckshot", count: 10 }
+		{ item: "immersiveengineering:he", count: 10 }
+		{ item: "immersiveengineering:silver", count: 10 }
+		{ item: "immersiveengineering:dragons_breath", count: 10 }
+		{ item: "immersiveengineering:flare", count: 10 }
+		{ item: "immersiveengineering:homing", count: 10 }
+		{ item: "immersiveengineering:wolfpack", count: 10 }
+		{ item: "decimal_coins:coin_1", count: 8, weight: 50 }
+		{ item: "decimal_coins:coin_5", count: 2, weight: 35 }
+		{ item: "decimal_coins:coin_10", weight: 12 }
+		{ item: "decimal_coins:coin_20", weight: 6 }
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 0
+			monster: 0
+		}
+		color: 1263293
+		string_id: "honored_explorer_s_cache"
+	}
+}

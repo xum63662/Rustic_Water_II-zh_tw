@@ -1,0 +1,1 @@
+{"type":"mekanism:purifying","itemInput":{"ingredient":{"item":"ars_nouveau:arcane_ore"}},"gasInput":{"amount":1,"gas":"mekanism:oxygen"},"output":{"item":"rustic_resources:clumpsource","count":3}}

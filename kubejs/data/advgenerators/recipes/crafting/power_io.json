@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ITI",
+    "IRI",
+    "ITI"
+  ],
+  "key": {
+    "I": {
+      "item": "rustic_resources:aluminite_ingot"
+    },
+    "R": {
+      "item": "rustic_resources:redstonewire"
+    },
+    "T": {
+      "item": "minecraft:piston"
+    }
+  },
+  "result": {
+    "item": "advgenerators:power_io"
+  }
+}

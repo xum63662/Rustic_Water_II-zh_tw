@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "FPF",
+    "P P",
+    "FWF"
+  ],
+  "key": {
+    "P": {
+      "item": "advgenerators:pressure_valve"
+    },
+    "F": {
+      "item": "rustic_resources:reinforcedwood"
+    },
+    "W": {
+      "item": "advgenerators:iron_tubing"
+    }
+  },
+  "result": {
+    "item": "advgenerators:fuel_tank"
+  }
+}

@@ -1,0 +1,724 @@
+{
+	id: "390310458664402C"
+	group: ""
+	order_index: 8
+	filename: "ocean_organization"
+	title: "Ocean Organizing"
+	icon: "enderstorage:ender_tank"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: 5.1d
+		y: -3.0d
+		width: 20.0d
+		height: 12.0d
+		rotation: 0.0d
+		image: "rusticwaters:textures/page20.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			x: 8.0d
+			y: -2.5d
+			description: [
+				"The Modular Router is one of the most versatile blocks in this adventure.  As a single block, it can be configured to perform up to 20 different tasks, each in a customizable way.  It is your one-stop shop for every item, fluid, or energy transportation need in the early to mid game."
+				"While these following quests attempt to explain how to utilize this block in a practical way, the Modular Routers Manual does an excellent job of providing pictures and easy to understand explanations."
+			]
+			dependencies: ["6576C65646305E68"]
+			id: "38ED47617F5F8745"
+			tasks: [{
+				id: "0D7F2C246191E77B"
+				type: "item"
+				item: "modularrouters:item_router"
+			}]
+			rewards: [{
+				id: "665E7937BA4EC7F0"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "modularrouters:book"
+					}
+				}
+			}]
+		}
+		{
+			x: 7.5d
+			y: -1.5d
+			subtitle: "Many of the most commonly used Modules are discussed in the following quests.  You can choose to craft them now, or wait until you find a need for them."
+			description: [
+				"Modules dictate what tasks your router will perform.  You can place up to 9 modules into your router.  The order of the modules (left to right) determines the order of operations."
+				"Using this order of operations you can make a single block router push, pull, toss, or even drop items and fluids nearly anywhere.  "
+				"Some Modules come in multiple tiers:"
+				"MK1 Modules are the base version, usually with short range or single item capabilities.  MK2 and MK3 tier Modules have a wider area they can operate within, even across dimensions."
+			]
+			dependencies: ["38ED47617F5F8745"]
+			id: "205C64B91713E8E4"
+			tasks: [{
+				id: "7B55A74C21A6CEB0"
+				type: "item"
+				item: "modularrouters:blank_module"
+				count: 8L
+			}]
+			rewards: [{
+				id: "22DE884C15D69C2C"
+				type: "loot"
+				table_id: 4920136057121877850L
+			}]
+		}
+		{
+			x: 11.0d
+			y: -1.5d
+			description: ["While Augments are installed inside Modules, Upgrades are for the Router itself.  The dictate how the actual router performs."]
+			dependencies: ["205C64B91713E8E4"]
+			id: "2928F2EA2719BDBB"
+			tasks: [{
+				id: "752C173D725CB9DD"
+				type: "item"
+				item: "modularrouters:blank_upgrade"
+				count: 8L
+			}]
+			rewards: [{
+				id: "57F11AB5C89EEE18"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 4.5d
+			y: -1.5d
+			subtitle: "A Module has 4 Augment slots, which can each have more than one augment of the same type in it."
+			description: ["Augments go INSIDE your Modules.  They further customize what behavior the Module is making the router perform.  These include things like performing the task faster or further.  You can open a module's GUI by right clicking it in your hand.  A description of the GUI layout is covered further through the Module segment of this chain."]
+			dependencies: ["205C64B91713E8E4"]
+			id: "0D31A11942C694C8"
+			tasks: [{
+				id: "422742141D68ADE7"
+				type: "item"
+				item: "modularrouters:augment_core"
+				count: 4L
+			}]
+			rewards: [{
+				id: "7CE9FA4A1F376329"
+				type: "item"
+				item: "modularrouters:xp_vacuum_augment"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 0.5d
+			description: ["The Activator Module simulates player interaction with a block or entity.  The interaction range is up to 4 blocks.  The direction the router will interact with is determined by the direction it is facing and the side configuration done in the module's GUI.  This is a module you will want to read more information about in the Modular Routers Manual."]
+			dependencies: ["65208156A6C35618"]
+			id: "57FCE6E558EE8611"
+			tasks: [{
+				id: "457FA9CD24C95F2B"
+				type: "item"
+				item: {
+					id: "modularrouters:activator_module"
+					Count: 1b
+					tag: {
+						modularrouters: {
+							ModuleFilter: { }
+							Direction: "NONE"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "296DD9CFA5EC99D0"
+				type: "item"
+				item: {
+					id: "modularrouters:void_module"
+					Count: 1b
+					tag: {
+						modularrouters: {
+							ModuleFilter: { }
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 6.5d
+			y: -0.5d
+			description: ["The breaker Module allows the router to break blocks adjacent to it and collect the drop.  IMPORTANT to note before crafting: The pickaxe used to craft the module will determine the mining capabilities.  So if you are making an Obsidian generator, you will need to craft the Module with a higher level pickaxe than if you were using it in a Cobblestone generator."]
+			dependencies: ["205C64B91713E8E4"]
+			id: "36693BB9AE66DAD6"
+			tasks: [{
+				id: "085A85552FF34862"
+				type: "item"
+				item: {
+					id: "modularrouters:breaker_module"
+					Count: 1b
+					tag: {
+						modularrouters: {
+							ModuleFilter: { }
+							Direction: "NONE"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "6CF891EA0A95F94F"
+				type: "item"
+				item: {
+					id: "modularrouters:fluid_module"
+					Count: 1b
+					tag: {
+						modularrouters: {
+							FluidDir: 0b
+							MaxTransfer: 1000
+							ModuleFilter: { }
+							Direction: "NONE"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 7.5d
+			y: 1.5d
+			description: ["The Extruder Module can cleverly place blocks from it's buffer out in a line from the configured side.  This is controlled by redstone.  By default a redstone signal will tell it to place the blocks down, and no redstone signal will tell it to pull the blocks back.  This is similar to the drawbridge from the old Tinker's Mechworks mod.  The MK2 version of this module has increased range and capabilities, including using \"Ghost blocks\" from it's template.  Read the Modular Router Manual for details on both tiers of this module."]
+			dependencies: ["65208156A6C35618"]
+			id: "32108A76E7329A1C"
+			tasks: [{
+				id: "5E87113A66D7E670"
+				type: "item"
+				item: {
+					id: "modularrouters:extruder_module_1"
+					Count: 1b
+					tag: {
+						modularrouters: {
+							ModuleFilter: { }
+							Direction: "NONE"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "75D7CE9BF2952B84"
+				type: "item"
+				item: {
+					id: "modularrouters:flinger_module"
+					Count: 1b
+					tag: {
+						modularrouters: {
+							Pitch: 0.0f
+							Speed: 0.0f
+							ModuleFilter: { }
+							Direction: "NONE"
+							Yaw: 0.0f
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 8.5d
+			y: -0.5d
+			description: ["The Player Module is a very powerful module that can transfer items to and from the player to the router ANYWHERE within the dimension.  It is automatically bound to the player that crafted it, but can be cleared by Shift+Right Clicking.  This module is very configurable and can be used to do things like automatically pull ores from your inventory back to your base for processing."]
+			dependencies: ["205C64B91713E8E4"]
+			id: "54ABE65F1C49B613"
+			tasks: [{
+				id: "24132AF08559D790"
+				type: "item"
+				item: {
+					id: "modularrouters:player_module"
+					Count: 1b
+					tag: {
+						modularrouters: {
+							ModuleFilter: { }
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "706EA6EF54796091"
+				type: "item"
+				item: {
+					id: "modularrouters:placer_module"
+					Count: 1b
+					tag: {
+						modularrouters: {
+							ModuleFilter: { }
+							Direction: "NONE"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: -2.5d
+			description: ["If you scavenge around the Ocean Floor you will find small beige \"Limestone Outcrops\".  Once broken, these outcrops will contain random ores that you can smelt into ingots.  One of these ores, Titanium, is a very strong and versatile metal used for making Modular Router components."]
+			id: "6576C65646305E68"
+			tasks: [{
+				id: "42482E663BFC2900"
+				type: "item"
+				item: "better_diving:titanium_ingot"
+				count: 8L
+			}]
+			rewards: [{
+				id: "49B08A4AEF805D9C"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 8.0d
+			y: 0.5d
+			description: [
+				"The Energy Distributor Module allows your router to transfer energy wirelessly to any block within it's range.  This range can be extended with Range Up augments.  Your router must also have the ability to hold RF, which is done using the Energy Upgrade."
+				"{image:rusticwaters:textures/eleca.png width:180 height:100 align:1}"
+			]
+			dependencies: ["65208156A6C35618"]
+			id: "394543796934E512"
+			tasks: [{
+				id: "2A100C8EC1E14C5E"
+				type: "item"
+				item: {
+					id: "modularrouters:energy_distributor_module"
+					Count: 1b
+					tag: {
+						modularrouters: {
+							ModuleFilter: { }
+							Direction: "NONE"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "023A2AB52FC71095"
+				type: "item"
+				item: {
+					id: "modularrouters:energy_output_module"
+					Count: 1b
+					tag: {
+						modularrouters: {
+							ModuleFilter: { }
+							Direction: "NONE"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 7.5d
+			y: -0.5d
+			subtitle: "Make sure to use the Module tooltips and MR Manual to get details on each module."
+			description: [
+				"The Puller and Sender Modules do the task of importing or exporting items to and from other inventories.  The base tier modules work on adjacent inventories.  The MK2 and MK3 versions can work across dimensions.  Shift+Right Click on the target inventory to set it."
+				"{image:rusticwaters:textures/cokea.png width:170 height:100 align:1}"
+			]
+			dependencies: ["205C64B91713E8E4"]
+			id: "65208156A6C35618"
+			tasks: [
+				{
+					id: "596153CE7195478A"
+					type: "item"
+					item: {
+						id: "modularrouters:puller_module_1"
+						Count: 1b
+						tag: {
+							modularrouters: {
+								ModuleFilter: { }
+								Direction: "NONE"
+							}
+						}
+					}
+				}
+				{
+					id: "3B935B343B278007"
+					type: "item"
+					item: {
+						id: "modularrouters:sender_module_1"
+						Count: 1b
+						tag: {
+							modularrouters: {
+								ModuleFilter: { }
+								Direction: "NONE"
+							}
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "6F68BB6837DF1BDD"
+				type: "item"
+				item: {
+					id: "modularrouters:detector_module"
+					Count: 1b
+					tag: {
+						modularrouters: {
+							StrongSignal: 0b
+							SignalLevel: 15
+							ModuleFilter: { }
+							Direction: "NONE"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: -0.5d
+			description: ["The Regulator Augment allows you to dictate how many items are kept in an inventory.  For instance, if you have a chest hoppering recipe ingredients into a basin for crafting, you can configure this augment to only send items from the router buffer to the chest, when the chest has fewer than \"X\" number of items.  Read the MR Manual for more details on this."]
+			dependencies: ["0D31A11942C694C8"]
+			id: "2B98723E08D127B0"
+			tasks: [{
+				id: "327703971F6B5E99"
+				type: "item"
+				item: "modularrouters:regulator_augment"
+			}]
+			rewards: [{
+				id: "0E15A7C441E70574"
+				type: "item"
+				item: "modularrouters:mimic_augment"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 0.5d
+			description: ["The Redstone Augment can allow your Module to set it's own redstone signal behaviors. This is helpful for further controlling the behavior of the module when used in a complex operation chain."]
+			dependencies: ["0D31A11942C694C8"]
+			id: "40E9363C4D325251"
+			tasks: [{
+				id: "3BF5B9B2F6FB5F7C"
+				type: "item"
+				item: "modularrouters:redstone_augment"
+			}]
+			rewards: [{
+				id: "7E6E7B97D9C37734"
+				type: "item"
+				item: "modularrouters:filter_round_robin_augment"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 0.5d
+			description: ["This Augment allows the router to send, pull, process a full stack of items at once, instead of the default behavior of one item per second.  "]
+			dependencies: ["0D31A11942C694C8"]
+			id: "0E70C0D7F3E77FD5"
+			tasks: [{
+				id: "7EEB46C5E1CEE81F"
+				type: "item"
+				item: "modularrouters:stack_augment"
+			}]
+			rewards: [{
+				id: "467A7EA00AD55FE0"
+				type: "item"
+				item: "modularrouters:fast_pickup_augment"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 0.5d
+			description: ["This augment is fairly straitforward.  It can be used inside of a Module in order to increase the operation range.  The Range Down augment does the opposite.  This allows for more precise control over the area your router is working within."]
+			dependencies: ["0D31A11942C694C8"]
+			id: "12EBE26A65C84956"
+			tasks: [{
+				id: "40F590E4FF58389C"
+				type: "item"
+				item: "modularrouters:range_up_augment"
+			}]
+			rewards: [{
+				id: "226E681217B5C3F6"
+				type: "item"
+				item: "modularrouters:range_down_augment"
+			}]
+		}
+		{
+			x: 3.35d
+			y: -2.9d
+			shape: "diamond"
+			description: ["The Ender Chest links to it's partner chest similar to the way the vanilla Ender Chest does, however you can  have multiple chests linked by coloring the wool on top with dyes.  You can also code the ender chest to a personal channel by clicking the latch with a diamond, so no other players can access your chest by using the same colors."]
+			size: 1.15d
+			id: "53F602520AB9FBFB"
+			tasks: [{
+				id: "75819EA041EC5596"
+				type: "item"
+				item: "enderstorage:ender_chest"
+				count: 2L
+			}]
+			rewards: [{
+				id: "3AA3E3D4691C364E"
+				type: "item"
+				item: "minecraft:diamond"
+				count: 2
+			}]
+		}
+		{
+			x: 5.3d
+			y: -4.0d
+			shape: "diamond"
+			description: ["Ender Tanks act similarly to Ender Chests in that tanks can be linked together to transfer the contents."]
+			size: 1.15d
+			id: "3F9E9F8B893827B2"
+			tasks: [{
+				id: "2D07F5C2C2EA11BA"
+				type: "item"
+				item: "enderstorage:ender_tank"
+				count: 2L
+			}]
+			rewards: [{
+				id: "50A7B70E740E9C13"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 11.22d
+			y: -3.6d
+			shape: "gear"
+			description: ["The Uncrafter is a useful item for recycling items you have found and have no use for.  Be aware that some high-end materials will not recycle back.  So the items containing those materials may not be uncraftable."]
+			size: 1.5d
+			id: "2D4C2D61326F748B"
+			tasks: [{
+				id: "288A9C57044FFAEF"
+				type: "item"
+				item: "cyclic:uncrafter"
+			}]
+			rewards: [{
+				id: "5F90B3CBE6B96908"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 11.0d
+			y: -0.5d
+			description: ["The Energy Upgrade allows the router to store and transfer FE/t.  It will hold 50,000 FE and transfer up to 1000 FE/t per upgrade."]
+			dependencies: ["2928F2EA2719BDBB"]
+			id: "7A91D804822C4DBE"
+			tasks: [{
+				id: "5559E30DA8BF5830"
+				type: "item"
+				item: "modularrouters:energy_upgrade"
+			}]
+			rewards: [{
+				id: "17E5E13E4E017511"
+				type: "item"
+				item: "modularrouters:muffler_upgrade"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 0.5d
+			description: ["The Fluid Transfer Module allows you to upgrade the speed at which your router sends fluids to tanks and inventories.  The base rate is 500 mb/t but each upgrade will increase this capacity by 250 mb/t, up to a maximum of 2000 mb/t."]
+			dependencies: ["2928F2EA2719BDBB"]
+			id: "553368C835BF383E"
+			tasks: [{
+				id: "2BCF4EBF9E971440"
+				type: "item"
+				item: "modularrouters:fluid_upgrade"
+			}]
+			rewards: [{
+				id: "7ECD82F7F565DD4B"
+				type: "item"
+				item: "modularrouters:camouflage_upgrade"
+			}]
+		}
+		{
+			x: 11.0d
+			y: 0.5d
+			description: ["The Speed Upgrade is likely going to be your most used upgrade.  It increases the speed of your router's process.  By default your router processes once per second.  The speed upgrades decrease this by 2 ticks each... down to 4 ticks, or 5 processes per second."]
+			dependencies: ["2928F2EA2719BDBB"]
+			id: "20C209750044DD5D"
+			tasks: [{
+				id: "2358DDBADCD6B7CB"
+				type: "item"
+				item: "modularrouters:speed_upgrade"
+			}]
+			rewards: [{
+				id: "0BC54ABD8ECFA893"
+				type: "item"
+				item: "modularrouters:security_upgrade"
+			}]
+		}
+		{
+			x: 13.0d
+			y: 0.5d
+			description: ["The Stack Upgrade makes the router process one stack of items at a time, instead of one item per tick.  This is overwritten on a per-module basis depending on each Module's Augments."]
+			dependencies: ["2928F2EA2719BDBB"]
+			id: "6545B9E7E9EAF135"
+			tasks: [{
+				id: "006A2EDBF562A968"
+				type: "item"
+				item: "modularrouters:stack_upgrade"
+			}]
+			rewards: [{
+				id: "0E8B460AB9B9B1CC"
+				type: "item"
+				item: "modularrouters:sync_upgrade"
+			}]
+		}
+		{
+			x: -0.73d
+			y: -2.3d
+			shape: "square"
+			description: ["The ore dictionary is a tag system that unifies the ores and resources across multiple mods.  The Dictionary allows you to insert items and find out what their \"Ore Dictionary\" tag is.  This can be useful knowledge if you are trying to determine what items are compatible for a recipe.  The next quest will show you how to automatically convert materials for easier storage and use."]
+			size: 1.2d
+			id: "1C8A42B2C8F139BF"
+			tasks: [{
+				id: "666F63E270B076FC"
+				type: "item"
+				item: "mekanism:dictionary"
+			}]
+			rewards: [{
+				id: "4CE6583CBA909CBF"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -0.75d
+			y: -1.0d
+			shape: "square"
+			subtitle: "This quest will consume the Oredictionificator you craft, and reward you with one that is pre-programmed with many of the most common ingots and nuggets.  You can also do this in your crafting grid."
+			description: [
+				"There may be the rogue machine process or crafting recipe that outputs a material from a mod that doesn't stack with the resources you have already gathered.  The Oredictionificator is a complex block that makes life a lot easier.  It allows you to switch between different ingots, nuggets, and ore types.  "
+				"Once you have gotten the Ore Dicitonary name you can type it into the Oredictionificator's GUI to set a filter.  Any of those items you pipe through it will come out the other end as the filter you set."
+			]
+			dependencies: ["1C8A42B2C8F139BF"]
+			size: 1.5d
+			id: "71038ACBC46FB1C7"
+			tasks: [{
+				id: "653F2D1D65EFE5A7"
+				type: "item"
+				item: "mekanism:oredictionificator"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "7A9CCBC5F18F3C43"
+				type: "item"
+				item: {
+					id: "mekanism:oredictionificator"
+					Count: 1b
+					tag: {
+						mekData: {
+							owner: [I;
+								259599878
+								1142310666
+								-1519485643
+								2122414204
+							]
+							controlType: 1
+							componentEjector: {
+								color1: -1
+								color2: -1
+								color0: -1
+								strictInput: 0b
+								color5: -1
+								color3: -1
+								color4: -1
+							}
+							componentConfig: {
+								config6: {
+									side4: 1
+									side3: 1
+									side5: 1
+									side0: 1
+									side2: 4
+									side1: 1
+								}
+								eject6: 0b
+							}
+							securityMode: 0
+							Items: [B; ]
+							filters: [
+								{
+									filter: "forge:ingots/copper"
+									type: 8
+									selected: "immersiveengineering:ingot_copper"
+								}
+								{
+									filter: "forge:ingots/silver"
+									type: 8
+									selected: "immersiveengineering:ingot_silver"
+								}
+								{
+									filter: "forge:ingots/lead"
+									type: 8
+									selected: "mekanism:ingot_lead"
+								}
+								{
+									filter: "forge:ingots/tin"
+									type: 8
+									selected: "mekanism:ingot_tin"
+								}
+								{
+									filter: "forge:ingots/nickel"
+									type: 8
+									selected: "immersiveengineering:ingot_nickel"
+								}
+								{
+									filter: "forge:ingots/bronze"
+									type: 8
+									selected: "mekanism:ingot_bronze"
+								}
+								{
+									filter: "forge:ingots/electrum"
+									type: 8
+									selected: "immersiveengineering:ingot_electrum"
+								}
+								{
+									filter: "forge:ingots/constantan"
+									type: 8
+									selected: "immersiveengineering:ingot_constantan"
+								}
+								{
+									filter: "forge:ingots/steel"
+									type: 8
+									selected: "boss_tools:steel_ingot"
+								}
+								{
+									filter: "forge:nuggets/copper"
+									type: 8
+									selected: "mekanism:nugget_copper"
+								}
+								{
+									filter: "forge:nuggets/lead"
+									type: 8
+									selected: "mekanism:nugget_lead"
+								}
+								{
+									filter: "forge:nuggets/tin"
+									type: 8
+									selected: "mekanism:nugget_tin"
+								}
+								{
+									filter: "forge:nuggets/electrum"
+									type: 8
+									selected: "immersiveengineering:nugget_electrum"
+								}
+								{
+									filter: "forge:nuggets/bronze"
+									type: 8
+									selected: "mekanism:nugget_bronze"
+								}
+								{
+									filter: "forge:nuggets/steel"
+									type: 8
+									selected: "boss_tools:steel_nugget"
+								}
+								{
+									filter: "forge:nuggets/constantan"
+									type: 8
+									selected: "immersiveengineering:nugget_constantan"
+								}
+								{
+									filter: "forge:nuggets/nickel"
+									type: 8
+									selected: "immersiveengineering:nugget_nickel"
+								}
+							]
+						}
+					}
+				}
+			}]
+		}
+	]
+}

@@ -1,0 +1,16 @@
+{
+    "name": "Light Blue Dungeon",
+    "icon": "rustic_resources:hardice_2",
+    "category": "patchouli:cubic_dungeons",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Though the 'ice' dungeon is considered the lowest difficulty tier, it is still quite challenging.  As with all Cubic Dungeons, the walls are indestructible, the corridors are winding, and the ice themed mobs are plentiful.  There are few traps, and most spawners are easily accessible."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item":  "rustic_resources:hardice_3"
+        }
+    ]
+}

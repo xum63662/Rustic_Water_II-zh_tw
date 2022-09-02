@@ -1,0 +1,481 @@
+{
+	id: "6611F0E914FB74BD"
+	group: ""
+	order_index: 19
+	filename: "returning_to_space"
+	title: "Returning To Space"
+	icon: {
+		id: "boss_tools:rover"
+		Count: 1b
+		tag: { }
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: 0.6d
+		y: 0.75d
+		width: 21.0d
+		height: 12.5d
+		rotation: 0.0d
+		image: "rusticwaters:textures/page11.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			x: 9.0d
+			y: 1.8d
+			subtitle: "You will not be able to finish this quest chain without also jumping around to other quest chains to advance your technology, mob drop acquisition, and power generation."
+			description: ["It's time to start planning how to get off this rock.  In order to make it back through the Jump Gate you are going to need a powerful Rocket and a Jump Gate Programmer set to send you back to your galaxy.  We don't have the materials to make these items on this planet, but scans done by Caladan's research department did show some suitable materials on a nearby planet, Atum."]
+			id: "023CF84DD37B9C49"
+			tasks: [{
+				id: "61984E8B769E2C9A"
+				type: "item"
+				item: "rustic_resources:shipcontrol"
+			}]
+			rewards: [{
+				id: "3A69B7566278B4A4"
+				type: "item"
+				item: "thermal:upgrade_augment_3"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 1.97d
+			subtitle: "Our first destination is Atum, reachable with a Tier 2 Enderium Rocket."
+			description: [
+				"Atum is the planet we can reach that is furthest from the Sun's Supernovas.  While it is a hot, dry, desert planet, it may still be teeming with life."
+				"Exploring Atum is an adventure unto its own, and therefore has a deeper questline in the \"Evolution of Power\" tab.  It is the primary source of Draconium Ore, found scattered atop it's sandy surface."
+			]
+			dependencies: ["023CF84DD37B9C49"]
+			id: "619133F99DA90D78"
+			tasks: [
+				{
+					id: "78CF65837C396FA8"
+					type: "item"
+					item: "boss_tools:iron_engine"
+					count: 2L
+				}
+				{
+					id: "3E9FED1A8746A34F"
+					type: "item"
+					item: "boss_tools:iron_tank"
+					count: 2L
+				}
+			]
+			rewards: [{
+				id: "06452497AF06E234"
+				type: "item"
+				item: "decimal_coins:coin_10"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 2.26d
+			subtitle: "The Elite Crafting Table is a workbench used for complex, high technology items and resources."
+			description: ["Your rocket is very simple to use.  Once placed on the Launch Pad, you can Shift+Right Click to open its fuel GUI.  Here you can place a bucket of Rocket Fuel into the GUI.  Each tier of Rocket allows you to travel to further planets."]
+			dependencies: ["619133F99DA90D78"]
+			id: "16CCC0E63FC745B6"
+			tasks: [
+				{
+					id: "6EF4ECC0028B77EE"
+					type: "item"
+					item: "boss_tools:rocket_nose_cone"
+				}
+				{
+					id: "7993A395B9774020"
+					type: "item"
+					item: "boss_tools:rocket_fin"
+					count: 6L
+				}
+			]
+			rewards: [{
+				id: "011B0A0A97793B51"
+				type: "item"
+				item: "extendedcrafting:elite_table"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 2.64d
+			description: ["Your first rocket, the Tier 2 Enderium Rocket, will allow you to travel to the Moon, Atum, and of course back to Earth from either of those planets.  Scans show that each of these planets offer an array of basic resources, but Atum in particular has a variety of ancient structures, possibly containing unknown treasures."]
+			dependencies: ["16CCC0E63FC745B6"]
+			id: "3C478FCED49B5ABF"
+			tasks: [{
+				id: "597EA8E0F78740AE"
+				type: "item"
+				item: {
+					id: "boss_tools:rocket_t2"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "09AE4A88C4237B51"
+				type: "item"
+				item: "appliedenergistics2:16k_cell_component"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 3.15d
+			description: [
+				"Now that you have your rocket, let's set up the system used to launch it.  The launchpad for your rocket must be built of sturdy iron blocks, with a 3x3 of launchpads on top of it."
+				"{image:rusticwaters:textures/launchpad.png width:120 height:100 align:1}"
+				"The Scaffolding isn't required, but it makes it look more launchpad-esque, no?"
+			]
+			dependencies: ["3C478FCED49B5ABF"]
+			id: "02960FDCC7B21760"
+			tasks: [
+				{
+					id: "4351A832265AE182"
+					type: "item"
+					item: "boss_tools:rocket_launch_pad"
+					count: 9L
+				}
+				{
+					id: "041CF7C79906075A"
+					type: "item"
+					item: "minecraft:iron_block"
+					count: 9L
+				}
+			]
+			rewards: [{
+				id: "49753FF8C06DE5EE"
+				type: "item"
+				item: "minecraft:ancient_debris"
+				count: 4
+			}]
+		}
+		{
+			x: -1.0d
+			y: 3.72d
+			subtitle: "Factory Blocks and Framed Glass can be used to build Fancy Fluid Tanks as seen on the \"Create Crafting\" quest tab."
+			description: ["Rocket Fuel can be made easily by placing Crude Oil (which you are already drilling for) into the Fractionating Still.  You will receive Bitumen and a small amount of Rocket Fuel."]
+			dependencies: ["02960FDCC7B21760"]
+			id: "270D310E66617B9C"
+			tasks: [{
+				id: "5A682664DD5383D2"
+				type: "item"
+				item: "thermal:machine_refinery"
+			}]
+			rewards: [{
+				id: "4A3F1C258F309035"
+				type: "xp"
+				xp: 300
+			}]
+		}
+		{
+			x: -5.5d
+			y: 5.5d
+			description: ["Alien lifeforms can be very dangerous.  Atum and Venus in particular have very dangerous, high health, heavy hitting creatures.  It is highly advised that you enchant your armor to the fullest, prepare your weaponry, and master your magic as you prepare for space."]
+			dependencies: ["05F7886C36C63CE2"]
+			id: "5B90CFE00597C389"
+			tasks: [
+				{
+					id: "2CEFC55D8B83D98C"
+					type: "item"
+					item: {
+						id: "boss_tools:netherite_space_pants"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3CF64BACD3FBD639"
+					type: "item"
+					item: {
+						id: "boss_tools:netherite_space_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "7DB41CB17EB7FE99"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 4s
+							id: "minecraft:protection"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 5.5d
+			subtitle: "Though this quest requires an Advanced Chemical Tank, consider making an even higher tier. Higher tiers have an increased capacity and will refill your Space Suit quicker."
+			description: ["It is highly recommended that you bring an additional storage unit of Oxygen when you explore space.  The Chemical Tanks from Mekanism can be filled with Oxygen from your Oxygen Loader.  Once placed, they provide a portable GUI to refill your Space Suit."]
+			dependencies: ["05F7886C36C63CE2"]
+			id: "793BF0B2F8AE3621"
+			tasks: [{
+				id: "22EE456D9EB7EA24"
+				type: "item"
+				item: "mekanism:advanced_chemical_tank"
+			}]
+			rewards: [{
+				id: "5A74F096D7428DFA"
+				type: "item"
+				item: "scalinghealth:enchanted_heart"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 5.5d
+			subtitle: "To craft the Advanced Ship Control you'll need to kill the Ender Dragon and obtain a Dragon Heart to make one batch of Awakened Draconium.  The quests for that process are described in the \"Evolution of Power\" tab."
+			description: ["The Jump Gate is located in the orbit of Mercury.  The planet closest to the sun.  Venus is 2nd closest to the sun and has the perfect atmospheric density and heat to produce Awakened Ore... an extremely valuable resource for your end game needs.  Due to the recent supernova activity, these planets are extremely hot, and the Alien inhabitants of Venus are particular dangerous.  While very lucrative ores and items can be found on Venus, expect to be in a constant battle for your life.  "]
+			dependencies: ["545F326A8C6A164D"]
+			id: "72B3BF53AE97CD29"
+			tasks: [{
+				id: "2C8390BAB6F64839"
+				type: "item"
+				item: "rustic_resources:advancedcontrol"
+			}]
+			rewards: [{
+				id: "7183EE95EA3C1C6B"
+				type: "item"
+				item: "scalinghealth:enchanted_heart"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 5.5d
+			description: ["Mercury has basic \"vanilla\" resources.  The planet's devastatingly volatile heat and atmosphere prevent other ores and most entities from generating.  It is, however, the only planet within the appropriate distance for the Jump Gate to operate.  The Jump Gate is not on the planet itself but floating within its Orbit.  Clicking on Mercury within the planet selection GUI will show you a new button \"Jump Gate\"."]
+			dependencies: ["545F326A8C6A164D"]
+			id: "77E4E2B005E3F5FF"
+			tasks: [
+				{
+					id: "52E015A70BF499CC"
+					type: "item"
+					item: "boss_tools:diamond_engine"
+				}
+				{
+					id: "672878B969BDB079"
+					type: "item"
+					item: "boss_tools:rocket_fin"
+					count: 6L
+				}
+			]
+			rewards: [{
+				id: "3A9ADB2486F2C298"
+				type: "item"
+				item: "draconicevolution:draconium_chest"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 5.5d
+			subtitle: "Mining Awakened Ore on Venus has a small chance to alert a Void Worm... a hostile entity which can be killed to retrieve a Hateful Heart."
+			description: ["It is not *required* for you to explore Venus.  You can continue to kill the Ender Dragon over and over, using his Dragon Heart to repeatedly craft the materials you need to make the Jump Gate Controller.  However, you can find Infernal Spires, large pillars of stone fluctuating between molten and rigid states.  If you look closely through these spires, you will occasionally see reddish-orange specs of Awakened Draconium which you can mine and process."]
+			dependencies: ["545F326A8C6A164D"]
+			id: "5186026E3743E57D"
+			tasks: [
+				{
+					id: "67CA81E21D398F17"
+					type: "item"
+					item: "boss_tools:diamond_tank"
+				}
+				{
+					id: "300F595E5CC19C92"
+					type: "item"
+					item: "rustic_resources:dracoplate"
+					count: 9L
+				}
+			]
+			rewards: [{
+				id: "35A49D817CD6133D"
+				type: "loot"
+				table_id: 3729081586183020876L
+			}]
+		}
+		{
+			x: 9.0d
+			y: 5.5d
+			subtitle: "This quest will unlock your ability to create the Jump Gate Programmer in the upper left of the screen."
+			description: ["Once you have crafted your Tier 3 Draconium Rocket, you are on the final path to leaving this planet.  You can return home empty handed, or with adulation and honors for finishing the missions the Imperator tasked your crew with (\"Hero of Caladan\" quest tab).  The choice is yours.  Either way, the last step you will need to do is to craft the Jump Gate Programmer."]
+			dependencies: ["545F326A8C6A164D"]
+			id: "68322484136D428F"
+			tasks: [{
+				id: "57065A69AF9AB442"
+				type: "item"
+				item: {
+					id: "boss_tools:rocket_t3"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "1BE58B10D581D90D"
+				type: "item"
+				item: "draconicevolution:wyvern_undying_module"
+			}]
+		}
+		{
+			x: -6.54d
+			y: -2.68d
+			shape: "diamond"
+			subtitle: "You must bring a few specific materials with you to the Jump Gate in order to repair the platform.  These materials are 6x Diamonds, 4x Desh Plates, 12x Iron Plates, and 16x Steel Ingots.  The Steel, Iron, and Desh MUST be from the Space Boss Tools mod, and have been provided in this reward for you.  These specific items can also be purchased from the Boolyman Trader."
+			description: ["Once you have crafted the Jump Gate Programmer, you can choose to complete the \"Hero of Caladan\" tab or head strait home to Caladan empty handed.  You can still choose to continue playing once on Caladan, but returning home is the \"soft end\" of your adventure.  The Jump Gate is located in the orbit of Mercury, reachable with a Draconium Rocket.  Once you are ready to head home, launch your rocket to Mercury -> Jump Gate, and Right Click the Programmer on the Jump Gate."]
+			hide_dependency_lines: true
+			dependencies: ["68322484136D428F"]
+			size: 2.0d
+			id: "63CAAE5CD8D8CE71"
+			tasks: [{
+				id: "1187C2D0827FBDCF"
+				type: "item"
+				item: {
+					id: "rustic_resources:caladan"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4D90CF8A3B3D80D3"
+					type: "item"
+					item: "boss_tools:steel_ingot"
+					count: 16
+				}
+				{
+					id: "5F8E63C9A82C74ED"
+					type: "item"
+					item: "boss_tools:iron_plate"
+					count: 12
+				}
+				{
+					id: "4BB63ACAD5B1D5F1"
+					type: "item"
+					item: "boss_tools:desh_plate"
+					count: 4
+				}
+				{
+					id: "5A8E3BE220A2D7CE"
+					type: "item"
+					item: "decimal_coins:coin_100"
+				}
+			]
+		}
+		{
+			x: 9.0d
+			y: 3.6d
+			description: ["If you do choose to explore Venus and mine the valuable Awakened Ore, make sure you are very prepared.  Watch out for the very strong Warped Mosco aliens."]
+			dependencies: ["68322484136D428F"]
+			id: "604B48E963A3E0AB"
+			tasks: [{
+				id: "145DFFB712F426C4"
+				type: "item"
+				item: "rustic_resources:awakdrac"
+				count: 32L
+			}]
+			rewards: [{
+				id: "1395B64EECD2FB0D"
+				type: "item"
+				item: "rustic_resources:bosskey"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 4.43d
+			subtitle: "The Oxygen you have created from the Oxygen Loader during the Meknology quest line will fill your Space Suit."
+			description: ["All planets will require you to be wearing a space suit.  It is recommended that you enchant your Space Suit thoroughly to protect yourself from any enemies you will find.  Your spacesuit provides you protection from the extreme temperatures, while also providing you a steady flow of Oxygen. Oxygen must be loaded into the chest piece of your Space Suit."]
+			dependencies: ["270D310E66617B9C"]
+			id: "05F7886C36C63CE2"
+			tasks: [
+				{
+					id: "553C885782F4E156"
+					type: "item"
+					item: {
+						id: "boss_tools:netherite_oxygen_mask"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7038E6AA89A9E9E7"
+					type: "item"
+					item: {
+						id: "boss_tools:netherite_space_suit"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "0CD6D14F912E8F19"
+				type: "item"
+				item: "mekanism:upgrade_speed"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 5.5d
+			description: ["You can place your Rover down on the ground and Right Click it to drive it.  It requires Rocket Fuel in order to function.  When you want to pick your Rover up, Shift+Right Click it."]
+			dependencies: ["545F326A8C6A164D"]
+			id: "25CE0CCC5047E549"
+			tasks: [{
+				id: "390FF76396A7FE35"
+				type: "item"
+				item: {
+					id: "boss_tools:rover"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "12CAF9F95FAC75BE"
+				type: "item"
+				item: "thermal:upgrade_augment_2"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 5.5d
+			description: ["It's difficult to get around in space because you need to be wearing your space suit constantly.  A Rover will allow you to travel quickly from destination to destination collecting resources such as Awakened Ore and Ether Gas."]
+			dependencies: ["05F7886C36C63CE2"]
+			id: "545F326A8C6A164D"
+			tasks: [
+				{
+					id: "4A608DD0676DBA7E"
+					type: "item"
+					item: "boss_tools:wheel"
+				}
+				{
+					id: "044CCC93CD1F3FCC"
+					type: "item"
+					item: "immersivepetroleum:gas_generator"
+				}
+			]
+			rewards: [{
+				id: "1EDA297E42F0495B"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 5s
+							id: "draconicevolution:reaper_enchantment"
+						}]
+					}
+				}
+			}]
+		}
+	]
+}

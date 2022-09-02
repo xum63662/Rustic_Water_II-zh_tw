@@ -1,0 +1,15 @@
+{
+    "name": "Enchanted Hearts",
+    "icon": "scalinghealth:enchanted_heart",
+    "category": "patchouli:difficulty",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Enchanted Hearts allow you to reduce the difficulty meter by 10 points.  These can be crafted fairly easily using materials that come right from your Water Strainers.  They can also be purchased from the trader and gained from quests.  You have easy access to enough hearts that you can keep your difficulty at zero for your entire playthrough if you choose."
+        },
+        {
+            "type": "spotlight",
+            "item": "scalinghealth:enchanted_heart"
+        }
+            ]
+}

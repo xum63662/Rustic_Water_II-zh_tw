@@ -1,0 +1,24 @@
+{
+    "name": "The Death of a Star",
+    "icon": "inventorypets:pet_sun",
+    "category": "patchouli:lore",
+    "sortnum": 2,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Earth, as you might have known it, has been a watery wasteland for many hundreds or possibly thousands of years.  Not much is known about Earth other than the information that Caladan scientists have been interpreting from their scouting satellites for the last decade or so.  They theorize that it was once a bustling planet, full of life"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "and apparently a massive population of civilized humans.  It’s possible that previous inhabitants abused the planet, polluting its atmosphere and draining its resources.  What is left now, is an oceanic sphere, likely caused by glacial formations no longer solidifying near its poles.  Remnants of the previous inhabitants have probably eroded to silt over the centuries under the ocean currents.$(br2)  It’s possible that the human"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "population would not have survived many more centuries anyways, since the Sun which the planet orbits has begun to die.  As it has fights for its last breath it heaves supernova rays out through the orbiting planets, bombarding them with immense heat and possibly radiation.  Caladan scientists theorize that the fiery star will collapse in the near future, and that even before that point, the planets supported by it will change drastically."
+        },
+        {
+            "type": "patchouli:image",
+            "images":  ["rwguide:textures/categories/nova2.png"]
+        }
+    ]
+}

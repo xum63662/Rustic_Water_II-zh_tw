@@ -1,0 +1,35 @@
+{
+  "input": [
+    {
+      "tag": "forge:dusts/obsidian"
+    },
+    {
+      "tag": "forge:dusts/obsidian"
+    },
+    {
+      "tag": "forge:dusts/obsidian"
+    },
+    {
+      "tag": "forge:dusts/obsidian"
+    },
+    {
+      "tag": "forge:dusts/obsidian"
+    },
+    {
+      "tag": "forge:dusts/obsidian"
+    },
+    {
+      "tag": "forge:dusts/obsidian"
+    },
+    {
+      "tag": "forge:dusts/obsidian"
+    }
+  ],
+  "inputFluid": "{FluidName:\"industrialforegoing:essence\",Amount:1000}",
+  "processingTime": 400,
+  "output": {
+    "item": "atum:nepthys_godshard",
+    "count": 1
+  },
+  "type": "industrialforegoing:dissolution_chamber"
+}

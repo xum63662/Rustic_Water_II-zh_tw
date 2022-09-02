@@ -1,0 +1,6 @@
+{
+    "name": "Diet",
+    "description": "There are NO penalties for eating only 'simple' foods, but there ARE benefits for eating complex meals.  You have three 'cravings'; satisfying these cravings will improve your mood level.  If your mood is kept above 80% in any of those three cravings, you receive powerful buffs.",
+    "icon": "rwguide:textures/categories/ploughmanslunchitem.png",
+    "sortnum": 3
+}

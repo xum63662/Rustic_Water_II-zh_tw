@@ -1,0 +1,34 @@
+{
+	id: "6877C5F5EF415A0C"
+	group: ""
+	order_index: 16
+	filename: "act_iv"
+	title: "    Act IV"
+	icon: "rustic_resources:placeholder"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: -1.5d
+		y: 0.0d
+		width: 7.0d
+		height: 5.0d
+		rotation: 0.0d
+		image: "rusticwaters:textures/act4.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [{
+		icon: "ars_nouveau:blank_parchment"
+		x: 0.1d
+		y: 0.2d
+		description: ["The following chapter of quests will lead you through the last leg of your adventure.  These quests will walk you through maximizing everything you have learned so far from this watery world, and enabling you to complete the Imperator's mission, should you choose to.  It will involve harvesting resources from other planets, building large scale automation, and producing absurd amounts of the energy required to fuel it all."]
+		size: 1.75d
+		id: "710E99B188F50155"
+		tasks: [{
+			id: "3C368EFCF12489ED"
+			type: "checkmark"
+		}]
+	}]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Luminite",
+  "type": "resource",
+  "tier": "mysticalagriculture:3",
+  "ingredient": {
+    "item": "dark_caverns:luminite_dust"
+  },
+  "color": "89d69f",
+  "textures": {
+    "flower": "mysticalagriculture:block/flower_dust",
+    "essence": "mysticalagriculture:item/essence_dust"
+  }
+}

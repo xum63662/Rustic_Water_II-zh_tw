@@ -1,0 +1,15 @@
+{
+    "name": "Cursed Hearts",
+    "icon": "scalinghealth:cursed_heart",
+    "category": "patchouli:difficulty",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Cursed Hearts allow you to increase the difficulty meter by 10 points.  These can be crafted fairly easily using materials that come from the Nether."
+        },
+        {
+            "type": "spotlight",
+            "item": "scalinghealth:cursed_heart"
+        }    
+            ]
+}

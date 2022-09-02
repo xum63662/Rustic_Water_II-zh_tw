@@ -1,0 +1,1302 @@
+{
+	id: "15199158AC640A28"
+	group: ""
+	order_index: 13
+	filename: "thermal_energistics"
+	title: "Thermal Energistics"
+	icon: "appliedenergistics2:charged_certus_quartz_crystal"
+	default_quest_shape: "hexagon"
+	default_hide_dependency_lines: false
+	images: [{
+		x: 4.0d
+		y: 5.0d
+		width: 20.0d
+		height: 12.0d
+		rotation: 0.0d
+		image: "rusticwaters:textures/page10.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			x: -3.0d
+			y: 0.5d
+			subtitle: "Creating Certus Quartz will require a multi-machine setup.  It is recommended you plan to automate the many steps of this process."
+			description: [
+				""
+				"The Blast Chiller is the first step towards creating Certus Quartz.  While you can obtain Ice and Packed Ice through other means, the Blast Chiller will allow you to automate the freezing of water."
+			]
+			id: "054FAB6C0783AF83"
+			tasks: [{
+				id: "79F12E15E16BC090"
+				type: "item"
+				item: "thermal:machine_chiller"
+			}]
+			rewards: [{
+				id: "02A14B353F09EBB6"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "thermal:guidebook"
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 1.5d
+			subtitle: "The Multiservo Press will compact items.  It also provides a self-contained source of diamonds if you have enough ingenuity."
+			description: ["Applied Energistics is a mod that allows you to store massive quantities of items and fluid in an organized manner.  The machines used in this process require powerful crystals called Certus Quartz.  This can't be found on this planet, but using the Thermal Series of machines, you can combine the crystal's core elements to craft Certus Quartz."]
+			dependencies: ["054FAB6C0783AF83"]
+			id: "6F6BD943862ACEEA"
+			tasks: [{
+				id: "0B635BC80AA0593A"
+				type: "item"
+				item: "thermal:machine_press"
+			}]
+			rewards: [{
+				id: "4465D8904F9262F5"
+				type: "item"
+				item: "thermal:press_packing_3x3_die"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 5.5d
+			subtitle: "Crystal Sand can also be found in abundance on the ocean floor."
+			description: ["Now that you have crafted the pieces of the puzzle, and hopefully set up some nifty automation, it's time to make the magic happen.  Combine Crushed Ice, Sand, and Diamond Dust into your Induction Smelter.  Supply it with power, and optionally add a Catalyst.  You will receive Crystal Sand and have a chance to receive Certus Quartz Dust."]
+			dependencies: ["77AB14713E6C42C8"]
+			id: "6B744D54DD23CB28"
+			tasks: [{
+				id: "13B01546B92FA1DC"
+				type: "item"
+				item: "rustic_resources:crystalsand"
+				count: 16L
+			}]
+			rewards: [{
+				id: "0200FFCD16C319B5"
+				type: "item"
+				item: "appliedenergistics2:charger"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.5d
+			subtitle: "If you have not already, it is highly recommended that you set up a tree farm to make the Charcoal -> Coal process automatic."
+			description: [
+				"  You have already learned how to automate Obsidian crafting.  Now you can automate the creation of Coal.  The Centrifugal Separator spins resources until their base materials are sucked out of them.  For the purpose of this chain, this would allow you to spin Charcoal (made from smelting logs) into Coal and sometimes Sawdust."
+				"  Consider setting up the automation of Tree growth to make this entire process more \"hands off\"."
+			]
+			dependencies: ["4172E4BAF181F135"]
+			id: "0531D4DA6CD06CEF"
+			tasks: [{
+				id: "7E8524819B9E91E3"
+				type: "item"
+				item: "thermal:machine_centrifuge"
+			}]
+			rewards: [{
+				id: "437C4ADDF96C63E5"
+				type: "item"
+				item: "botanypots:hopper_gray_botany_pot"
+				count: 2
+			}]
+		}
+		{
+			x: -2.5d
+			y: 3.5d
+			subtitle: "Once you have set up your Pulverizers and Induction Smelters from Thermal Series, you may want to consider what to do with any obsolete automation you set up for mixing alloys using Create.  Space is valuable in this adventure."
+			description: ["Crushed Ice can also be used alongside Redstone to create Cinnabar, a powerful optional Catalyst for your Induction Smelter recipes.  See \"Catalysts\" in your Thermalpedia."]
+			dependencies: ["39F1BDB23BA6ABAF"]
+			id: "75F7D4DD6A469A9D"
+			tasks: [{
+				id: "18CF2FB5B7B3B280"
+				type: "item"
+				item: "rustic_resources:crushedice"
+				count: 16L
+			}]
+			rewards: [{
+				id: "664476D04B1E2D5B"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -1.5d
+			y: 0.5d
+			subtitle: "The Flux Linkage Amplifier is one of many machine upgrades that can be applied in a Machine's GUI.  See JEI for other options."
+			description: [
+				"The Magma Crucible melts items into their fluid counterparts.  This includes things such as Redstone into Destabilized Redstone and Ender Pearls into Resonant Ender."
+				"You may need multiples of some of the machines discussed in this quest chain, depending on the type of automation you plan."
+			]
+			id: "3981EABBF3A8485C"
+			tasks: [{
+				id: "5F9B459AF6119CD5"
+				type: "item"
+				item: "thermal:machine_crucible"
+			}]
+			rewards: [{
+				id: "06D86A4CFD097B3A"
+				type: "item"
+				item: "thermal:machine_speed_augment"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 1.5d
+			subtitle: "While you are being shown an example of a particular setup you can use in this adventure, you can view additional information by referring to your Thermalpedia."
+			description: ["Using your Magma Crucible you can melt Cobblestone into Lava."]
+			dependencies: ["3981EABBF3A8485C"]
+			id: "6EA50924B60AF21E"
+			tasks: [{
+				id: "32052FD65A68A319"
+				type: "item"
+				item: "minecraft:lava_bucket"
+			}]
+			rewards: [{
+				id: "30FC4E0D5539E2AF"
+				type: "item"
+				item: {
+					id: "minecraft:diamond_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			description: [
+				"Diamonds can be created by applying high amounts of pressure to Coal Lumps.  This requires a large amount of Coal and Obsidian."
+				"You can also create Diamonds by using the Enchanting Apparatus and Source from Ars Nouveau if you have the inkling for the Arcane Arts.  The Enchanting Apparatus can also be automated.  Using magic through Ars Nouveau uses much fewer resources and zero FE."
+			]
+			hide_dependency_lines: true
+			dependencies: ["19C42F0CB52A8300"]
+			id: "4172E4BAF181F135"
+			tasks: [{
+				id: "2FB7E61F3F60D067"
+				type: "item"
+				item: "rustic_resources:diacoal_3"
+			}]
+			rewards: [{
+				id: "5E7B7694FFA14BB4"
+				type: "loot"
+				table_id: 3729081586183020876L
+			}]
+		}
+		{
+			x: -0.5d
+			y: 3.5d
+			description: ["Once you have compacted each stage of your Coal Lumps you will be left with Diamonds.  These can be ground down in the pulverizer to make Diamond Dust."]
+			dependencies: ["0DBDAE4B96B3B743"]
+			id: "3C104F73B0A78705"
+			tasks: [{
+				id: "1853625E11753FB1"
+				type: "item"
+				item: "thermal:diamond_dust"
+				count: 2L
+			}]
+			rewards: [{
+				id: "6C33D9A45FD8F917"
+				type: "item"
+				item: "ironfurnaces:diamond_furnace"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 6.5d
+			description: ["Crystal Sand can be smelted into Certus Quartz Crystals.  These Crystals are the building block of Applied Energistics.  You will need hundreds to thousands of them depending on the size of your Applied Energistic's network."]
+			dependencies: ["77AB14713E6C42C8"]
+			id: "73B3697389BF76B9"
+			tasks: [{
+				id: "006398CB2F112015"
+				type: "item"
+				item: "appliedenergistics2:certus_quartz_crystal"
+				count: 8L
+			}]
+			rewards: [{
+				id: "084EE7BC6C2A9D2F"
+				type: "item"
+				item: "appliedenergistics2:certus_quartz_wrench"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 7.5d
+			subtitle: "Your Seamoth Power Cells can also be charged using the Applied Energistic's Charger"
+			description: ["Charged Certus Quartz can be easily obtained by placing a Certus Quartz Crystal into the Applied Energistic's Charger. You can automate this easily with the use of item pipes or Hoppers."]
+			dependencies: ["73B3697389BF76B9"]
+			id: "792EC180623C63F0"
+			tasks: [{
+				id: "3E7D91B521F64CA6"
+				type: "item"
+				item: "appliedenergistics2:charged_certus_quartz_crystal"
+				count: 2L
+			}]
+			rewards: [{
+				id: "7BCFDB9708511C65"
+				type: "item"
+				item: {
+					id: "better_diving:power_cell"
+					Count: 1b
+					tag: {
+						"better_diving:energy_storage": 2000000
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 7.5d
+			description: ["To make a Fluix Crystal, drop one Charged Certus Quartz, Nether Quartz, and Redstone into a puddle of water.  You will then receive 2 Fluix Crystals."]
+			dependencies: ["73B3697389BF76B9"]
+			id: "24E99E2E083CB5CE"
+			tasks: [{
+				id: "472705AAD993EB54"
+				type: "item"
+				item: "appliedenergistics2:fluix_crystal"
+				count: 4L
+			}]
+			rewards: [{
+				id: "5EA9C5CAFF155BC8"
+				type: "item"
+				item: "appliedenergistics2:fluix_glass_cable"
+				count: 4
+			}]
+		}
+		{
+			x: -3.0d
+			y: 9.5d
+			description: ["Combining Fluix Dust with sand will give you two Fluix Seeds.  These can be tossed into a puddle of water to grow.  This process takes quite a while.  You can use up to 4 Growth Accelerators to speed up the process a bit.  You can also craft them instantly using the Enchanting Apparatus and Source from Ars Nouveau. "]
+			dependencies: ["681BACD4D3A1A3D0"]
+			id: "0686DEECDFDA00D9"
+			tasks: [{
+				id: "1E8C8D8951BB7C26"
+				type: "item"
+				item: "appliedenergistics2:purified_fluix_crystal"
+			}]
+			rewards: [{
+				id: "2308F4655C48385F"
+				type: "item"
+				item: "decimal_coins:coin_5"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 9.5d
+			description: ["Combining Certus Quartz Dust with sand will give you two Fluix Seeds.  These can be tossed into a puddle of water to grow.  This process takes quite a while.  You can use up to 4 Growth Accelerators to speed up the process a bit.  You can also craft them instantly using the Enchanting Apparatus and Source from Ars Nouveau. "]
+			dependencies: ["0BEE506DEFC6A577"]
+			id: "2E2BB312D18FA8F5"
+			tasks: [{
+				id: "5877A3214824595D"
+				type: "item"
+				item: "appliedenergistics2:purified_certus_quartz_crystal"
+			}]
+			rewards: [{
+				id: "67638394A840EAAD"
+				type: "item"
+				item: "advgenerators:turbine_tier3"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 9.5d
+			description: ["Combining Quartz Dust with sand will give you two Fluix Seeds.  These can be tossed into a puddle of water to grow.  This process takes quite a while.  You can use up to 4 Growth Accelerators to speed up the process a bit.  You can also craft them instantly using the Enchanting Apparatus and Source from Ars Nouveau. "]
+			dependencies: ["693A8730A4EE26E3"]
+			id: "23A911B516EEB74C"
+			tasks: [{
+				id: "54BDCDB02C324941"
+				type: "item"
+				item: "appliedenergistics2:purified_nether_quartz_crystal"
+			}]
+			rewards: [{
+				id: "4C508AE2691BE170"
+				type: "item"
+				item: "tipsy:corals_lite"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 4.5d
+			description: ["The Induction Smelter is similar to a furnace in that it can smelt items.  It has the capacity to smelt more complex recipes with up to three ingredients.  Many of these recipes have a chance to provide additional materials.  This percentage chance can be increased by providing a \"catalyst\" in the GUI.  There are many catalyst options.  Cinnabar is an example.  See the Thermalpedia for other examples of these (optional) Catalysts."]
+			dependencies: [
+				"3C104F73B0A78705"
+				"75F7D4DD6A469A9D"
+			]
+			id: "77AB14713E6C42C8"
+			tasks: [{
+				id: "2A81E9D87E57B068"
+				type: "item"
+				item: "thermal:machine_smelter"
+			}]
+			rewards: [{
+				id: "5DE85498BEBB4337"
+				type: "item"
+				item: "rustic_resources:diacoal_3"
+				count: 16
+			}]
+		}
+		{
+			x: -3.0d
+			y: 8.5d
+			description: ["Fluix Dust can be obtained by running a Fluix Crystal through your pulverizer.  You can also use the Mill or Crushing Wheels from Create."]
+			dependencies: ["24E99E2E083CB5CE"]
+			id: "681BACD4D3A1A3D0"
+			tasks: [{
+				id: "2CE0B86062BD5455"
+				type: "item"
+				item: "appliedenergistics2:fluix_dust"
+				count: 2L
+			}]
+			rewards: [{
+				id: "1EFE8ACE2A6ED295"
+				type: "item"
+				item: "decimal_coins:coin_5"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 8.5d
+			description: ["Certus Quartz Dust can be obtained by running a Certus Quartz Crystal through your pulverizer.  You can also use the Mill or Crushing Wheels from Create."]
+			dependencies: ["792EC180623C63F0"]
+			id: "0BEE506DEFC6A577"
+			tasks: [{
+				id: "3C4D3EB019C9E807"
+				type: "item"
+				item: "appliedenergistics2:certus_quartz_dust"
+			}]
+			rewards: [{
+				id: "661DC24669B8E5B7"
+				type: "item"
+				item: "appliedenergistics2:1k_cell_component"
+				count: 2
+			}]
+		}
+		{
+			x: -1.5d
+			y: 8.5d
+			description: ["Nether Quartz Dust can be obtained by running a Nether Quartz through your pulverizer.  You can also use the Mill or Crushing Wheels from Create."]
+			dependencies: ["693A8730A4EE26E3"]
+			id: "043BECAFB37146B5"
+			tasks: [{
+				id: "46F96D2F05B691BD"
+				type: "item"
+				item: "appliedenergistics2:nether_quartz_dust"
+				count: 2L
+			}]
+			rewards: [{
+				id: "5862481A8A79AE5B"
+				type: "item"
+				item: "minecraft:ancient_debris"
+				count: 2
+			}]
+		}
+		{
+			x: -3.0d
+			y: 2.5d
+			description: ["The pulverizer grinds materials into other components.  It will turn most ores into dust.  In this process it will assist in grinding your Packed Ice into Crushed Ice for use in creating Certus Quartz."]
+			dependencies: ["6F6BD943862ACEEA"]
+			id: "39F1BDB23BA6ABAF"
+			tasks: [{
+				id: "5BB79AF53CE6AD32"
+				type: "item"
+				item: "thermal:machine_pulverizer"
+			}]
+			rewards: [{
+				id: "6AB6D6C5C1780ED0"
+				type: "item"
+				item: "thermal:upgrade_augment_1"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 3.5d
+			description: [
+				"Nearly all of the machines and many of the tools added by the Thermal Series are upgradeable.  This can be done in the machine's GUI by installing different tiers of Components or Augments.  You can also do this at the Tinker's Workbench which is especially helpful for tools that do not have a GUI."
+				"Make sure to select the \"Augment\" mode in the Tinker's Workbench GUI, then place the machine or tool that you want to upgrade into it.  Slots will appear at the right side for you to place augments."
+			]
+			dependencies: ["3981EABBF3A8485C"]
+			id: "36C0666318E7541F"
+			tasks: [{
+				id: "59C06F1DCF1D9071"
+				type: "item"
+				item: "thermal:tinker_bench"
+			}]
+			rewards: [{
+				id: "5CCD4127A0151605"
+				type: "loot"
+				table_id: 3729081586183020876L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.5d
+			description: ["The process of Compacting Coal into diamonds requires a lot of time and energy.  Consider upgrading these machines first, to make the process smoother."]
+			dependencies: ["0531D4DA6CD06CEF"]
+			id: "0DBDAE4B96B3B743"
+			tasks: [{
+				id: "15B1CE8AA5B05777"
+				type: "item"
+				item: "thermal:upgrade_augment_2"
+			}]
+			rewards: [{
+				id: "7CC72BB549FD8C9B"
+				type: "item"
+				item: "thermal:fluid_tank_augment"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 2.5d
+			description: ["Another use for the Blast Chiller is to freeze Lava into Obsidian.  Obsidian can be used in the process to create Diamonds be applying extraordinary amounts of pressure to compacted Coal.  With clever usage of all the machines being explained in this chain you can find a way to automate the process."]
+			dependencies: ["6EA50924B60AF21E"]
+			id: "19C42F0CB52A8300"
+			tasks: [{
+				id: "1C285F731FF9E745"
+				type: "item"
+				item: "minecraft:obsidian"
+				count: 16L
+			}]
+			rewards: [{
+				id: "74D57A6659BF03CD"
+				type: "item"
+				item: "minecraft:diamond_ore"
+				count: 4
+			}]
+		}
+		{
+			x: -1.5d
+			y: 7.5d
+			description: ["Nether Quartz will be a key ingredient in Applied Energistics and its dust variation can be used in place of Fluix or Certus dust in certain recipes."]
+			dependencies: ["77AB14713E6C42C8"]
+			id: "693A8730A4EE26E3"
+			tasks: [{
+				id: "7A30609CE5BB912B"
+				type: "item"
+				item: "minecraft:quartz"
+				count: 16L
+			}]
+			rewards: [{
+				id: "3C3BB5C04059B514"
+				type: "item"
+				item: "appliedenergistics2:silicon"
+				count: 16
+			}]
+		}
+		{
+			x: 8.0d
+			y: 2.5d
+			description: ["When Silica is excreted by Sea Sponges it often cakes onto the surrounding Coral Reefs.  Let's grind that down and get some Silicon Powder for use in making our processors."]
+			dependencies: ["597DC202887EEFFB"]
+			id: "510A40BF3DDA63A5"
+			tasks: [{
+				id: "3A95C653487666CC"
+				type: "item"
+				item: "rustic_resources:silicondust"
+				count: 32L
+			}]
+			rewards: [{
+				id: "3F6FE453C2BD15DF"
+				type: "item"
+				item: "pipez:improved_upgrade"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 0.5d
+			subtitle: "Applied Energistics does not have a guidebook.  However, the reward for this quest will place a link in your chat box that you can click to take you to an index that explains the different blocks within this mod, should you have questions that this quest chain doesn't answer."
+			description: ["You can scavenge meteors at the bottom of the ocean to retrieve the presses you need to build your ME System."]
+			id: "25334DF3C2179397"
+			tasks: [
+				{
+					id: "7253AF39F09ACF6D"
+					type: "item"
+					item: "appliedenergistics2:calculation_processor_press"
+				}
+				{
+					id: "6EE6B1F82F4A6B01"
+					type: "item"
+					item: "appliedenergistics2:engineering_processor_press"
+				}
+				{
+					id: "43EF9F949A7F9089"
+					type: "item"
+					item: "appliedenergistics2:logic_processor_press"
+				}
+				{
+					id: "62B36C407D73A066"
+					type: "item"
+					item: "appliedenergistics2:silicon_press"
+				}
+			]
+			rewards: [{
+				id: "666F59E718DF0482"
+				type: "command"
+				icon: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "cyclic:cyclic_guide_book"
+					}
+				}
+				command: "/tellraw @p {\"text\":\"->Click for AE Block Index<-\",\"color\":\"#02FF00\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://appliedenergistics.github.io/ae2-site-archive/index.html\"}}"
+				player_command: false
+			}]
+		}
+		{
+			x: 8.0d
+			y: 1.5d
+			subtitle: "The inscriber can be automated through the use of item pipes."
+			description: [
+				"Applied Energistics is a high-tech mod that requires a series of processors to run its machines.  The Inscriber will allow you to stamp and/or combine silicon and other materials into the needed components."
+				"{image:rusticwaters:textures/insc.png width:110 height:100 align:1}"
+			]
+			dependencies: ["25334DF3C2179397"]
+			id: "597DC202887EEFFB"
+			tasks: [{
+				id: "3E8ED1FAF40370F2"
+				type: "item"
+				item: "appliedenergistics2:inscriber"
+			}]
+			rewards: [{
+				id: "281F1CD33930D539"
+				type: "item"
+				item: "pipez:item_pipe"
+				count: 4
+			}]
+		}
+		{
+			x: 8.5d
+			y: 3.5d
+			description: ["The Inscriber requires FE to operate.  Place silicon into the bottom slot and the Silicon Press into the stop slot to create Printed Silicon.  You will need hundreds of these eventually."]
+			dependencies: ["510A40BF3DDA63A5"]
+			id: "005492BA4E9122BC"
+			tasks: [{
+				id: "37D7E08F8728AE40"
+				type: "item"
+				item: "appliedenergistics2:printed_silicon"
+				count: 16L
+			}]
+			rewards: [{
+				id: "2DD8D1B489DE5352"
+				type: "loot"
+				table_id: 4920136057121877850L
+			}]
+		}
+		{
+			x: 9.5d
+			y: 2.5d
+			description: ["The energy acceptor is the power provider for your AE system.  You must attach an energy source or energy cables to your Energy Acceptor and then run all your AE peripherals off the Energy Acceptor."]
+			dependencies: ["587A49F7FF12BD1F"]
+			id: "06BE9B85EC3A3362"
+			tasks: [{
+				id: "18E218638B75B13B"
+				type: "item"
+				item: "appliedenergistics2:energy_acceptor"
+			}]
+			rewards: [{
+				id: "08592DF926A62936"
+				type: "item"
+				item: "pipez:energy_pipe"
+				count: 4
+			}]
+		}
+		{
+			x: 9.5d
+			y: 1.5d
+			description: [
+				"The base AE Network has 8 \"channels\".  Think of channels as \"slots\" for devices or cable trains.  The ME Controller is a multiblock that can extend the numbers of channels you can have on your system.  A normal Fluix ME Cable supports 8 channels.  Dense Cables can support up to 32."
+				""
+				"Channels can be a complex idea to utilize fully.  To assist with learning this concept, the reward for this quest will place a link in your chat that you can click to take you to an instructional video regarding AE2 Channels."
+			]
+			dependencies: ["06BE9B85EC3A3362"]
+			id: "09D716E14E434B6B"
+			tasks: [{
+				id: "34981F82C7A4ED12"
+				type: "item"
+				item: "appliedenergistics2:controller"
+			}]
+			rewards: [{
+				id: "193805645A5BEF33"
+				type: "command"
+				icon: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "cyclic:cyclic_guide_book"
+					}
+				}
+				command: "/tellraw @p {\"text\":\"->Click for AE2 Channels Video<-\",\"color\":\"#02FF00\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://www.youtube.com/watch?v=JoMxC03pS_M&t=45s\"}}"
+				player_command: false
+			}]
+		}
+		{
+			x: 9.5d
+			y: 0.5d
+			subtitle: "  Applied Energistics machines can withstand the pressure of the Ocean Depths, so you can store some of the bigger multiblock parts of the mod in a bunker under the ocean floor if you so desire.  By the end of this quest chain you will also have wireless access to your system."
+			description: ["There are multiple user interface terminals within AE2.  The ME Crafting Terminal allows you to access your system storage, craft items, and request autocrafted items which will be covered shortly."]
+			dependencies: ["06BE9B85EC3A3362"]
+			id: "292B594BBCA4B4B0"
+			tasks: [{
+				id: "4B36C24B18664B85"
+				type: "item"
+				item: "appliedenergistics2:crafting_terminal"
+			}]
+			rewards: [{
+				id: "09DC3C1D617AF77E"
+				type: "item"
+				item: "appliedenergistics2:fluid_terminal"
+			}]
+		}
+		{
+			x: 11.0d
+			y: 0.5d
+			subtitle: "The ME Drive can be attached at any point along your AE System using ME Cables, or simply be being adjacent to other components."
+			description: ["Now that you have the Energy Acceptor to power your system, the Controller to manage your system, it's time to craft the ME Drive to actually hold all of your items and fluids."]
+			dependencies: ["292B594BBCA4B4B0"]
+			id: "63A7934561C27EAD"
+			tasks: [{
+				id: "1228A26B2A0D82EA"
+				type: "item"
+				item: "appliedenergistics2:drive"
+			}]
+			rewards: [{
+				id: "4244AE1DF5F61D3E"
+				type: "item"
+				item: "appliedenergistics2:formation_core"
+				count: 2
+			}]
+		}
+		{
+			x: 9.5d
+			y: 3.5d
+			description: ["There are three types of processors needed for your Applied Energistics system.  You will only be required to craft four of each for this quest, but you will need more of each, depending on how complex of a system you want to build."]
+			dependencies: ["005492BA4E9122BC"]
+			id: "587A49F7FF12BD1F"
+			tasks: [
+				{
+					id: "20F70138BA202BDF"
+					type: "item"
+					item: "appliedenergistics2:logic_processor"
+					count: 4L
+				}
+				{
+					id: "1FFFAB114BC0A3BF"
+					type: "item"
+					item: "appliedenergistics2:calculation_processor"
+					count: 4L
+				}
+				{
+					id: "4F785115C236C019"
+					type: "item"
+					item: "appliedenergistics2:engineering_processor"
+					count: 4L
+				}
+			]
+			rewards: [{
+				id: "60DFB0E8D97B13DA"
+				type: "item"
+				item: "appliedenergistics2:certus_quartz_dust"
+				count: 8
+			}]
+		}
+		{
+			x: 11.0d
+			y: 1.5d
+			description: ["Your ME Drive has slots for 10 Storage Disks.  Storage Disks range in size like real world Hard Drives.  Each tier of Storage Component is used in the next tier's crafting, so you will need a LOT of 1k Storage Components if you intend to have a large AE Storage System."]
+			dependencies: ["63A7934561C27EAD"]
+			id: "6DAB2ACA39A7AC8D"
+			tasks: [{
+				id: "2672DD71A2AAE904"
+				type: "item"
+				item: "appliedenergistics2:1k_cell_component"
+			}]
+			rewards: [{
+				id: "2CD48DBB189D7CDB"
+				type: "item"
+				item: "appliedenergistics2:4k_cell_component"
+			}]
+		}
+		{
+			x: 11.0d
+			y: 2.5d
+			description: [
+				"Storage Housing is what holds your Storage Components.  Place a housing into the crafting grid with any size of Component to turn it into a Storage Disk which can be inserted into your ME Drive.  You can \"unsheathe\" the Component by holding the Disk in your hand and Shift+Clicking."
+				"Next we will begin to build the Autocrafting portion of your ME System."
+			]
+			dependencies: ["6DAB2ACA39A7AC8D"]
+			id: "3686AF215D727292"
+			tasks: [{
+				id: "297A9D07975F3E40"
+				type: "item"
+				item: "appliedenergistics2:empty_storage_cell"
+			}]
+			rewards: [{
+				id: "54C0048FE21D23BD"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:1k_fluid_storage_cell"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 8.0d
+			y: 7.5d
+			subtitle: "To link your Wireless Terminal you must place it in the upper right GUI slot of the Security Terminal."
+			description: [
+				"The Security Terminal allows you to set permission levels for other players on your server by right clicking them with the Biometric Card, placing it in the Security Terminal GUI, and selecting what permissions that have for accessing your system."
+				"More importantly though, the Security Terminal will allow you to Link your Wireless Terminal.  This will allow you to access your ME System wirelessly, as long as you are within range."
+			]
+			dependencies: ["228BEF9C3D5B9597"]
+			id: "4E79691C41B22F2B"
+			tasks: [{
+				id: "13FA3A7F8BD966EE"
+				type: "item"
+				item: "appliedenergistics2:security_station"
+			}]
+			rewards: [{
+				id: "35855F341B9A5D91"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:biometric_card"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 8.0d
+			y: 8.5d
+			subtitle: "You can stack up to 64 Booster Cards into your Wireless Access Point"
+			description: ["Your ME System requires a Wireless Access Point for your handheld Wireless Terminal to interact with it.  The range of the Wireless Access Point starts at 32 blocks but can be expanded hundreds of meters by using Booster Cards.  These increase the range, but also the FE/t needed."]
+			dependencies: ["4E79691C41B22F2B"]
+			id: "6DDD739EAD580432"
+			tasks: [{
+				id: "7BA676CBC96757CC"
+				type: "item"
+				item: "appliedenergistics2:wireless_access_point"
+			}]
+			rewards: [{
+				id: "27D5F218B56E2C2B"
+				type: "item"
+				item: "appliedenergistics2:wireless_booster"
+				count: 4
+			}]
+		}
+		{
+			x: 8.0d
+			y: 9.5d
+			description: ["Craft your new Wireless Terminal to access your system from anywhere within range.  Be careful to monitor the amount of energy your range boosters are drawing within the GUI of the Wireless Access Point."]
+			dependencies: ["6DDD739EAD580432"]
+			id: "3FE35AC3954FF215"
+			tasks: [{
+				id: "5F4E4822B3A01CCB"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:wireless_terminal"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "5052C327C27A1F66"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:64k_storage_cell"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 10.5d
+			y: 3.5d
+			description: ["The Crafting CPU is a multiblock that is made up of Crafting Co-Processor Units and Crafting Storages.   This multiblock handles the autocrafting of your system. The crafting CPU only requires a single channel for the entire structure. Adding more Crafting Co-Processors increase the number of tasks the crafting CPU can perform at once.  The Crafting Storages come in sizes, like Storage Disks.  Complicated multi-step recipes will require higher tier Crafting Storage and/or more Co-Processor Units."]
+			dependencies: ["3686AF215D727292"]
+			id: "31297ABCDBF0562B"
+			tasks: [
+				{
+					id: "028C0A220C27A1C1"
+					type: "item"
+					item: "appliedenergistics2:crafting_accelerator"
+				}
+				{
+					id: "3B95FB16A968EEE1"
+					type: "item"
+					item: "appliedenergistics2:4k_crafting_storage"
+				}
+			]
+			rewards: [{
+				id: "3B43C69EC8FF7E57"
+				type: "loot"
+				table_id: 3729081586183020876L
+			}]
+		}
+		{
+			x: 9.5d
+			y: 4.5d
+			description: [
+				"The Crafting Monitor is an optional addition for your CPU Multi-block.  It allows you to see what recipe that particular multiblock is working through at the time.  Depending on how much autocrafting you would like to do, you may want to have more than one CPU Multiblock.  You will know your multiblock is formed properly when the texture of the multiblock changes, as shown below."
+				"{image:rusticwaters:textures/craftcpu.png width:180 height:100 align:1}"
+			]
+			dependencies: ["31297ABCDBF0562B"]
+			id: "630FEAF7CBA36C7B"
+			tasks: [{
+				id: "7BADE4A7A7107688"
+				type: "item"
+				item: "appliedenergistics2:crafting_monitor"
+			}]
+			rewards: [{
+				id: "43F83BDA5C61A5DD"
+				type: "item"
+				item: "appliedenergistics2:purple_covered_cable"
+				count: 8
+			}]
+		}
+		{
+			x: 9.5d
+			y: 8.5d
+			subtitle: "You can hold the Shift key while having an encoded Pattern in your inventory to see the item icon of its recipe."
+			description: [
+				"The Pattern Terminal is where you encode patterns with recipes.  You must first \"recreate\" the recipe in Pattern Terminal GUI.  Place a Blank Pattern in the top slot on the right and press the Encode Pattern button to place that recipe on the pattern.  Now when you need more of that item, your ME System will know how to craft it."
+				"You can switch between Crafting Table Patterns and Processing Patterns (Recipes that require an external machine, such as a furnace)."
+			]
+			dependencies: ["7B354616085D491A"]
+			id: "28FD4E5C756FBE35"
+			tasks: [{
+				id: "084EB736229D5F7F"
+				type: "item"
+				item: "appliedenergistics2:pattern_terminal"
+			}]
+			rewards: [
+				{
+					id: "0989A285DC57E337"
+					type: "item"
+					item: {
+						id: "appliedenergistics2:encoded_pattern"
+						Count: 1b
+						tag: {
+							in: [
+								{
+									id: "create:crushed_iron_ore"
+									Count: 1b
+								}
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+							]
+							out: [
+								{
+									id: "minecraft:iron_ingot"
+									Count: 1b
+								}
+								{ }
+								{ }
+							]
+						}
+					}
+				}
+				{
+					id: "3AF83D63039DDBD8"
+					type: "item"
+					item: {
+						id: "appliedenergistics2:encoded_pattern"
+						Count: 1b
+						tag: {
+							in: [
+								{
+									id: "create:crushed_zinc_ore"
+									Count: 1b
+								}
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+							]
+							out: [
+								{
+									id: "create:zinc_ingot"
+									Count: 1b
+								}
+								{ }
+								{ }
+							]
+						}
+					}
+				}
+				{
+					id: "4DD2CFDC5EA21EF7"
+					type: "item"
+					item: {
+						id: "appliedenergistics2:encoded_pattern"
+						Count: 1b
+						tag: {
+							in: [
+								{
+									id: "create:crushed_copper_ore"
+									Count: 1b
+								}
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+							]
+							out: [
+								{
+									id: "thermal:copper_ingot"
+									Count: 1b
+								}
+								{ }
+								{ }
+							]
+						}
+					}
+				}
+				{
+					id: "0445B5D0D6729CCB"
+					type: "item"
+					item: {
+						id: "appliedenergistics2:encoded_pattern"
+						Count: 1b
+						tag: {
+							in: [
+								{
+									id: "create:crushed_nickel_ore"
+									Count: 1b
+								}
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+							]
+							out: [
+								{
+									id: "thermal:nickel_ingot"
+									Count: 1b
+								}
+								{ }
+								{ }
+							]
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 9.5d
+			y: 9.5d
+			subtitle: "These reward Patterns go into an interface attached to a Furnace or Smelter to tell it how to autocraft Crushed Ores into ingots."
+			description: [
+				""
+				"Patterns are physical recipes that tell an interface what to autocraft and how.  Autocrafting is exactly how it sounds.  You select the \"Craftable\" tab of your ME Terminal to view all items you have patterns for.  Select the item you would like to craft and your system will automatically craft that item.  If it does not have all the components it will craft those as well, assuming it has been taught a pattern for those components."
+			]
+			dependencies: ["7B354616085D491A"]
+			id: "254F595A926E065D"
+			tasks: [{
+				id: "678A1E0F448129F7"
+				type: "item"
+				item: "appliedenergistics2:blank_pattern"
+			}]
+			rewards: [
+				{
+					id: "569A8176B93395B4"
+					type: "item"
+					item: {
+						id: "appliedenergistics2:encoded_pattern"
+						Count: 1b
+						tag: {
+							in: [
+								{
+									id: "create:crushed_brass"
+									Count: 1b
+								}
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+							]
+							out: [
+								{
+									id: "create:brass_ingot"
+									Count: 1b
+								}
+								{ }
+								{ }
+							]
+						}
+					}
+				}
+				{
+					id: "4A24F8A496EF348E"
+					type: "item"
+					item: {
+						id: "appliedenergistics2:encoded_pattern"
+						Count: 1b
+						tag: {
+							in: [
+								{
+									id: "create:crushed_aluminum_ore"
+									Count: 1b
+								}
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+							]
+							out: [
+								{
+									id: "immersiveengineering:ingot_aluminum"
+									Count: 1b
+								}
+								{ }
+								{ }
+							]
+						}
+					}
+				}
+				{
+					id: "725FAD698F1B128D"
+					type: "item"
+					item: {
+						id: "appliedenergistics2:encoded_pattern"
+						Count: 1b
+						tag: {
+							in: [
+								{
+									id: "create:crushed_lead_ore"
+									Count: 1b
+								}
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+							]
+							out: [
+								{
+									id: "mekanism:ingot_lead"
+									Count: 1b
+								}
+								{ }
+								{ }
+							]
+						}
+					}
+				}
+				{
+					id: "5AEDE865A83E9849"
+					type: "item"
+					item: {
+						id: "appliedenergistics2:encoded_pattern"
+						Count: 1b
+						tag: {
+							in: [
+								{
+									id: "create:crushed_silver_ore"
+									Count: 1b
+								}
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+							]
+							out: [
+								{
+									id: "thermal:silver_ingot"
+									Count: 1b
+								}
+								{ }
+								{ }
+							]
+						}
+					}
+				}
+				{
+					id: "0C90A513828E0A21"
+					type: "item"
+					item: {
+						id: "appliedenergistics2:encoded_pattern"
+						Count: 1b
+						tag: {
+							in: [
+								{
+									id: "create:crushed_tin_ore"
+									Count: 1b
+								}
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+							]
+							out: [
+								{
+									id: "mekanism:ingot_tin"
+									Count: 1b
+								}
+								{ }
+								{ }
+							]
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 9.5d
+			y: 5.5d
+			description: [
+				""
+				"The Interface acts as a go-between for your ME Network and other blocks, machines, and chests.  Once we get into auto-crafting, the Interface will be the point of contact for the machines you use in autocrafting."
+				"The Interface holds the autocrafting patterns for the machine it is touching.  "
+			]
+			dependencies: ["630FEAF7CBA36C7B"]
+			id: "0C31D9740A65F61D"
+			tasks: [{
+				id: "01F1729B06850529"
+				type: "item"
+				item: "appliedenergistics2:interface"
+				count: 2L
+			}]
+			rewards: [{
+				id: "2B023A73E9091E70"
+				type: "item"
+				item: "appliedenergistics2:4k_cell_component"
+				count: 2
+			}]
+		}
+		{
+			x: 9.5d
+			y: 6.5d
+			description: [
+				"The molecular assembler acts as an autocrafter to assemble the basic recipes from your system.  It is recommended to have a multiblock of these interweaved with Interfaces which will provide the recipes to the assemblers.  An example is below."
+				"{image:rusticwaters:textures/molecx.png width:100 height:100 align:1}"
+			]
+			dependencies: ["0C31D9740A65F61D"]
+			id: "228BEF9C3D5B9597"
+			tasks: [{
+				id: "7CE1C896CD6CFB27"
+				type: "item"
+				item: "appliedenergistics2:molecular_assembler"
+				count: 5L
+			}]
+			rewards: [{
+				id: "01CFF9EA2BF57584"
+				type: "item"
+				item: "appliedenergistics2:16k_cell_component"
+			}]
+		}
+		{
+			x: 11.0d
+			y: 8.5d
+			description: ["The ME Import Bus Pulls items from the inventory it is pointed at and places them into the ME Network. For example, you can place an Import Bus on the chest collecting your Hydrostatic Botany Pot drops, and the drops will be sucked into your ME System.  You can specify which items it will pull out via the UI, or else it tries to pull out any item in the adjacent inventory. "]
+			dependencies: ["50B5933158D1AB5A"]
+			id: "65B716FE4217414B"
+			tasks: [{
+				id: "4E55C98A2FC38361"
+				type: "item"
+				item: "appliedenergistics2:import_bus"
+			}]
+			rewards: [{
+				id: "19459CD32728622B"
+				type: "item"
+				item: "botanypots:hopper_botany_pot"
+				count: 2
+			}]
+		}
+		{
+			x: 11.0d
+			y: 9.5d
+			description: ["The ME Storage Bus turns whatever inventory it is facing into an extension of your system.  For example, you can place an ME Storage Bus on your Cooking For Blockheads Fridge, allowing you to view all of your food items from inside your ME Crafting Terminal."]
+			dependencies: ["50B5933158D1AB5A"]
+			id: "48584C25CB6F0283"
+			tasks: [{
+				id: "2583077DB3BCDD69"
+				type: "item"
+				item: "appliedenergistics2:storage_bus"
+			}]
+			rewards: [{
+				id: "0175C242C35E24EF"
+				type: "item"
+				item: "appliedenergistics2:16k_cell_component"
+			}]
+		}
+		{
+			x: 9.5d
+			y: 7.5d
+			description: ["Interface Terminals will show you all your Interfaces in one GUI.  It will also allow you to remotely place and remove patterns from individual interfaces.  You can use Name Plates within the Inscriber to label each Interface for ease of identification in the Interface Terminal."]
+			dependencies: ["228BEF9C3D5B9597"]
+			id: "7B354616085D491A"
+			tasks: [{
+				id: "0355CC31220F757E"
+				type: "item"
+				item: "appliedenergistics2:interface_terminal"
+			}]
+			rewards: [{
+				id: "6501AC749CD19920"
+				type: "item"
+				item: "appliedenergistics2:cable_fluid_interface"
+			}]
+		}
+		{
+			x: 11.0d
+			y: 7.5d
+			subtitle: "The ME Storage Monitor allows you to see at a glance how many of a certain item you have in your system.  Click on it with an item to set its display."
+			description: ["The ME Export Bus extracts items from the ME Network and places them into the inventory it faces. You must configure which items it will insert, leaving the configuration blank will result in nothing. The ME Export Bus will try to export any of the items on its list skipping over those it cannot fit into the destination. The ME Export Bus requires a channel to function."]
+			dependencies: ["228BEF9C3D5B9597"]
+			id: "50B5933158D1AB5A"
+			tasks: [{
+				id: "5C36B06CEBA9F63B"
+				type: "item"
+				item: "appliedenergistics2:export_bus"
+			}]
+			rewards: [{
+				id: "13CE26042B0B265A"
+				type: "item"
+				item: "appliedenergistics2:storage_monitor"
+			}]
+		}
+	]
+}

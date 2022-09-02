@@ -1,0 +1,34 @@
+{
+	id: "6659661BAB650D0F"
+	group: ""
+	order_index: 21
+	filename: "final_act"
+	title: "   Final Act"
+	icon: "rustic_resources:placeholder"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: 0.0d
+		y: 0.0d
+		width: 9.0d
+		height: 6.0d
+		rotation: 0.0d
+		image: "rusticwaters:textures/finalact.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [{
+		icon: "ars_nouveau:blank_parchment"
+		x: 2.0d
+		y: 0.8d
+		description: ["This chapter of quests will allow you to decide how you want to return to Caladan.  Will you return as a triumphant hero that was able to complete the Imperator's mission?  Will you recover the final recordings that document your Captain's last days aboard the Liberty?  Or will you rush through the Jump Gate, back to Caladan, with no concern for either of those?"]
+		size: 1.75d
+		id: "773D0EB819BF2181"
+		tasks: [{
+			id: "668256D32B38158B"
+			type: "checkmark"
+		}]
+	}]
+}

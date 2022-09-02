@@ -1,0 +1,303 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.MainMenuScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  name = identifier_9f2465d54d014f7f
+  action = animatebackground
+}
+
+customization {
+  path = resources/mainaudio.wav
+  loop = true
+  action = addaudio
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=604346%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400322%
+  orientation = mid-centered
+  x = -82
+  action = movebutton
+  y = 4
+}
+
+customization {
+  identifier = %id=400322%
+  width = 160
+  action = resizebutton
+  height = 34
+}
+
+customization {
+  identifier = %id=400322%
+  action = setbuttonlabel
+  value =      Multiplayer
+}
+
+customization {
+  identifier = %id=400322%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources\multiplayerx.png
+  backgroundnormal = resources\multiplayer.png
+}
+
+customization {
+  identifier = %id=400322%
+  path = resources\dripsound.wav
+  action = addhoversound
+}
+
+customization {
+  identifier = %id=400322%
+  path = resources/drip2.wav
+  action = setbuttonclicksound
+}
+
+customization {
+  identifier = %id=604382%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=376322%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400382%
+  orientation = mid-centered
+  x = -81
+  action = movebutton
+  y = 39
+}
+
+customization {
+  identifier = %id=400382%
+  width = 160
+  action = resizebutton
+  height = 34
+}
+
+customization {
+  identifier = %id=400382%
+  action = setbuttonlabel
+  value =     Options
+}
+
+customization {
+  identifier = %id=400382%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources\optionsx.png
+  backgroundnormal = resources\options.png
+}
+
+customization {
+  identifier = %id=400382%
+  path = resources\dripsound.wav
+  action = addhoversound
+}
+
+customization {
+  identifier = %id=400382%
+  path = resources/drip2.wav
+  action = setbuttonclicksound
+}
+
+customization {
+  identifier = %id=502382%
+  orientation = mid-centered
+  x = -81
+  action = movebutton
+  y = 109
+}
+
+customization {
+  identifier = %id=502382%
+  width = 160
+  action = resizebutton
+  height = 34
+}
+
+customization {
+  identifier = %id=502382%
+  action = setbuttonlabel
+  value =     Quit Game
+}
+
+customization {
+  identifier = %id=502382%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources\quitgamex.png
+  backgroundnormal = resources\quitgame.png
+}
+
+customization {
+  identifier = %id=502382%
+  path = resources\dripsound.wav
+  action = addhoversound
+}
+
+customization {
+  identifier = %id=502382%
+  path = resources/drip2.wav
+  action = setbuttonclicksound
+}
+
+customization {
+  identifier = %id=376382%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400298%
+  orientation = mid-centered
+  x = -82
+  action = movebutton
+  y = -31
+}
+
+customization {
+  identifier = %id=400298%
+  width = 160
+  action = resizebutton
+  height = 34
+}
+
+customization {
+  identifier = %id=400298%
+  action = setbuttonlabel
+  value =      Singleplayer
+}
+
+customization {
+  identifier = %id=400298%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources\singleplayerx.png
+  backgroundnormal = resources\singleplayer.png
+}
+
+customization {
+  identifier = %id=400298%
+  path = resources\dripsound.wav
+  action = addhoversound
+}
+
+customization {
+  identifier = %id=400298%
+  path = resources/drip2.wav
+  action = setbuttonclicksound
+}
+
+customization {
+  identifier = %id=400346%
+  orientation = mid-centered
+  x = -81
+  action = movebutton
+  y = 74
+}
+
+customization {
+  identifier = %id=400346%
+  width = 160
+  action = resizebutton
+  height = 34
+}
+
+customization {
+  identifier = %id=400346%
+  action = setbuttonlabel
+  value =     Mods
+}
+
+customization {
+  identifier = %id=400346%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources\modsx.png
+  backgroundnormal = resources\mods.png
+}
+
+customization {
+  identifier = %id=400346%
+  path = resources\dripsound.wav
+  action = addhoversound
+}
+
+customization {
+  identifier = %id=400346%
+  path = resources/drip2.wav
+  action = setbuttonclicksound
+}
+
+customization {
+  identifier = %id=502346%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=502346%
+  orientation = bottom-left
+  x = 0
+  action = movebutton
+  y = -20
+}
+
+customization {
+  orientation = bottom-left
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = resources\supportx.png
+  label =     Patreon
+  loopbackgroundanimations = true
+  x = 0
+  width = 68
+  actionid = 030c3572-a16a-4e26-8782-b40f548173fb1637468172883
+  action = addbutton
+  y = -17
+  backgroundnormal = resources\support.png
+  value = https://www.patreon.com/boolyman
+  height = 16
+}
+
+customization {
+  orientation = bottom-right
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = resources\discordx.png
+  label = Discord   
+  loopbackgroundanimations = true
+  x = -68
+  width = 68
+  actionid = 60f186cd-3a31-404d-8da4-1e27c7fc8baa1637521212631
+  action = addbutton
+  y = -17
+  backgroundnormal = resources\discord.png
+  value = https://discord.gg/Mb5RhqRuBh
+  height = 16
+}
+

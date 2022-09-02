@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "rustic_resources:aluminiteblend"
+  },
+  "result": "rustic_resources:aluminite_ingot",
+  "experience": 0.2,
+  "cookingtime": 200
+}

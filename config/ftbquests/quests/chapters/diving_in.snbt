@@ -1,0 +1,718 @@
+{
+	id: "0F4FCEB6E9C7221A"
+	group: ""
+	order_index: 1
+	filename: "diving_in"
+	title: "A Tragic Start"
+	icon: "alexsmobs:void_worm_eye"
+	subtitle: ["Settling into your new underwater hub."]
+	default_quest_shape: "rsquare"
+	default_hide_dependency_lines: false
+	images: [{
+		x: -10.0d
+		y: -4.0d
+		width: 23.4d
+		height: 13.0d
+		rotation: 0.0d
+		image: "rusticwaters:textures/page1.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			x: -11.5d
+			y: -8.5d
+			shape: "hexagon"
+			subtitle: "You can repeatedly sneak (twerk) to quicken the grow time of trees."
+			description: ["The last thing you remember is sitting at a control panel of the Recon Frigate called Liberty, awaiting your descent into Earth's atmosphere.  The rest is a blur, but you regained a bit of consciousness as your Emergency Escape Pod plummeted towards Earth.   As it hit the ocean surface it deployed a Personal Survival Hub to keep you safe.  You will have to muster every bit of your training to figure out what happened, and how to survive.  Start by breaking down the tree you see."]
+			hide_dependency_lines: false
+			size: 1.25d
+			id: "52C164ABE2904444"
+			tasks: [{
+				id: "7FC9DBCCC52574CE"
+				type: "item"
+				item: "minecraft:oak_log"
+				count: 4L
+			}]
+			rewards: [{
+				id: "0B713B70F7B2A8E4"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "patchouli:rw_guide"
+					}
+				}
+			}]
+		}
+		{
+			x: -12.75d
+			y: -6.25d
+			shape: "diamond"
+			subtitle: "Your Emergency Escape Pod was damaged during landing.  The Hub Expansion Keys must be reassembled by combining three Hub Key Fragments.  Once fully assembled, they will unlock an addition onto your hub."
+			description: [
+				""
+				"You can \"twerk\" to speed up the growth process of trees."
+			]
+			hide_dependency_lines: false
+			dependencies: ["26E511516B8EDB82"]
+			size: 1.25d
+			id: "1FA65CDCD7A1E1E6"
+			tasks: [{
+				id: "0913766EAE67C5A6"
+				type: "item"
+				item: {
+					id: "woodenshears:wshears_oak"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "7244694345270B37"
+				type: "item"
+				item: "rustic_resources:keyfragment"
+			}]
+		}
+		{
+			x: -10.9d
+			y: -6.25d
+			shape: "diamond"
+			description: ["Leaves collected by shearing trees can be combined into a Bundle of Leaves, and then woven into string using your Spinning Wheel. "]
+			hide_dependency_lines: false
+			dependencies: ["1FA65CDCD7A1E1E6"]
+			size: 1.25d
+			id: "5F936D3DD714A6A5"
+			tasks: [{
+				id: "5E4EE2CBEAB19703"
+				type: "item"
+				item: "minecraft:string"
+				count: 24L
+			}]
+			rewards: [{
+				id: "3A3BA99A87519422"
+				type: "item"
+				item: {
+					id: "minecraft:shears"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -10.25d
+			y: -7.25d
+			shape: "diamond"
+			subtitle: "Certain resources like raw fish and driftwood can be \"dried\" on the campfire for things like leather or logs."
+			description: ["You landed with a few pieces of equipment:  Your Liberty Crewman's uniform and this standard quest manual.  Your uniform wasn't intended to protect you from the harsh conditions of this planet, so you will want to craft new protection soon."]
+			hide_dependency_lines: false
+			dependencies: ["5C064CA4AC9CB7DF"]
+			size: 1.25d
+			id: "5273D2B97AE85E89"
+			tasks: [{
+				id: "7ABA7F4F38B88E81"
+				type: "item"
+				item: "cyclic:workbench"
+			}]
+			rewards: [
+				{
+					id: "1A619790021F3234"
+					type: "item"
+					item: "minecraft:campfire"
+				}
+				{
+					id: "79D4195F608356BA"
+					type: "item"
+					item: "minecraft:cod"
+					count: 4
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: -6.25d
+			shape: "diamond"
+			subtitle: "You can configure the position of The One Probe information box on your screen by using the \"/top config\" command."
+			description: ["You can place four String into the Spinning Wheel to create Wool.  Remember to check JEI for assistance."]
+			hide_dependency_lines: false
+			dependencies: ["5F936D3DD714A6A5"]
+			size: 1.25d
+			id: "256BD7BDF3E74B89"
+			tasks: [{
+				id: "04CCB774B4791056"
+				type: "item"
+				item: "minecraft:white_wool"
+				count: 3L
+			}]
+			rewards: [{
+				id: "374BB52FDD74E4E4"
+				type: "item"
+				item: {
+					id: "minecraft:iron_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -8.0d
+			y: -4.75d
+			shape: "diamond"
+			description: ["When you die, you will respawn on your bed.  Your items will take 35% durability loss, but you will keep your inventory."]
+			dependencies: ["256BD7BDF3E74B89"]
+			size: 1.25d
+			id: "4D05911E1234B7F1"
+			tasks: [{
+				id: "60EFEE0D73FE626E"
+				type: "item"
+				item: "minecraft:white_bed"
+			}]
+			rewards: [{
+				id: "4FCB6D3C37E3316C"
+				type: "item"
+				item: "minecraft:leather"
+				count: 6
+			}]
+		}
+		{
+			x: -10.0d
+			y: -4.75d
+			shape: "diamond"
+			subtitle: "Meringue Brownies and Trail Mix are a couple early food options that you can make with the resources you are gathering."
+			description: ["Strainers are two block tall items that you can place underwater to periodically sift resources from the ocean.  Each Strainer Base requires a Strainer Mesh on top to work.  They can be completely submerged or have flowing water over the net.  "]
+			hide_dependency_lines: false
+			dependencies: ["4D05911E1234B7F1"]
+			size: 1.25d
+			id: "4928A34BB98BFD41"
+			tasks: [{
+				id: "14AAB6C03AE2E6DA"
+				type: "item"
+				item: "waterstrainer:strainer_base"
+				count: 2L
+			}]
+			rewards: [{
+				id: "771579F51D53209D"
+				type: "item"
+				item: "minecraft:water_bucket"
+			}]
+		}
+		{
+			x: -11.875d
+			y: -4.75d
+			shape: "diamond"
+			description: ["Your Strainer Mesh has durability.  Make sure to check it often and replace the Strainer Mesh as needed.  You can make more durable meshes if you choose, but they do not offer any resource benefit."]
+			hide_dependency_lines: false
+			dependencies: ["4928A34BB98BFD41"]
+			size: 1.25d
+			id: "1EE115961FAC534F"
+			tasks: [{
+				id: "1BAC005921EF9C65"
+				type: "item"
+				item: {
+					id: "waterstrainer:strainer_survivalist"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				count: 2L
+			}]
+			rewards: [{
+				id: "506CB94504813FFE"
+				type: "item"
+				item: "storagedrawers:oak_full_drawers_4"
+				count: 2
+			}]
+		}
+		{
+			title: "Your First Hub Expansion"
+			icon: "rustic_resources:hubexpankey"
+			x: -1.0d
+			y: -3.95d
+			shape: "gear"
+			subtitle: "Tip:  If you plan to make large Create builds, the top hub provides more \"floor space\", but a bit less ceiling height."
+			description: ["Combine the three Hub Key Fragments you have received so far into a Hub Expansion Key.  It can be used to unlock a Hub Expansion Lock on one of your walls or ceiling.  Note that the side wall expansions are medium sized and cubicle, while the ceiling expansion is larger and circular, but requires a ladder or elevator to get to.  Plan your builds accordingly."]
+			size: 2.0d
+			id: "0B18B3012552FEED"
+			tasks: [{
+				id: "1E6BC3CF6DF6AB7E"
+				type: "item"
+				item: "rustic_resources:hubexpankey"
+			}]
+			rewards: [{
+				id: "06E039CF334E4583"
+				type: "loot"
+				table_id: 3729081586183020876L
+			}]
+		}
+		{
+			x: -11.5d
+			y: -7.25d
+			shape: "diamond"
+			subtitle: "Much like other Cats, Devaria serves no real purpose other than to relax all day and keep you company."
+			description: ["The Spinning Wheel is your first unconventional workstation.  You place an item in the top, and then RIGHT CLICK three of four times to process the item.  The output will appear at the FRONT of the block once complete."]
+			hide_dependency_lines: false
+			dependencies: ["5273D2B97AE85E89"]
+			size: 1.25d
+			id: "26E511516B8EDB82"
+			tasks: [{
+				id: "0847D8C3F9BBDB3C"
+				type: "item"
+				item: "atum:spinning_wheel"
+			}]
+			rewards: [{
+				id: "003852130DB176AE"
+				type: "item"
+				item: {
+					id: "minecraft:iron_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -12.0d
+			y: -3.2d
+			shape: "diamond"
+			description: ["Now that you are gathering resources from your strainers, set up a way to refine these resources."]
+			dependencies: ["1EE115961FAC534F"]
+			size: 1.25d
+			id: "4BCCFF761A2FEB50"
+			tasks: [{
+				id: "16C81378F3F750CD"
+				type: "item"
+				item: "rustic_resources:woodenframe"
+				count: 2L
+			}]
+			rewards: [{
+				id: "15EBA4E9C0E1ACFA"
+				type: "item"
+				item: "rustic_resources:keyfragment"
+			}]
+		}
+		{
+			x: -8.0d
+			y: -3.2d
+			shape: "diamond"
+			subtitle: "Place the Cloth Mesh into the top of the sluice."
+			description: [
+				"The sluice can be automated fairly easily.  That will be covered in the following quest chapters.  For now, fill the sluice with up to 12 buckets of water, and place gravel, dirt, or coral in the top.  You can also make higher tier Sluices to speed up the processing time and decrease fluid usage."
+				"In the next quest chapter you will find out how to automate the wooden sluice.  However, the higher tier sluices can (and should to avoid issues) be automated using pipes and cables."
+			]
+			dependencies: ["2FB18806295A9DB5"]
+			size: 1.25d
+			id: "09C510CC49D5F6AE"
+			tasks: [{
+				id: "46F3D6EF6A2DEAC3"
+				type: "item"
+				item: "ftbsluice:oak_sluice"
+				count: 2L
+			}]
+			rewards: [{
+				id: "12C374F1079B9B02"
+				type: "item"
+				item: "minecraft:sponge"
+				count: 2
+			}]
+		}
+		{
+			x: -10.0d
+			y: -3.2d
+			shape: "diamond"
+			description: ["The Sluice will sieve ore and resource items from blocks like gravel, dirt, and even coral.  Placing a block in the top portion, then pouring a bucket of water in, will process the resources at the other end."]
+			dependencies: ["4BCCFF761A2FEB50"]
+			size: 1.25d
+			id: "2FB18806295A9DB5"
+			tasks: [{
+				id: "13057C3FBFA8DC29"
+				type: "item"
+				item: "ftbsluice:cloth_mesh"
+				count: 2L
+			}]
+			rewards: [{
+				id: "5EF362D756551B9E"
+				type: "item"
+				item: {
+					id: "cyclic:spell_water"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Emergency Items"
+			icon: "farmingforblockheads:market"
+			x: -2.6d
+			y: -4.0d
+			shape: "diamond"
+			subtitle: "A useful item to consider buying early on from the Market is the Repair Chest.  It will gradually repair one item at a time within its 9 slots."
+			description: [
+				"There may come a point when you are running low on a particular resource.  The Market can provide you some basic resources and other helpful items along your journey.  Place it down within your hub and a helpful automaton villager will appear to assist you."
+				"Use the tabs at the right of the GUI to cycle between Coin and Emerald trades."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"4D05911E1234B7F1"
+				"28BBF9B5ABD7F66B"
+			]
+			size: 1.5d
+			id: "5C20BCAA10C636BA"
+			tasks: [{
+				id: "2136B862554B0D4E"
+				type: "item"
+				item: "farmingforblockheads:market"
+			}]
+			rewards: [{
+				id: "61DD719A44B318DB"
+				type: "item"
+				item: "decimal_coins:coin_10"
+			}]
+		}
+		{
+			icon: "pamhc2foodcore:trailmixitem"
+			x: -6.8d
+			y: -4.0d
+			shape: "diamond"
+			subtitle: "You can sluice Coral for seeds and gain turds from your strainer."
+			description: ["As you may have already read in the Rustic Waters II Guide, your diet choices can give you mood bonuses if you diversify your meals (but NOT negative statuses if you don't).  Meringue Brownies and Trail Mix are some good early game options you can make with the resources you are gathering."]
+			hide_dependency_lines: true
+			dependencies: [
+				"4D05911E1234B7F1"
+				"28BBF9B5ABD7F66B"
+			]
+			size: 1.5d
+			id: "4DE71395861AC17A"
+			tasks: [
+				{
+					id: "2E12FD4CD5658945"
+					type: "item"
+					item: "pamhc2foodcore:trailmixitem"
+				}
+				{
+					id: "1A6E0D1139915EA9"
+					type: "item"
+					item: "pamhc2foodextended:meringuebrownieitem"
+				}
+			]
+			rewards: [{
+				id: "115A19787F167DAB"
+				type: "item"
+				item: "waterstrainer:string_mesh"
+				count: 2
+			}]
+		}
+		{
+			icon: "minecraft:magma_block"
+			x: -4.0d
+			y: -4.0d
+			shape: "diamond"
+			description: [
+				"When you place Magma Blocks underwater, they will pull you downwards in the water quicker than you can normally swim.  They also refill your breath meter.  Consider placing this under your hub so you can drop to the ocean floor when needed."
+				""
+				"When you place Soul Sand underwater, it acts as an Elevator to push you up faster than you can normally swim.  It also refills your breath meter.  Use this for trips back from the ocean floor when needed."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"4D05911E1234B7F1"
+				"28BBF9B5ABD7F66B"
+			]
+			size: 1.5d
+			id: "39FC6643D2615261"
+			tasks: [{
+				id: "6B34629AD75BF491"
+				type: "checkmark"
+				title: "Going Down"
+			}]
+			rewards: [
+				{
+					id: "28FB0A4999BBFD1A"
+					type: "item"
+					item: "minecraft:magma_block"
+				}
+				{
+					id: "57A29C4B35E83ACE"
+					type: "item"
+					item: "minecraft:soul_sand"
+				}
+			]
+		}
+		{
+			x: -10.25d
+			y: 0.5d
+			shape: "diamond"
+			subtitle: "You can come back to this quest once your strainers have collected clay.  You can also find clay on the ocean floor."
+			description: ["Botany Pots can grow plants and trees quicker, and in a more compact space.  These must be harvested manually.  However, in the next few chapters you will learn how to craft Hydrostatic Botany Pots, which use hydrostatic pressure (underwater) to automatically harvest their crops."]
+			hide_dependency_lines: true
+			dependencies: ["09C510CC49D5F6AE"]
+			size: 1.25d
+			id: "269080A21C5A8E1C"
+			tasks: [{
+				id: "7455BDDE84295CE2"
+				type: "item"
+				item: "botanypots:botany_pot"
+				count: 2L
+			}]
+			rewards: [{
+				id: "484EC23D9C05D8B9"
+				type: "item"
+				item: "decimal_coins:coin_10"
+			}]
+		}
+		{
+			x: -12.75d
+			y: -1.75d
+			shape: "diamond"
+			description: ["Coral blocks have two main uses in this adventure.   Their colors can be spun out into dye using the Spinning Wheel, or they can be sluiced for seeds and saplings that may have gotten trapped within their crevices.  Horn and Fire coral have a chance to sluice saplings.  Brain and Tube sluice seeds.  Bubble coral can sluice to both.  Looking for a particular seed?  Check JEI for which coral drops what."]
+			hide_dependency_lines: true
+			dependencies: ["1EE115961FAC534F"]
+			size: 1.25d
+			id: "51C0C8513C6803BC"
+			tasks: [{
+				id: "1740CF0EC6ACA1D3"
+				type: "item"
+				item: "minecraft:bubble_coral_block"
+				count: 4L
+			}]
+			rewards: [{
+				id: "23C19EE7E6D1914E"
+				type: "item"
+				item: "thermal:nickel_ingot"
+				count: 8
+			}]
+		}
+		{
+			x: -9.0d
+			y: -1.75d
+			shape: "diamond"
+			description: ["Gravel can be sluiced for a high chance of Iron and Redstone, while also providing Nickel, Aluminum, and Zinc ores."]
+			dependencies: ["09C510CC49D5F6AE"]
+			size: 1.25d
+			id: "23849B4B91FAE443"
+			tasks: [{
+				id: "65BEAF0AC0C5A25D"
+				type: "item"
+				item: "minecraft:gravel"
+				count: 16L
+			}]
+			rewards: [{
+				id: "22937C76D310BD6B"
+				type: "item"
+				item: "pamhc2foodcore:juiceritem"
+			}]
+		}
+		{
+			x: -10.9d
+			y: -1.75d
+			shape: "diamond"
+			description: ["Dirt can be sluiced for a high chance at Copper while also providing Iron, Lead, Silver, Tin, and Redstone."]
+			hide_dependency_lines: true
+			dependencies: ["1EE115961FAC534F"]
+			size: 1.25d
+			id: "5CD288D45D52B192"
+			tasks: [{
+				id: "704E0F9F09A0E9D1"
+				type: "item"
+				item: "minecraft:dirt"
+				count: 16L
+			}]
+			rewards: [{
+				id: "481DA5A08A2B6906"
+				type: "item"
+				item: "minecraft:iron_ingot"
+				count: 16
+			}]
+		}
+		{
+			x: -10.25d
+			y: -8.5d
+			shape: "diamond"
+			subtitle: "Sneaking while Axing the bottom block of a tree will chop down the whole tree at once and cause the leaves to decay."
+			description: ["You see wildlife through the glass on your Hub and that's a good sign.  Food can be found here to supplement the apples on the tree.  Apple Sprouts can be planted on any leaf blocks, even if they aren't attached to a tree."]
+			dependencies: ["52C164ABE2904444"]
+			size: 1.25d
+			id: "5C064CA4AC9CB7DF"
+			tasks: [{
+				id: "7A95E18B0FFF08A9"
+				type: "item"
+				item: "minecraft:crafting_table"
+			}]
+			rewards: [{
+				id: "57C8CF848A8C04AD"
+				type: "item"
+				item: "minecraft:cobblestone"
+				count: 16
+			}]
+		}
+		{
+			x: -13.5d
+			y: -4.75d
+			shape: "diamond"
+			subtitle: "Devaria, your friendly Hub Companion is keen on Moose Ribs, an animal that can only be found on certain surface islands."
+			description: ["Charcoal and Coal can be turned into Mini variants which will allow you more precise smelting."]
+			dependencies: ["4D05911E1234B7F1"]
+			size: 1.25d
+			id: "42A44EF5DC97E552"
+			tasks: [{
+				id: "64FCFE3BEAF799C8"
+				type: "item"
+				item: "minecraft:furnace"
+			}]
+			rewards: [
+				{
+					id: "24C2090603F50437"
+					type: "item"
+					item: "minicoal2:minicoal"
+					count: 64
+				}
+				{
+					id: "17BD565D3BE0270D"
+					type: "item"
+					item: "alexsmobs:cooked_moose_ribs"
+					count: 4
+				}
+			]
+		}
+		{
+			x: -13.5d
+			y: -3.2d
+			shape: "diamond"
+			subtitle: "You can upgrade your Tool Belt to hold more tools by installing Belt Pouches on an anvil."
+			description: [
+				"Once you have gained and sluiced some resources, revisit this quest to craft a Tool Belt.  The Tool Belt is an easy way to keep your hotbar organized.  You can right click it from your hotbar to load your pickaxe, shovel, and other tools into it.  Then place it into your BELT Curios slot.  You can access your Curios slots by selecting the small button next to your head on your inventory character sheet."
+				"After you have placed your Tool Belt in the right Curios slot, you can hold \"r\" by default (check your \"Swap Tool\" keybind to change) to pull up your radial menu."
+			]
+			dependencies: ["1EE115961FAC534F"]
+			size: 1.25d
+			id: "4ADD7D348E92219B"
+			tasks: [{
+				id: "545466B1D7D0A2BD"
+				type: "item"
+				item: "toolbelt:belt"
+			}]
+			rewards: [{
+				id: "6E72BA7ED767E81A"
+				type: "item"
+				item: "toolbelt:pouch"
+			}]
+		}
+		{
+			x: -11.5d
+			y: 0.5d
+			shape: "diamond"
+			description: ["Clay, Sand, and Gravel can all be found on the ocean floor as well as from the strainer.  Don't be afraid to venture out to manually gather resources from the ocean."]
+			hide_dependency_lines: true
+			dependencies: ["09C510CC49D5F6AE"]
+			size: 1.25d
+			id: "3EA5FB83D348433E"
+			tasks: [{
+				id: "214F541C58692088"
+				type: "item"
+				item: "minecraft:clay_ball"
+				count: 32L
+			}]
+			rewards: [{
+				id: "56244C7B078C21B0"
+				type: "item"
+				item: {
+					id: "minecraft:diamond_shovel"
+					Count: 1b
+					tag: {
+						Damage: 0
+						display: {
+							Name: "{\"text\":\"Venture\"}"
+						}
+						Enchantments: [{
+							lvl: 5s
+							id: "minecraft:efficiency"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			x: -11.5d
+			y: -0.75d
+			shape: "diamond"
+			description: ["Iron Furnaces come in different tiers, performing all of the functions of a vanilla furnace, but with added benefits such as increased speed or reduced fuel consumption."]
+			dependencies: ["23849B4B91FAE443"]
+			size: 1.25d
+			id: "28BBF9B5ABD7F66B"
+			tasks: [{
+				id: "5F560467C95ECA16"
+				type: "item"
+				item: "ironfurnaces:copper_furnace"
+			}]
+			rewards: [{
+				id: "18A4638B37A4F4CE"
+				type: "item"
+				item: "rustic_resources:keyfragment"
+			}]
+		}
+		{
+			x: -10.25d
+			y: -0.75d
+			shape: "diamond"
+			subtitle: "There are four types of furnace augments that can fit into the slot of the furnace GUI."
+			description: [
+				"Furnace Tier Smelt Times:"
+				"Copper: 8.75 seconds (1.25s faster)"
+				"Iron Furnace: 8.5 seconds"
+				"Silver Furnace: 7.5 seconds"
+				"Gold Furnace: 6.25 seconds"
+				"Diamond Furnace: 5 seconds"
+				"Obsidian Furnace: 3.75 seconds"
+				"Emerald Furnace: 2.5"
+				"Crystal Furnace: 1.25 seconds"
+				"Netherite Furnace: 0.5 seconds"
+			]
+			dependencies: ["23849B4B91FAE443"]
+			size: 1.25d
+			id: "2564FB104365AEB4"
+			tasks: [{
+				id: "7B2001D6F8FAE853"
+				type: "item"
+				item: "ironfurnaces:augment_speed"
+			}]
+			rewards: [{
+				id: "43A88710EC6B9FDA"
+				type: "item"
+				item: "ironfurnaces:augment_fuel"
+			}]
+		}
+		{
+			icon: "rustic_resources:fishturd"
+			x: -5.45d
+			y: -4.0d
+			shape: "diamond"
+			subtitle: "Harnessing the nutrient rich goodness of the creatures around you is important.  Most sea life drop Turds and Leather Scraps.  You can also get these from your Strainers."
+			description: [
+				""
+				"The Feacon is a placeable block that can assist you for quick trips to the ocean floor.  Because of it's soft and porous composition, it can't handle pressures below Y-100.  But you can place it down in your Hub and high-five it whenever you need a burst of Night Vision and Water Breathing."
+			]
+			size: 1.5d
+			id: "233CF709E1BCD4D4"
+			tasks: [{
+				id: "15D525A907F6347C"
+				type: "item"
+				item: "rustic_resources:dookie"
+			}]
+			rewards: [{
+				id: "02698A0D2207EB56"
+				type: "item"
+				item: "theoneprobe:probe"
+			}]
+		}
+	]
+}

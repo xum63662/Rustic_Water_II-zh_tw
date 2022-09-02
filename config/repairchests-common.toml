@@ -1,0 +1,9 @@
+
+["Repair Times"]
+	#How many seconds to repair 1 point of damage
+	basicRepairTime = 4
+	#How many seconds to repair 1 point of damage
+	advancedRepairTime = 2
+	#How many seconds to repair 1 point of damage
+	ultimateRepairTime = 1
+

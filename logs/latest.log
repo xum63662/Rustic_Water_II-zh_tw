@@ -1,0 +1,51 @@
+[02Sep2022 07:47:34.429] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--username, Monsen951026, --version, 1.16.5, --gameDir, C:/Users/Jessica/AppData/Roaming/PolyMC/instances/Rustic Waters II/.minecraft, --assetsDir, C:/Users/Jessica/AppData/Roaming/PolyMC/assets, --assetIndex, 1.16, --uuid, c2a064162a5141fa922e926dd4928c29, --accessToken, ????????, --userType, msa, --versionType, release, --launchTarget, fmlclient, --fml.forgeVersion, 36.2.29, --fml.mcVersion, 1.16.5, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20210115.111550, --width, 854, --height, 480]
+[02Sep2022 07:47:34.435] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 8.1.3+8.1.3+main-8.1.x.c94d18ec starting: java version 1.8.0_341 by Oracle Corporation
+[02Sep2022 07:47:35.198] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[02Sep2022 07:47:35.256] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=file:/C:/Users/Jessica/AppData/Roaming/PolyMC/libraries/org/spongepowered/mixin/0.8.4/mixin-0.8.4.jar Service=ModLauncher Env=CLIENT
+[02Sep2022 07:47:41.352] [main/ERROR] [mixin/]: Mixin config boss_tools.mixin.json does not specify "minVersion" property
+[02Sep2022 07:47:42.081] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [vazkii.patchouli.common.MixinConnector]
+[02Sep2022 07:47:42.086] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.performant.coremod.mixin.Connector]
+[02Sep2022 07:47:42.097] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlclient' with arguments [--version, 1.16.5, --gameDir, C:\Users\Jessica\AppData\Roaming\PolyMC\instances\Rustic Waters II\.minecraft, --assetsDir, C:\Users\Jessica\AppData\Roaming\PolyMC\assets, --uuid, c2a064162a5141fa922e926dd4928c29, --username, Monsen951026, --assetIndex, 1.16, --accessToken, ????????, --userType, msa, --versionType, release, --width, 854, --height, 480]
+[02Sep2022 07:47:42.286] [main/WARN] [mixin/]: Reference map 'lemonlib.refmap.json' for lemonlib.mixins.json could not be read. If this is a development environment you can ignore this message
+[02Sep2022 07:47:42.416] [main/WARN] [mixin/]: Reference map 'rhino-forge-refmap.json' for rhino.mixins.json could not be read. If this is a development environment you can ignore this message
+[02Sep2022 07:47:42.670] [main/INFO] [com.performant.coremod.Performant/]: Performant configs loaded
+[02Sep2022 07:47:43.298] [main/INFO] [net.minecraftforge.coremod.CoreMod.better_diving/COREMODLOG]: Transforming method: updateFluidOnEyes net.minecraft.entity.Entity
+[02Sep2022 07:47:43.455] [main/INFO] [net.minecraftforge.coremod.CoreMod.better_diving/COREMODLOG]: Transforming method: getMaxAirSupply net.minecraft.entity.Entity
+[02Sep2022 07:47:43.596] [main/INFO] [net.minecraftforge.coremod.CoreMod.better_diving/COREMODLOG]: Transforming method: updateFluidHeightAndDoFluidPushing net.minecraft.entity.Entity
+[02Sep2022 07:47:44.835] [main/INFO] [net.minecraftforge.coremod.CoreMod.better_diving/COREMODLOG]: Transforming method: canBreatheUnderwater net.minecraft.entity.LivingEntity
+[02Sep2022 07:47:44.897] [main/INFO] [net.minecraftforge.coremod.CoreMod.better_diving/COREMODLOG]: Transforming method: decreaseAirSupply net.minecraft.entity.LivingEntity
+[02Sep2022 07:47:44.962] [main/INFO] [net.minecraftforge.coremod.CoreMod.better_diving/COREMODLOG]: Transforming method: increaseAirSupply net.minecraft.entity.LivingEntity
+[02Sep2022 07:47:45.000] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching LivingEntity#attackEntityFrom
+[02Sep2022 07:47:45.119] [main/INFO] [net.minecraftforge.coremod.CoreMod.better_diving/COREMODLOG]: Transforming method: travel net.minecraft.entity.LivingEntity
+[02Sep2022 07:47:45.499] [main/INFO] [net.minecraftforge.coremod.CoreMod.better_diving/COREMODLOG]: Transforming method: getWaterBrightness net.minecraft.client.entity.player.ClientPlayerEntity
+[02Sep2022 07:47:46.051] [main/INFO] [net.minecraftforge.coremod.CoreMod.better_diving/COREMODLOG]: Transforming method: updateFluidOnEyes net.minecraft.entity.Entity
+[02Sep2022 07:47:46.053] [main/INFO] [net.minecraftforge.coremod.CoreMod.better_diving/COREMODLOG]: Transforming method: getMaxAirSupply net.minecraft.entity.Entity
+[02Sep2022 07:47:46.054] [main/INFO] [net.minecraftforge.coremod.CoreMod.better_diving/COREMODLOG]: Transforming method: updateFluidHeightAndDoFluidPushing net.minecraft.entity.Entity
+[02Sep2022 07:47:46.487] [main/INFO] [net.minecraftforge.coremod.CoreMod.better_diving/COREMODLOG]: Transforming method: renderLevel net.minecraft.client.renderer.GameRenderer
+[02Sep2022 07:47:46.525] [main/INFO] [net.minecraftforge.coremod.CoreMod.better_diving/COREMODLOG]: Transforming method: getWaterBrightness net.minecraft.client.entity.player.ClientPlayerEntity
+[02Sep2022 07:47:47.303] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching ItemStack#onItemUse
+[02Sep2022 07:47:47.939] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching ModelBakery#<init>
+[02Sep2022 07:47:48.121] [main/INFO] [net.minecraftforge.coremod.CoreMod.better_diving/COREMODLOG]: Transforming method: turnPlayer net.minecraft.client.MouseHelper
+[02Sep2022 07:47:48.219] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching DataPackRegistries#<init>
+[02Sep2022 07:47:48.235] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching LootTableManager#apply
+[02Sep2022 07:47:48.456] [main/INFO] [de.keksuccino.fancymenu.mixin.FMMixinPlugin/]: [FANCYMENU] APPLYING MIXIN: de.keksuccino.fancymenu.mixin.client.MixinWidget | TO TARGET: net.minecraft.client.gui.widget.Widget
+[02Sep2022 07:47:48.458] [main/INFO] [de.keksuccino.fancymenu.mixin.FMMixinPlugin/]: [FANCYMENU] APPLYING MIXIN: de.keksuccino.fancymenu.mixin.client.MixinImageButton | TO TARGET: net.minecraft.client.gui.widget.button.ImageButton
+[02Sep2022 07:47:48.461] [main/INFO] [de.keksuccino.fancymenu.mixin.FMMixinPlugin/]: [FANCYMENU] APPLYING MIXIN: de.keksuccino.fancymenu.mixin.client.MixinAbstractList | TO TARGET: net.minecraft.client.gui.widget.list.AbstractList
+[02Sep2022 07:47:48.464] [main/INFO] [de.keksuccino.fancymenu.mixin.FMMixinPlugin/]: [FANCYMENU] APPLYING MIXIN: de.keksuccino.fancymenu.mixin.client.MixinScreen | TO TARGET: net.minecraft.client.gui.screen.Screen
+[02Sep2022 07:47:48.466] [main/INFO] [de.keksuccino.fancymenu.mixin.FMMixinPlugin/]: [FANCYMENU] APPLYING MIXIN: de.keksuccino.fancymenu.mixin.client.MixinMinecraft | TO TARGET: net.minecraft.client.Minecraft
+[02Sep2022 07:47:48.469] [main/INFO] [de.keksuccino.fancymenu.mixin.FMMixinPlugin/]: [FANCYMENU] APPLYING MIXIN: de.keksuccino.fancymenu.mixin.client.MixinResourceLoadProgressGui | TO TARGET: net.minecraft.client.gui.ResourceLoadProgressGui
+[02Sep2022 07:47:48.471] [main/INFO] [de.keksuccino.fancymenu.mixin.FMMixinPlugin/]: [FANCYMENU] APPLYING MIXIN: de.keksuccino.fancymenu.mixin.client.MixinAbstractGui | TO TARGET: net.minecraft.client.gui.AbstractGui
+[02Sep2022 07:47:48.473] [main/INFO] [de.keksuccino.fancymenu.mixin.FMMixinPlugin/]: [FANCYMENU] APPLYING MIXIN: de.keksuccino.fancymenu.mixin.client.MixinOnlineServerEntry | TO TARGET: net.minecraft.client.gui.screen.ServerSelectionList$NormalEntry
+[02Sep2022 07:47:48.474] [main/INFO] [de.keksuccino.fancymenu.mixin.FMMixinPlugin/]: [FANCYMENU] APPLYING MIXIN: de.keksuccino.fancymenu.mixin.client.MixinWorldListEntry | TO TARGET: net.minecraft.client.gui.screen.WorldSelectionList$Entry
+[02Sep2022 07:47:48.788] [main/INFO] [com.performant.coremod.Performant/]: Not enabling mixin forcom.performant.coremod.mixin.forge.BasicEventHooksMixin as config disables it.
+[02Sep2022 07:47:48.801] [main/INFO] [com.performant.coremod.Performant/]: Not enabling mixin forcom.performant.coremod.mixin.world.WorldMixin as config disables it.
+[02Sep2022 07:47:48.884] [main/INFO] [com.performant.coremod.Performant/]: Not enabling mixin forcom.performant.coremod.mixin.entity.LivingEntityUpdateEventMixin as config disables it.
+[02Sep2022 07:47:52.671] [pool-3-thread-1/INFO] [net.minecraftforge.coremod.CoreMod.better_diving/COREMODLOG]: Transforming method: updateFluidOnEyes net.minecraft.entity.Entity
+[02Sep2022 07:47:52.673] [pool-3-thread-1/INFO] [net.minecraftforge.coremod.CoreMod.better_diving/COREMODLOG]: Transforming method: getMaxAirSupply net.minecraft.entity.Entity
+[02Sep2022 07:47:52.674] [pool-3-thread-1/INFO] [net.minecraftforge.coremod.CoreMod.better_diving/COREMODLOG]: Transforming method: updateFluidHeightAndDoFluidPushing net.minecraft.entity.Entity
+[02Sep2022 07:47:53.130] [pool-3-thread-1/INFO] [net.minecraftforge.coremod.CoreMod.better_diving/COREMODLOG]: Transforming method: canBreatheUnderwater net.minecraft.entity.LivingEntity
+[02Sep2022 07:47:53.131] [pool-3-thread-1/INFO] [net.minecraftforge.coremod.CoreMod.better_diving/COREMODLOG]: Transforming method: decreaseAirSupply net.minecraft.entity.LivingEntity
+[02Sep2022 07:47:53.132] [pool-3-thread-1/INFO] [net.minecraftforge.coremod.CoreMod.better_diving/COREMODLOG]: Transforming method: increaseAirSupply net.minecraft.entity.LivingEntity
+[02Sep2022 07:47:53.133] [pool-3-thread-1/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching LivingEntity#attackEntityFrom
+[02Sep2022 07:47:53.146] [pool-3-thread-1/INFO] [net.minecraftforge.coremod.CoreMod.better_diving/COREMODLOG]: Transforming method: travel net.minecraft.entity.LivingEntity
+[02Sep2022 07:47:54.338] [pool-3-thread-1/INFO] [FerriteCore - class definer/]: Using Java 8 class definer

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " I ",
+    "I I",
+    " I "
+  ],
+  "key": {
+    "I": {
+      "item": "rustic_resources:aluminite_ingot"
+    }
+  },
+  "result": {
+    "item": "rustic_resources:reinforcedwood",
+    "count": 2
+  }
+}

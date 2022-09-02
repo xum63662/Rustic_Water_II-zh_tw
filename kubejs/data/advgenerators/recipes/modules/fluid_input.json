@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "I I",
+    "FIF",
+    " W "
+  ],
+  "key": {
+    "I": {
+      "item": "rustic_resources:aluminite_ingot"
+    },
+    "F": {
+      "item": "rustic_resources:reinforcedwood"
+    },
+    "W": {
+      "item": "advgenerators:iron_tubing"
+    }
+  },
+  "result": {
+    "item": "advgenerators:fluid_input"
+  }
+}

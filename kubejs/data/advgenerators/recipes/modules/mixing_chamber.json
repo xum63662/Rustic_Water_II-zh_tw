@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "FPF",
+    "V V",
+    "FPF"
+  ],
+  "key": {
+    "F": {
+      "item": "rustic_resources:reinforcedwood"
+    },
+    "P": {
+      "item": "advgenerators:iron_tubing"
+    },
+    "V": {
+      "item": "advgenerators:pressure_valve"
+    }
+  },
+  "result": {
+    "item": "advgenerators:mixing_chamber"
+  }
+}

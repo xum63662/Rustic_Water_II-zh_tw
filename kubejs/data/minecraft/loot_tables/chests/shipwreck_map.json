@@ -1,0 +1,720 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:exploration_map",
+              "decoration": "red_x",
+              "zoom": 1,
+              "skip_existing_chunks": false
+            }
+          ],
+          "name": "minecraft:map"
+        }
+      ]
+    },
+    {
+      "rolls": 5,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "waterstrainer:strainer_survivalist"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "botanypots:hopper_red_botany_pot"
+        },
+{
+          "type": "minecraft:item",
+          "name": "botanypots:blue_botany_pot"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "ars_nouveau:glyph_smelt"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "ars_nouveau:glyph_press"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "ars_nouveau:glyph_harm"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "ars_nouveau:glyph_delay"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "ars_nouveau:glyph_harvest"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "ars_nouveau:glyph_shield"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "ars_nouveau:glyph_gust"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "ars_nouveau:glyph_pierce"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "ars_nouveau:glyph_sensitive"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "ars_nouveau:glyph_toss"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "ars_nouveau:glyph_fortune"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "ars_nouveau:glyph_haste"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "ars_nouveau:glyph_conjure_water"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "ars_nouveau:glyph_heal"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "ars_nouveau:glyph_linger"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "ars_nouveau:glyph_craft"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "ars_nouveau:glyph_touch"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "ars_nouveau:glyph_amplify"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "ars_nouveau:glyph_light"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "ars_nouveau:glyph_freeze"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "ars_nouveau:glyph_hex"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "ars_nouveau:glyph_orbit"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "ars_nouveau:glyph_fell"
+        },
+{
+          "type": "minecraft:item",
+          "name": "botanypots:hopper_light_gray_botany_pot"
+        },
+{
+          "type": "minecraft:item",
+          "name": "botanypots:hopper_cyan_botany_pot"
+        },
+{
+          "type": "minecraft:item",
+          "name": "botanypots:hopper_orange_botany_pot"
+        },
+{
+          "type": "minecraft:item",
+          "name": "botanypots:lime_botany_pot"
+        },
+{
+          "type": "minecraft:item",
+          "name": "botanypots:orange_botany_pot"
+        },
+{
+          "type": "minecraft:item",
+          "name": "botanypots:gray_botany_pot"
+        },
+{
+          "type": "minecraft:item",
+          "name": "botanypots:hopper_blue_botany_pot"
+        },
+{
+          "type": "minecraft:item",
+          "name": "botanypots:brown_botany_pot"
+        },
+{
+          "type": "minecraft:item",
+          "name": "botanypots:hopper_botany_pot"
+        },
+{
+          "type": "minecraft:item",
+          "name": "botanypots:hopper_light_blue_botany_pot"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ironchest:copper_to_silver_chest_upgrade"
+        },
+{
+          "type": "minecraft:item",
+          "name": "ironchest:silver_to_gold_chest_upgrade"
+        },
+{
+          "type": "minecraft:item",
+          "name": "ironchest:wood_to_copper_chest_upgrade"
+        },
+{
+          "type": "minecraft:item",
+          "name": "ironchest:wood_to_iron_chest_upgrade"
+        },
+{
+          "type": "minecraft:item",
+          "name": "ironchest:iron_to_gold_chest_upgrade"
+        },
+{
+          "type": "minecraft:item",
+          "name": "ironchest:copper_to_iron_chest_upgrade"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "sweetconcrete:lime_concrete_lever"
+        },
+{
+          "type": "minecraft:item",
+          "name": "sweetconcrete:red_concrete_lever"
+        },
+{
+          "type": "minecraft:item",
+          "name": "sweetconcrete:yellow_concrete_lever"
+        },
+{
+          "type": "minecraft:item",
+          "name": "sweetconcrete:cyan_concrete_lever"
+        },
+{
+          "type": "minecraft:item",
+          "name": "sweetconcrete:light_gray_concrete_lever"
+        },
+{
+          "type": "minecraft:item",
+          "name": "sweetconcrete:black_concrete_lever"
+        },
+{
+          "type": "minecraft:item",
+          "name": "sweetconcrete:pink_concrete_lever"
+        },
+{
+          "type": "minecraft:item",
+          "name": "sweetconcrete:white_concrete_lever"
+        },
+{
+          "type": "minecraft:item",
+          "name": "sweetconcrete:brown_concrete_lever"
+        },
+{
+          "type": "minecraft:item",
+          "name": "sweetconcrete:gray_concrete_lever"
+        },
+{
+          "type": "minecraft:item",
+          "name": "sweetconcrete:green_concrete_lever"
+        },
+{
+          "type": "minecraft:item",
+          "name": "sweetconcrete:light_blue_concrete_lever"
+        },
+{
+          "type": "minecraft:item",
+          "name": "sweetconcrete:blue_concrete_lever"
+        },
+{
+          "type": "minecraft:item",
+          "name": "sweetconcrete:purple_concrete_lever"
+        },
+{
+          "type": "minecraft:item",
+          "name": "sweetconcrete:orange_concrete_lever"
+        },
+{
+          "type": "minecraft:item",
+          "name": "sweetconcrete:magenta_concrete_lever"
+        },
+{
+          "type": "minecraft:item",
+          "name": "sweetconcrete:cyan_concrete_sign"
+        },
+{
+          "type": "minecraft:item",
+          "name": "sweetconcrete:orange_concrete_sign"
+        },
+{
+          "type": "minecraft:item",
+          "name": "sweetconcrete:light_blue_concrete_sign"
+        },
+{
+          "type": "minecraft:item",
+          "name": "sweetconcrete:purple_concrete_sign"
+        },
+{
+          "type": "minecraft:item",
+          "name": "sweetconcrete:black_concrete_sign"
+        },
+{
+          "type": "minecraft:item",
+          "name": "sweetconcrete:pink_concrete_sign"
+        },
+{
+          "type": "minecraft:item",
+          "name": "sweetconcrete:white_concrete_sign"
+        },
+{
+          "type": "minecraft:item",
+          "name": "sweetconcrete:green_concrete_sign"
+        },
+{
+          "type": "minecraft:item",
+          "name": "sweetconcrete:brown_concrete_sign"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pamhc2foodextended:chickentendersmealitem"
+        },
+{
+          "type": "minecraft:item",
+          "name": "pamhc2foodextended:cookoutmealitem"
+        },
+{
+          "type": "minecraft:item",
+          "name": "pamhc2foodextended:cinnamonappleoatmealitem"
+        },
+{
+          "type": "minecraft:item",
+          "name": "pamhc2foodextended:peachesandcreamoatmealitem"
+        },
+{
+          "type": "minecraft:item",
+          "name": "pamhc2foodextended:mapleoatmealitem"
+        },
+{
+          "type": "minecraft:item",
+          "name": "pamhc2foodextended:delightedmealitem"
+        },
+{
+          "type": "minecraft:item",
+          "name": "pamhc2foodextended:oatmealraisincookiesitem"
+        },
+{
+          "type": "minecraft:item",
+          "name": "sweetconcrete:light_gray_concrete_sign"
+        },
+{
+          "type": "minecraft:item",
+          "name": "sweetconcrete:yellow_concrete_sign"
+        },
+{
+          "type": "minecraft:item",
+          "name": "sweetconcrete:gray_concrete_sign"
+        },
+{
+          "type": "minecraft:item",
+          "name": "sweetconcrete:magenta_concrete_sign"
+        },
+{
+          "type": "minecraft:item",
+          "name": "sweetconcrete:lime_concrete_sign"
+        },
+{
+          "type": "minecraft:item",
+          "name": "sweetconcrete:blue_concrete_sign"
+        },
+{
+          "type": "minecraft:item",
+          "name": "sweetconcrete:red_concrete_sign"
+        },
+{
+          "type": "minecraft:item",
+          "name": "ironchest:diamond_to_crystal_chest_upgrade"
+        },
+{
+          "type": "minecraft:item",
+          "name": "ironchest:diamond_to_obsidian_chest_upgrade"
+        },
+{
+          "type": "minecraft:item",
+          "name": "ironchest:gold_to_diamond_chest_upgrade"
+        },
+{
+          "type": "minecraft:item",
+          "name": "botanypots:hopper_gray_botany_pot"
+        },
+{
+          "type": "minecraft:item",
+          "name": "botanypots:hopper_brown_botany_pot"
+        },
+{
+          "type": "minecraft:item",
+          "name": "botanypots:pink_botany_pot"
+        },
+{
+          "type": "minecraft:item",
+          "name": "botanypots:hopper_black_botany_pot"
+        },
+{
+          "type": "minecraft:item",
+          "name": "botanypots:hopper_white_botany_pot"
+        },
+{
+          "type": "minecraft:item",
+          "name": "botanypots:light_blue_botany_pot"
+        },
+{
+          "type": "minecraft:item",
+          "name": "botanypots:hopper_green_botany_pot"
+        },
+{
+          "type": "minecraft:item",
+          "name": "botanypots:purple_botany_pot"
+        },
+{
+          "type": "minecraft:item",
+          "name": "botanypots:red_botany_pot"
+        },
+{
+          "type": "minecraft:item",
+          "name": "botanypots:black_botany_pot"
+        },
+{
+          "type": "minecraft:item",
+          "name": "botanypots:light_gray_botany_pot"
+        },
+{
+          "type": "minecraft:item",
+          "name": "botanypots:botany_pot"
+        },
+{
+          "type": "minecraft:item",
+          "name": "botanypots:green_botany_pot"
+        },
+{
+          "type": "minecraft:item",
+          "name": "botanypots:magenta_botany_pot"
+        },
+{
+          "type": "minecraft:item",
+          "name": "botanypots:hopper_purple_botany_pot"
+        },
+{
+          "type": "minecraft:item",
+          "name": "botanypots:hopper_pink_botany_pot"
+        },
+{
+          "type": "minecraft:item",
+          "name": "botanypots:hopper_magenta_botany_pot"
+        },
+{
+          "type": "minecraft:item",
+          "name": "botanypots:hopper_lime_botany_pot"
+        },
+{
+          "type": "minecraft:item",
+          "name": "botanypots:cyan_botany_pot"
+        },
+{
+          "type": "minecraft:item",
+          "name": "botanypots:yellow_botany_pot"
+        },
+{
+          "type": "minecraft:item",
+          "name": "botanypots:white_botany_pot"
+        },
+{
+          "type": "minecraft:item",
+          "name": "botanypots:hopper_yellow_botany_pot"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tipsy:bitterlilybud"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ender_eye"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "create:gearbox"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:blaze_powder"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mekanism:alloy_infused"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bookshelf"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lava_bucket"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ocelot_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:feather"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 25,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 4.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:prismarine_shard"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 25,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 5.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:prismarine_crystals"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 3.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "industrialforegoing:plastic"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 5.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:bamboo"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 2.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:scute"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 5.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "create:white_sail"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 30,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 5.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:obsidian"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 30,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 5.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "immersiveengineering:treated_wood_horizontal"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 4.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "immersiveengineering:armor_piercing"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 3.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "thermal:earth_grenade"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 2.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "thermal:blitz_powder"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 2.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "thermal:blizz_powder"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 2.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "thermal:basalz_powder"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 30,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 5.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:string"
+        }
+      ]
+    }
+  ]
+}

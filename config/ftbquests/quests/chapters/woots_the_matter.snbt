@@ -1,0 +1,588 @@
+{
+	id: "758E2F3F5233EB51"
+	group: ""
+	order_index: 17
+	filename: "woots_the_matter"
+	title: "Woot's The Matter"
+	icon: "woot:controller"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: 1.0d
+		y: -2.5d
+		width: 19.36d
+		height: 11.0d
+		rotation: 0.0d
+		image: "rusticwaters:textures/page15.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			x: 3.5d
+			y: -3.5d
+			description: ["Your intern will build your Factory for you when you cycle to the correct mode, and right click on the Heart block.  However, there are two blocks that you must place manually:  the Mob Controller and the Conatus Cell.  The Conatus cell holds Conatus Fluid, the fuel for your factory.  The following quests will show you how to create Conatus Fluid."]
+			dependencies: ["51E89536D0B54EB3"]
+			id: "49D2FC0A44FF9FE4"
+			tasks: [{
+				id: "202257C2AD9252A4"
+				type: "item"
+				item: "woot:cell_1"
+			}]
+			rewards: [{
+				id: "5BCB8157950230BD"
+				type: "item"
+				item: {
+					id: "woot:mobshard"
+					Count: 1b
+					tag: {
+						Mob: {
+							keyTag: ""
+							keyEntity: "thermal:basalz"
+						}
+						Kills: 5
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: -5.5d
+			subtitle: "Dyes can be made by spinning Coral blocks and combining their colors."
+			description: ["The Intern is your assistant for building the Woot Multiblocks (Factories).  While holding your Intern you can Shift+look at the Layout block and it will show you a list of all the blocks you will need in order to form that tier of Multiblock.  It can also \"validate\" a multiblock you have formed by right clicking on the Heart block of the multiblock.  You can Shift+Right Click while holding your assistant to switch between the tier of multiblock you want it to validate for."]
+			dependencies: ["681EC7949099D72A"]
+			id: "6A7587AB1B1A35E5"
+			tasks: [{
+				id: "6677BB92B7202153"
+				type: "item"
+				item: {
+					id: "woot:intern"
+					Count: 1b
+					tag: {
+						mode: "BUILD_1"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "25A4C999D787EB70"
+					type: "item"
+					item: "minecraft:light_blue_dye"
+					count: 16
+				}
+				{
+					id: "5CF705BC1B6CF726"
+					type: "item"
+					item: "minecraft:pink_dye"
+					count: 16
+				}
+				{
+					id: "3F24AFCB5ED5ADCA"
+					type: "item"
+					item: "minecraft:yellow_dye"
+					count: 16
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -4.5d
+			description: [
+				"Certain Recipes within this mod will require you to use Liquid Enchant.  This can be created using an Enchant Liquifier.  Placing old unwanted enchant books into the Liquifier will create a differing amount of Liquid Enchant based on the tier of the enchant book."
+				"The YA Hammer is a tool used in many of the recipes from Woot."
+			]
+			dependencies: ["0BCA5B66F68CB864"]
+			id: "220C198B48346A45"
+			tasks: [{
+				id: "1E33CD7488A30C92"
+				type: "item"
+				item: "woot:enchsqueezer"
+			}]
+			rewards: [{
+				id: "30C0368B208C1A52"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 3s
+							id: "minecraft:sharpness"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: -4.5d
+			description: [
+				"In addition to the base blocks listed in the previous quest, you will also need specific blocks pertaining to whatever tier of Factory you are building.  This quest reward will take you to an image of the required blocks for each tier.  You can also view this information by changing the tier projected by your Layout block, and Shift+Looking at it with your Intern in hand.  The tier specific blocks needed for your Tier 1 factory are:"
+				"2x Amaranth Block"
+				"2x Factory Connector"
+				"1x Perk Slot"
+				"1x Mob Controller"
+			]
+			dependencies: ["0B8FC983C7321BB2"]
+			id: "51E89536D0B54EB3"
+			tasks: [
+				{
+					id: "0EE3630C56A3C8C4"
+					type: "item"
+					item: "woot:factory_connect"
+					count: 2L
+				}
+				{
+					id: "2F23849BEBECED4F"
+					type: "item"
+					item: "woot:factory_a"
+					count: 2L
+				}
+			]
+			rewards: [{
+				id: "751D14954640E8E8"
+				type: "command"
+				command: "/tellraw @p {\"text\":\"->Click for WOOT Factory Block Requirements<-\",\"color\":\"#02FF00\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://i.imgur.com/i3iILbN.png\"}}"
+				player_command: false
+			}]
+		}
+		{
+			x: -1.5d
+			y: -3.5d
+			dependencies: ["3D963C48E6D0EE10"]
+			id: "0BCA5B66F68CB864"
+			tasks: [{
+				id: "0053D8BEC4A05295"
+				type: "item"
+				item: "woot:controller"
+			}]
+			rewards: [{
+				id: "5FFA4B8A7064F7DE"
+				type: "item"
+				item: {
+					id: "woot:mobshard"
+					Count: 1b
+					tag: {
+						Mob: {
+							keyTag: ""
+							keyEntity: "minecraft:witch"
+						}
+						Kills: 5
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: -5.5d
+			description: ["Woot is a mod all about obtaining mob drops without creating massive lag-inducing kill boxes.  The primary ingredient for Woot machinery is Stygian Iron.  This can be made easily by combining Iron Dust, Obsidian Dust, and Nether Wart."]
+			dependencies: ["1968074BCE9A6E85"]
+			id: "681EC7949099D72A"
+			tasks: [{
+				id: "1337320F5F420A84"
+				type: "item"
+				item: "woot:si_ingot"
+				count: 64L
+			}]
+			rewards: [{
+				id: "092BEB5EB0B238B0"
+				type: "item"
+				item: "woot:cell_1"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -4.5d
+			description: [
+				"Once you have a programmed Mob Shard you will need to combine it with a Prism and a Stygian Plate, in a Stygian Anvil to create a Mob Controller.  The Mob Controller will be placed in your Factory to dictate the mob that it simulates."
+				"{image:woot:textures/block/controller.png width:100 height:100 align:1}"
+			]
+			dependencies: ["3176E4D67EBAAEC1"]
+			id: "4254B1C20246623E"
+			tasks: [
+				{
+					id: "73796895C0C5E3B6"
+					type: "item"
+					item: "woot:prism"
+				}
+				{
+					id: "12C5186B182A7AF7"
+					type: "item"
+					item: "woot:si_plate"
+					count: 32L
+				}
+			]
+			rewards: [{
+				id: "3506242C335BBA5C"
+				type: "item"
+				item: "decimal_coins:coin_20"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -3.4d
+			shape: "diamond"
+			description: ["Exotics, or Keys, are rare upgrades to your factory that can only be found in End City Chests or rare drops from Dungeon Boss Caches.  They can only be installed on Tier 5 Factories and must be placed on top of the Heart.  These are not required upgrades for your factory, just a bonus if you find them."]
+			hide_dependency_lines: true
+			dependencies: ["1307455D664B9DD6"]
+			size: 1.25d
+			id: "3C2DC7E049830F5B"
+			tasks: [
+				{
+					id: "2C61368C2F2A16B7"
+					type: "item"
+					item: "woot:exotic_a"
+				}
+				{
+					id: "5229922D226ECDA2"
+					type: "item"
+					item: "woot:exotic_b"
+				}
+				{
+					id: "37DAC4B9AF1F8AC2"
+					type: "item"
+					item: "woot:exotic_c"
+				}
+				{
+					id: "4DA7D74630C8B8BD"
+					type: "item"
+					item: "woot:exotic_d"
+				}
+				{
+					id: "310BE2067E1AFA39"
+					type: "item"
+					item: "woot:exotic_e"
+				}
+			]
+			rewards: [{
+				id: "384A70E70FC93BC3"
+				type: "item"
+				item: "draconicevolution:chaotic_core"
+				count: 2
+			}]
+		}
+		{
+			x: 4.5d
+			y: -3.5d
+			subtitle: "The fluid vat automatically outputs to a tank on the right of the machine."
+			description: ["Your Fluid Vat allows you to create Conatus fluid by funneling certain mob drops back into it.  Conatus fluid can also be made by Fraction Stilling Tree Oil."]
+			dependencies: ["49D2FC0A44FF9FE4"]
+			id: "1A34872B56199A27"
+			tasks: [{
+				id: "59D778648C642ADD"
+				type: "item"
+				item: "woot:fluidconvertor"
+			}]
+			rewards: [{
+				id: "327466FD6150898C"
+				type: "item"
+				item: "thermal:tree_oil_bucket"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -3.5d
+			description: ["Higher Tier factories require certain materials that can drop from earlier tier factories that have the Scale The Summit perk installed.  These materials, or at least the shards you need to craft them, can also be conjured using the Ars Nouveau Enchanting Apparatus."]
+			dependencies: [
+				"220C198B48346A45"
+				"2EC2D074BF3A14B5"
+			]
+			id: "53A73ECB91C52A2C"
+			tasks: [{
+				id: "3F756767D2BCB0CC"
+				type: "item"
+				item: "woot:tier_shard_1"
+			}]
+			rewards: [{
+				id: "4B31849BFB0563B5"
+				type: "item"
+				item: "woot:efficiency_1"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -5.5d
+			subtitle: "You can change the tier of the Factory that the Layout block is projecting by right clicking.  Shift+Right Click will cycle through each Y-level of the hologram."
+			description: [
+				"The Layout block is not a part of your multiblock.  It is just a projector that will display the Factory beneath it, allowing you to see where you should place each piece of the multiblock.  These Factories come in 5 tiers.  Higher difficulty (health based) mobs require higher tier Factories."
+				"Since the highest tier of factory has a 7x7 footprint, and stands 10 blocks tall, you should account for this by placing your layout block 11 blocks in the air."
+			]
+			dependencies: ["6A7587AB1B1A35E5"]
+			id: "0BB9866369D55E18"
+			tasks: [{
+				id: "531FA9DA071AC6B0"
+				type: "item"
+				item: "woot:layout"
+			}]
+			rewards: [
+				{
+					id: "67FBE9626EF2AB25"
+					type: "item"
+					item: "minecraft:brown_dye"
+					count: 16
+				}
+				{
+					id: "25BEB046242F0FE2"
+					type: "item"
+					item: "minecraft:gray_dye"
+					count: 16
+				}
+				{
+					id: "309DC42CCAC0C3A0"
+					type: "item"
+					item: "minecraft:purple_dye"
+					count: 16
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -4.5d
+			subtitle: "Place the Heart block directly beneath your Layout Guide block, as shown in the projection."
+			description: [
+				""
+				"Every Woot Factory requires the following blocks:"
+				"1 x Heart"
+				"1 x Primary Base"
+				"1 x Conatus Cell"
+				"1 x Ingredient Importer"
+				"1 x Loot Exporter"
+				"These are just the base components.  You will also need additional blocks depending on the tier of Factory you are building.  These additional blocks will be discussed in the next quest."
+			]
+			dependencies: ["0BB9866369D55E18"]
+			id: "0B8FC983C7321BB2"
+			tasks: [
+				{
+					id: "4BCDB29B0103D865"
+					type: "item"
+					item: "woot:heart"
+				}
+				{
+					id: "1F957362C234B2EB"
+					type: "item"
+					item: "woot:factory_ctr_base_pri"
+				}
+			]
+			rewards: [{
+				id: "09F2416DD857DCBE"
+				type: "item"
+				item: {
+					id: "woot:mobshard"
+					Count: 1b
+					tag: {
+						Mob: {
+							keyTag: ""
+							keyEntity: "minecraft:turtle"
+						}
+						Kills: 5
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: -4.5d
+			description: ["Each Factory tier can support a different number of Perks.  Perks can alter the speed, efficiency, and/or drops rates of the mobs being simulated.  Most perks have multiple tiers.  You must install them onto a perk block in order.  For instance, you cannot install a Tier 2 perk without first installing the Tier 1 version."]
+			id: "2EC2D074BF3A14B5"
+			tasks: [{
+				id: "30DE829261A4283E"
+				type: "item"
+				item: "woot:factory_upgrade"
+			}]
+			rewards: [{
+				id: "591391437EC5140A"
+				type: "item"
+				item: {
+					id: "woot:mobshard"
+					Count: 1b
+					tag: {
+						Mob: {
+							keyTag: ""
+							keyEntity: "minecraft:rabbit"
+						}
+						Kills: 5
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: -4.5d
+			description: [
+				""
+				"Some higher tier mobs will require Ingredients to act as a catalyst for their spawn simulation.  These can be provided by a chest and a hopper leading into your Ingredient Importer.  To view the ingredients required for the mobs your factory is spawning you can click on the Heart block."
+			]
+			dependencies: ["51E89536D0B54EB3"]
+			id: "1F27BC70EEA45C27"
+			tasks: [{
+				id: "15BDF801F664F576"
+				type: "item"
+				item: "woot:import"
+			}]
+			rewards: [{
+				id: "0BFC8BC500DACE13"
+				type: "item"
+				item: {
+					id: "woot:mobshard"
+					Count: 1b
+					tag: {
+						Mob: {
+							keyTag: ""
+							keyEntity: "thermal:blitz"
+						}
+						Kills: 5
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: -4.5d
+			description: ["Your factory will output its mob drops from the Loot Exporter.  You must place a chest adjacent to the Exporter for it to place the drops into.  You can also view the Loot table for the mobs in your factory by clicking on the Heart block."]
+			dependencies: ["1F27BC70EEA45C27"]
+			id: "775BA451F61920BA"
+			tasks: [{
+				id: "2035C1033EECCFFB"
+				type: "item"
+				item: "woot:export"
+			}]
+			rewards: [{
+				id: "1D0F398B961C5571"
+				type: "item"
+				item: {
+					id: "woot:mobshard"
+					Count: 1b
+					tag: {
+						Mob: {
+							keyTag: ""
+							keyEntity: "thermal:blizz"
+						}
+						Kills: 5
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: -5.5d
+			description: ["The YA Hammer is used to process recipes on the Stygian Anvil. "]
+			dependencies: ["681EC7949099D72A"]
+			id: "03AD8979789634D6"
+			tasks: [{
+				id: "1CCBF2FDB354E416"
+				type: "item"
+				item: "woot:hammer"
+			}]
+			rewards: [{
+				id: "5638A3D0B3B35472"
+				type: "item"
+				item: "scalinghealth:heart_crystal"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -3.5d
+			description: ["The Stygian Anvil allows you to program a Mob Controller block with a specific mob.  Place the Prism, Stygian Plate, and programmed Mob Shard into the Stygian Anvil and Right Click it with your YA Hammer."]
+			dependencies: ["4254B1C20246623E"]
+			id: "3D963C48E6D0EE10"
+			tasks: [{
+				id: "364C761F20D4630A"
+				type: "item"
+				item: "woot:anvil"
+			}]
+			rewards: [{
+				id: "4F522ABB48507BE3"
+				type: "item"
+				item: {
+					id: "woot:mobshard"
+					Count: 1b
+					tag: {
+						Mob: {
+							keyTag: ""
+							keyEntity: "ars_nouveau:wilden_guardian"
+						}
+						Kills: 5
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: -5.5d
+			subtitle: "Some quests in this chain will give you Mob Shards to start you off with.  Hover over them to see what mob they are programmed for."
+			description: ["Mob Shards are used to store the information about what mob you want your Farm to simulate.  In order to program the Shard, you must first Left Click on a mob.  You will receive the message \"Mob Captured\".  After that, keep the mob shard on your hotbar while you kill more of that mob type.  The Shard will (usually) require you to kill 5 of those mobs while it is in your hotbar to fully program it. You can hover over the Shard to see the progress of how many you have killed."]
+			dependencies: ["03AD8979789634D6"]
+			id: "3176E4D67EBAAEC1"
+			tasks: [{
+				id: "3F04491B26BA7424"
+				type: "item"
+				item: {
+					id: "woot:mobshard"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "0DB5B0044130713D"
+				type: "item"
+				item: {
+					id: "woot:mobshard"
+					Count: 1b
+					tag: {
+						Mob: {
+							keyTag: ""
+							keyEntity: "minecraft:elder_guardian"
+						}
+						Kills: 5
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: -6.5d
+			description: [
+				"Some aspects of this mod have been simplified in this adventure.  Namely the Dye Casts/Pure Dye Fluid.  The recipes have been left in place, in case you want to proceed through the mod in the original manner."
+				"In addition, some of the fluids and materials in this mod have alternate methods to crafting them such as Fraction Stilling Conatus Fluid from Tree Oil."
+			]
+			id: "1968074BCE9A6E85"
+			tasks: [{
+				id: "1AEE3E5201345C06"
+				type: "item"
+				item: "minecraft:nether_wart"
+				count: 64L
+			}]
+			rewards: [{
+				id: "35FD383592AAAB28"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "woot:wootguide"
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: -3.5d
+			description: ["Now that you have all the pieces of your factory, it's time to build it.  Don't forget to place down the Mob Controller and Conatus Cell manually.  Once you have a Tier 1 factory going, start planning your future tier upgrades.  You will likely not be able to complete this quest for quite some time, as you collect (or craft) the Byzantium needed for the Final Factory tier."]
+			dependencies: ["1A34872B56199A27"]
+			id: "1307455D664B9DD6"
+			tasks: [{
+				id: "72FE2F3A0B36D7FE"
+				type: "item"
+				item: "woot:factory_e"
+				count: 8L
+			}]
+			rewards: [{
+				id: "58CF6AE5AB3E7E1F"
+				type: "loot"
+				table_id: 6356432235294764866L
+			}]
+		}
+	]
+}

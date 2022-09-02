@@ -1,0 +1,16 @@
+{
+    "name": "Lockpicks",
+    "icon": "rustic_resources:lockpick",
+    "category": "patchouli:deep_sea_hub",
+    "sortnum": 3,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "You don't have to utilize the Hub Expansion System.  If you would like to build onto your base manually, you can remove the Hub Expansion Locks using a lockpick.  Lockpicks are crafted with a Hub Expansion Key and an Iron ingot.  Lockpicks are reuseable."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item":  "rustic_resources:lockpick"
+        }
+    ]
+}

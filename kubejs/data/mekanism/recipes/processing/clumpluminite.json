@@ -1,0 +1,1 @@
+{"type":"mekanism:purifying","itemInput":{"ingredient":{"item":"dark_caverns:carfstone_luminite_ore"}},"gasInput":{"amount":1,"gas":"mekanism:oxygen"},"output":{"item":"rustic_resources:clumpluminite","count":3}}

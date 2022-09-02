@@ -1,0 +1,510 @@
+{
+	id: "7CA1FEFA3E26CE64"
+	group: ""
+	order_index: 9
+	filename: "travelling_abroad"
+	title: "A Friend Indeed"
+	icon: {
+		id: "inventorypets:pet_wolf"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: 1.0d
+		y: -1.0d
+		width: 22.0d
+		height: 12.0d
+		rotation: 0.0d
+		image: "rusticwaters:textures/page2.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			x: 3.0d
+			y: -5.0d
+			shape: "heart"
+			subtitle: "Your strainers should be providing you with a steady supply of bones.  Also note that Whales and Orcas are a source of large amounts of bones."
+			description: ["The service dogs on the ship were highly capable special breeds that had unique perks.  However, after the traumatic experience of the crash they have resorted to their wolfly tendencies and will need to be retamed.  Right click them with bones until they reacclimate to you (hearts over their head)."]
+			dependencies: ["159E93A5DD8E1845"]
+			size: 1.5d
+			id: "392D64D4020CA568"
+			tasks: [{
+				id: "168B2F4B7CA5C03D"
+				type: "item"
+				item: "minecraft:bone"
+				count: 12L
+			}]
+			rewards: [{
+				id: "6F1A1A41B89E1F61"
+				type: "item"
+				item: "rustic_resources:keyfragment"
+			}]
+		}
+		{
+			icon: {
+				id: "inventorypets:pet_wolf"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 1.0d
+			y: -5.0d
+			shape: "heart"
+			subtitle: "This quest will complete once you search a Life Raft on the surface for any survivors."
+			description: [
+				"The Liberty was equipped with emergency Life Pods and Rafts.  Some of these could be floating on the surface of the water.  Find a Life Raft on the surface and see if any of the ship's pets stowed away on it.  Use the Monster Ball to capture any pet that may have stowed away and bring it back to base."
+				"While you are exploring the water's surface, feel free to visit any islands or resources you see.  It may save you a trip later."
+			]
+			size: 1.5d
+			id: "159E93A5DD8E1845"
+			tasks: [{
+				id: "7CA9E94FA430CAE4"
+				type: "observation"
+				icon: {
+					id: "inventorypets:pet_wolf"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "minecraft:wolf"
+			}]
+			rewards: [{
+				id: "1EE858D57D1BBDDD"
+				type: "item"
+				item: "cyclic:magic_net"
+			}]
+		}
+		{
+			icon: "doggytalents:training_treat"
+			x: 5.0d
+			y: -5.0d
+			shape: "heart"
+			subtitle: "Each treat you feed your dog increases its level, up to 20 per treat tier.  Your dog receives ability points each time they level up.  You can open the GUI of your dog by right clicking it with a stick.  You can allocate Ability Points to the different abilities, making your dog much more capable."
+			description: ["Now that you have retamed your service dog, you will need to jostle its training memory to unlock the skills it was taught in its youth.  Craft two tasty Treats for the pup and right click to feed it."]
+			dependencies: ["392D64D4020CA568"]
+			size: 1.5d
+			id: "38B81F6C5EC9F391"
+			tasks: [
+				{
+					id: "26C9261CA41605FB"
+					type: "item"
+					item: "doggytalents:training_treat"
+					count: 2L
+				}
+				{
+					id: "53A7707EA35B3218"
+					type: "item"
+					item: "minecraft:stick"
+				}
+			]
+			rewards: [
+				{
+					id: "56650AC9C0C5A085"
+					type: "item"
+					item: {
+						id: "doggytalents:dog_bed"
+						Count: 1b
+						tag: {
+							doggytalents: {
+								casingId: "minecraft:dark_oak_planks"
+								beddingId: "minecraft:red_wool"
+							}
+						}
+					}
+				}
+				{
+					id: "61C27BECEAF3C2B4"
+					type: "item"
+					item: "rustic_resources:keyfragment"
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -3.5d
+			shape: "heart"
+			subtitle: "The whistle will allow you to direct your dog where to go, what to attack, or where to stand."
+			description: [
+				"Your dog will have a few numbers and letters above its head.  These give you information regarding its Mode, Hunger, and Gender.  The Mode refers to how you want your dog to react."
+				"{image:rusticwaters:textures/dogs.png width:170 height:104 align:1}"
+			]
+			dependencies: ["7F1D3A60DFA2BC8E"]
+			size: 1.5d
+			id: "6F95BD5D7558EDD7"
+			tasks: [{
+				id: "53D782FDF7C87326"
+				type: "item"
+				item: "doggytalents:whistle"
+			}]
+			rewards: [{
+				id: "60234A14B1F009B0"
+				type: "item"
+				item: "doggytalents:training_treat"
+				count: 2
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.5d
+			shape: "heart"
+			subtitle: "The Food Bag allows you to carry food items for your dog. You can fill your dog's feed bowl or feed your dog by right clicking them with the bag in hand."
+			description: ["The middle number above your dog's head represents how many hunger points the dog has. The maximum hunger points a dog can have is 120. Once this number reaches 0, the dog will begin to take damage, starving until it dies."]
+			dependencies: ["6F95BD5D7558EDD7"]
+			size: 1.5d
+			id: "2C0413527C0404E9"
+			tasks: [{
+				id: "24BCD8E6786DB83B"
+				type: "item"
+				item: "doggytalents:treat_bag"
+			}]
+			rewards: [{
+				id: "66914E5310863C26"
+				type: "item"
+				item: "minecraft:porkchop"
+				count: 8
+			}]
+		}
+		{
+			x: 5.0d
+			y: -2.0d
+			shape: "heart"
+			description: ["If you decide you would like an army of canine protectors, you can breed them using the Breeding bone."]
+			dependencies: ["6770811ED33A0B01"]
+			size: 1.5d
+			id: "601DA0949D47C40D"
+			tasks: [{
+				id: "2B07AFC278E5DAC1"
+				type: "item"
+				item: "doggytalents:breeding_bone"
+			}]
+			rewards: [{
+				id: "4088C3A47386A277"
+				type: "item"
+				item: "doggytalents:owner_change"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -2.0d
+			shape: "heart"
+			description: ["The Super Treat is the 2nd tier of training bone.  It allows you to continue training your puppers an additional 20 levels."]
+			dependencies: ["2C0413527C0404E9"]
+			size: 1.5d
+			id: "1A5293112010032B"
+			tasks: [{
+				id: "5B20333FB021B1EF"
+				type: "item"
+				item: "doggytalents:super_treat"
+			}]
+			rewards: [{
+				id: "0F6F562679DBA803"
+				type: "item"
+				item: "doggytalents:sunglasses"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -2.0d
+			shape: "heart"
+			description: ["The Master Treat is the 3rd tier of training bone.  It allows you to train your dog up to level 60."]
+			dependencies: ["1A5293112010032B"]
+			size: 1.5d
+			id: "6770811ED33A0B01"
+			tasks: [{
+				id: "280060102318BAD2"
+				type: "item"
+				item: "doggytalents:master_treat"
+			}]
+			rewards: [{
+				id: "775B6F9CC9CA5E79"
+				type: "loot"
+				table_id: 3729081586183020876L
+			}]
+		}
+		{
+			x: 3.0d
+			y: -0.5d
+			shape: "heart"
+			description: ["The Dire Treat is the final tier of dog bone.  It allows you to train your dog an additional 30 final levels."]
+			dependencies: ["6770811ED33A0B01"]
+			size: 1.5d
+			id: "731CAC97A3D0382C"
+			tasks: [{
+				id: "09000791173C6C69"
+				type: "item"
+				item: "doggytalents:dire_treat"
+			}]
+			rewards: [{
+				id: "2B205E2B173C944A"
+				type: "loot"
+				table_id: 1459128794121417282L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 2.0d
+			shape: "diamond"
+			subtitle: "Bio Cylinders come in two variations, the Animal Seeds inside differ slightly between the two."
+			description: [
+				"On this watery planet livestock is scarce but are drawn to nutritional patches of Mycelium.  You can find Bio Cylinders located around the Ocean that contain seeds for plants that have the distinct ability to trap passive animals within their vines."
+				"Search out these Bio Cylinders using your Seamoth and Scuba Gear... retrieve the Animal Crop seeds from within.  Plant the seeds on Mycelium to watch them grow.  You can also gain Mycelium through the Ars Nouveau Mycelial Sourcelink."
+			]
+			size: 1.75d
+			id: "22B701866D034D20"
+			tasks: [{
+				id: "0BFBB86C4FF83916"
+				type: "item"
+				item: "minecraft:mycelium"
+				count: 4L
+			}]
+			rewards: [{
+				id: "31F87AE5291706B6"
+				type: "item"
+				item: "rustic_resources:keyfragment"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 2.0d
+			subtitle: "The Lance weapon does 200% damage while you are riding a horse."
+			description: ["You wouldn't expect a horse to be valuable asset in a water world, but it is a crucial piece of equipment when you travel to planet Atum.  There are also certain weapons that are VERY powerful if used while mounted.  This makes dispatching hordes of wandering desert bandits easy."]
+			dependencies: ["22B701866D034D20"]
+			id: "1EF2ADEFE6CE7124"
+			tasks: [{
+				id: "32805DB2622B7BC7"
+				type: "item"
+				item: {
+					id: "animalcrops:seeds"
+					Count: 1b
+					tag: {
+						entity: "minecraft:horse"
+					}
+				}
+			}]
+			rewards: [{
+				id: "55824C83FF831642"
+				type: "item"
+				item: {
+					id: "spartanweaponry:lance_invar"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 2.0d
+			description: ["While Mycelium can eventually net you a few animals and pieces of meat, there are much quicker ways to spawn and breed livestock for bulk production, which you will need as you plan the trip back to your home planet."]
+			dependencies: ["22B701866D034D20"]
+			id: "1369EF9DA779314D"
+			tasks: [{
+				id: "385A37FA7A0E26C9"
+				type: "item"
+				item: {
+					id: "animalcrops:seeds"
+					Count: 1b
+					tag: {
+						entity: "minecraft:pig"
+					}
+				}
+			}]
+			rewards: [{
+				id: "0067F6F9D42CCB35"
+				type: "item"
+				item: "darkutils:filter_animal"
+				count: 4
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			description: ["Animal Crops are not like normal crops, in that they do not respond to Bone Meal.  However, the animals are quite fond of dancing... you CAN twerk for Animal Crops to encourage the animals to grow."]
+			dependencies: ["22B701866D034D20"]
+			id: "43E79F1F164A637E"
+			tasks: [{
+				id: "1CD0D61D0447A6F4"
+				type: "item"
+				item: {
+					id: "animalcrops:seeds"
+					Count: 1b
+					tag: {
+						entity: "minecraft:cow"
+					}
+				}
+			}]
+			rewards: [{
+				id: "1DB1E28BB11A61E8"
+				type: "item"
+				item: "minecraft:leather"
+				count: 16
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			description: ["While they may not seem important now, eggs are a staple ingredient for some powerful meals and items... namely, the 3rd tier of DoggyTalent Treat Bones."]
+			dependencies: ["22B701866D034D20"]
+			id: "6BF24DAD7CF86DE0"
+			tasks: [{
+				id: "36B885D65CB78470"
+				type: "item"
+				item: {
+					id: "animalcrops:seeds"
+					Count: 1b
+					tag: {
+						entity: "minecraft:sheep"
+					}
+				}
+			}]
+			rewards: [{
+				id: "37C20FD656B482B0"
+				type: "item"
+				item: "minecraft:egg"
+				count: 12
+			}]
+		}
+		{
+			x: 1.5d
+			y: 3.0d
+			description: ["Animals are malnourished on this planet and tend to drop less meat than you may be accustomed to.  This won't matter so much later when the process is automated."]
+			dependencies: ["22B701866D034D20"]
+			id: "3C9B5259B4820531"
+			tasks: [{
+				id: "38322F7444255046"
+				type: "item"
+				item: {
+					id: "animalcrops:seeds"
+					Count: 1b
+					tag: {
+						entity: "minecraft:chicken"
+					}
+				}
+			}]
+			rewards: [{
+				id: "51FFD27FF11FA3A1"
+				type: "item"
+				item: "supplementaries:item_shelf"
+				count: 4
+			}]
+		}
+		{
+			x: 6.0d
+			y: 2.0d
+			description: ["If you are going to be traversing Atum and fighting desert bandits, you will want your horse to be well-geared."]
+			dependencies: ["22B701866D034D20"]
+			id: "2C859897D3BE4294"
+			tasks: [{
+				id: "797E5A5783F79424"
+				type: "item"
+				item: "minecraft:iron_horse_armor"
+			}]
+			rewards: [{
+				id: "0D0D787630FA8C01"
+				type: "item"
+				item: "cyclic:lapis_carrot_variant"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 3.0d
+			description: ["Stat Carrots can be fed to a horse multiple times for additional effect."]
+			dependencies: ["22B701866D034D20"]
+			id: "6B5036784EE2B959"
+			tasks: [{
+				id: "1D66F906409C91E5"
+				type: "item"
+				item: "cyclic:diamond_carrot_health"
+			}]
+			rewards: [{
+				id: "169D2E2B718E2063"
+				type: "item"
+				item: "cyclic:emerald_carrot_jump"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 3.0d
+			description: ["You can view your horse's stats by Shift Clicking it to open its GUI and hovering over its name"]
+			dependencies: ["22B701866D034D20"]
+			id: "634587722B31E099"
+			tasks: [{
+				id: "54F90C35B9FC285E"
+				type: "item"
+				item: "cyclic:redstone_carrot_speed"
+			}]
+			rewards: [{
+				id: "119B92AA6E8AEB8B"
+				type: "item"
+				item: "pamhc2foodcore:carrotcakeitem"
+				count: 2
+			}]
+		}
+		{
+			x: 6.0d
+			y: -3.5d
+			shape: "heart"
+			subtitle: "Some trees provide more sap than others.  Spruce and Dark Oak provide the most."
+			description: ["Resin has many uses in this adventure.  The first being as a food grade adhesive used in higher tier Dog Bones.  Arboreal Extractors work by being placed against the bottom of a tree.  It will slowly suck the sap from within the log ( ° ʖ °)  You can speed up this process by supplying the Arboreal Extractor with Phytogro in its GUI."]
+			dependencies: ["38B81F6C5EC9F391"]
+			size: 1.5d
+			id: "7F1D3A60DFA2BC8E"
+			tasks: [{
+				id: "58ECAFFEBEFC330E"
+				type: "item"
+				item: "thermal:device_tree_extractor"
+			}]
+			rewards: [{
+				id: "174757DCD7615DAA"
+				type: "item"
+				item: "minecraft:spruce_sapling"
+				count: 2
+			}]
+		}
+		{
+			x: 4.0d
+			y: -3.5d
+			shape: "heart"
+			dependencies: ["7F1D3A60DFA2BC8E"]
+			size: 1.5d
+			id: "3E226F76E26DD8B1"
+			tasks: [{
+				id: "3F0B7DF5ED9FEF51"
+				type: "item"
+				item: "thermal:phytogro"
+			}]
+			rewards: [
+				{
+					id: "5442515F3B20B70C"
+					type: "item"
+					item: "minecraft:orange_dye"
+					count: 16
+				}
+				{
+					id: "70763D2467D1260B"
+					type: "item"
+					item: "minecraft:green_dye"
+					count: 16
+				}
+				{
+					id: "1BCCE1738B1E7254"
+					type: "item"
+					item: "minecraft:cyan_dye"
+					count: 16
+				}
+			]
+		}
+	]
+}

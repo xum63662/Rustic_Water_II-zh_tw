@@ -1,0 +1,32 @@
+{
+    "name": "Captain Michelle Valentine",
+    "icon": "relics:hunter_belt",
+    "category": "patchouli:lore",
+    "sortnum": 5,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Captain Michelle Valentine is your commanding officer aboard Liberty, the IDF Frigate you arrived in this galaxy on.  She is a highly decorated member of the Caladan Defense Force and daughter to Rufus Valentine, the Imperator. $(br2)   Michelle is quiet in nature, always seeming to collect her thoughts before speaking, a trait that commanded respect from the CDF Officers under"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "her leadership.  She has always achieved accolades based on the merit of her performance, not the weight of her surname.   This has given her a stalwart determination and she would give her life before she fails to complete her mission. $(br2)   Michelle was content to serve her duties as a frontline member of the CDF, but her career plans were diverted when her brother, Lucas Valentine, was killed in action.  Lucas was the first"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "born heir of the Imperator and per tradition he would assume the role of Imperator next.  Her brother was her best friend and role model; his loss was just as devastating to her as it was the Imperator. $(br2)   With Lucas’ untimely death Michelle became the only remaining heir to the throne.  Michelle never aspired to lead Caladan, but loyalty to her family and the people of Caladan is of utmost importance to her.   In order to further solidify Michelle’s"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "leadership experience her father placed her as Captain of the Interstellar Reconnaissance Fleet, the position her brother held before his death.  The weight of this responsibility fell heavily on Michelle’s shoulders, but she would give her life before she let down her father, her people, or her brother.  Michelle was tasked with leading the Liberty Recon Frigate to the Milky Way Galaxy where recent scans had shown that the Solar System’s sun was dying, and the surrounding"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "planets would soon be destroyed.  There would only be one opportunity for the IDF to secure resources from this galaxy, and with recent scans showing the possibility that Earth was once home to humans, this was very important.  While leading the crew of the Liberty Frigate Michelle kept a journal of her daily activities, a common practice among Captains who were on extended deployment.  If anything were to go wrong during their mission, those recorders would be invaluable."
+        },
+        {
+            "type": "patchouli:image",
+            "images":  ["rwguide:textures/categories/shell.png"]
+        }
+    ]
+}

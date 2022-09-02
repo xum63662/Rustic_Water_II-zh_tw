@@ -1,0 +1,146 @@
+[
+	{
+	"mob": "alexsmobs:warped_mosco",
+	"persecond": 0.30,
+	"attempts": 4, 
+	"amount": {
+	"minimum": 0,
+	"maximum": 2
+	},
+	"conditions": {
+		"dimension": "boss_tools:venus",
+		"norestrictions": true,
+		"mindist": 40,
+		"maxdist": 100,
+		"maxthis": 3
+		}
+	},
+		{
+	"mob": "alexsmobs:tarantula_hawk",
+	"persecond": 0.30,
+	"attempts": 3, 
+	"amount": {
+	"minimum": 0,
+	"maximum": 2
+	},
+	"conditions": {
+		"dimension": "overworld",
+		"norestrictions": true,
+		"minheight": 200,
+		"maxthis": 3
+		}
+	},
+	{
+	"mob": "dungeons_mobs:armored_sunken_skeleton",
+	"persecond": 0.20,
+	"attempts": 3, 
+	"amount": {
+	"minimum": 0,
+	"maximum": 1
+	},
+	"conditions": {
+		"dimension": "overworld",
+		"norestrictions": true,
+		"inwater": true,
+		"maxheight": 80,
+		"maxthis": 2
+		}
+	},
+	{
+	"mob": "dungeons_mobs:wavewhisperer",
+	"persecond": 0.20,
+	"attempts": 3, 
+	"amount": {
+	"minimum": 0,
+	"maximum": 1
+	},
+	"conditions": {
+		"dimension": "overworld",
+		"norestrictions": true,
+		"inwater": true,
+		"maxheight": 80,
+		"maxthis": 2
+		}
+	},
+	{
+	"mob": "alexsmobs:seagull",
+	"persecond": 0.30,
+	"attempts": 2, 
+	"amount": {
+	"minimum": 0,
+	"maximum": 1
+	},
+	"conditions": {
+		"dimension": "overworld",
+		"norestrictions": true,
+		"inwater": true,
+		"minheight": 200,
+		"maxthis": 3
+		}
+	},
+	{
+	    "mob": [
+          	"abyssaldepths:seahorse",
+          	"alexsmobs:mantis_shrimp",
+          	"alexsmobs:lobster",
+          	"minecraft:salmon",
+          	"alexsmobs:seal",
+          	"minecraft:squid",
+          	"minecraft:dolphin"
+    		],
+	"persecond": 0.30,
+	"attempts": 4, 
+	"amount": {
+	"minimum": 0,
+	"maximum": 2
+	},
+		"conditions": {
+		"dimension": "overworld",
+		"norestrictions": true,
+		"inwater": true,
+		"maxthis": 3
+		}
+	},
+	{
+	    "mob": [
+          	"abyssaldepths:swordfish",
+		  	"alexsmobs:hammerhead_shark",
+		  	"betteranimalsplus:piranha",
+		  	"betteranimalsplus:whale",
+        	"alexsmobs:cachalot_whale",
+			"abyssaldepths:sailfish"
+    		],
+	"persecond": 0.1,
+	"attempts": 2, 
+	"amount": {
+	"minimum": 0,
+	"maximum": 1
+	},
+
+		"conditions": {
+		"dimension": "overworld",
+		"norestrictions": true,
+		"inwater": true,
+		"maxthis": 3
+		}
+	},
+
+				{
+	"mob": "alexsmobs:bone_serpent",
+	"persecond": 0.25,
+	"attempts": 4, 
+	"amount": {
+	"minimum": 0,
+	"maximum": 2
+	},
+	"conditions": {
+		"dimension": "boss_tools:venus",
+		"norestrictions": true,
+		"mindist": 40,
+		"maxdist": 100,
+		"maxthis": 3
+		}
+	}
+	
+]
+

@@ -1,0 +1,208 @@
+[  
+{
+     "dimension": "boss_tools:venus",
+    "mob": [
+        "minecraft:vex",
+        "thermal:basalz"
+    ],
+    "angry": "true",
+    "damagemultiply": 2.0,
+    "speedmultiply": 1.5,
+    "mincount": {
+      "amount": 8,
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mod": "dungeons_mobs",
+    "damagemultiply": 1.5
+  },
+  {
+    "dimension": "boss_tools:venus",
+    "mob": [
+        "alexsmobs:bone_serpent",
+        "alexsmobs:warped_mosco"
+    ],
+    "angry": "true",
+    "damagemultiply": 1.25,
+    "speedmultiply": 1.25,
+    "mincount": {
+      "amount": 4,
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+    {
+    "dimension": "boss_tools:venus",
+    "mob": "alexsmobs:crimson_mosquito",
+    "mincount": {
+      "amount": 6,
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "boss_tools:venus",
+    "mob": "alexsmobs:spectre",
+    "mincount": {
+      "amount": 2,
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+    {
+    "dimension": "boss_tools:venus",
+    "mob":       "alexsmobs:straddler",
+    "mincount": {
+      "amount": 6,
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "overworld",
+    "mob": [
+          "abyssaldepths:seahorse",
+          "alexsmobs:seagull",
+          "alexsmobs:tarantula_hawk",
+          "betteranimalsplus:piranha",
+          "minecraft:pufferfish",
+          "minecraft:salmon"
+    ],
+    "mincount": {
+      "amount": 5,
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "overworld",
+    "mob": "minecraft:squid",
+    "mincount": {
+      "amount": 7,
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "overworld",
+    "mob": "alexsmobs:enderiophage",
+    "mincount": {
+      "amount": 4,
+      "perplayer": true,
+      "onjoin": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "overworld",
+    "mob": "ars_nouveau:familiar_jabberwog",
+    "result": "deny"
+  },
+  {
+    "dimension": "overworld",
+    "mob": [
+          "upgrade_aquatic:glow_squid",
+          "alexsmobs:blobfish",
+          "abyssaldepths:butterflyfish",
+          "abyssaldepths:raccoon_butterflyfish",
+          "abyssaldepths:clownfish",
+          "alexsmobs:lobster",
+          "alexsmobs:mantis_shrimp",
+          "alexsmobs:crimson_mosquito",
+          "ars_nouveau:drygmy",
+          "ars_nouveau:wilden_hunter",
+          "ars_nouveau:wilden_stalker",
+          "betteranimalsplus:bobbit_worm",
+          "betteranimalsplus:barracuda",
+          "minecraft:dolphin",
+          "minecraft:drowned",
+          "mowziesmobs:grottol",
+          "thermal:basalz",
+          "thermal:blitz",
+          "thermal:blizz",
+          "alexsmobs:crocodile",
+          "alexsmobs:seal"
+    ],
+    "mincount": {
+      "amount": 2,
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "overworld",
+    "mob": [
+          "betteranimalsplus:shark",
+          "betteranimalsplus:eel_freshwater",
+          "betteranimalsplus:eel_saltwater",
+          "abyssaldepths:swordfish",
+          "alexsmobs:alligator_snapping_turtle",
+          "dungeons_mobs:armored_sunken_skeleton",
+          "dungeons_mobs:wavewhisperer",
+          "abyssaldepths:sailfish",
+          "alexsmobs:orca",
+          "upgrade_aquatic:nautilus",
+          "upgrade_aquatic:thrasher",
+          "alexsmobs:frilled_shark",
+          "alexsmobs:hammerhead_shark",
+          "betteranimalsplus:whale",
+          "minecraft:zombie",
+          "minecraft:creeper",
+          "minecraft:skeleton",
+          "minecraft:spider",
+          "alexsmobs:cachalot_whale"
+    ],
+    "mincount": {
+      "amount": 1,
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "overworld",
+    "mob": [
+          "betteranimalsplus:squid_colossal",
+          "betteranimalsplus:squid_giant",
+          "dungeons_mobs:poison_anemone",
+          "geode:coalgeode",
+          "geode:diamondgeode",
+          "geode:emeraldgeode",
+          "geode:glowstonegeode",
+          "dungeons_mobs:sunken_skeleton",
+          "geode:goldgeode",
+          "geode:irongeode",
+          "geode:lapisgeode",
+          "geode:quartzgeode",
+          "geode:redstonegeode",
+          "abyssaldepths:fish",
+          "minecraft:cod",
+          "dungeons_mobs:quick_growing_anemone",
+          "dungeons_mobs:skeleton_horseman",
+          "dungeons_mobs:wraith",
+          "betteranimalsplus:flying_fish",
+          "betteranimalsplus:jellyfish",
+          "betteranimalsplus:nautilus"
+    ],
+    "result": "deny"
+  },
+  {
+    "dimension": "overworld",
+    "mob": [
+        "megameteors:bacon_falling_meteor",
+        "megameteors:diamond_falling_meteor",
+        "megameteors:fire_falling_meteor",
+        "megameteors:ice_falling_meteor",
+        "megameteors:metalite_falling_meteor",
+        "megameteors:netherite_falling_meteor",
+        "megameteors:omega_falling_meteor",
+        "megameteors:raritanium_falling_meteor",
+        "megameteors:strange_falling_meteor",
+        "megameteors:falling_meteor_spawner_entity"
+    ],
+    "result": "deny"
+  }
+
+]

@@ -1,0 +1,30 @@
+
+[General]
+	#Enchantments can be applied using an enchanting table
+	"Enchanting table" = false
+
+[BloodMagic]
+	#Amount of Life Point consumed per durability point
+	#Range: > 0
+	Lp = 150
+
+[Botania]
+	#Amount of Mana consumed per durability point
+	#Range: > 0
+	Mana = 200
+
+[Psi]
+	#Amount of Psion consumed per durability point
+	#Range: > 0
+	Psion = 150
+
+[ProjectE]
+	#Amount of EMC consumed per durability point
+	#Range: > 0
+	EMC = 100
+
+[ArsNouveau]
+	#Amount of Mana consumed per durability point
+	#Range: > 0
+	Mana = 2
+

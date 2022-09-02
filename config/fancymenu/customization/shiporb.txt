@@ -1,0 +1,152 @@
+type = menu
+
+customization-meta {
+  identifier = net.mrscauthd.boss_tools.gui.screens.planetselection.PlanetSelectionGuiWindow
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=84520%
+  orientation = mid-centered
+  x = 200
+  action = movebutton
+  y = 14
+}
+
+customization {
+  identifier = %id=84520%
+  vr:showif:modloaded = true
+  action = vanilla_button_visibility_requirements
+  vr:value:modloaded = somemodid
+}
+
+customization {
+  identifier = %id=8449811%
+  orientation = mid-centered
+  x = 183
+  action = movebutton
+  y = 60
+}
+
+customization {
+  identifier = %id=8449811%
+  vr:showif:modloaded = true
+  action = vanilla_button_visibility_requirements
+  vr:value:modloaded = omemodid
+}
+
+customization {
+  identifier = %id=84498111%
+  orientation = mid-centered
+  x = 127
+  action = movebutton
+  y = -27
+}
+
+customization {
+  identifier = %id=84498111%
+  vr:showif:modloaded = true
+  action = vanilla_button_visibility_requirements
+  vr:value:modloaded = somemodid
+}
+
+customization {
+  identifier = %id=844981%
+  orientation = mid-centered
+  x = 98
+  action = movebutton
+  y = -72
+}
+
+customization {
+  identifier = %id=844981%
+  vr:showif:modloaded = true
+  action = vanilla_button_visibility_requirements
+  vr:value:modloaded = somemodid
+}
+
+customization {
+  identifier = %id=10498%
+  action = setbuttonlabel
+  value = Atum
+}
+
+customization {
+  identifier = %id=1049811%
+  action = setbuttonlabel
+  value = Atum
+}
+
+customization {
+  identifier = %id=125498111%
+  vr:showif:modloaded = true
+  action = vanilla_button_visibility_requirements
+  vr:value:modloaded = fancsomemodid
+}
+
+customization {
+  identifier = %id=12549811%
+  action = setbuttonlabel
+  value = Jump Gate
+}
+
+customization {
+  identifier = %id=125520%
+  orientation = top-right
+  x = -75
+  action = movebutton
+  y = 0
+}
+
+customization {
+  identifier = %id=125520%
+  vr:showif:modloaded = true
+  action = vanilla_button_visibility_requirements
+  vr:value:modloaded = somemodid
+}
+
+customization {
+  identifier = %id=84498%
+  vr:showif:modloaded = true
+  action = vanilla_button_visibility_requirements
+  vr:value:modloaded = somemodid
+}
+
+customization {
+  identifier = %id=1254981%
+  orientation = top-right
+  x = -75
+  action = movebutton
+  y = 0
+}
+
+customization {
+  identifier = %id=1254981%
+  vr:showif:modloaded = true
+  action = vanilla_button_visibility_requirements
+  vr:value:modloaded = somemodid
+}
+
+customization {
+  identifier = %id=125498%
+  orientation = top-right
+  x = -75
+  action = movebutton
+  y = 0
+}
+
+customization {
+  identifier = %id=125498%
+  vr:showif:modloaded = true
+  action = vanilla_button_visibility_requirements
+  vr:value:modloaded = fancysomemodid
+}
+

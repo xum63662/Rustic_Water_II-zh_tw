@@ -1,0 +1,38 @@
+{
+  "type": "thermal:smelter",
+  "ingredients": [
+    {
+      "value": [
+        {
+          "tag": "forge:ingots/gold"
+        },
+        {
+          "tag": "forge:dusts/gold"
+        }
+      ],
+      "count": 2
+    },
+    {
+      "value": [
+        {
+          "tag": "forge:ingots/silver"
+        },
+        {
+          "tag": "forge:dusts/silver"
+        }
+      ],
+      "count": 2
+    },
+    {
+      "tag": "forge:dusts/redstone",
+      "count": 2
+    }
+  ],
+  "result": [
+    {
+      "item": "thermal:signalum_ingot",
+      "count": 2
+    }
+  ],
+  "energy": 16000
+}

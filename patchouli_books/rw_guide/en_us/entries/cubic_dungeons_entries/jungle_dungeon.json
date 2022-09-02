@@ -1,0 +1,16 @@
+{
+    "name": "Green Dungeon",
+    "icon": "rustic_resources:poison_nettle",
+    "category": "patchouli:cubic_dungeons",
+    "sortnum": 3,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "The green colored 'Jungle' Cubic Dungeon is a difficult step up.  All mobs in this dungeon spawn with one or more Level I effects, such as Absorption I or Strength I.  There are few traps and water bucket cheese is penalized, but many of the spawners are inconveniently located.  The poison status effect is rampant.  This dungeon has higher tier loot caches available for plunder."  
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item":  "rustic_resources:poison_nettle"
+        }
+    ]
+}

@@ -1,0 +1,770 @@
+{
+	id: "54F8D8681D72D047"
+	group: ""
+	order_index: 15
+	filename: "meknological_advancement"
+	title: "High Meknology"
+	icon: "mekanism:alloy_atomic"
+	default_quest_shape: "rsquare"
+	default_hide_dependency_lines: false
+	images: [{
+		x: 9.6d
+		y: -1.5d
+		width: 22.0d
+		height: 13.0d
+		rotation: 0.0d
+		image: "rusticwaters:textures/trying2.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			x: 15.4d
+			y: -4.8d
+			subtitle: "Mekanism Machines are quite power hungry.  To utilize them to their full potential you will eventually want to build a Draconic Reactor or other source of power."
+			description: ["Osmium Ore is found in abundance within the Dark Caverns.  You will need large amounts of this for all things related to Mekanism."]
+			size: 0.8d
+			id: "7DC6E3C829356BC7"
+			tasks: [{
+				id: "3A9EA347DE387B50"
+				type: "item"
+				item: "mekanism:ingot_osmium"
+				count: 64L
+			}]
+			rewards: [{
+				id: "7B5D4FF3B0A1611B"
+				type: "item"
+				item: "pamhc2foodextended:cookoutmealitem"
+				count: 2
+			}]
+		}
+		{
+			x: 15.4d
+			y: -4.0d
+			subtitle: "The Configurator requires FE.  It crafts fully charged, but will need to be recharged once it runs out of energy."
+			description: ["The first tool you should craft when beginning your Mekanism setup is the Configurator.  This will allow you to configure the cables/pipes leading to and from your machine, and also the machines themselves.  The \"Mode\" that your configurator is in displays on the bottom left of your screen.  You can change the mode of the Configurator by holding SHIFT and scrolling your mouse wheel."]
+			dependencies: ["7DC6E3C829356BC7"]
+			size: 0.8d
+			id: "7FD2F05FA15FDE6B"
+			tasks: [{
+				id: "29D4E95FA5564EBE"
+				type: "item"
+				item: {
+					id: "mekanism:configurator"
+					Count: 1b
+					tag: {
+						mekData: {
+							EnergyContainers: [{
+								Container: 0b
+								stored: "60000"
+							}]
+							state: 9
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "541C16A49F50FA56"
+				type: "loot"
+				table_id: 4920136057121877850L
+			}]
+		}
+		{
+			x: 15.4d
+			y: -2.4d
+			description: [
+				"Mekanism is a huge mod, but your goals in this adventure are to get back home.  These quests will primarily lead you through the process of Ore Multiplication, to mass produce the materials you need to complete your mission."
+				"Mekanism offers many tools and alternate processes that are already provided elsewhere in the pack.  So for the sake of avoiding redundancy, if you would like to explore some of the other aspects of the mod, such as alternate power generation and end-game armor, the quest reward will place a link in your chat box that you can follow to some in depth tutorials."
+				""
+			]
+			size: 0.8d
+			id: "70FD81B7CD99D0FE"
+			tasks: [{
+				id: "365EB6F406465D00"
+				type: "item"
+				item: "mekanism:metallurgic_infuser"
+			}]
+			rewards: [{
+				id: "7CB35BBDCC1B30E1"
+				type: "command"
+				command: "/tellraw @p {\"text\":\"->Click for Mekanism How To Playlist<-\",\"color\":\"#02FF00\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://www.youtube.com/watch?v=wK0Ov0JdJl4&list=PL0JWzZ1sLTB-lRYfuQvKUo9a_gvOegwR3\"}}"
+				player_command: false
+			}]
+		}
+		{
+			x: 15.4d
+			y: -1.6d
+			subtitle: "Recipes for Metallurgic Infusion can be found in JEI. Hover over the infusion buffer to see how many mb of material that recipe needs."
+			description: [
+				"The Metallurgic Infuser is the first machine used in your Mekanism Ore Duplication production line.  It creates alloys that are used in upgrading your machines, pipes, and even armor."
+				"To infuse alloys, you will need to provide the infusion material in the buffer on the left of the GUI.  Depending on the recipe, this can be things like redstone, diamond dust, etc..."
+			]
+			dependencies: ["70FD81B7CD99D0FE"]
+			size: 0.8d
+			id: "79E124B6444D2D57"
+			tasks: [{
+				id: "0B012B99F3CC12FE"
+				type: "item"
+				item: "mekanism:alloy_infused"
+				count: 8L
+			}]
+			rewards: [{
+				id: "4202E35D0D727475"
+				type: "item"
+				item: "decimal_coins:coin_10"
+			}]
+		}
+		{
+			x: 15.2d
+			y: -0.8d
+			subtitle: "The energy meter is a block that can tell you how much FE/T is flowing through a cable."
+			description: [
+				"The Enrichment Chamber serves two purposes.  First, it can double the output of your vanilla metal ores.  Though, in the next section of quests you will see how to triple them."
+				"Secondly, the Enrichment Chamber can improve the quality of the materials used in the infusion buffer.  For example, using Enriched Redstone will provide you 80mb of infusion/ enrichment buffer, while using a regular piece of Redstone only gives 10mb."
+			]
+			dependencies: ["79E124B6444D2D57"]
+			size: 0.8d
+			id: "50534D0FBEFCCC26"
+			tasks: [{
+				id: "16308103E9781CF8"
+				type: "item"
+				item: "mekanism:enrichment_chamber"
+			}]
+			rewards: [{
+				id: "21B007F9D770A986"
+				type: "item"
+				item: "energymeter:meter"
+			}]
+		}
+		{
+			x: 15.2d
+			y: 0.0d
+			subtitle: "Mekanism Machinery has some of the most annoyingly noisey machines in Minecraft.  You may want to use soundproofing or Muffler upgrades to avoid this.  You can fit multiple upgrades, even of the same type, in each machine."
+			description: ["The Purification Chamber has the sole purpose of delicately removing valuable resources from within the ores you have collected.  It produces 3 Clumps of the resource, which must be further processed in order to properly triple your ore production."]
+			dependencies: ["50534D0FBEFCCC26"]
+			size: 0.8d
+			id: "2D72151BAD894AA1"
+			tasks: [{
+				id: "042FD125D6CF3EA9"
+				type: "item"
+				item: "mekanism:purification_chamber"
+			}]
+			rewards: [{
+				id: "4D67CF4D2291E0B8"
+				type: "item"
+				item: "mekanism:upgrade_muffling"
+			}]
+		}
+		{
+			x: 14.4d
+			y: 0.0d
+			subtitle: "The Oxygen Loader is quicker and more energy efficient for producing Oxygen, but you will also make an Electrolytic Separator later, that also has the ability to create Oxygen and other gases."
+			description: ["The Purification Chamber requires a steady flow of Oxygen to process materials.  The Oxygen Loader is a simple machine that can produce Oxygen through Electrolysis, quickly and efficiently.  Mekanism does have its own Electrolytic Separator, which can also produce Oxygen, but it requires more power and also produces excess Hydrogen, which for the purpose of this quest chain, is unnecessary."]
+			dependencies: ["2D72151BAD894AA1"]
+			size: 0.8d
+			id: "718C3A5CDDB932A4"
+			tasks: [{
+				id: "048DE0E8F315E1E0"
+				type: "item"
+				item: "boss_tools:oxygen_loader"
+			}]
+			rewards: [{
+				id: "23DE5F759FF14B85"
+				type: "loot"
+				table_id: 3729081586183020876L
+			}]
+		}
+		{
+			x: 16.8d
+			y: 0.0d
+			description: ["The Oxygen Loader consumes massive amounts of water in order to produce Oxygen.  The Electric Pump is a powerful and fast pump that can be upgraded to provide large amounts of fluid to your tanks and machines.  Place it directly over the fluid you want to pump (source block of water?), provide a power source to the side, and a pipe or tank above it."]
+			dependencies: ["718C3A5CDDB932A4"]
+			size: 0.8d
+			id: "51CC90891DB14F4F"
+			tasks: [{
+				id: "1052817CB2502ED7"
+				type: "item"
+				item: "mekanism:electric_pump"
+			}]
+			rewards: [{
+				id: "35A840A08ED20B0F"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:16k_fluid_storage_cell"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 16.0d
+			y: -0.8d
+			description: ["Mekanism machines can be upgraded using the button in the upper right of their GUI.  Most machines can have multiples of the same upgrades installed into them.  Keep in mind that upgrades will cause the machine to utilize more FE/t to operate."]
+			dependencies: ["50534D0FBEFCCC26"]
+			size: 0.8d
+			id: "23773E4813783B8A"
+			tasks: [{
+				id: "27E708B7896091F6"
+				type: "item"
+				item: "mekanism:upgrade_speed"
+			}]
+			rewards: [{
+				id: "2232D862DDA5A5C3"
+				type: "item"
+				item: "mekanism:upgrade_energy"
+			}]
+		}
+		{
+			x: 16.0d
+			y: 0.0d
+			subtitle: "You must upgrade each factory from the tier before it.  For example, you cannot upgrade a Basic Factory directly to an Elite Factory without first upgrading through each tier."
+			description: [
+				"Most Mekanism machines come in different tiers, called Factories.  These increase in capacity and FE/t requirement with each tier.  While you might start with a basic Metallurgic Infuser, consider upgrading to a Basic, Advanced, or higher Infusion Factory.  The same for your other commonly used factories."
+				"You can craft Factories directly in your grid, or Tier Installers that you can Shift Click onto machines in order to upgrade them where they sit."
+			]
+			dependencies: ["50534D0FBEFCCC26"]
+			size: 0.8d
+			id: "3706CE5E53883950"
+			tasks: [
+				{
+					id: "0054035F6FA04457"
+					type: "item"
+					item: "mekanism:basic_tier_installer"
+				}
+				{
+					id: "4D817DD0955ACF6F"
+					type: "item"
+					item: "mekanism:advanced_tier_installer"
+				}
+			]
+			rewards: [{
+				id: "0698A60BCC715B57"
+				type: "loot"
+				table_id: 3729081586183020876L
+			}]
+		}
+		{
+			x: 17.6d
+			y: 0.0d
+			subtitle: "There are Clump variants for almost all of the metal type ores you will come across.  This includes Arcane Ore, Draconium Ore, Luminite Ore, and even Awakaned Draconium Ore."
+			description: [
+				"Now that you are purifying your ores into clumps, you must crush the clumps to obtain the dust."
+				"After you have crushed the Clumps into their Dirty Dust variants, run them through a Purification Chamber (or corresponding Factory) in order to wash the dusts.  At this point they can be smelted into ingots or used in recipes."
+			]
+			dependencies: ["51CC90891DB14F4F"]
+			size: 0.8d
+			id: "25DDEC33B155C51D"
+			tasks: [{
+				id: "25B987E8C16E7F0B"
+				type: "item"
+				item: "mekanism:crusher"
+			}]
+			rewards: [
+				{
+					id: "30FBCDAF7BE3EABB"
+					type: "item"
+					item: "rustic_resources:clumpsilver"
+					count: 8
+				}
+				{
+					id: "561FA9D7B591014F"
+					type: "item"
+					item: "rustic_resources:clumpluminite"
+					count: 8
+				}
+				{
+					id: "04415FB4CFB81195"
+					type: "item"
+					item: "mekanism:clump_gold"
+					count: 8
+				}
+			]
+		}
+		{
+			x: 18.4d
+			y: 0.0d
+			description: ["Now that you are tripling your ore output, build a Smelting Factory to process the ores at a faster pace than available by other means.  Upgrading your Smelting Factory to higher tiers will increase the number of items that can be smelted at once.  "]
+			dependencies: ["25DDEC33B155C51D"]
+			size: 0.8d
+			id: "49EEFCA36EE8280F"
+			tasks: [{
+				id: "0DC7BDA9D322676B"
+				type: "item"
+				item: "mekanism:energized_smelter"
+			}]
+			rewards: [{
+				id: "5AEA1422B7B77DDB"
+				type: "item"
+				item: "decimal_coins:coin_20"
+			}]
+		}
+		{
+			x: 13.6d
+			y: 0.8d
+			description: ["Mekanism offers instant teleportation capabilities in two ways.  One is through portal Teleportation.  By creating a portal frame at two points -one at the surface and one in your hub, for example- you can instantaneously teleport, at the cost of FE/t of course."]
+			dependencies: ["6D34D1B4449FD355"]
+			size: 0.8d
+			id: "3FDA6BF465934290"
+			tasks: [{
+				id: "6FA25BAD5EB32A2C"
+				type: "item"
+				item: "mekanism:teleporter_frame"
+				count: 18L
+			}]
+			rewards: [{
+				id: "2D81DC642DAB0C14"
+				type: "loot"
+				table_id: 1459128794121417282L
+			}]
+		}
+		{
+			x: 12.8d
+			y: 0.8d
+			subtitle: "The Teleporter block (not the Teleporter Frames) can be used as an anchor point for your Portable Teleporter once you acquire it."
+			description: ["Each Teleporter frame must have a Teleporter block within it.  This block must be supplied with enough FE/t to support the teleportation.  The distance between portal frames dictates how much FE/t it requires, with cross-dimensional teleportation costing much more."]
+			dependencies: ["3FDA6BF465934290"]
+			size: 0.8d
+			id: "17DD19B63CDCF57A"
+			tasks: [{
+				id: "034DA18C6D2F4753"
+				type: "item"
+				item: "mekanism:teleporter"
+			}]
+			rewards: [{
+				id: "4602545ADA156C9A"
+				type: "item"
+				item: "mekanism:upgrade_anchor"
+			}]
+		}
+		{
+			x: 14.4d
+			y: 0.8d
+			subtitle: "Your Portable Teleporter can be recharged in an Energetic Infuser from the Thermal Series, or by portable chargers such as Energy Tablets or Capacitors."
+			description: ["The Portable Teleporter will allow you to teleport to any Teleporter block.  The Teleporter block does NOT require a frame, you will teleport directly on top of the block."]
+			dependencies: ["6D34D1B4449FD355"]
+			size: 0.8d
+			id: "07D43E99789D41C6"
+			tasks: [{
+				id: "7B6FFFA1FACEC200"
+				type: "item"
+				item: "mekanism:portable_teleporter"
+			}]
+			rewards: [{
+				id: "4D59D2E50FB97E2B"
+				type: "item"
+				item: "mekanism:ultimate_sawing_factory"
+			}]
+		}
+		{
+			x: 15.4d
+			y: -3.2d
+			subtitle: "Mekanism Pipes/Cables can be upgraded to the tier above their current by clicking them with the appropriate tier of Alloy in hand."
+			description: ["Mekanism offers pipes and cables that can be faster and transport more than most other options in this adventure.  The configurator has a mode to configure each of the pipe types.  Using Shift+Mouse Wheel you can change the mode of your Configurator.  Shift+Right Clicking on the end of a pipe will change its push or pull setting."]
+			size: 0.8d
+			id: "7E39294905198212"
+			tasks: [{
+				id: "1953C1A4504395EC"
+				type: "item"
+				item: "mekanism:basic_universal_cable"
+				count: 6L
+			}]
+			rewards: [{
+				id: "078B45D5923ED7C6"
+				type: "item"
+				item: "mekanism:basic_mechanical_pipe"
+				count: 6
+			}]
+		}
+		{
+			x: 18.4d
+			y: 0.8d
+			description: ["The following section of quests covers optional aspects of Mekanism that will make your production line more efficient and your acquisition of materials easier but are expensive investments of resources and energy."]
+			dependencies: ["49EEFCA36EE8280F"]
+			size: 0.8d
+			id: "4A24D8016940A396"
+			tasks: [{
+				id: "22B3246998740897"
+				type: "item"
+				item: "mekanism:ultimate_control_circuit"
+				count: 4L
+			}]
+			rewards: [{
+				id: "4B07C74AD6ACA994"
+				type: "item"
+				item: "minecraft:netherite_scrap"
+				count: 2
+			}]
+		}
+		{
+			x: 17.6d
+			y: 0.8d
+			description: ["The Digital Miner is a quarry that can easily be transferred to other dimensions or planets within your inventory.  It works in a radius of 32 blocks around it and can be toggled to silk touch all blocks it mines for a high increase in FE/t.  The \"Config\" button of the GUI allows you to dictate which ores it mines in the surrounding area.  Pressing the \"Filter\" button, selecting \"ItemStack\", and placing the corresponding ore into the slot will program the miner to extract that ore."]
+			dependencies: ["4A24D8016940A396"]
+			size: 0.8d
+			id: "612DDDB0F4140C4B"
+			tasks: [{
+				id: "190DC536BDA2868F"
+				type: "item"
+				item: "mekanism:digital_miner"
+			}]
+			rewards: [{
+				id: "0B9F53C72202E50F"
+				type: "loot"
+				table_id: 3729081586183020876L
+			}]
+		}
+		{
+			x: 16.0d
+			y: 0.8d
+			description: ["Teleportation cores are common components of the wireless mekanisms provided by this mod. "]
+			dependencies: ["4A24D8016940A396"]
+			size: 0.8d
+			id: "6D34D1B4449FD355"
+			tasks: [{
+				id: "4F4C01CE03F4CDDB"
+				type: "item"
+				item: "mekanism:teleportation_core"
+				count: 3L
+			}]
+			rewards: [{
+				id: "07403DF9F75F58EC"
+				type: "loot"
+				table_id: 3729081586183020876L
+			}]
+		}
+		{
+			x: 15.2d
+			y: 0.8d
+			description: ["The Quantum Entanglaporter allows you to transfer Items, Fluids, and Energy vast distances, even across dimensions, wirelessly."]
+			dependencies: ["6D34D1B4449FD355"]
+			size: 0.8d
+			id: "0D8F9C66C37D1EEC"
+			tasks: [{
+				id: "681147AB38688C6C"
+				type: "item"
+				item: "mekanism:quantum_entangloporter"
+			}]
+			rewards: [{
+				id: "4B0BF011E8448137"
+				type: "item"
+				item: "decimal_coins:coin_20"
+			}]
+		}
+		{
+			x: 16.8d
+			y: 0.8d
+			description: ["The Atomic Disassembler is Mekanism's all-in-one tool.  Essentially, it is the ultimate, electronic version of the paxel.  The Atomic Disassembler has five different settings which may be Cycled by Shift+Right Clicking.  Normal, Slow, and Fast all work as a Diamond version of every tool with increasing levels of Efficiency Enchant, with increased or decreased FE/t usage depending on the tier.  The Vein mode mines an entire vein of ore or tree blocks with a single swing."]
+			dependencies: ["4A24D8016940A396"]
+			size: 0.8d
+			id: "294103B783F376E2"
+			tasks: [{
+				id: "4AA6F9DDB3DEA4BF"
+				type: "item"
+				item: {
+					id: "mekanism:atomic_disassembler"
+					Count: 1b
+					tag: {
+						HideFlags: 2
+					}
+				}
+			}]
+			rewards: [{
+				id: "1DCD09639E342E2D"
+				type: "loot"
+				table_id: 1459128794121417282L
+			}]
+		}
+		{
+			x: 15.2d
+			y: 2.4d
+			dependencies: ["2D72151BAD894AA1"]
+			size: 0.8d
+			id: "387F87EB7CDBD97D"
+			tasks: [{
+				id: "51E64445954E49D2"
+				type: "item"
+				item: "immersiveengineering:concrete_leaded"
+				count: 320L
+			}]
+		}
+		{
+			x: 14.4d
+			y: 3.2d
+			subtitle: "Make sure there are no \"holes\" in your structure.  SPS Casings should plug all corners.  If your multiblock does not form, you can refer to the link provided as this quest reward."
+			description: [
+				"Finish encasing your SPS Chamber with SPS Casings.  Place an SPS port into the middle of each wall.  Extend a Supercharged Coil, pointing inwards from each of those ports.  Also place two additional ports within two walls, one for Polonium input, the other for Antimatter output."
+				"{image:rusticwaters:textures/spsball.png width:105 height:100 align:1}"
+			]
+			dependencies: ["387F87EB7CDBD97D"]
+			size: 0.8d
+			id: "388C7E2C0B295732"
+			tasks: [{
+				id: "4885764E853B3281"
+				type: "item"
+				item: "mekanism:supercharged_coil"
+				count: 6L
+			}]
+			rewards: [{
+				id: "47EADB36E9C889B6"
+				type: "command"
+				command: "/tellraw @p [\"\",{\"text\":\"For a quick How-To on building your Supercritical Phase Shifter, click here\",\"color\":\"aqua\"},{\"text\":\" https://www.youtube.com/watch?v=6GNExHY2POM\"}]"
+				player_command: false
+			}]
+		}
+		{
+			x: 16.0d
+			y: 2.4d
+			subtitle: "Ether Gas can also be found in large pools on the Atum planet."
+			description: ["Your Electrolytic Separator will produce a good bit of Ethylene as you mass produce Polonium.  You can put Ethylene to great use in order to create Ether Gas, a vital component for your Industrial Foregoing needs.  First though, it must be turned from a gas into a liquid, using the Rotary Condensentrator."]
+			dependencies: ["705C1A35E0F9E405"]
+			size: 0.8d
+			id: "08C457A55FCC2263"
+			tasks: [{
+				id: "1B31327AB94EA480"
+				type: "item"
+				item: "mekanism:rotary_condensentrator"
+			}]
+			rewards: [{
+				id: "1E65AB41C96A4FF9"
+				type: "item"
+				item: "mekanism:advanced_chemical_tank"
+			}]
+		}
+		{
+			x: 13.6d
+			y: 3.2d
+			description: [
+				"Continue the SPS chamber by adding additional \"crosses\" of structural glass up from the base, as shown below."
+				"{image:rusticwaters:textures/spscross.png width:115 height:100 align:1}"
+			]
+			dependencies: ["366BD5B0012A57AA"]
+			size: 0.8d
+			id: "5E7C1DC9FD66AF3B"
+			tasks: [{
+				id: "547F37730B13D0EF"
+				type: "item"
+				item: "mekanism:sps_port"
+				count: 8L
+			}]
+			rewards: [{
+				id: "26557054C0ADC67D"
+				type: "loot"
+				table_id: 1459128794121417282L
+			}]
+		}
+		{
+			x: 13.6d
+			y: 2.4d
+			description: [
+				""
+				"The Supercritical Phase Shifter (SPS) is a semi-spherical multiblock.  To start its formation, lay out a \"cross\" of glass, as shown in the picture below, and edge it with SPS casings."
+				"{image:rusticwaters:textures/spsbase.png width:110 height:100 align:1}"
+			]
+			dependencies: ["387F87EB7CDBD97D"]
+			size: 0.8d
+			id: "791178BBC57CBB3B"
+			tasks: [{
+				id: "26D9DF43C19ACA7A"
+				type: "item"
+				item: "mekanism:structural_glass"
+				count: 100L
+			}]
+			rewards: [{
+				id: "2F90EE86CAEB89C0"
+				type: "loot"
+				table_id: 1459128794121417282L
+			}]
+		}
+		{
+			x: 14.4d
+			y: 2.4d
+			dependencies: ["387F87EB7CDBD97D"]
+			size: 0.8d
+			id: "366BD5B0012A57AA"
+			tasks: [{
+				id: "6CBA8778BBDF6A4D"
+				type: "item"
+				item: "mekanism:sps_casing"
+				count: 80L
+			}]
+		}
+		{
+			x: 15.2d
+			y: 1.6d
+			subtitle: "The Supercritical Phase Shifter, and Antimatter recipes represent the final leg of your adventure.  As you can see from this quest, the process will require large amounts of resources and automation.  It is recommended that you exhaust most other quest tabs before undertaking the remainder of the quests in this chain."
+			description: [
+				"Antimatter is the key to many of the most advanced technologies available.  The following portion of this quest chain shows you the process for generating Antimatter.  "
+				"You will begin by crafting the Supercritical Phase Shifter, an expensive multiblock machine that can consume MASSIVE amounts of power to convert Polonium into Antimatter."
+			]
+			dependencies: ["2D72151BAD894AA1"]
+			size: 0.8d
+			id: "6E37B144A1AAF43E"
+			tasks: [{
+				id: "3172B731AAC619B9"
+				type: "item"
+				item: "industrialforegoing:machine_frame_supreme"
+				count: 90L
+			}]
+			rewards: [{
+				id: "3DF789F44C24799E"
+				type: "loot"
+				table_id: 1459128794121417282L
+			}]
+		}
+		{
+			x: 15.2d
+			y: 3.2d
+			subtitle: "Consider upgrading these cables to Ultimate once your Draconic Reactor is high enough tier."
+			description: ["Attach high tier energy cables to each of the SPS Ports (except the ones for pumping in and out material).  Your SPS chamber can take as much FE/t as you can feed it.  The more FE/t you give, the faster it will produce Antimatter.  "]
+			dependencies: ["387F87EB7CDBD97D"]
+			size: 0.8d
+			id: "08C3FE894D8F1CD4"
+			tasks: [{
+				id: "542F2C88892C2E0D"
+				type: "item"
+				item: "mekanism:elite_universal_cable"
+				count: 16L
+			}]
+			rewards: [{
+				id: "027037F34B096BBC"
+				type: "loot"
+				table_id: 3729081586183020876L
+			}]
+		}
+		{
+			x: 16.0d
+			y: 3.2d
+			description: [
+				"Your Supercritical Phase Shifter requires large amounts of Polonium in order to phase shift it into Antimatter.  Polonium is created by Electrolytic Separation of Resonant Ender.  This will produce Ethylene gas and Polonium gas."
+				""
+			]
+			dependencies: ["387F87EB7CDBD97D"]
+			size: 0.8d
+			id: "705C1A35E0F9E405"
+			tasks: [{
+				id: "3C6771C7524E3784"
+				type: "item"
+				item: "mekanism:electrolytic_separator"
+			}]
+			rewards: [{
+				id: "784E681507C91C28"
+				type: "item"
+				item: "mekanism:upgrade_gas"
+			}]
+		}
+		{
+			x: 16.8d
+			y: 2.4d
+			description: ["Your SPS multiblock will create antimatter gas at a fast or slow pace, depending on how much power you provide.  Once you have the Antimatter, you must use the Chemical Crystallizer to form it into small Antimatter chunks, which are used in numerous end-game recipes."]
+			dependencies: ["08C457A55FCC2263"]
+			size: 0.8d
+			id: "27CD134925D2E418"
+			tasks: [{
+				id: "04893D2DF84F86ED"
+				type: "item"
+				item: "mekanism:chemical_crystallizer"
+			}]
+			rewards: [{
+				id: "6F71FCF5ADC6EFAF"
+				type: "item"
+				item: "mekanism:upgrade_energy"
+			}]
+		}
+		{
+			x: 16.8d
+			y: 3.2d
+			shape: "gear"
+			description: ["You will need mass quantities of Antimatter if you choose to fully take advantage of the end-game Creative recipes.  Now that you have the tools, consider multiplying certain aspects of your production line to really crank up your output."]
+			dependencies: ["27CD134925D2E418"]
+			size: 0.8d
+			id: "49762BFFADB8C8AC"
+			tasks: [{
+				id: "4B959521D4D39A1A"
+				type: "item"
+				item: "mekanism:pellet_antimatter"
+				count: 4L
+			}]
+			rewards: [{
+				id: "17E872E3E1259C8E"
+				type: "loot"
+				table_id: 6356432235294764866L
+			}]
+		}
+		{
+			x: 18.4d
+			y: -1.6d
+			description: ["Induction Cells dictate the total capacity of your Induction Matrix.  You can have any number of Cells within your multiblock.  You will want to upgrade and/or add more Induction Cells to your multiblock in order to store your large amounts of Draconic Reactor energy."]
+			dependencies: ["0C43030E38E67FD1"]
+			size: 0.8d
+			id: "073D3895B9827768"
+			tasks: [{
+				id: "27AAA0DD80AE8047"
+				type: "item"
+				item: "mekanism:basic_induction_cell"
+				count: 4L
+			}]
+			rewards: [{
+				id: "777C0A3B93873593"
+				type: "item"
+				item: "mekanism:advanced_control_circuit"
+				count: 2
+			}]
+		}
+		{
+			x: 18.4d
+			y: -0.8d
+			subtitle: "While you are only making 32 Induction Casings for this quest, you may find that you need more depending on the size of your multiblock."
+			description: [
+				"The Induction Matrix is a multiblock that can store and provide massive amounts of power to your energy network.  The total size of the multiblock can be any rectangular/square shape up to 18x18x18, and must contain *at least* 1x Induction Cell, 1x Induction Provider, and 1x Induction Port."
+				"{image:rusticwaters:textures/matrix.png width:165 height:100 align:1}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["50534D0FBEFCCC26"]
+			size: 0.8d
+			id: "0C43030E38E67FD1"
+			tasks: [{
+				id: "59BF1BA618AD85D9"
+				type: "item"
+				item: "mekanism:induction_casing"
+				count: 32L
+			}]
+			rewards: [{
+				id: "037910E9562AA8F0"
+				type: "xp"
+				xp: 200
+			}]
+		}
+		{
+			x: 18.4d
+			y: -2.4d
+			description: [
+				"Induction Ports allow you to attach energy cables/pipes to your Inudction Matrix.  It is advised that you have at least two ports, but you can add more if desired.  You can use your Configurator on Energy mode to set each port to input or output."
+				"The Induction Providers determine the transfer rate capacity for energy flowing into and out of your Induction Matrix.  These providers come in different tiers.  You can have any number of providers within your Matrix multiblock.  Upgrading and/or adding multiple providers will be necessary for effective use of your future Draconic Reactor energy."
+			]
+			dependencies: ["0C43030E38E67FD1"]
+			size: 0.8d
+			id: "62EE590BE9A08AF9"
+			tasks: [
+				{
+					id: "44E1859248E52BC2"
+					type: "item"
+					item: "mekanism:induction_port"
+					count: 2L
+				}
+				{
+					id: "6EFE8C1CA3BAD3D6"
+					type: "item"
+					item: "mekanism:basic_induction_provider"
+				}
+			]
+			rewards: [{
+				id: "00C170A8381B8B9F"
+				type: "item"
+				item: "mekanism:alloy_reinforced"
+				count: 2
+			}]
+		}
+	]
+}

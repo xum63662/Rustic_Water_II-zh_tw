@@ -1,0 +1,36 @@
+{
+  "input": [
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "create:framed_glass"
+    },
+    {
+      "item": "create:framed_glass"
+    },
+    {
+      "item": "minecraft:blaze_powder"
+    },
+    {
+      "item": "minecraft:blaze_powder"
+    },
+    {
+      "item": "minecraft:blaze_powder"
+    },
+    {
+      "item": "minecraft:blaze_powder"
+    }
+  ],
+  "inputFluid": "{FluidName:\"thermal:resin\",Amount:1000}",
+  "processingTime": 200,
+  "output": {
+    "item": "industrialforegoing:range_addon4",
+    "count": 1,
+    "nbt": "{TitaniumAugment:{Range:4.0f}}"
+  },
+  "type": "industrialforegoing:dissolution_chamber"
+}

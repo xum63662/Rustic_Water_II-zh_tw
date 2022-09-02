@@ -1,0 +1,827 @@
+{
+	id: "49466B65B1437902"
+	group: ""
+	order_index: 7
+	filename: "ocean_armory"
+	title: "Ocean Armory"
+	icon: {
+		id: "dark_caverns:hellstone_sword"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	default_quest_shape: "diamond"
+	default_hide_dependency_lines: false
+	images: [{
+		x: 3.0d
+		y: 2.5d
+		width: 21.6d
+		height: 12.0d
+		rotation: 0.0d
+		image: "rusticwaters:textures/page17.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			x: -2.5d
+			y: -2.0d
+			subtitle: "The Immersive Engineering Weapons in this adventure have been buffed substantially to meet the demands of this increasingly hostile planet.  They are definitely worth investing resources into, especially if you are not much for Ars Nouveau magic combat."
+			description: [
+				""
+				"The Engineer's Workbench will allow you to modify and upgrade your Immersive Engineering tools and weapons.  In this quest chain we will primarily focus on two powerful combat weapon options."
+			]
+			id: "67EC2DC2CEF1E0E9"
+			tasks: [{
+				id: "3971AE804FADB07E"
+				type: "item"
+				item: "immersiveengineering:workbench"
+			}]
+			rewards: [
+				{
+					id: "1C3878942CED2766"
+					type: "item"
+					item: {
+						id: "mekanismtools:refined_glowstone_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7E5FAB6704A01DB8"
+					type: "item"
+					item: "rustic_resources:keyfragment"
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 1.0d
+			shape: "hexagon"
+			subtitle: "The Chemical Thrower can apply effects to targets, using fluid within its chamber.  This is an optional tool you can choose to explore."
+			description: [
+				"Your Railgun requires energy to use and can store up to 8000 FE.  Each shot requires 1000 FE.  You can recharge its capacity on the go, using Thermal Series or Draconic capacitors.  You can also charge it in the charging stations from most mods in this adventure."
+				"Water innately dampens the magnetic charge applied to the projectiles, causing them to work poorly underwater.  This weapon is best used at the surface, or in other dimensions."
+			]
+			dependencies: ["3582E443FBBCD394"]
+			id: "7180B35E28E4568D"
+			tasks: [{
+				id: "686830F2B2896533"
+				type: "item"
+				item: {
+					id: "immersiveengineering:railgun"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Size: 3
+							Items: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "7053BA10B67F216D"
+				type: "item"
+				item: {
+					id: "immersiveengineering:chemthrower"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Size: 4
+							Items: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: 1.0d
+			shape: "hexagon"
+			subtitle: "The Buzzsaw is an optional tool from Immersive Engineering that you can choose to \"fiddle\" with, but is not required, as other tools in this adventure surpass it."
+			description: ["To load your revolver, hold it and Shift+Right Click to open its GUI.  Drop the bullets into the cylinder."]
+			dependencies: ["06CCFFC6CBF90CFD"]
+			id: "45D37B6501AF1FB6"
+			tasks: [{
+				id: "63E468DD12ED5C7F"
+				type: "item"
+				item: {
+					id: "immersiveengineering:revolver"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Size: 21
+							Items: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "6ED080B735B53143"
+				type: "item"
+				item: {
+					id: "immersiveengineering:buzzsaw"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Size: 5
+							Items: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: -1.0d
+			subtitle: "There are dozens of Shader Customization options for your Immersive Engineering weapons and tools.  Each Grab Bag will offer you a chance at one type."
+			description: ["The Immersive Engineering Revolver is very strong for medium range combat.  It has a variety of ammo types available, all which have been buffed to handle the beefy mobs in this adventure."]
+			dependencies: ["67EC2DC2CEF1E0E9"]
+			id: "2E4EC143608815AF"
+			tasks: [
+				{
+					id: "3E16F5444EFDDB8F"
+					type: "item"
+					item: "immersiveengineering:gunpart_barrel"
+				}
+				{
+					id: "193A5504BB05F5CD"
+					type: "item"
+					item: "immersiveengineering:gunpart_drum"
+				}
+			]
+			rewards: [{
+				id: "7FE558BB2D8FF58B"
+				type: "item"
+				item: "immersiveengineering:shader_bag_ie_masterwork"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 0.0d
+			subtitle: "Shaders are installed on the Engineer's Workbench by placing your Revolver in the left slot and the shader in the far-right spot."
+			description: ["The revolver is a quick firing, 6 shot, versatile handgun.  AND, unlike the Railgun, it works underwater."]
+			dependencies: ["2E4EC143608815AF"]
+			id: "06CCFFC6CBF90CFD"
+			tasks: [
+				{
+					id: "168931D45D1C4868"
+					type: "item"
+					item: "immersiveengineering:wooden_grip"
+					count: 2L
+				}
+				{
+					id: "6F8E6F7EFF22E20B"
+					type: "item"
+					item: "immersiveengineering:gunpart_hammer"
+				}
+			]
+			rewards: [{
+				id: "1BC3BA84D08B8E22"
+				type: "item"
+				item: "immersiveengineering:shader_bag_common"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 2.0d
+			subtitle: "You can have more than one Speed Loader in your inventory, for extra-long fights."
+			description: ["The Revolver Speed Loader is a great addition to your revolver arsenal.  You can preload your Speed Loader with cartridges, and they will automatically refill into your revolver once it runs out of ammo.  This will let you avoid stopping to open your revolver GUI in the middle of combat."]
+			dependencies: ["45D37B6501AF1FB6"]
+			id: "36C07954B7A003E9"
+			tasks: [{
+				id: "75F188F5A03A1BD5"
+				type: "item"
+				item: {
+					id: "immersiveengineering:speedloader"
+					Count: 1b
+					tag: {
+						bullets: [ ]
+					}
+					ForgeCaps: {
+						Parent: {
+							Size: 8
+							Items: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "0F6C596B85E9B401"
+				type: "item"
+				item: "immersiveengineering:toolupgrade_revolver_bayonet"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 4.0d
+			subtitle: "The Extended Magazine must be installed using the Engineer's Workbench.  Place your revolver in the left slot, and up to two upgrades in the middle slots."
+			description: ["The Extended Magazine allows your revolver to store even more bullets in its cylinder before having to reload.  Your revolver goes from a 6 shooter to a 12 shooter."]
+			dependencies: ["45D37B6501AF1FB6"]
+			id: "2DE5B8B946AF7879"
+			tasks: [{
+				id: "1E4872B554F53B90"
+				type: "item"
+				item: "immersiveengineering:toolupgrade_revolver_magazine"
+			}]
+			rewards: [{
+				id: "74703443A917DC5C"
+				type: "item"
+				item: "decimal_coins:coin_10"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 3.0d
+			subtitle: "The Amplifier can be installed using the Engineer's Workbench."
+			description: ["The Amplifier Electron Tubes really up the stopping power of your revolver.  When bullets fired from a revolver with this upgrade hit an enemy, the enemy is shocked, unable to move... allowing you to finish them off while out of harm's way."]
+			dependencies: ["45D37B6501AF1FB6"]
+			id: "3A86480AF8D59E42"
+			tasks: [{
+				id: "01B19708D23A5672"
+				type: "item"
+				item: "immersiveengineering:toolupgrade_revolver_electro"
+			}]
+			rewards: [{
+				id: "0A0BE369CF33CD01"
+				type: "item"
+				item: "rustic_resources:keyfragment"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -1.0d
+			description: ["The Immersive Engineering Railgun is a slow Sniper weapon that fires a projectile that hits with enough kinetic force to deal upwards of 70 DAMAGE!  It is best used from a distance, with careful aim, because it only has an 8 shot capacity."]
+			dependencies: ["67EC2DC2CEF1E0E9"]
+			id: "2E0BBF7BB581B018"
+			tasks: [{
+				id: "31E2EE5DE1475A5C"
+				type: "item"
+				item: "immersiveengineering:coil_mv"
+			}]
+			rewards: [{
+				id: "4684811BD9C4720D"
+				type: "item"
+				item: "rustic_resources:keyfragment"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 0.0d
+			subtitle: "Shaders are cosmetic upgrades that can be applied at your Engineer's Workbench."
+			description: ["A railgun is a linear motor device, typically designed as a weapon, that uses electromagnetic force to launch high velocity projectiles."]
+			dependencies: ["2E0BBF7BB581B018"]
+			id: "3582E443FBBCD394"
+			tasks: [{
+				id: "7CC10A547C0878F1"
+				type: "item"
+				item: {
+					id: "thermal:flux_magnet"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "060F68561996D307"
+				type: "item"
+				item: {
+					id: "mekanismtools:refined_glowstone_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: 2.0d
+			description: ["The Railgun Scope does exactly what you think it does.  It provides a long-range tactical advantage.  Press the MIDDLE mouse button (configurable in your options) to zoom in.  Use your mouse wheel to amplify or reduce the zoom level.  Charge your shot by holding the right mouse button, then let go to fire."]
+			dependencies: ["7180B35E28E4568D"]
+			id: "3DBFDEC99F5CD477"
+			tasks: [{
+				id: "555C2D732F158857"
+				type: "item"
+				item: "immersiveengineering:toolupgrade_railgun_scope"
+			}]
+			rewards: [{
+				id: "150B0A0FB0BD5980"
+				type: "item"
+				item: "minecraft:netherite_scrap"
+				count: 2
+			}]
+		}
+		{
+			x: -3.5d
+			y: 3.0d
+			description: ["Your Railgun requires you to charge your shots, but this time can be reduced by 50% by installing Advanced Heatsinks through your Engineer's Workbench."]
+			dependencies: ["7180B35E28E4568D"]
+			id: "5DF9CEEF57A61CB3"
+			tasks: [{
+				id: "3651C2A5C9314123"
+				type: "item"
+				item: "immersiveengineering:toolupgrade_railgun_capacitors"
+			}]
+			rewards: [{
+				id: "5703AA6E9F84935D"
+				type: "loot"
+				table_id: 3729081586183020876L
+			}]
+		}
+		{
+			x: -3.5d
+			y: 4.0d
+			description: ["Your Railgun fires rods that can be magnetically charged.  These rods can be Iron, Steel, and other common materials, each with their own damage and accuracy properties.  The best of these rods is the Graphite Electrode.  It has the highest damage and lowest gravity drop-off of all the ammo types."]
+			dependencies: ["7180B35E28E4568D"]
+			id: "53B21C1374C60167"
+			tasks: [{
+				id: "26B07E4B6032C4ED"
+				type: "item"
+				item: {
+					id: "immersiveengineering:graphite_electrode"
+					Count: 1b
+					tag: {
+						graphDmg: 0
+					}
+				}
+				count: 16L
+			}]
+			rewards: [{
+				id: "27A8D1C935A09761"
+				type: "item"
+				item: "decimal_coins:coin_20"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 5.0d
+			subtitle: "Casull Cartridges are the basic ammo type, dealing 18 damage, but being cheap to craft."
+			description: ["There are many bullet options for your revolver.  Depending on your resources, and the fights you plan to engage in, change the bullet types to fit your needs."]
+			dependencies: ["2DE5B8B946AF7879"]
+			id: "36648D7920944E28"
+			tasks: [{
+				id: "198E442C95F4EA4C"
+				type: "item"
+				item: "immersiveengineering:empty_casing"
+				count: 32L
+			}]
+			rewards: [{
+				id: "6E593E286EAEAE7E"
+				type: "item"
+				item: "immersiveengineering:casull"
+				count: 16
+			}]
+		}
+		{
+			x: -2.0d
+			y: 5.0d
+			subtitle: "Silver Bullets do 22 base damage, but additional damage to undead."
+			description: ["Armor Piercing Ammo deals 30 damage per shot and will ignore a portion of the target's Armor.  Great against armored skeletons, Royal Guards, etc... that are often found in dungeons."]
+			dependencies: ["36648D7920944E28"]
+			id: "78745448F61065CF"
+			tasks: [{
+				id: "120D4DAFEA3F4F7C"
+				type: "item"
+				item: "immersiveengineering:armor_piercing"
+				count: 6L
+			}]
+			rewards: [{
+				id: "13C793AF92D84603"
+				type: "item"
+				item: "immersiveengineering:silver"
+				count: 12
+			}]
+		}
+		{
+			x: -4.0d
+			y: 5.0d
+			description: ["Buckshot Cartridges excel at close range combat.  Their pellet spread makes them weak at long range.  Each pellet does 12 damage, which can be devastating if they all hit the same target."]
+			dependencies: ["36648D7920944E28"]
+			id: "3DBB72EC121B4A06"
+			tasks: [{
+				id: "35FB263ABA44F2A7"
+				type: "item"
+				item: "immersiveengineering:buckshot"
+				count: 6L
+			}]
+			rewards: [{
+				id: "75B84FE6596E62B4"
+				type: "item"
+				item: "immersiveengineering:shader_bag_ie_masterwork"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 5.0d
+			description: ["The Explosive Cartridge is akin to shooting a TNT block at your opponents.  Not necessarily the highest damage output, but destructive to the mobs and the terrain."]
+			dependencies: ["36648D7920944E28"]
+			id: "6B3209C2A1AB0E5A"
+			tasks: [{
+				id: "05B1EE36E401B3D2"
+				type: "item"
+				item: "immersiveengineering:he"
+				count: 6L
+			}]
+			rewards: [{
+				id: "013D59317F2CAAFE"
+				type: "item"
+				item: "immersiveengineering:shader_bag_rare"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 6.0d
+			description: ["For those \"aiming\" challenged shooters, the Homing Cartridge is your friend.  It is more expensive to craft but offers 28 damage wrapped in a package that will lock onto your target."]
+			dependencies: ["78745448F61065CF"]
+			id: "53FB73073A52600D"
+			tasks: [{
+				id: "69371C84D057DE58"
+				type: "item"
+				item: "immersiveengineering:homing"
+				count: 6L
+			}]
+			rewards: [{
+				id: "2AA7BBECB0DC2F05"
+				type: "loot"
+				table_id: 3729081586183020876L
+			}]
+		}
+		{
+			x: -2.5d
+			y: 7.0d
+			subtitle: "The Wolfpack Cartridges are expensive, but worth every bit."
+			description: ["The ultimate marksman's kill inducer, the Wolfpack cartridge breaks into multiple pieces of homing shrapnel after hitting its target.  The initial hit does 40 damage!  And each piece of shrapnel does an additional 12 damage."]
+			dependencies: ["53FB73073A52600D"]
+			id: "0D503C926D705ADD"
+			tasks: [{
+				id: "31467CD4B042D591"
+				type: "item"
+				item: "immersiveengineering:wolfpack"
+				count: 4L
+			}]
+			rewards: [{
+				id: "34789DB73FBFD9AF"
+				type: "item"
+				item: "immersiveengineering:flare"
+				count: 8
+			}]
+		}
+		{
+			x: 8.0d
+			y: -2.0d
+			description: ["The Fluxsaw holds 50k FE at its base level, but like the Fluxbore, it can be upgraded all the way to Resonant for increased capacity and efficiency."]
+			dependencies: ["77B02AF5250FE6C6"]
+			id: "72DAAA0F2CF51DBD"
+			tasks: [{
+				id: "12031AC8D1D08D75"
+				type: "item"
+				item: {
+					id: "thermal:flux_saw"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "7918D32273A0D7B3"
+				type: "loot"
+				table_id: 4104634909137362165L
+			}]
+		}
+		{
+			x: 11.0d
+			y: -2.0d
+			description: ["Your Fluxbore can hold 50k FE at its base level, but augments can be applied to upgrade it all the way to Resonant, for more energy capacity and efficiency."]
+			dependencies: ["0F73B8A4DFA8CC23"]
+			id: "73DABE1D6266F0EE"
+			tasks: [{
+				id: "6ADB3660946B896A"
+				type: "item"
+				item: {
+					id: "thermal:flux_drill"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "69A99A7EB7B5300B"
+				type: "loot"
+				table_id: 4104634909137362165L
+			}]
+		}
+		{
+			x: 9.5d
+			y: 0.0d
+			subtitle: "It is highly advised that you upgrade your Capacitor and Tools.  This is done using the Tinker's Workbench."
+			description: ["The Flux Capacitor is your way of charging FE using items while on the go.  It works for any items, not just those from The Thermal Series.  Place it on your hotbar and Shift+Click to toggle it on.  It can also be worn in your Curios slot, accessible by a tiny button on your inventory character sheet."]
+			dependencies: ["2DCD8FBF91F1F5E6"]
+			id: "422212495EC944E6"
+			tasks: [{
+				id: "3B530F665EE1705E"
+				type: "item"
+				item: {
+					id: "thermal:flux_capacitor"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "67720005FC9071E1"
+				type: "item"
+				item: "thermal:upgrade_augment_2"
+			}]
+		}
+		{
+			x: 9.5d
+			y: -1.0d
+			description: ["The Reservoir is your portable fluid storage device.  It does not require FE.  It acts as a very large bucket, able to pick up fluids, or place them down.  It can also refill items within your inventory that require fluid use on the go.  To do this, hold Shift+Click while holding the reservoir.  To cycle the mode of your Reservoir between picking up or placing down fluids, hit V by default."]
+			dependencies: ["2DCD8FBF91F1F5E6"]
+			id: "7BDE77B3B2E14DBD"
+			tasks: [{
+				id: "7BA42E7743CC997E"
+				type: "item"
+				item: {
+					id: "thermal:fluid_reservoir"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "17444EB1D9513B4B"
+				type: "loot"
+				table_id: 4104634909137362165L
+			}]
+		}
+		{
+			x: 9.5d
+			y: 1.0d
+			description: ["The Potion Infuser will allow you to store your potions inside of it and inject them.  This reduces clutter in your inventory since potions are not stackable."]
+			dependencies: ["38936114D983721E"]
+			id: "4BADE3B618CE467B"
+			tasks: [{
+				id: "18A03AB207B75857"
+				type: "item"
+				item: {
+					id: "thermal:potion_infuser"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "7DDD61E7D859C184"
+				type: "item"
+				item: "scalinghealth:heart_crystal"
+			}]
+		}
+		{
+			x: 9.5d
+			y: 2.0d
+			description: ["Now that you can make potions, it's time to put them to additional use.  The Alchemical Quiver will allow you to coat your arrows in potion effects... damaging or otherwise.  "]
+			dependencies: ["38936114D983721E"]
+			id: "232E3B12CEEF9604"
+			tasks: [{
+				id: "385F24615A4B7A6E"
+				type: "item"
+				item: {
+					id: "thermal:potion_quiver"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "5C8E7BED28939111"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:strong_harming"
+						}
+					}
+				}
+				{
+					id: "295E6359FE9B8EF6"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "cyclic:wither"
+						}
+					}
+				}
+				{
+					id: "2FD4DA352DB14916"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:strong_poison"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 11.0d
+			y: -1.0d
+			description: ["The Fluxbore is an FE powered handheld mining device.  It can be charged in the Energetic Infuser or using inventory charging devices such as the Thermal or Draconic Capacitors."]
+			dependencies: ["422212495EC944E6"]
+			id: "0F73B8A4DFA8CC23"
+			tasks: [{
+				id: "461F5DB5E1318B88"
+				type: "item"
+				item: "thermal:drill_head"
+			}]
+			rewards: [{
+				id: "11E8DEF78982C331"
+				type: "loot"
+				table_id: 4104634909137362165L
+			}]
+		}
+		{
+			x: 8.0d
+			y: -1.0d
+			description: ["The Fluxsaw will allow you to chop large trees without the cost of durability or hunger.  It uses FE and can be upgraded with Radial Enhancement augments to increase the range it will chop down."]
+			dependencies: ["422212495EC944E6"]
+			id: "77B02AF5250FE6C6"
+			tasks: [{
+				id: "21C7F7F0211E2A62"
+				type: "item"
+				item: "thermal:saw_blade"
+			}]
+			rewards: [{
+				id: "659684418C8AFA55"
+				type: "loot"
+				table_id: 4104634909137362165L
+			}]
+		}
+		{
+			x: 11.0d
+			y: 0.0d
+			subtitle: "The Radial Enhancement must be applied in the Tinker's Workbench."
+			description: [
+				"The Flux Bore can be upgraded in the Tinkerer's Workbench to mine a larger area.  Each Radial Enhancement you apply will allow it to mine 1 block radius further... 3x3, 5x5, and even 9x9!"
+				"By default, the V key will allow you to change the mode of your Fluxbore, switching between different mining sizes."
+			]
+			dependencies: ["0F73B8A4DFA8CC23"]
+			id: "300E5311B99DE7FF"
+			tasks: [{
+				id: "7D80B605A0D33AEA"
+				type: "item"
+				item: "thermal:area_radius_augment"
+			}]
+			rewards: [{
+				id: "01D33236184AEEEA"
+				type: "loot"
+				table_id: 4104634909137362165L
+			}]
+		}
+		{
+			x: 8.0d
+			y: 0.0d
+			description: ["Even your Alchemical Quiver and Potion Infuser devices can be upgraded in the Tinker's Workbench. "]
+			dependencies: ["4BADE3B618CE467B"]
+			id: "0B924DB902ACB111"
+			tasks: [{
+				id: "2CBAE224145EF0A9"
+				type: "item"
+				item: "thermal:potion_duration_augment"
+			}]
+			rewards: [{
+				id: "6E8C535E395860C6"
+				type: "loot"
+				table_id: 4104634909137362165L
+			}]
+		}
+		{
+			x: 9.5d
+			y: 5.0d
+			description: ["You can supplement the Armor Cache enchants you have gotten by crafting an Enchantment Table.  This adventure has been balanced with the assumption that you will prepare your tools and armor before venturing out.  So, if you are having difficulty exploring the world due to mob difficulty, make sure your armor is enchanted.  What is doable in Vanilla, may not be doable in this adventure."]
+			dependencies: ["2DCD8FBF91F1F5E6"]
+			id: "7DB4B03F42DDA58F"
+			tasks: [{
+				id: "48F61D31D17E58ED"
+				type: "item"
+				item: "minecraft:enchanting_table"
+			}]
+			rewards: [{
+				id: "354242F4B0B2447A"
+				type: "loot"
+				table_id: 4104634909137362165L
+			}]
+		}
+		{
+			x: 9.5d
+			y: 3.0d
+			description: ["In order to complete some of the higher tier dungeons, explore The End, and even visit Venus, you will need to imbibe numerous helpful potions.  "]
+			dependencies: ["2DCD8FBF91F1F5E6"]
+			id: "38936114D983721E"
+			tasks: [{
+				id: "29F281B571D794E1"
+				type: "item"
+				item: "minecraft:brewing_stand"
+			}]
+			rewards: [{
+				id: "10EA17FAFC20E5BE"
+				type: "item"
+				item: "minecraft:glass_bottle"
+				count: 16
+			}]
+		}
+		{
+			x: 9.5d
+			y: 7.0d
+			subtitle: "Armory Caches will be provided for the quests in this chain.  Armory Caches only contain max level Enchant Books for you to use."
+			description: ["If you have taken on this adventure, you more than likely are already familiar with the Anvil's purpose.  In the next quest though, you will use it to craft an Anvil upgrade that allows additional functionality for repairing your tools and armor."]
+			id: "2DCD8FBF91F1F5E6"
+			tasks: [{
+				id: "2FF26BA66D0EC2D7"
+				type: "item"
+				item: "minecraft:anvil"
+			}]
+			rewards: [
+				{
+					id: "475BA71C148F0047"
+					type: "loot"
+					table_id: 4104634909137362165L
+				}
+				{
+					id: "235C5D5DCC64FD6A"
+					type: "item"
+					item: "minecraft:diamond"
+					count: 8
+				}
+			]
+		}
+		{
+			x: 9.5d
+			y: 6.0d
+			description: ["The Powered Anvil is an upgrade to the basic Vanilla Anvil.  It uses RF instead of XP and resources to repair your items.  Simply place your item in the left slot, provide ample FE/t to the anvil, and it will repair your item in just a few seconds.  This is much faster than the Repair Chests you may have bought from the Coin Trade Market."]
+			dependencies: ["2DCD8FBF91F1F5E6"]
+			id: "1734359A2B5DB9B8"
+			tasks: [{
+				id: "07616D10D74CB773"
+				type: "item"
+				item: "cyclic:anvil"
+			}]
+			rewards: [{
+				id: "22F59F5A87529207"
+				type: "item"
+				item: {
+					id: "mekanism:basic_fluid_tank"
+					Count: 1b
+					tag: {
+						mekData: {
+							owner: [I;
+								259599878
+								1142310666
+								-1519485643
+								2122414204
+							]
+							FluidTanks: [{
+								Tank: 0b
+								stored: {
+									FluidName: "minecraft:lava"
+									Amount: 14000
+								}
+							}]
+							securityMode: 0
+							Items: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 9.5d
+			y: 4.0d
+			description: ["The Armory Caches will give you max level enchants, but the Enchantment Table won't, unless you place bookshelves around it.  "]
+			dependencies: ["7DB4B03F42DDA58F"]
+			id: "429532B0C24FAD6C"
+			tasks: [{
+				id: "34F25D678FEDEFB4"
+				type: "item"
+				item: "minecraft:bookshelf"
+			}]
+			rewards: [
+				{
+					id: "6283B234C0E537A6"
+					type: "item"
+					item: "rustic_resources:keyfragment"
+				}
+				{
+					id: "18A725E063EE7ED0"
+					type: "loot"
+					table_id: 4104634909137362165L
+				}
+			]
+		}
+	]
+}

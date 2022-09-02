@@ -1,0 +1,17 @@
+{
+  "type": "interactio:item_fluid_transform",
+  "inputs": [
+    {
+      "item": "create:blaze_cake_base",
+      "count": 1
+    }
+  ],
+  "fluid": {
+    "fluid": "lava"
+  },
+  "output": 
+    {
+          "item": "create:blaze_cake",
+          "count": 1
+        }
+      }

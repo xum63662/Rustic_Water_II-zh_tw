@@ -1,0 +1,26 @@
+{
+  "input": [
+    {
+      "item": "create:framed_glass"
+    },
+    {
+      "item": "create:framed_glass"
+    },
+    {
+      "item": "create:framed_glass"
+    },
+    {
+      "item": "create:framed_glass"
+    },
+    {
+      "tag": "forge:dyes/orange"
+    }
+  ],
+  "inputFluid": "{FluidName:\"thermal:resin\",Amount:1000}",
+  "processingTime": 100,
+  "output": {
+    "item": "industrialforegoing:laser_lens1",
+    "count": 1
+  },
+  "type": "industrialforegoing:dissolution_chamber"
+}

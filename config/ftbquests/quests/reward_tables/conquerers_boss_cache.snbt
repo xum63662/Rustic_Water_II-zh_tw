@@ -1,0 +1,1713 @@
+{
+	id: "58369570AF962F42"
+	order_index: 3
+	title: "Conquerer's Boss Cache"
+	loot_size: 3
+	rewards: [
+		{ item: "mysticalagriculture:absorption_iv_augment" }
+		{ item: "mysticalagriculture:health_boost_iv_augment" }
+		{ item: "mysticalagriculture:mining_aoe_iv_augment" }
+		{ item: "mysticalagriculture:pathing_aoe_iv_augment" }
+		{ item: "mysticalagriculture:tilling_aoe_iv_augment" }
+		{ item: "mysticalagriculture:absorption_v_augment" }
+		{ item: "mysticalagriculture:health_boost_v_augment" }
+		{ item: "mysticalagriculture:absorption_iii_augment" }
+		{ item: "mysticalagriculture:attack_aoe_iii_augment" }
+		{ item: "mysticalagriculture:health_boost_iii_augment" }
+		{ item: "mysticalagriculture:jump_boost_iii_augment" }
+		{ item: "mysticalagriculture:mining_aoe_iii_augment" }
+		{ item: "mysticalagriculture:pathing_aoe_iii_augment" }
+		{ item: "mysticalagriculture:speed_iii_augment" }
+		{ item: "mysticalagriculture:strength_iii_augment" }
+		{ item: "mysticalagriculture:tilling_aoe_iii_augment" }
+		{ item: "mekanism:elite_combining_factory" }
+		{ item: "mekanism:elite_compressing_factory" }
+		{ item: "mekanism:elite_crushing_factory" }
+		{ item: "mekanism:elite_enriching_factory" }
+		{ item: "mekanism:elite_infusing_factory" }
+		{ item: "mekanism:elite_injecting_factory" }
+		{ item: "mekanism:elite_purifying_factory" }
+		{ item: "mekanism:elite_sawing_factory" }
+		{ item: "mekanism:elite_smelting_factory" }
+		{
+			item: {
+				id: "inventorypets:pet_anvil"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "inventorypets:pet_bed"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "inventorypets:pet_biome"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "inventorypets:pet_black_hole"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "inventorypets:pet_blaze"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "inventorypets:pet_brewing_stand"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "inventorypets:pet_cheetah"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "inventorypets:pet_chest_new"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+				ForgeCaps: {
+					Parent: { }
+				}
+			}
+		}
+		{
+			item: {
+				id: "inventorypets:pet_chicken"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "inventorypets:pet_cow"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "inventorypets:pet_crafting_table"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "inventorypets:pet_creeper"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "inventorypets:pet_dirt"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "inventorypets:pet_double_chest_new"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+				ForgeCaps: {
+					Parent: { }
+				}
+			}
+		}
+		{
+			item: {
+				id: "inventorypets:pet_dubstep"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "inventorypets:pet_enchanting_table"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "inventorypets:pet_ender_chest"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "inventorypets:pet_furnace"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "inventorypets:pet_ghast"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "inventorypets:pet_heart"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "inventorypets:pet_iron_golem"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "inventorypets:pet_jukebox"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "inventorypets:pet_lead"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "inventorypets:pet_loot"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "inventorypets:pet_magma_cube"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "inventorypets:pet_mickerson"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "inventorypets:pet_moon"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "inventorypets:pet_mooshroom"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "inventorypets:pet_ocelot"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "inventorypets:pet_pacman"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "inventorypets:pet_pixie"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "inventorypets:pet_pufferfish"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "inventorypets:pet_purplicious_cow"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "inventorypets:pet_qcm"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "inventorypets:pet_quiver"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "inventorypets:pet_saddle"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "inventorypets:pet_sheep"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "inventorypets:pet_shield"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "inventorypets:pet_siamese"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "inventorypets:pet_slime"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "inventorypets:pet_snow_golem"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "inventorypets:pet_spider"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "inventorypets:pet_sponge"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "inventorypets:pet_torch"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "inventorypets:pet_wither"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:longsword_electrum"
+				Count: 1b
+				tag: {
+					Damage: 0
+					Enchantments: [
+						{
+							lvl: 3s
+							id: "cyclic:beheading"
+						}
+						{
+							lvl: 3s
+							id: "minecraft:impaling"
+						}
+					]
+				}
+			}
+			weight: 3
+		}
+		{
+			item: {
+				id: "spartanweaponry:dagger_electrum"
+				Count: 1b
+				tag: {
+					Damage: 0
+					Enchantments: [
+						{
+							lvl: 3s
+							id: "cyclic:life_leech"
+						}
+						{
+							lvl: 3s
+							id: "cyclic:disarm"
+						}
+						{
+							lvl: 3s
+							id: "cyclic:venom"
+						}
+					]
+				}
+			}
+			weight: 3
+		}
+		{
+			item: {
+				id: "spartanweaponry:spear_electrum"
+				Count: 1b
+				tag: {
+					Damage: 0
+					Enchantments: [
+						{
+							lvl: 3s
+							id: "minecraft:looting"
+						}
+						{
+							lvl: 3s
+							id: "minecraft:mending"
+						}
+						{
+							lvl: 5s
+							id: "minecraft:smite"
+						}
+					]
+				}
+			}
+			weight: 3
+		}
+		{
+			item: {
+				id: "spartanweaponry:lance_electrum"
+				Count: 1b
+				tag: {
+					Damage: 0
+					Enchantments: [
+						{
+							lvl: 3s
+							id: "minecraft:knockback"
+						}
+						{
+							lvl: 3s
+							id: "minecraft:fire_aspect"
+						}
+						{
+							lvl: 5s
+							id: "ma-enchants:wisdom"
+						}
+					]
+				}
+			}
+			weight: 3
+		}
+		{
+			item: {
+				id: "spartanweaponry:longbow_electrum"
+				Count: 1b
+				tag: {
+					Damage: 0
+					Enchantments: [
+						{
+							lvl: 3s
+							id: "ma-enchants:true_shot"
+						}
+						{
+							lvl: 3s
+							id: "ma-enchants:quick_draw"
+						}
+						{
+							lvl: 3s
+							id: "ma-enchants:paralysis"
+						}
+					]
+				}
+			}
+			weight: 3
+		}
+		{
+			item: {
+				id: "mekanismtools:diamond_paxel"
+				Count: 1b
+				tag: {
+					Damage: 0
+					display: {
+						Name: "{\"text\":\"Jack Of All Trades\"}"
+					}
+					Enchantments: [
+						{
+							lvl: 5s
+							id: "minecraft:efficiency"
+						}
+						{
+							lvl: 3s
+							id: "minecraft:fortune"
+						}
+						{
+							lvl: 3s
+							id: "minecraft:mending"
+						}
+					]
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanshields:shield_basic_electrum"
+				Count: 1b
+				tag: {
+					RepairCost: 7
+					Damage: 0
+					Enchantments: [
+						{
+							lvl: 1s
+							id: "wonderful_enchantments:immortality"
+						}
+						{
+							lvl: 3s
+							id: "wonderful_enchantments:vitality"
+						}
+						{
+							lvl: 1s
+							id: "wonderful_enchantments:absorber"
+						}
+					]
+				}
+			}
+			weight: 3
+		}
+		{
+			item: {
+				id: "spartanweaponry:heavy_crossbow_electrum"
+				Count: 1b
+				tag: {
+					Damage: 0
+					Enchantments: [
+						{
+							lvl: 4s
+							id: "minecraft:piercing"
+						}
+						{
+							lvl: 3s
+							id: "minecraft:quick_charge"
+						}
+						{
+							lvl: 3s
+							id: "wonderful_enchantments:hunter"
+						}
+					]
+				}
+			}
+			weight: 3
+		}
+		{
+			item: {
+				id: "spartanweaponry:boomerang_electrum"
+				Count: 1b
+				tag: {
+					RepairCost: 7
+					Damage: 0
+					Enchantments: [
+						{
+							lvl: 3s
+							id: "spartanweaponry:throwing_range"
+						}
+						{
+							lvl: 1s
+							id: "spartanweaponry:throwing_hydrodynamic"
+						}
+						{
+							lvl: 3s
+							id: "spartanweaponry:throwing_luck"
+						}
+					]
+				}
+			}
+			weight: 3
+		}
+		{
+			item: {
+				id: "spartanweaponry:pike_electrum"
+				Count: 1b
+				tag: {
+					Damage: 0
+					Enchantments: [
+						{
+							lvl: 2s
+							id: "ma-enchants:faster_attack"
+						}
+						{
+							lvl: 2s
+							id: "wonderful_enchantments:human_slayer"
+						}
+						{
+							lvl: 5s
+							id: "minecraft:sharpness"
+						}
+					]
+				}
+			}
+			weight: 3
+		}
+		{
+			item: {
+				id: "spartanweaponry:halberd_electrum"
+				Count: 1b
+				tag: {
+					combo: 0
+					Damage: 0
+					Enchantments: [
+						{
+							lvl: 1s
+							id: "ma-enchants:combo"
+						}
+						{
+							lvl: 2s
+							id: "cyclic:venom"
+						}
+						{
+							lvl: 3s
+							id: "minecraft:sweeping"
+						}
+					]
+				}
+			}
+			weight: 3
+		}
+		{
+			item: {
+				id: "spartanweaponry:glaive_electrum"
+				Count: 1b
+				tag: {
+					Damage: 0
+					Enchantments: [
+						{
+							lvl: 3s
+							id: "draconicevolution:reaper_enchantment"
+						}
+						{
+							lvl: 3s
+							id: "cyclic:beheading"
+						}
+						{
+							lvl: 3s
+							id: "cyclic:life_leech"
+						}
+					]
+				}
+			}
+			weight: 3
+		}
+		{
+			item: {
+				id: "spartanweaponry:battleaxe_electrum"
+				Count: 1b
+				tag: {
+					Damage: 0
+					Enchantments: [
+						{
+							lvl: 3s
+							id: "cyclic:beheading"
+						}
+						{
+							lvl: 2s
+							id: "cyclic:venom"
+						}
+						{
+							lvl: 1s
+							id: "wonderful_enchantments:elder_guardian_favor"
+						}
+					]
+				}
+			}
+			weight: 3
+		}
+		{
+			item: {
+				id: "spartanweaponry:quarterstaff_electrum"
+				Count: 1b
+				tag: {
+					Damage: 0
+					Enchantments: [
+						{
+							lvl: 2s
+							id: "ma-enchants:ice_aspect"
+						}
+						{
+							lvl: 2s
+							id: "minecraft:fire_aspect"
+						}
+						{
+							lvl: 5s
+							id: "ma-enchants:wisdom"
+						}
+					]
+				}
+			}
+			weight: 3
+		}
+		{
+			item: {
+				id: "spartanweaponry:flanged_mace_electrum"
+				Count: 1b
+				tag: {
+					Damage: 0
+					Enchantments: [
+						{
+							lvl: 3s
+							id: "minecraft:looting"
+						}
+						{
+							lvl: 3s
+							id: "minecraft:mending"
+						}
+						{
+							lvl: 3s
+							id: "minecraft:sharpness"
+						}
+					]
+				}
+			}
+			weight: 3
+		}
+		{
+			item: {
+				id: "spartanweaponry:warhammer_electrum"
+				Count: 1b
+				tag: {
+					Damage: 0
+					Enchantments: [
+						{
+							lvl: 5s
+							id: "ma-enchants:wisdom"
+						}
+						{
+							lvl: 5s
+							id: "minecraft:smite"
+						}
+						{
+							lvl: 2s
+							id: "minecraft:fire_aspect"
+						}
+					]
+				}
+			}
+			weight: 3
+		}
+		{
+			item: {
+				id: "spartanweaponry:hammer_electrum"
+				Count: 1b
+				tag: {
+					Damage: 0
+					Enchantments: [
+						{
+							lvl: 2s
+							id: "ma-enchants:ice_aspect"
+						}
+						{
+							lvl: 2s
+							id: "wonderful_enchantments:pufferfish_vengeance"
+						}
+						{
+							lvl: 4s
+							id: "minecraft:looting"
+						}
+					]
+				}
+			}
+			weight: 3
+		}
+		{
+			item: {
+				id: "spartanweaponry:greatsword_electrum"
+				Count: 1b
+				tag: {
+					Damage: 0
+					Enchantments: [
+						{
+							lvl: 3s
+							id: "cyclic:ender"
+						}
+						{
+							lvl: 3s
+							id: "minecraft:looting"
+						}
+						{
+							lvl: 3s
+							id: "cyclic:magnet"
+						}
+					]
+				}
+			}
+			weight: 3
+		}
+		{
+			item: {
+				id: "spartanweaponry:saber_electrum"
+				Count: 1b
+				tag: {
+					Damage: 0
+					Enchantments: [
+						{
+							lvl: 3s
+							id: "wonderful_enchantments:human_slayer"
+						}
+						{
+							lvl: 3s
+							id: "cyclic:beheading"
+						}
+						{
+							lvl: 3s
+							id: "draconicevolution:reaper_enchantment"
+						}
+					]
+				}
+			}
+			weight: 3
+		}
+		{
+			item: {
+				id: "spartanweaponry:rapier_electrum"
+				Count: 1b
+				tag: {
+					Damage: 0
+					Enchantments: [
+						{
+							lvl: 5s
+							id: "minecraft:sharpness"
+						}
+						{
+							lvl: 3s
+							id: "cyclic:life_leech"
+						}
+						{
+							lvl: 3s
+							id: "draconicevolution:reaper_enchantment"
+						}
+					]
+				}
+			}
+			weight: 3
+		}
+		{
+			item: {
+				id: "spartanweaponry:katana_electrum"
+				Count: 1b
+				tag: {
+					Damage: 0
+					Enchantments: [
+						{
+							lvl: 3s
+							id: "cyclic:life_leech"
+						}
+						{
+							lvl: 3s
+							id: "minecraft:unbreaking"
+						}
+						{
+							lvl: 5s
+							id: "minecraft:sharpness"
+						}
+					]
+				}
+			}
+			weight: 3
+		}
+		{
+			item: {
+				id: "relics:spatial_sign"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "relics:reflection_necklace"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "relics:magma_walker"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "relics:scarab_talisman"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "relics:stellar_catalyst"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "relics:drowned_belt"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "relics:jellyfish_necklace"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "relics:space_dissector"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "relics:lucky_horseshoe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "relics:arrow_quiver"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "relics:chorus_inhibitor"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "relics:bastion_ring"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "relics:delay_ring"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "relics:camouflage_ring"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "relics:ice_skates"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "relics:blazing_flask"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "relics:ice_breaker"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "relics:fragrant_flower"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "relics:elytra_booster"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "relics:enders_hand"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "relics:holy_locket"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "relics:rage_glove"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "relics:soul_devourer"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "relics:slime_heart"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "relics:leather_belt"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "relics:horse_flute"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "relics:wool_mitten"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "relics:shadow_glaive"
+				Count: 1b
+				tag: {
+					Damage: 0
+					charges: 8
+				}
+			}
+		}
+		{
+			item: {
+				id: "relics:infinity_ham"
+				Count: 1b
+				tag: {
+					pieces: 3
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "relics:spore_sack"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "relics:spider_necklace"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "relics:old_boot"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "relics:amphibian_boot"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "relics:out_runner"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "artifacts:umbrella" }
+		{ item: "artifacts:whoopee_cushion" }
+		{ item: "artifacts:night_vision_goggles" }
+		{ item: "artifacts:villager_hat" }
+		{ item: "artifacts:superstitious_hat" }
+		{ item: "artifacts:lucky_scarf" }
+		{ item: "artifacts:cross_necklace" }
+		{ item: "artifacts:panic_necklace" }
+		{ item: "artifacts:universal_attractor" }
+		{ item: "artifacts:antidote_vessel" }
+		{ item: "artifacts:obsidian_skull" }
+		{ item: "artifacts:cloud_in_a_bottle" }
+		{ item: "artifacts:charm_of_sinking" }
+		{ item: "artifacts:flame_pendant" }
+		{ item: "artifacts:thorn_pendant" }
+		{ item: "artifacts:shock_pendant" }
+		{ item: "artifacts:vampiric_glove" }
+		{ item: "artifacts:pocket_piston" }
+		{ item: "artifacts:fire_gauntlet" }
+		{ item: "artifacts:power_glove" }
+		{ item: "artifacts:feral_claws" }
+		{ item: "artifacts:digging_claws" }
+		{ item: "artifacts:helium_flamingo" }
+		{ item: "artifacts:crystal_heart" }
+		{
+			item: {
+				id: "cyclic:charm_longfall"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "cyclic:charm_creeper"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "cyclic:charm_stone"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "cyclic:charm_antipotion"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "cyclic:charm_boostpotion"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "cyclic:charm_crit"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "cyclic:quiver_damage"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "cyclic:charm_magicdefense"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "cyclic:charm_venom"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "cyclic:charm_speed"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "cyclic:charm_knockback_resistance"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "cyclic:charm_luck"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "cyclic:charm_attack_speed"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "cyclic:charm_wing"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "draconicevolution:wyvern_proj_velocity_module" }
+		{ item: "xreliquary:infernal_claws" }
+		{
+			item: {
+				id: "xreliquary:ender_staff"
+				Count: 1b
+				tag: {
+					count: 0
+				}
+				ForgeCaps: {
+					Parent: {
+						Items: [{
+							filter: {
+								id: "minecraft:ender_pearl"
+								Count: 1b
+							}
+							amount: 0
+						}]
+					}
+				}
+			}
+		}
+		{ item: "xreliquary:emperor_chalice" }
+		{ item: "draconicevolution:wyvern_energy_module" }
+		{ item: "draconicevolution:wyvern_speed_module" }
+		{ item: "draconicevolution:wyvern_damage_module" }
+		{ item: "draconicevolution:wyvern_aoe_module" }
+		{ item: "draconicevolution:wyvern_proj_grav_comp_module" }
+		{ item: "draconicevolution:wyvern_proj_accuracy_module" }
+		{ item: "draconicevolution:wyvern_proj_penetration_module" }
+		{ item: "xreliquary:angelic_feather" }
+		{ item: "draconicevolution:wyvern_proj_damage_module" }
+		{ item: "draconicevolution:wyvern_shield_control_module" }
+		{ item: "draconicevolution:wyvern_shield_capacity_module" }
+		{ item: "draconicevolution:wyvern_large_shield_capacity_module" }
+		{ item: "scalinghealth:enchanted_heart" }
+		{
+			item: {
+				id: "xreliquary:void_tear"
+				Count: 1b
+				ForgeCaps: {
+					Parent: {
+						Items: [ ]
+					}
+				}
+			}
+		}
+		{ item: "draconicevolution:wyvern_jump_module" }
+		{ item: "xreliquary:phoenix_down" }
+		{ item: "draconicevolution:wyvern_auto_feed_module" }
+		{ item: "draconicevolution:wyvern_undying_module" }
+		{ item: "draconicevolution:wyvern_flight_module" }
+		{ item: "draconicevolution:wyvern_shield_recovery_module" }
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 4s
+						id: "minecraft:protection"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 4s
+						id: "minecraft:fire_protection"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 1s
+						id: "minecraft:silk_touch"
+					}]
+				}
+			}
+		}
+		{ item: "curios:ring" }
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 5s
+						id: "minecraft:sharpness"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 3s
+						id: "minecraft:looting"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 5s
+						id: "minecraft:efficiency"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 1s
+						id: "minecraft:silk_touch"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 3s
+						id: "minecraft:fortune"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 3s
+						id: "minecraft:unbreaking"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 5s
+						id: "minecraft:power"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 1s
+						id: "minecraft:infinity"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 1s
+						id: "minecraft:mending"
+					}]
+				}
+			}
+		}
+		{ item: "ironfurnaces:crystal_furnace" }
+		{ item: "ironchest:crystal_chest" }
+		{ item: "curios:knuckles" }
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 5s
+						id: "cyclic:excavate"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 3s
+						id: "minecraft:fortune"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "ars_nouveau:wand"
+				Count: 1b
+				tag: {
+					flavor: ""
+					color: "255,91,2"
+					spell_0: "[projectile, accelerate, linger, aoe, extend_time, sensitive, lightning, amplify, amplify, amplify]"
+					HideFlags: 127
+					display: {
+						Name: "{\"text\":\"Armageddon\"}"
+					}
+					current_slot: 0
+					max_slot: 1
+				}
+			}
+			weight: 3
+		}
+		{
+			item: {
+				id: "ars_nouveau:wand"
+				Count: 1b
+				tag: {
+					flavor: ""
+					color: "255,255,255"
+					spell_0: "[projectile, accelerate, freeze, aoe, delay, cold_snap, cold_snap, amplify, amplify, amplify, amplify, amplify]"
+					HideFlags: 127
+					display: {
+						Name: "{\"text\":\"Avalanche\"}"
+					}
+					current_slot: 0
+					max_slot: 1
+				}
+			}
+			weight: 3
+		}
+		{
+			item: {
+				id: "ars_nouveau:wand"
+				Count: 1b
+				tag: {
+					flavor: ""
+					color: "255,91,2"
+					spell_0: "[projectile, accelerate, ignite, aoe, flare, amplify, amplify, amplify, amplify, amplify]"
+					HideFlags: 127
+					display: {
+						Name: "{\"text\":\"Nova Blast\"}"
+					}
+					current_slot: 0
+					max_slot: 1
+				}
+			}
+			weight: 3
+		}
+		{
+			item: {
+				id: "ars_nouveau:wand"
+				Count: 1b
+				tag: {
+					flavor: ""
+					color: "255,26,26"
+					spell_0: "[projectile, accelerate, harm, amplify, amplify, amplify, amplify, amplify, amplify]"
+					HideFlags: 127
+					display: {
+						Name: "{\"text\":\"Radiant Stab\"}"
+					}
+					current_slot: 0
+					max_slot: 1
+				}
+			}
+			weight: 3
+		}
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 0
+			monster: 0
+		}
+		color: 13414943
+		string_id: "conquerer_s_boss_cache"
+	}
+}

@@ -1,0 +1,35 @@
+{
+  "input": [
+    {
+      "tag": "forge:dusts/bronze"
+    },
+    {
+      "tag": "forge:dusts/bronze"
+    },
+    {
+      "tag": "forge:dusts/bronze"
+    },
+    {
+      "tag": "forge:dusts/bronze"
+    },
+    {
+      "tag": "forge:dusts/bronze"
+    },
+    {
+      "tag": "forge:dusts/bronze"
+    },
+    {
+      "tag": "forge:dusts/bronze"
+    },
+    {
+      "tag": "forge:dusts/bronze"
+    }
+  ],
+  "inputFluid": "{FluidName:\"industrialforegoing:essence\",Amount:1000}",
+  "processingTime": 400,
+  "output": {
+    "item": "atum:geb_godshard",
+    "count": 1
+  },
+  "type": "industrialforegoing:dissolution_chamber"
+}

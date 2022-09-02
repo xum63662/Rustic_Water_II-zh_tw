@@ -1,0 +1,1 @@
+{"pools":[{"rolls":1.0,"entries":[{"conditions":[{"condition":"random_chance","chance":0.25}],"type":"minecraft:item","name":"atum:deadwood_stick"}]}]}

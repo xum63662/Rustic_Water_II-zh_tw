@@ -1,0 +1,445 @@
+[
+ {
+   
+   "dimension": "overworld",
+   "maxheight": 70,
+   "block": "minecraft:furnace",
+   "message": "Pressure at this depth will not allow this block to stick.",
+   "result": "deny"
+ },
+ {
+   
+   "dimension": "overworld",
+   "minheight": 70,
+   "block": "botanypots:hopper_red_botany_pot",
+   "message": "Hydrostatic Botany Pots only work on the Ocean Floor.",
+   "result": "deny"
+ },
+{
+
+   "dimension": "overworld","dimension": "overworld",
+   "minheight": 70,
+   "block": "botanypots:hopper_light_gray_botany_pot",
+   "message": "Hydrostatic Botany Pots only work on the Ocean Floor.",
+   "result": "deny"
+ },
+{
+   "dimension": "overworld",
+   "minheight": 70,
+   "block": "botanypots:hopper_cyan_botany_pot",
+   "message": "Hydrostatic Botany Pots only work on the Ocean Floor.",
+   "result": "deny"
+ },
+{
+   "dimension": "overworld",
+   "minheight": 70,
+   "block": "botanypots:hopper_orange_botany_pot",
+   "message": "Hydrostatic Botany Pots only work on the Ocean Floor.",
+   "result": "deny"
+ },
+{
+   "dimension": "overworld",
+   "minheight": 70,
+   "block": "botanypots:hopper_blue_botany_pot",
+   "message": "Hydrostatic Botany Pots only work on the Ocean Floor.",
+   "result": "deny"
+ },
+{
+   "dimension": "overworld",
+   "minheight": 70,
+   "block": "botanypots:hopper_botany_pot",
+   "message": "Hydrostatic Botany Pots only work on the Ocean Floor.",
+   "result": "deny"
+ },
+{
+   "dimension": "overworld",
+   "minheight": 70,
+   "block": "botanypots:hopper_light_blue_botany_pot",
+   "message": "Hydrostatic Botany Pots only work on the Ocean Floor.",
+   "result": "deny"
+ },
+{
+   "dimension": "overworld",
+   "minheight": 70,
+   "block": "botanypots:hopper_gray_botany_pot",
+   "message": "Hydrostatic Botany Pots only work on the Ocean Floor.",
+   "result": "deny"
+ },
+{
+   "dimension": "overworld",
+   "minheight": 70,
+   "block": "botanypots:hopper_brown_botany_pot",
+   "message": "Hydrostatic Botany Pots only work on the Ocean Floor.",
+   "result": "deny"
+ },
+{
+   "dimension": "overworld",
+   "minheight": 70,
+   "block": "botanypots:hopper_black_botany_pot",
+   "message": "Hydrostatic Botany Pots only work on the Ocean Floor.",
+   "result": "deny"
+ },
+{
+   "dimension": "overworld",
+   "minheight": 70,
+   "block": "botanypots:hopper_white_botany_pot",
+   "message": "Hydrostatic Botany Pots only work on the Ocean Floor.",
+   "result": "deny"
+ },
+{
+   "dimension": "overworld",
+   "minheight": 70,
+   "block": "botanypots:hopper_green_botany_pot",
+   "message": "Hydrostatic Botany Pots only work on the Ocean Floor.",
+   "result": "deny"
+ },
+{
+   "dimension": "overworld",
+   "minheight": 70,
+   "block": "botanypots:hopper_purple_botany_pot",
+   "message": "Hydrostatic Botany Pots only work on the Ocean Floor.",
+   "result": "deny"
+ },
+{
+   "dimension": "overworld",
+   "minheight": 70,
+   "block": "botanypots:hopper_pink_botany_pot",
+   "message": "Hydrostatic Botany Pots only work on the Ocean Floor.",
+   "result": "deny"
+ },
+{
+   "dimension": "overworld",
+   "minheight": 70,
+   "block": "botanypots:hopper_magenta_botany_pot",
+   "message": "Hydrostatic Botany Pots only work on the Ocean Floor.",
+   "result": "deny"
+ },
+{
+   "dimension": "overworld",
+   "minheight": 70,
+   "block": "botanypots:hopper_lime_botany_pot",
+   "message": "Hydrostatic Botany Pots only work on the Ocean Floor.",
+   "result": "deny"
+ },
+{
+   "dimension": "overworld",
+   "minheight": 70,
+   "block": "botanypots:hopper_yellow_botany_pot",
+   "message": "Hydrostatic Botany Pots only work on the Ocean Floor.",
+   "result": "deny"
+ },
+ {
+
+   "maxheight": 70,
+   "block": "immersiveengineering:craftingtable",
+   "message": "Pressure at this depth will not allow this block to stick.",
+   "result": "deny"
+ },
+  {
+
+   "maxheight": 70,
+   "block": "minecraft:white_bed",
+   "message": "Pressure at this depth will not allow this block to stick.",
+   "result": "deny"
+ },
+ {
+
+   "maxheight": 70,
+   "block": "minecraft:pink_bed",
+   "message": "Pressure at this depth will not allow this block to stick.",
+   "result": "deny"
+ },
+{
+
+   "maxheight": 70,
+   "block": "minecraft:red_bed",
+   "message": "Pressure at this depth will not allow this block to stick.",
+   "result": "deny"
+ },
+{
+
+   "maxheight": 70,
+   "block": "minecraft:magenta_bed",
+   "message": "Pressure at this depth will not allow this block to stick.",
+   "result": "deny"
+ },
+{
+
+   "maxheight": 70,
+   "block": "minecraft:brown_bed",
+   "message": "Pressure at this depth will not allow this block to stick.",
+   "result": "deny"
+ },
+{
+
+   "maxheight": 70,
+   "block": "minecraft:lime_bed",
+   "message": "Pressure at this depth will not allow this block to stick.",
+   "result": "deny"
+ },
+{
+
+   "maxheight": 70,
+   "block": "minecraft:purple_bed",
+   "message": "Pressure at this depth will not allow this block to stick.",
+   "result": "deny"
+ },
+{
+
+   "maxheight": 70,
+   "block": "minecraft:black_bed",
+   "message": "Pressure at this depth will not allow this block to stick.",
+   "result": "deny"
+ },
+{
+
+   "maxheight": 70,
+   "block": "minecraft:gray_bed",
+   "message": "Pressure at this depth will not allow this block to stick.",
+   "result": "deny"
+ },
+{
+
+   "maxheight": 70,
+   "block": "minecraft:light_gray_bed",
+   "message": "Pressure at this depth will not allow this block to stick.",
+   "result": "deny"
+ },
+{
+
+   "maxheight": 70,
+   "block": "minecraft:cyan_bed",
+   "message": "Pressure at this depth will not allow this block to stick.",
+   "result": "deny"
+ },
+{
+
+   "maxheight": 70,
+   "block": "minecraft:light_blue_bed",
+   "message": "Pressure at this depth will not allow this block to stick.",
+   "result": "deny"
+ },
+{
+
+   "maxheight": 70,
+   "block": "minecraft:green_bed",
+   "message": "Pressure at this depth will not allow this block to stick.",
+   "result": "deny"
+ },
+{
+
+   "maxheight": 70,
+   "block": "minecraft:yellow_bed",
+   "message": "Pressure at this depth will not allow this block to stick.",
+   "result": "deny"
+ },
+{
+
+   "maxheight": 70,
+   "block": "minecraft:orange_bed",
+   "message": "Pressure at this depth will not allow this block to stick.",
+   "result": "deny"
+ },
+{
+
+   "maxheight": 70,
+   "block": "minecraft:blue_bed",
+   "message": "Pressure at this depth will not allow this block to stick.",
+   "result": "deny"
+ },
+   
+   {
+      "dimension": "overworld",
+   "maxheight": 70,
+   "block": "minecraft:oak_door",
+   "message": "Nah, son.",
+   "result": "deny"
+ },
+    {
+      "dimension": "overworld",
+   "maxheight": 99,
+   "block": "rustic_resources:dookie",
+   "message": "Only works at Y100+.",
+   "result": "deny"
+ },
+ {
+"dimension": "overworld",
+   "maxheight": 70,
+   "block": "immersiveengineering:craftingtable",
+   "message": "Pressure at this depth will not allow this block to stick.",
+   "result": "deny"
+ },
+ {
+"dimension": "overworld",
+   "maxheight": 70,
+   "mod": "ironfurnaces",
+   "message": "Pressure at this depth will not allow this block to stick.",
+   "result": "deny"
+ },
+   
+    {
+      "dimension": "overworld",
+   "maxheight": 70,
+   "block": "minecraft:iron_door",
+   "message": "Nah, son.",
+   "result": "deny"
+ },
+   
+     {
+      "dimension": "overworld",
+   "maxheight": 70,
+   "block": "minecraft:spruce_door",
+   "message": "Nah, son.",
+   "result": "deny"
+ },
+   
+     {
+      "dimension": "overworld",
+   "maxheight": 70,
+   "block": "minecraft:birch_door",
+   "message": "Nah, son.",
+   "result": "deny"
+ },
+   
+   {
+      "dimension": "overworld",
+   "maxheight": 70,
+   "block": "minecraft:crafting_table",
+   "message": "Pressure at this depth will not allow this block to stick.",
+   "result": "deny"
+},
+   
+   {
+      "dimension": "overworld",
+   "maxheight": 70,
+   "block": "extendedcrafting:basic_table",
+   "message": "Pressure at this depth will not allow this block to stick.",
+   "result": "deny"
+},
+{
+"dimension": "overworld",
+   "maxheight": 70,
+   "block": "atum:limestone_brick_carved_door",
+   "message": "Bruh...",
+   "result": "deny"
+ },
+{
+"dimension": "overworld",
+   "maxheight": 70,
+   "block": "atum:limestone_brick_cracked_brick_door",
+   "message": "Bruh...",
+   "result": "deny"
+ },
+{
+"dimension": "overworld",
+   "maxheight": 70,
+   "block": "atum:limestone_brick_large_door",
+   "message": "Bruh...",
+   "result": "deny"
+ },
+{
+"dimension": "overworld",
+   "maxheight": 70,
+   "block": "upgrade_aquatic:tooth_door",
+   "message": "Bruh...",
+   "result": "deny"
+ },
+{
+"dimension": "overworld",
+   "maxheight": 70,
+   "block": "supplementaries:gold_door",
+   "message": "Bruh...",
+   "result": "deny"
+ },
+{
+"dimension": "overworld",
+   "maxheight": 70,
+   "block": "atum:limestone_door",
+   "message": "Bruh...",
+   "result": "deny"
+ },
+{
+"dimension": "overworld",
+   "maxheight": 70,
+   "block": "atum:palm_door",
+   "message": "Bruh...",
+   "result": "deny"
+ },
+{
+"dimension": "overworld",
+   "maxheight": 70,
+   "block": "atum:limestone_brick_chiseled_door",
+   "message": "Bruh...",
+   "result": "deny"
+ },
+{
+"dimension": "overworld",
+   "maxheight": 70,
+   "block": "upgrade_aquatic:glass_door",
+   "message": "Bruh...",
+   "result": "deny"
+ },
+{
+"dimension": "overworld",
+   "maxheight": 70,
+   "block": "ars_nouveau:archwood_door",
+   "message": "Bruh...",
+   "result": "deny"
+ },
+{
+"dimension": "overworld",
+   "maxheight": 70,
+   "block": "upgrade_aquatic:driftwood_door",
+   "message": "Bruh...",
+   "result": "deny"
+ },
+{
+"dimension": "overworld",
+   "maxheight": 70,
+   "block": "atum:limestone_cracked_door",
+   "message": "Bruh...",
+   "result": "deny"
+ },
+{
+"dimension": "overworld",
+   "maxheight": 70,
+   "block": "atum:limestone_brick_small_door",
+   "message": "Bruh...",
+   "result": "deny"
+ },
+{
+"dimension": "overworld",
+   "maxheight": 70,
+   "block": "outer_end:azure_door",
+   "message": "Bruh...",
+   "result": "deny"
+ },
+{
+"dimension": "overworld",
+   "maxheight": 70,
+   "block": "atum:deadwood_door",
+   "message": "Bruh...",
+   "result": "deny"
+ },
+{
+"dimension": "overworld",
+   "maxheight": 70,
+   "block": "supplementaries:netherite_door",
+   "message": "Bruh...",
+   "result": "deny"
+ },
+{
+"dimension": "overworld",
+   "maxheight": 70,
+   "block": "supplementaries:doormat",
+   "message": "Bruh...",
+   "result": "deny"
+ },
+{
+"dimension": "overworld",
+   "maxheight": 70,
+   "block": "upgrade_aquatic:river_door",
+   "message": "Bruh...",
+   "result": "deny"
+ }
+]

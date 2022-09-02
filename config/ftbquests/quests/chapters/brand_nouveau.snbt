@@ -1,0 +1,875 @@
+{
+	id: "5638A87681387C63"
+	group: ""
+	order_index: 14
+	filename: "brand_nouveau"
+	title: "Brand Nouveau"
+	icon: "ars_nouveau:familiar_bookwyrm"
+	default_quest_shape: "octagon"
+	default_hide_dependency_lines: false
+	images: [{
+		x: 6.45d
+		y: -3.5d
+		width: 21.0d
+		height: 12.0d
+		rotation: 0.0d
+		image: "rusticwaters:textures/page8.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			x: 7.5d
+			y: -6.5d
+			subtitle: "Source Gems come from Arcane Ore.  While Arcane Ore can be found in abundance within the Dark Caverns dimension, you can also find Arcane Ore within Ars Forest Orbs around the ocean depths."
+			description: ["Ars Nouveau is a very powerful mod, especially in this adventure when the capabilities have been altered to deal with your harsh environment and enemies.  In addition to this quest guide, the Worn Notebook is well documented to show you how to use each piece of the mod."]
+			id: "24DA87AEED2961F4"
+			tasks: [{
+				id: "2F1DD82E6A8D922A"
+				type: "item"
+				item: "ars_nouveau:worn_notebook"
+			}]
+			rewards: [{
+				id: "4C364D19DC97D4C4"
+				type: "item"
+				item: {
+					id: "ars_nouveau:apprentice_hood"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 9.0d
+			y: -8.0d
+			subtitle: "Each tier of Spell Book allows you to build spells using higher tier glyphs you have unlocked, up to Tier 3."
+			description: [
+				"Your first tool of the Arcane is the Novice Spell Book.  A spell book will allow you to create, store, and cast spells using Mana. A higher tier spell book will provide additional spell slots allowing you to craft more complex spells."
+				""
+				"If your Spellbook is empty, you can simply right click it to open.  If it has spells within it, right clicking will cast the spell \"loaded\", so you must use a hotkey (\"v\" default) to open the Spell Book."
+			]
+			dependencies: ["11AD38D0D3402BBC"]
+			id: "389A01BB51E6939D"
+			tasks: [{
+				id: "4BB6001CED3189DB"
+				type: "item"
+				item: "ars_nouveau:novice_spell_book"
+			}]
+			rewards: [{
+				id: "29AC76A3AC9B4BBF"
+				type: "item"
+				item: {
+					id: "ars_nouveau:apprentice_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 10.0d
+			y: -8.0d
+			description: [
+				"You \"build\" spells by placing glyphs into the slots of your Spell Book.  A Form glyph always goes first, to determine whether the spell is projected, applied to self, or targeting a block/entity.  After that, Effect spells determine what the spell does.  Augments alter how those effects behave."
+				"{image:rusticwaters:textures/spellbookr.png width:160 height:100 align:1}"
+			]
+			dependencies: ["389A01BB51E6939D"]
+			id: "45B722EA36182173"
+			tasks: [{
+				id: "77674157E109E90F"
+				type: "item"
+				item: "ars_nouveau:apprentice_spell_book"
+			}]
+			rewards: [{
+				id: "042E4884802C3D58"
+				type: "item"
+				item: {
+					id: "ars_nouveau:apprentice_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 8.0d
+			y: -4.0d
+			description: ["The Glyph Press will enable you to create the glyphs you are still missing within your spell book.  This process uses \"Source\", which is a liquified version of Mana.  Other parts of this quest chain will walk you through generating Source."]
+			hide_dependency_lines: true
+			dependencies: ["008842F062571AE0"]
+			id: "557E56E84F8F2E55"
+			tasks: [{
+				id: "35E4570D329AEEF8"
+				type: "item"
+				item: "ars_nouveau:glyph_press"
+			}]
+			rewards: [{
+				id: "085CBAE53077FA6D"
+				type: "item"
+				item: "ars_nouveau:glyph_explosion"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -5.0d
+			description: ["While you will be given a large variety of Glyphs through this quest chain, there will be more that you can obtain through crafting."]
+			dependencies: ["6DB9F03949653C68"]
+			id: "008842F062571AE0"
+			tasks: [{
+				id: "3D38A2773BBB8D94"
+				type: "item"
+				item: "ars_nouveau:magic_clay"
+			}]
+			rewards: [{
+				id: "3B2243334AF37989"
+				type: "item"
+				item: "minecraft:bubble_coral_block"
+				count: 64
+			}]
+		}
+		{
+			x: 8.0d
+			y: -3.0d
+			description: ["There are three tiers of Arcane Clay.  Each one is more expensive than the last yet used in higher tier glyph crafting."]
+			hide_dependency_lines: true
+			dependencies: ["008842F062571AE0"]
+			id: "65BDE82CFB3C11DF"
+			tasks: [{
+				id: "6332276B8CD45C2E"
+				type: "item"
+				item: "ars_nouveau:marvelous_clay"
+			}]
+			rewards: [{
+				id: "05F33A1DBCAD6067"
+				type: "item"
+				item: "ars_nouveau:glyph_grow"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -2.0d
+			description: ["You can view the Glyph Press uses for Clay by pressing \"U\" while hovering over each tier of Arcane Clay."]
+			hide_dependency_lines: true
+			dependencies: ["008842F062571AE0"]
+			id: "671409469E079315"
+			tasks: [{
+				id: "30D2E4A00B1B76B4"
+				type: "item"
+				item: "ars_nouveau:mythical_clay"
+			}]
+			rewards: [{
+				id: "218BF59C91F851AF"
+				type: "item"
+				item: "ars_nouveau:glyph_orbit"
+			}]
+		}
+		{
+			x: 11.5d
+			y: -6.5d
+			description: ["The Tier 3 Archmage Spell Book is the highest tier of spell book.  It grants the highest bonus to mana cap and allows you to cast spells which are built from glyphs up to Tier 3."]
+			dependencies: ["01DCF72E8A42E8F9"]
+			id: "31E407ABE49A66BB"
+			tasks: [{
+				id: "590AF10ECA113A20"
+				type: "item"
+				item: "ars_nouveau:archmage_spell_book"
+			}]
+			rewards: [{
+				id: "6767DBED7D39C76C"
+				type: "item"
+				item: "ars_nouveau:spell_turret"
+				count: 2
+			}]
+		}
+		{
+			x: 11.0d
+			y: -7.5d
+			subtitle: "Hateful Hearts are obtained from dungeon bosses."
+			description: [
+				"Augments can also be used after Form glyphs to alter the Form's actions.  For instance, in the below example the spell represents a Projectile that has been augmented to Pierce enemies.  It applies Wither with an Extended duration as it passes through them, then strikes them with Lightning.  You can make very complex spells, but remember, the more glyphs you apply the higher the mana cost."
+				"{image:rusticwaters:textures/spellbooki.png width:200 height:100 align:1}"
+			]
+			dependencies: ["45B722EA36182173"]
+			id: "01DCF72E8A42E8F9"
+			tasks: [{
+				id: "17ECEF1B02B8EB2F"
+				type: "item"
+				item: "rustic_resources:hatefulheart"
+				count: 2L
+			}]
+			rewards: [{
+				id: "047B80B414826C89"
+				type: "item"
+				item: "ars_nouveau:glyph_fell"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -7.5d
+			description: ["Arcane Stone is found under Y64 in the Overworld and Dark Caverns.  It is a magical stone that is used to build many of the machines within Ars Nouveau."]
+			dependencies: ["24DA87AEED2961F4"]
+			id: "11AD38D0D3402BBC"
+			tasks: [{
+				id: "14B0217C41888A00"
+				type: "item"
+				item: "ars_nouveau:arcane_stone"
+				count: 64L
+			}]
+			rewards: [{
+				id: "4A56445A932D98BE"
+				type: "item"
+				item: {
+					id: "ars_nouveau:apprentice_robes"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 9.5d
+			y: -6.5d
+			subtitle: "The Mycelial Sourcelink converts dirt in a 3x3 area below it into Mycelium, which allows for the spawning of Passive Mobs."
+			description: [
+				"Source is a liquified version of mana that can be generated using Sourcelinks.  This Source is needed to fuel many of the arcane machinery that you will use within this mod.  There are 5 types of Sourcelink, however this guide will walk you through setting up the Mycelial Sourcelink because it serves a dual purpose."
+				""
+				"Mycelial Sourcelinks consume food from adjacent Pedestals and converts it into a moderate amount of Source.  The more complex the food, the more Source it generates."
+			]
+			dependencies: ["11AD38D0D3402BBC"]
+			id: "40540A0B62B28387"
+			tasks: [{
+				id: "7E1E6163DA4A13AB"
+				type: "item"
+				item: "ars_nouveau:mycelial_sourcelink"
+			}]
+			rewards: [{
+				id: "18F2533034CF6717"
+				type: "item"
+				item: "ars_nouveau:source_berry_roll"
+				count: 4
+			}]
+		}
+		{
+			x: 9.5d
+			y: -4.5d
+			description: ["Source Jars do what you would expect: they hold Source within them for use by nearby machinery.  In the case of the Mycelial Sourcelink, they will receive the Source that the Sourcelink generates from food.  The Sourcelink will automatically deposit source into the nearest jar first."]
+			dependencies: ["4387B2F621F2634F"]
+			id: "6DB9F03949653C68"
+			tasks: [{
+				id: "436DCCF8ACD28ACB"
+				type: "item"
+				item: "ars_nouveau:mana_jar"
+			}]
+			rewards: [{
+				id: "090E385CD4ABBA6A"
+				type: "item"
+				item: "ars_nouveau:arcane_relay"
+			}]
+		}
+		{
+			x: 9.5d
+			y: -5.5d
+			subtitle: "Place the pedestals directly next to the Mycelial Sourcelink."
+			description: ["Arcane Pedestals certain nearby Arcane machinery to pull items from them.  Although you are crafting four pedestals, you can use as few as one to supply food to your Mycelial Sourcelink."]
+			dependencies: ["40540A0B62B28387"]
+			id: "4387B2F621F2634F"
+			tasks: [{
+				id: "37D9981023E55459"
+				type: "item"
+				item: "ars_nouveau:arcane_pedestal"
+				count: 4L
+			}]
+			rewards: [{
+				id: "5C177F0034C825C9"
+				type: "item"
+				item: "minecraft:gold_ingot"
+				count: 16
+			}]
+		}
+		{
+			x: 9.5d
+			y: -3.5d
+			subtitle: "Mageblooms are Arcane Flowers that provide Magebloom Fiber and can be turned into Source Berries.  You can craft more using the Enchanting Apparatus."
+			description: [
+				"The Enchanting Apparatus is an arcane \"crafting station\" of sorts.  It is used to craft a myriad of tools and equipment such as armor, weapons, and curios.  It can also be used to put vanilla enchants onto books for less luck-based gear enchanting."
+				""
+				"Sidenote:  The Enchanting Apparatus can be used to create Diamonds and pure crystals for your Applied Energistics network.  Check the apparatus' uses in JEI."
+			]
+			dependencies: ["6DB9F03949653C68"]
+			id: "43EA65C2693E7EB3"
+			tasks: [{
+				id: "05094DA7F22592FE"
+				type: "item"
+				item: "ars_nouveau:enchanting_apparatus"
+			}]
+			rewards: [
+				{
+					id: "628F00774272A05E"
+					type: "item"
+					item: "ars_nouveau:mana_bloom_crop"
+				}
+				{
+					id: "009F1C93F2F612A1"
+					type: "item"
+					item: "ars_nouveau:mana_berry"
+					count: 8
+				}
+			]
+		}
+		{
+			x: 9.5d
+			y: -2.5d
+			subtitle: "Pedestals can be automated via item pipes."
+			description: ["The Arcane Core must be positioned directly underneath the Enchanting Apparatus.  Surround the Arcane Core with Arcane Pedestals.  Place the Enchanting Apparatus on top of the Arcane Core.   Once you have decided upon a recipe (check uses of Apparatus in JEI), you must place the catalyst item in the middle and the crafting ingredients on adjacent pedestals.  Make sure you have Source available in nearby Source Jars to fuel the Apparatus."]
+			dependencies: ["43EA65C2693E7EB3"]
+			id: "2C857E402C89400E"
+			tasks: [{
+				id: "5C4A04ECF3671A6E"
+				type: "item"
+				item: "ars_nouveau:arcane_core"
+			}]
+			rewards: [{
+				id: "25819A27F0C31A4D"
+				type: "item"
+				item: "ironchest:crystal_chest"
+			}]
+		}
+		{
+			x: 13.0d
+			y: -5.0d
+			subtitle: "Due to the pre-enchanted nature of Archmage Armor, click above to see their recipes instead of using the default JEI method."
+			description: [
+				"Mana consumption and regen are the biggest restrictions on what you can cast and how often you can cast it.  Each piece of the Archmage armor set will increase both your mana regen and your maximum mana (before enchants)."
+				"This crafts pre-enchanted with Protection IV, Mana Boost III, and Mana Regen III."
+			]
+			dependencies: ["43EA65C2693E7EB3"]
+			id: "5330B7CB81282AD9"
+			tasks: [{
+				id: "5E9CF681C9E92A02"
+				type: "item"
+				item: {
+					id: "ars_nouveau:archmage_hood"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								lvl: 3s
+								id: "ars_nouveau:mana_boost"
+							}
+							{
+								lvl: 3s
+								id: "ars_nouveau:mana_regen"
+							}
+							{
+								lvl: 4s
+								id: "minecraft:protection"
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "23F43BB9ED5F5D45"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "ars_nouveau:mana_regen_potion_long"
+					}
+				}
+			}]
+		}
+		{
+			x: 12.5d
+			y: -4.0d
+			subtitle: "Due to the pre-enchanted nature of Archmage Armor, click above to see their recipes instead of using the default JEI method."
+			description: [
+				"Enchanting your Archmage armor with the Reactive enchant will cause it to have a chance to strike back at enemies with the spell you have imbued the Reactive enchant with."
+				"This crafts already enchanted with Protection IV, Mana Boost III, and Mana Regen III.."
+			]
+			dependencies: ["43EA65C2693E7EB3"]
+			id: "5329684682A407E9"
+			tasks: [{
+				id: "09B829A938D30825"
+				type: "item"
+				item: {
+					id: "ars_nouveau:archmage_robes"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								lvl: 3s
+								id: "ars_nouveau:mana_boost"
+							}
+							{
+								lvl: 3s
+								id: "ars_nouveau:mana_regen"
+							}
+							{
+								lvl: 4s
+								id: "minecraft:protection"
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "0F202C2EF21C2834"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "ars_nouveau:spell_damage_strong"
+					}
+				}
+			}]
+		}
+		{
+			x: 12.5d
+			y: -3.0d
+			subtitle: "Due to the pre-enchanted nature of the Archmage Armor, click above to see their recipes instead of using the default JEI method."
+			description: [
+				"Each level of the Reactive enchant will increase the percentage chance that the attached spell will be cast when you use the item or take a hit."
+				"This crafts already enchanted with Protection IV, Mana Boost III, and Mana Regen III.  The Wixie Charm allows Wixies to work for you.  See the Worn Notebook for details."
+			]
+			dependencies: ["43EA65C2693E7EB3"]
+			id: "79FD4E9DB72F64F0"
+			tasks: [{
+				id: "593C884AA97140C8"
+				type: "item"
+				item: {
+					id: "ars_nouveau:archmage_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+						AttributeModifiers: [
+							{
+								Amount: 7.0d
+								Slot: "legs"
+								AttributeName: "minecraft:generic.armor"
+								Operation: 0
+								UUID: [I;
+									-666264828
+									241583910
+									-1423350714
+									-1653387763
+								]
+								Name: "Armor modifier"
+							}
+							{
+								Amount: 2.5d
+								Slot: "legs"
+								AttributeName: "minecraft:generic.armor_toughness"
+								Operation: 0
+								UUID: [I;
+									-666264828
+									241583910
+									-1423350714
+									-1653387763
+								]
+								Name: "Armor toughness"
+							}
+						]
+						Enchantments: [
+							{
+								lvl: 3s
+								id: "ars_nouveau:mana_boost"
+							}
+							{
+								lvl: 3s
+								id: "ars_nouveau:mana_regen"
+							}
+							{
+								lvl: 4s
+								id: "minecraft:protection"
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "305A317F66A0D1DA"
+				type: "item"
+				item: "ars_nouveau:wixie_charm"
+			}]
+		}
+		{
+			x: 13.0d
+			y: -2.0d
+			subtitle: "Due to the pre-enchanted nature of Archmage Armor, click above to see their recipes instead of using the default JEI method."
+			description: [
+				"Ars Nouveau is a deep and complex mod.  Not all aspects of it were covered in this guide.  Explore the Worn Notebook for other rituals, potion crafting, etc..."
+				"This crafts already enchanted with Protection IV, Mana Boost III, and Mana Regen III.  The Bookwyrm charm will allow you to employ Bookwyrms to do your bidding around the base."
+			]
+			dependencies: ["43EA65C2693E7EB3"]
+			id: "03A01075AF1596CE"
+			tasks: [{
+				id: "39AC0CDF01B94FF1"
+				type: "item"
+				item: {
+					id: "ars_nouveau:archmage_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								lvl: 3s
+								id: "ars_nouveau:mana_regen"
+							}
+							{
+								lvl: 3s
+								id: "ars_nouveau:reactive"
+							}
+							{
+								lvl: 4s
+								id: "minecraft:protection"
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "54DD93CD63FF33AE"
+					type: "item"
+					item: "ars_nouveau:whelp_charm"
+				}
+				{
+					id: "05F52A70A6BBCB0B"
+					type: "item"
+					item: "ars_nouveau:bookwyrm_lectern"
+				}
+			]
+		}
+		{
+			x: 11.5d
+			y: -0.5d
+			description: ["The Carbuncle Pet gives you a constant Speed 2 buff.  If you give your Carbuncle a Gold Nugget it will also grant you \"Scrying\" which will highlight nearby Gold Ores."]
+			dependencies: ["73A06669BB219E1C"]
+			id: "082518E0D4D32FD4"
+			tasks: [{
+				id: "5E6E773ED3CA229C"
+				type: "item"
+				item: "ars_nouveau:familiar_carbuncle"
+			}]
+			rewards: [{
+				id: "0718D2662AB602C0"
+				type: "loot"
+				table_id: 1459128794121417282L
+			}]
+		}
+		{
+			x: 7.5d
+			y: -0.5d
+			description: ["The Drygmy increases the damage of all of your Earth Spells by 2 and also has a chance to cause enemies slain while he is summoned, to drop loot as though they were killed with the Looting enchant."]
+			dependencies: ["73A06669BB219E1C"]
+			id: "52007E342D0FCE87"
+			tasks: [{
+				id: "50B5B68B864E51C5"
+				type: "item"
+				item: "ars_nouveau:familiar_drygmy"
+			}]
+			rewards: [{
+				id: "07C9A32BD01E0286"
+				type: "loot"
+				table_id: 1459128794121417282L
+			}]
+		}
+		{
+			x: 8.0d
+			y: 0.5d
+			description: ["One of the stronger familiars, the Bookwyrm will reduce the cost of spells from ANY school, and increase their damage by 1, allowing you to cast more spells with slightly higher damage.  The Bookwyrm great companion for dungeon runs."]
+			dependencies: ["73A06669BB219E1C"]
+			id: "7B32F77569720139"
+			tasks: [{
+				id: "3493234B11F152CA"
+				type: "item"
+				item: "ars_nouveau:familiar_bookwyrm"
+			}]
+			rewards: [{
+				id: "4DAD6FA37CC0E070"
+				type: "loot"
+				table_id: 1459128794121417282L
+			}]
+		}
+		{
+			x: 11.0d
+			y: 0.5d
+			description: ["Another strong combat option, the Wixie will extend the duration of any potions you consume.  The Wixie, will also throw negative effect potions at your enemies while you are in combat."]
+			dependencies: ["73A06669BB219E1C"]
+			id: "6AAF2CDCD8F9A0F0"
+			tasks: [{
+				id: "1CC4EA9F3654F421"
+				type: "item"
+				item: "ars_nouveau:familiar_wixie"
+			}]
+			rewards: [{
+				id: "2A428013D2415E94"
+				type: "loot"
+				table_id: 1459128794121417282L
+			}]
+		}
+		{
+			x: 9.5d
+			y: 1.0d
+			description: ["For the adventurer who values agriculture and farming, the Sylph will reduce the cost of all Earth Element glyphs by HALF.  The Sylph also grants its master a Saturation bonus on any food eaten while the Sylph is present."]
+			dependencies: ["73A06669BB219E1C"]
+			id: "1C49E487C316B673"
+			tasks: [{
+				id: "49F023E8A04E0C31"
+				type: "item"
+				item: "ars_nouveau:familiar_sylph"
+			}]
+			rewards: [{
+				id: "50F900620369B290"
+				type: "loot"
+				table_id: 1459128794121417282L
+			}]
+		}
+		{
+			x: 9.5d
+			y: -1.5d
+			subtitle: "Some imbueable items offer benefits, such as the mirror granting the attached spell 100% duration increase."
+			description: [
+				"The Scribe's Table will allow you to transfer spells that you have created in your spell book to items that can be \"imbued\" by those spells.  For instance, imbuing the Enchanter's Bow with a Cold Snap spell will cause whatever target you hit with an arrow to also be hit with Cold Snap."
+				"Right Click an imbueable item onto the Scribes Table, make sure your spellbook has the appropriate spell selected.  Shift Right Click on the table to imbue the item on it."
+			]
+			dependencies: ["2C857E402C89400E"]
+			id: "73A06669BB219E1C"
+			tasks: [{
+				id: "60C18C2021001CF3"
+				type: "item"
+				item: "ars_nouveau:scribes_table"
+			}]
+			rewards: [{
+				id: "3F34F729A38A437C"
+				type: "item"
+				item: "ars_nouveau:enchanters_mirror"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -5.0d
+			subtitle: "Due the pre-enchanted nature of the Enchanter's Sword, click on the above image to view its recipe instead of using JEI's default view."
+			description: [
+				"The Enchanter's Sword is a very powerful weapon that crafts with a Power X and Looting V enchant.  It can be imbued with a spell at the Scribes table.  When you strike an enemy with this sword the spell that it has imbued will automatically cast at the target.  "
+				"When imbuing the spell, note that the sword as a built in \"Touch\" form, so the rest of your spell build must contain only Augments and Effects to that Form."
+			]
+			dependencies: ["43EA65C2693E7EB3"]
+			id: "39A36AEF37DE7074"
+			tasks: [{
+				id: "3CD2137FF0E1BCCF"
+				type: "item"
+				item: {
+					id: "ars_nouveau:enchanters_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								lvl: 5s
+								id: "minecraft:looting"
+							}
+							{
+								lvl: 10s
+								id: "minecraft:sharpness"
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "031C7DA0592F1D94"
+				type: "item"
+				item: "tipsy:honeyken"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -4.0d
+			subtitle: "Due the pre-enchanted nature of the Enchanter's Bow, click on the above image to view its recipe instead of using JEI's default view."
+			description: [
+				"The Enchanter's Bow is a very powerful bow that crafts enchanted with Power X.  This Bow can be imbued with a spell at the Scribe’s table.  Once imbued, striking a target with an arrow from the bow will also hit the target with the Imbued spell."
+				"Augment Arrows can be crafted for your Enchanter's bow that will make the spells imbued even more powerful."
+			]
+			dependencies: ["43EA65C2693E7EB3"]
+			id: "01725479932EB771"
+			tasks: [{
+				id: "1B9FCC89D1BB174E"
+				type: "item"
+				item: {
+					id: "ars_nouveau:spell_bow"
+					Count: 1b
+					tag: {
+						Enchantments: [{
+							lvl: 10s
+							id: "minecraft:power"
+						}]
+					}
+				}
+			}]
+			rewards: [{
+				id: "3B5258F3FB0E8ADD"
+				type: "item"
+				item: "ars_nouveau:amplify_arrow"
+				count: 64
+			}]
+		}
+		{
+			x: 6.5d
+			y: -3.0d
+			description: ["The Enchanter's Mirror is an item that casts a spell with the \"Self\" form inherited.  This is great for imbuing spells that heal or buff you.  The Enchanter's Mirror also comes with the added benefit of increasing the duration of any of the effects within your spell."]
+			dependencies: ["43EA65C2693E7EB3"]
+			id: "4A9D56FBD883F938"
+			tasks: [{
+				id: "35284A18CDAA6F6B"
+				type: "item"
+				item: "ars_nouveau:enchanters_mirror"
+			}]
+			rewards: [{
+				id: "5A4398E70D431AA5"
+				type: "item"
+				item: "ars_nouveau:jar_of_light"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -2.0d
+			description: ["As your biggest restriction within Ars Nouveau is the amount of mana you can spend, there are numerous curios that can be crafted to increase your maximum mana and mana regeneration.  A mage with a full set of Archmage armor, Enchanter's weapons, and Arcane Curios is nigh unstoppable."]
+			dependencies: ["43EA65C2693E7EB3"]
+			id: "4779DAF94CBF7B22"
+			tasks: [{
+				id: "4C26514C1AC74DAE"
+				type: "item"
+				item: "ars_nouveau:ring_of_greater_discount"
+			}]
+			rewards: [{
+				id: "4160B4DBD8044AAB"
+				type: "item"
+				item: "ars_nouveau:amulet_of_mana_boost"
+			}]
+		}
+		{
+			x: 11.0d
+			y: -2.0d
+			description: [
+				"The Wilden are the spiteful guardians of Ars Nouveau.  They are quick to attack you on sight.  They do drop useful items, and the Wilden Chimera, their patriarch, is one of the few sources of Hateful Hearts outside of dungeons."
+				"This ritual will summon Wilden of different varieties, but when augmented with one of each of the lesser wilden drops, the ritual will instead summon the Wilden Chimera.  This is a very tough fight, but as mentioned above, can provide you with a Hateful Heart, useful in end-game recipes."
+			]
+			dependencies: ["1206E224A31F2A95"]
+			id: "0D54B4A6C17DA5AA"
+			tasks: [{
+				id: "401E37D8F25E9AB1"
+				type: "item"
+				item: "ars_nouveau:ritual_wilden_summon"
+			}]
+			rewards: [
+				{
+					id: "6D3199A3BD66D60F"
+					type: "item"
+					item: "ars_nouveau:wilden_horn"
+					count: 4
+				}
+				{
+					id: "4B7A4E9119ECCE37"
+					type: "item"
+					item: "ars_nouveau:wilden_spike"
+					count: 4
+				}
+				{
+					id: "2292CB3BB0B00E89"
+					type: "item"
+					item: "ars_nouveau:wilden_wing"
+					count: 4
+				}
+			]
+		}
+		{
+			x: 11.0d
+			y: -5.0d
+			description: ["You can create a network of Source flowing from one workstation to the other using a combination of relays, splitters, and depositors.  Use the Dominion Wand to link them accordingly.  Check your Worn Notebook for details on using the Dominion Wand."]
+			dependencies: ["6DB9F03949653C68"]
+			id: "67F1BA1D9A28819D"
+			tasks: [{
+				id: "3FF286F2B754530F"
+				type: "item"
+				item: "ars_nouveau:arcane_relay"
+			}]
+			rewards: [
+				{
+					id: "4C5279921F2BE5FA"
+					type: "item"
+					item: "ars_nouveau:arcane_relay_splitter"
+				}
+				{
+					id: "1927DA9616F1DEBE"
+					type: "item"
+					item: "ars_nouveau:dominion_wand"
+				}
+			]
+		}
+		{
+			x: 11.0d
+			y: -4.0d
+			description: [
+				"Warp Scrolls are one-time use scrolls that can teleport you from one location to another as long as it's within the same dimension.  Consider having one set to your Hub when you travel long distances."
+				"Additionally, you can build a portal frame out of Arcane Stone and toss a Portal Scroll in it to set its permanent location.  Make sure there is a Source Jar with ample source next to it.  This will allow you to teleport repeatedly, again within the same dimension."
+			]
+			hide_dependency_lines: true
+			dependencies: ["43EA65C2693E7EB3"]
+			id: "61E88B17283DF9AC"
+			tasks: [{
+				id: "05DBEA275F8A918C"
+				type: "item"
+				item: {
+					id: "ars_nouveau:warp_scroll"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "0ACF55960445C457"
+				type: "item"
+				item: {
+					id: "animalcrops:seeds"
+					Count: 1b
+					tag: {
+						entity: "minecraft:rabbit"
+					}
+				}
+			}]
+		}
+		{
+			x: 11.0d
+			y: -3.0d
+			description: [
+				"Rituals are powerful versions of spells and come in semi-permanent or single use forms. You will need a Ritual Brazier and a tablet of the ritual you want to perform."
+				"Place your brazier down and use the tablet on it. The brazier will ignite. Throw in any additional augment items on top of the brazier.  (See Worn Notebook for details)."
+			]
+			hide_dependency_lines: true
+			dependencies: ["6DB9F03949653C68"]
+			id: "1206E224A31F2A95"
+			tasks: [{
+				id: "3EB90988BB36A851"
+				type: "item"
+				item: "ars_nouveau:ritual"
+			}]
+			rewards: [{
+				id: "3D336F69CC413BF4"
+				type: "item"
+				item: "ars_nouveau:ritual_fertility"
+			}]
+		}
+	]
+}

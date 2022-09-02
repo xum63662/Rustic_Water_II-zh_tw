@@ -1,0 +1,16 @@
+{
+    "name": "Spirited Diet Craving",
+    "icon": "tipsy:poobst",
+    "category": "patchouli:diet",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "The Spirited craving represents the relaxation you get from 'brews'. Brews provide powerful buffs in ADDITION to the buffs you will receive from keeping your craving level above 80%.  Drinking brews has no negative status effects (i.e. no Nausea), but does make you 'Tipsy', preventing you from drinking more for a period of time."
+        },
+        {
+            "type": "patchouli:image",
+            "images":  ["rwguide:textures/categories/brews.png"]
+        }
+    ]
+}
+

@@ -1,0 +1,35 @@
+{
+  "input": [
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "minecraft:redstone"
+    }
+  ],
+  "inputFluid": "{FluidName:\"industrialforegoing:essence\",Amount:1000}",
+  "processingTime": 400,
+  "output": {
+    "item": "atum:ra_godshard",
+    "count": 1
+  },
+  "type": "industrialforegoing:dissolution_chamber"
+}

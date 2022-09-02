@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "FQF",
+    "RRR",
+    "FQF"
+  ],
+  "key": {
+    "F": {
+      "item": "rustic_resources:reinforcedwood"
+    },
+    "R": {
+      "item": "rustic_resources:redstonewire"
+    },
+    "Q": {
+      "tag": "forge:gems/quartz"
+    }
+  },
+  "result": {
+    "item": "advgenerators:control"
+  }
+}

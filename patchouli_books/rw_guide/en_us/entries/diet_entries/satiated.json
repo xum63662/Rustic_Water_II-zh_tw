@@ -1,0 +1,16 @@
+{
+    "name": "Satiated Diet Craving",
+    "icon": "pamhc2foodextended:ploughmanslunchitem",
+    "category": "patchouli:diet",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "The Satiated craving represents how satisfied you are with the quality of the meals you are eating.  Foods that boost this mood are usually complex meals consisting of multiple ingredients.  You can view all of the foods that contribute to your Satiated mood by searching 'Satiated' in JEI"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item":  "pamhc2foodextended:ploughmanslunchitem",
+            "text": "Maintaining a Satiated mood level above 80% will give you +4 Armor, +2 Toughness, and +4 Maximum Health.  This is a very worthwhile mood to keep active while you are exploring the tough Cubic Dungeons located around the world."
+        }
+    ]
+}

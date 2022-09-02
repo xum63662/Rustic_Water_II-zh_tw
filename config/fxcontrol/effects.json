@@ -1,0 +1,157 @@
+[
+	{
+    "timeout": 100,
+    "dimension": "minecraft:overworld",
+    "minheight": 200,
+    "potion": "minecraft:hunger,101,2"
+  },
+    {
+    "timeout": 100,
+    "dimension": "minecraft:nether",
+    "minheight": 200,
+    "potion": "minecraft:hunger,101,1"
+  },
+    {
+    "timeout": 100,
+    "dimension": "minecraft:end",
+    "minheight": 200,
+    "potion": "minecraft:hunger,101,1"
+  },
+  {
+    "timeout": 100,
+    "dimension": "dark_caverns:dark_caverns",
+    "potion": "minecraft:hunger,101,1"
+  },
+  {
+    "timeout": 100,
+    "dimension": "atum:atum",
+    "potion": "minecraft:hunger,101,1"
+  },
+  {
+    "timeout": 100,
+    "dimension": "boss_tools:venus",
+    "potion": "minecraft:hunger,101,1"
+  },
+  {
+    "timeout": 100,
+    "dimension": "boss_tools:mars",
+    "potion": "minecraft:hunger,101,1"
+  },
+  {
+    "timeout": 100,
+    "dimension": "boss_tools:mercury",
+    "potion": "minecraft:hunger,101,1"
+  },
+  {
+    "timeout": 10,
+    "block": "rustic_resources:hardgrass",
+    "playerhelditem": "minecraft:water_bucket",
+    "message": "Water Bucket cheese penalty activated.",
+    "damage": "magic=4",
+    "potion": "minecraft:blindness,200,3"
+  },
+{
+    "timeout": 10,
+    "block": "rustic_resources:hardgreenbrick",
+    "playerhelditem": "minecraft:water_bucket",
+    "message": "Water Bucket cheese penalty activated.",
+    "damage": "magic=4",
+    "potion": "minecraft:blindness,200,3"
+  },
+{
+    "timeout": 10,
+    "block": "rustic_resources:hardwood",
+    "playerhelditem": "minecraft:water_bucket",
+    "message": "Water Bucket cheese penalty activated.",
+    "damage": "magic=4",
+    "potion": "minecraft:blindness,200,3"
+  },
+{
+    "timeout": 10,
+    "block": "rustic_resources:hull",
+    "playerhelditem": "minecraft:water_bucket",
+    "message": "Water Bucket cheese penalty activated.",
+    "damage": "magic=4",
+    "potion": "minecraft:blindness,200,3"
+  },
+{
+    "timeout": 10,
+    "block": "rustic_resources:hardsand",
+    "playerhelditem": "minecraft:water_bucket",
+    "message": "Water Bucket cheese penalty activated.",
+    "damage": "magic=4",
+    "potion": "minecraft:blindness,200,3"
+  },
+{
+    "timeout": 10,
+    "block": "rustic_resources:hardsandlight",
+    "playerhelditem": "minecraft:water_bucket",
+    "message": "Water Bucket cheese penalty activated.",
+    "damage": "magic=4",
+    "potion": "minecraft:blindness,200,3"
+  },
+{
+    "timeout": 10,
+    "block": "rustic_resources:hardquartz",
+    "playerhelditem": "minecraft:water_bucket",
+    "message": "Water Bucket cheese penalty activated.",
+    "damage": "magic=4",
+    "potion": "minecraft:blindness,200,3"
+  },
+{
+    "timeout": 10,
+    "block": "rustic_resources:hardwall",
+    "playerhelditem": "minecraft:water_bucket",
+    "message": "Water Bucket cheese penalty activated.",
+    "damage": "magic=4",
+    "potion": "minecraft:blindness,200,3"
+  },
+{
+    "timeout": 10,
+    "block": "mowziesmobs:painted_acacia",
+    "playerhelditem": "minecraft:water_bucket",
+    "message": "Water Bucket cheese penalty activated.",
+    "damage": "magic=4",
+    "potion": "minecraft:blindness,200,3"
+  },
+{
+    "timeout": 10,
+    "block": "mowziesmobs:painted_acacia_slab",
+    "playerhelditem": "minecraft:water_bucket",
+    "message": "Water Bucket cheese penalty activated.",
+    "damage": "magic=4",
+    "potion": "minecraft:blindness,200,3"
+  },
+{
+    "timeout": 10,
+    "block": "minecraft:acacia_planks",
+    "playerhelditem": "minecraft:water_bucket",
+    "message": "Water Bucket cheese penalty activated.",
+    "damage": "magic=4",
+    "potion": "minecraft:blindness,200,3"
+  },
+{
+    "timeout": 10,
+    "block": "minecraft:jungle_planks",
+    "playerhelditem": "minecraft:water_bucket",
+    "message": "Water Bucket cheese penalty activated.",
+    "damage": "magic=4",
+    "potion": "minecraft:blindness,200,3"
+  },
+{
+    "timeout": 10,
+    "block": "chisel:redstone/twisted",
+    "playerhelditem": "minecraft:water_bucket",
+    "message": "Water Bucket cheese penalty activated.",
+    "damage": "magic=4",
+    "potion": "minecraft:blindness,200,3"
+  },
+{
+    "timeout": 10,
+    "block": "chisel:glowstone/extra/bismuth",
+    "playerhelditem": "minecraft:water_bucket",
+    "message": "Water Bucket cheese penalty activated.",
+    "damage": "magic=4",
+    "potion": "minecraft:blindness,200,3"
+  }
+]

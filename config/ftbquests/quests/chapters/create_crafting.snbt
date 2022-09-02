@@ -1,0 +1,605 @@
+{
+	id: "6FB61696E20E4184"
+	group: ""
+	order_index: 3
+	filename: "create_crafting"
+	title: "Create Crafting"
+	icon: "create:mechanical_crafter"
+	subtitle: ["This tab will walk you through Mechanical Crafting and Mixing, the first steps to advancing your technology.  This includes crafting your first FE/t generators and Steel."]
+	default_quest_shape: "rsquare"
+	default_hide_dependency_lines: false
+	images: [{
+		x: 0.65d
+		y: -6.0d
+		width: 18.0d
+		height: 10.0d
+		rotation: 0.0d
+		image: "rusticwaters:textures/page3.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			x: -0.5d
+			y: -6.5d
+			subtitle: "The Building Gadget allows you to place blocks in a configurable way.  Shift+R Click to select a block.  Make sure you have a key bound to open the settings menu of the gadget to select a mode."
+			description: [
+				"The Mechanical Crafting mutliblock runs on Create's rotational energy.  Place a single item in each crafter slot.  If all slots match a recipe, it will automatically craft.  If there are empty crafter slots, you can give it a redstone signal to tell it to start crafting."
+				"{image:rusticwaters:textures/crafter.png width:110 height:100 align:1}"
+			]
+			dependencies: ["1A4755083389F47C"]
+			id: "670B5DECF26305C5"
+			tasks: [{
+				id: "2CB033FC65B49C69"
+				type: "item"
+				item: "create:mechanical_crafter"
+				count: 16L
+			}]
+			rewards: [{
+				id: "7E94800013755770"
+				type: "item"
+				item: {
+					id: "buildinggadgets:gadget_building"
+					Count: 1b
+					tag: {
+						state: {
+							serializer: "buildinggadgets:dummy_serializer"
+							state: {
+								Name: "minecraft:air"
+							}
+							data: { }
+						}
+						energy: 500000.0d
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: -7.5d
+			shape: "hexagon"
+			description: ["This section covers Create's Mechanical Crafter Multiblock.  This setup will allow you to craft more advanced machinery and tools, including generating FE (rf/t) Power and some early automation of Crops."]
+			id: "1A4755083389F47C"
+			tasks: [{
+				id: "50771DCAC1A04DE3"
+				type: "item"
+				item: "create:electron_tube"
+				count: 8L
+			}]
+			rewards: [{
+				id: "3C29DF0B152165C3"
+				type: "item"
+				item: "rustic_resources:keyfragment"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -5.5d
+			subtitle: "Depots are used to supply or receive items."
+			description: [
+				"Each block of the Mechanical Crafter has a directional arrow on it that can be rotated using the wrench.  In order to craft the item, all the arrows must be directed to converge on the output.  Ponder \"W\" over the Mechanical Crafter block to see an example."
+				"{image:rusticwaters:textures/route.png width:167 height:100 align:1}"
+			]
+			dependencies: ["670B5DECF26305C5"]
+			id: "152DEA400E9F1726"
+			tasks: [{
+				id: "28401CE5149D663C"
+				type: "item"
+				item: "create:depot"
+			}]
+			rewards: [{
+				id: "31D7ED2A78C0A2BE"
+				type: "item"
+				item: "storagedrawers:obsidian_storage_upgrade"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -2.5d
+			description: ["Now that you have a strong steady flow of rotational energy, it's time to learn how to turn that into Forge Energy using the Alternator.  The alternator requires at least 32 RPM to operate.  But you will need to increase the speed much higher if you want to get a reasonable amount of FE/t."]
+			dependencies: ["395A62DD3D132CB5"]
+			id: "66978C89E2258606"
+			tasks: [{
+				id: "606D816A528C4954"
+				type: "item"
+				item: "createaddition:alternator"
+			}]
+			rewards: [{
+				id: "624586B695AC3C16"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -0.5d
+			y: -4.5d
+			description: [
+				""
+				"The Furnace Engine is a rotational power generator that is fueled by the heat produced from the attached Furnace or Blast Furnace.  In order for this to work, the furnace must be smelting items.  The Blast Furnace is more efficient, but only smelts ores."
+			]
+			dependencies: ["152DEA400E9F1726"]
+			id: "0F1A1C76B29D4E79"
+			tasks: [
+				{
+					id: "28532C9884C720CD"
+					type: "item"
+					item: "createaddition:copper_spool"
+					count: 4L
+				}
+				{
+					id: "7CA70F672C2B2B2F"
+					type: "item"
+					item: "createaddition:capacitor"
+					count: 2L
+				}
+			]
+			rewards: [{
+				id: "2B7A5304F127F5FC"
+				type: "item"
+				item: "decimal_coins:coin_10"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -3.5d
+			subtitle: "Some Mechanical Crafting Recipes are different sizes and shapes than others.  You can move the mechanical crafting boxes around and any point to fit new recipes.  The recipe will not automatically start crafting if there are blank spaces within the shape, unless you give it a redstone signal."
+			description: [
+				"The Furnace Engine feeds into a Flywheel in order to create rotational force.  The Flywheel has a very high Stress Unit capacity."
+				"{image:rusticwaters:textures/furnace.png width:150 height:100 align:1}"
+			]
+			dependencies: ["0F1A1C76B29D4E79"]
+			id: "395A62DD3D132CB5"
+			tasks: [{
+				id: "1F8A2F4A546A57A9"
+				type: "item"
+				item: "create:furnace_engine"
+			}]
+			rewards: [{
+				id: "789F3726DAC8DBD0"
+				type: "item"
+				item: "decimal_coins:coin_5"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -2.5d
+			subtitle: "When you run out of a block to place with your Building Gadget, the gadget will then use construction paste as a substitute. One construction paste can be used to form one block. Blocks formed by construction paste will look identical to the block which it is mimicking, but not act identical."
+			description: ["The Flywheel is placed one block away from the Furnace Engine.  It will automatically connect when placed correctly.  You can build your shafts off the flywheel."]
+			dependencies: ["395A62DD3D132CB5"]
+			id: "102BCE26B2B7B1AD"
+			tasks: [{
+				id: "287E2347BE281557"
+				type: "item"
+				item: "create:flywheel"
+			}]
+			rewards: [{
+				id: "10EA11DAB0CAC11B"
+				type: "item"
+				item: "buildinggadgets:construction_paste"
+				count: 64
+			}]
+		}
+		{
+			x: -0.5d
+			y: -3.5d
+			subtitle: "The exchanging gadget is very similar to the building gadget, except it does not place blocks, it replaces already placed blocks with a different block. "
+			description: ["The Rotation Speed Controller lets you raise or lower the rotational speed coming from your Flywheel (or any other rotation generator).  You must place a Large Cogwheel into the top of the controller.  Look at the side of the controller and use your mouse wheel to change the rotation speed shown on the display."]
+			dependencies: ["395A62DD3D132CB5"]
+			id: "227742289446CAA7"
+			tasks: [{
+				id: "589A87FEA6A1C823"
+				type: "item"
+				item: "create:rotation_speed_controller"
+			}]
+			rewards: [{
+				id: "2E1C2DEEDC4122DA"
+				type: "item"
+				item: {
+					id: "buildinggadgets:gadget_exchanging"
+					Count: 1b
+					tag: {
+						state: {
+							serializer: "buildinggadgets:dummy_serializer"
+							state: {
+								Name: "minecraft:air"
+							}
+							data: { }
+						}
+						energy: 500000.0d
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: -3.5d
+			description: ["Wire connectors come in three tiers dictating the amount of energy transfer they can handle.  They can be right clicked onto energy acceptors such as machines or capacitors, then linked with wires of the corresponding tier."]
+			dependencies: ["66978C89E2258606"]
+			id: "6B5C8F93D1018808"
+			tasks: [{
+				id: "0C0A646D84089721"
+				type: "item"
+				item: "immersiveengineering:connector_lv"
+				count: 4L
+			}]
+			rewards: [{
+				id: "1047773EDA2B527B"
+				type: "item"
+				item: "immersiveengineering:manual"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -2.5d
+			subtitle: "Enchanted Hearts are one time use consumables that will lower your local mob scaling difficulty by 10 points."
+			description: ["Capacitors come in different tiers dictating the amount of energy they can hold, give, and receive."]
+			dependencies: ["66978C89E2258606"]
+			id: "63D78C2546ACB92A"
+			tasks: [{
+				id: "3C63A0B4CDABF3A3"
+				type: "item"
+				item: "immersiveengineering:capacitor_lv"
+			}]
+			rewards: [{
+				id: "46C1E671E9F0F46D"
+				type: "item"
+				item: "scalinghealth:enchanted_heart"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -7.5d
+			shape: "hexagon"
+			subtitle: "Some quest rewards are given just to encourage experimentation, and don't necessarily fit into the builds being explained in the current quest chain."
+			description: ["The mixer has multifunctionality.  While it does allow you to automate shapeless crafting recipes, its true strength lies in the ability to combine crushed ores and dust into alloys.  It's best to insert the ingredients into the mixer in the order shown in JEI."]
+			id: "7B2077EDAEFF9B68"
+			tasks: [{
+				id: "4694F9A974CAF2CF"
+				type: "item"
+				item: "create:mechanical_mixer"
+			}]
+			rewards: [{
+				id: "545D445A1173D251"
+				type: "item"
+				item: "create:spout"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -7.5d
+			subtitle: "Mixing Ingredients will be a common theme in upcoming quest chapters.  You may want to set up an assembly line for easily automating mixing recipes."
+			description: ["The mixer must be placed over the basin.  Once a viable recipe has been placed into the basin, and the mixer has rotational power, it will descend into the basin and begin mixing."]
+			dependencies: ["7B2077EDAEFF9B68"]
+			id: "733D62F60913BAE5"
+			tasks: [{
+				id: "7A1E0E671145598F"
+				type: "item"
+				item: "create:basin"
+			}]
+			rewards: [{
+				id: "6A15C3716CE688D8"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 3.0d
+			y: -7.5d
+			description: [
+				"The basin will retain items that are finished crafting unless it has a block below and to the sides that it can drop the item onto.  Acceptable blocks include chutes, depots, belts, and more... but not chests.  You can place a chest under the Chute though."
+				"{image:rusticwaters:textures/basin.png width:110 height:100 align:1}"
+			]
+			dependencies: ["733D62F60913BAE5"]
+			id: "5C7EA90C3837DD22"
+			tasks: [{
+				id: "2CB7336AAF8BA085"
+				type: "item"
+				item: "create:chute"
+			}]
+			rewards: [{
+				id: "26FC2C67C5419838"
+				type: "item"
+				item: "ironchest:wood_to_iron_chest_upgrade"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -5.5d
+			subtitle: "It would be an excellent idea to keep an Overworld cake in your sack whenever you travel to other dimensions.  You can craft them, or buy them from the Market trader."
+			description: [
+				"Some higher end recipes and alloy mixes require you to heat the components.  Craft a Blaze Burner and then capture a Blaze from the nether by right clicking on it.  If you haven't done so already, now would be a good time to visit the Sub Nautical quest tab to make Scuba Gear to find a nether temple."
+				"{image:rusticwaters:textures/nether.png width:130 height:100 align:1}"
+			]
+			dependencies: ["0FB29576DC2AFD38"]
+			id: "071C410AC8389FC2"
+			tasks: [{
+				id: "5166BA7D5E142B04"
+				type: "item"
+				item: "create:empty_blaze_burner"
+			}]
+			rewards: [{
+				id: "4D704DC83930BAC7"
+				type: "item"
+				item: "telepastries:overworld_cake"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -4.5d
+			subtitle: "You can always return to this quest page to finish quests for which you do not have the resources yet."
+			description: ["Blaze Burners must be fed furnace fuel periodically in order to keep them happy."]
+			dependencies: ["071C410AC8389FC2"]
+			id: "5BF6C67F4A08E34F"
+			tasks: [{
+				id: "59846FA7ABE6A05F"
+				type: "item"
+				item: "create:blaze_burner"
+			}]
+			rewards: [{
+				id: "70283B2F01E0BB9E"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 4s
+							id: "minecraft:fire_protection"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: -2.5d
+			subtitle: "Make sure to check all tabs in JEI to see other ways to create an item."
+			description: ["The Blaze Cake Base can be turned into a Blaze Cake in multiple ways.  The easiest way is by simply tossing the Blaze Cake Base into a source block of Lava, similar to how you made Creosote.  You can also use the Mixer and/or Spout if you want to set up a bit more automation."]
+			dependencies: ["4427E878A11AF1E7"]
+			id: "477C1C91AB651389"
+			tasks: [{
+				id: "0F7D0C0A55F63556"
+				type: "item"
+				item: "create:blaze_cake"
+				count: 2L
+			}]
+			rewards: [{
+				id: "2976B7124509F3CB"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 1.0d
+			y: -6.5d
+			subtitle: "There will come a point in the mid to late game where having a tree farm to produce large amounts of Charcoal would be quite beneficial.  Consider exploring further into Create automation using some of the tools such as the Mechanical Saw"
+			description: ["Mechanical arms can pull from belts, depots, funnels, and more... placing those items into other deposit options, such as mixing basins.  Right clicking on an acceptable target will set the pull of the arm, while right clicking a second time on a different container will set the push.  See \"W\" ponder animation for further details."]
+			dependencies: ["733D62F60913BAE5"]
+			id: "7BD285288ED1ACEA"
+			tasks: [{
+				id: "446D14B8A79D944F"
+				type: "item"
+				item: "create:mechanical_arm"
+			}]
+			rewards: [{
+				id: "21FF23BA196B3BFA"
+				type: "item"
+				item: "create:mechanical_saw"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -3.5d
+			description: ["Some high-end recipes require Super Heated mixing.  You can \"Super Heat\" your Blaze Burner by feeding it Blaze Cake."]
+			dependencies: ["5BF6C67F4A08E34F"]
+			id: "4427E878A11AF1E7"
+			tasks: [{
+				id: "13D861E8F47CB2BE"
+				type: "item"
+				item: "create:blaze_cake_base"
+				count: 2L
+			}]
+			rewards: [{
+				id: "395785689A1F3BBB"
+				type: "item"
+				item: "create:content_observer"
+			}]
+		}
+		{
+			x: 4.2d
+			y: -3.6d
+			subtitle: "The Storage Terminal can be placed on any chest to access all of the contents in an easy-to-use Interface."
+			description: [
+				"Simple Storage allows you to have easier access to your chests, drawers, and other inventories.  While you will not be able to craft, auto-craft, or automate Import/Export using this simple network, it is inexpensive and convenient."
+				"{image:rusticwaters:textures/stor1.png width:180 height:100 align:1}"
+			]
+			dependencies: ["0FB29576DC2AFD38"]
+			id: "7BA21DDD0D65BCA8"
+			tasks: [{
+				id: "26BBBC4864813DB0"
+				type: "item"
+				item: "toms_storage:ts.storage_terminal"
+			}]
+			rewards: [{
+				id: "26550F2F476353F4"
+				type: "item"
+				item: "pipez:item_pipe"
+				count: 8
+			}]
+		}
+		{
+			x: 4.2d
+			y: -2.5d
+			description: [
+				"The Inventory Connector will allow your Storage Terminal to interact with any blocks that are touching each other, or connected via Inventory Trim, which acts like a cable."
+				"{image:rusticwaters:textures/stor.png width:150 height:100 align:1}"
+			]
+			dependencies: ["7BA21DDD0D65BCA8"]
+			id: "049A2BE4554DC074"
+			tasks: [{
+				id: "6296904681FA798F"
+				type: "item"
+				item: "toms_storage:ts.inventory_connector"
+			}]
+			rewards: [{
+				id: "472A989CCFA8C920"
+				type: "item"
+				item: "toms_storage:ts.trim"
+				count: 6
+			}]
+		}
+		{
+			x: 4.2d
+			y: -6.1d
+			subtitle: "Each \"empty\" space within your tank holds 256,000mb of fluid.  Your tank can have as many as 500 spaces inside."
+			description: ["Fluid storage will become more important as you get into Oil Drilling and mass production.  Fancy Fluid Storage will allow you to make high-capacity fluid tanks.  ANY \"Factory\" block from Chisel can be used in the Frame, along with Framed Glass."]
+			dependencies: ["0FB29576DC2AFD38"]
+			id: "49D0810D3421BFB3"
+			tasks: [{
+				id: "5C06DDF917846AED"
+				type: "item"
+				item: "chisel:factory/dots"
+				count: 24L
+			}]
+			rewards: [{
+				id: "477B43104C15BBBF"
+				type: "item"
+				item: {
+					id: "chisel:diamond_chisel"
+					Count: 1b
+					tag: {
+						Damage: 0
+						chiseldata: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 4.2d
+			y: -5.0d
+			description: [
+				"Each tank must have at least one Fluid Valve, for importing and exporting.  Once your tank is complete right click the fluid valve to form it.  "
+				"{image:rusticwaters:textures/tanks.png width:200 height:100 align:1}"
+			]
+			dependencies: ["49D0810D3421BFB3"]
+			id: "7B627B4C4689DBB7"
+			tasks: [{
+				id: "40C692202B45E66B"
+				type: "item"
+				item: "ffs:fluid_valve"
+			}]
+			rewards: [{
+				id: "3BD7A5FBE22FC7FB"
+				type: "item"
+				item: "create:framed_glass"
+				count: 16
+			}]
+		}
+		{
+			x: 4.2d
+			y: -8.6d
+			subtitle: "Prismarine can be found on mini-monuments located around the ocean floor.  You may need to revisit this quest once you have explored more."
+			description: [
+				""
+				"The Prismarine Hammer comes pre-enchanted with Efficiency V and Silk Touch... great for acquiring coral and other resources from the ocean floor."
+			]
+			dependencies: ["65B407DAC16E3B5A"]
+			id: "5CAE72A0FD0C2EF6"
+			tasks: [{
+				id: "370F8B48E1E77A5D"
+				type: "item"
+				item: {
+					id: "vanillahammers:prismarine_hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								lvl: 5s
+								id: "minecraft:efficiency"
+							}
+							{
+								lvl: 1s
+								id: "minecraft:silk_touch"
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "0A8C3B06B6284B4B"
+				type: "loot"
+				table_id: 1459128794121417282L
+			}]
+		}
+		{
+			x: 4.2d
+			y: -7.5d
+			subtitle: "If you don't like the enchants that are pre-applied to your hammer, you can remove them using a Void Anvil.  You can find Void Anvils in certain villager huts on the surface."
+			description: [
+				"Quarries are not an option at your current level of technology.  In the meantime, equipping mining Hammer will allow you to efficiently mine blocks in a 3x3 area."
+				"Mining Hammers come pre-enchanted with specific traits, depending on the hammer type you choose.  Press \"U\" (default) while hovering over the hammer to view its stats.  Keep in mind that mining level varies by hammer."
+			]
+			hide_dependency_lines: true
+			dependencies: ["670B5DECF26305C5"]
+			id: "65B407DAC16E3B5A"
+			tasks: [{
+				id: "5C02277B9379AED4"
+				type: "item"
+				item: "spartanweaponry:handle"
+				count: 2L
+			}]
+			rewards: [{
+				id: "4F17CB7BAB9545D9"
+				type: "item"
+				item: "rustic_resources:keyfragment"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -6.5d
+			subtitle: "The basic Blast Furnace does not have automation capabilities.  You can make an Improved Blast Furnace once you have acquired your first steel ingots.  The improved Blast Furnace is also a 3x3x3, but has a hopper placed on the top middle block."
+			description: ["The multiblock blast furnace is created by placing the blast bricks in a 3x3x3 pattern, and then right clicking with your engineer's hammer.  Placing iron in the input slot, along with coal or charcoal, will allow you to produce Steel.  "]
+			dependencies: ["733D62F60913BAE5"]
+			id: "0FB29576DC2AFD38"
+			tasks: [{
+				id: "221352A089A5DCBA"
+				type: "item"
+				item: "immersiveengineering:blastbrick"
+				count: 27L
+			}]
+			rewards: [{
+				id: "7272B2119B2B7745"
+				type: "item"
+				item: "rustic_resources:keyfragment"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -6.5d
+			subtitle: "This Harvest Level 2 Iron Hammer will mine blocks in a 3x3 area.  This will be quite handy for your trips to the Dark Caverns mining dimension."
+			description: ["Steel will be a commonly used ingredient. It would be prudent to keep a stack available at all times."]
+			dependencies: ["0FB29576DC2AFD38"]
+			id: "64DD3F1DD77D537A"
+			tasks: [{
+				id: "30978964737E7095"
+				type: "item"
+				item: "immersiveengineering:ingot_steel"
+				count: 8L
+			}]
+			rewards: [{
+				id: "5BCA924E211E16C3"
+				type: "item"
+				item: {
+					id: "vanillahammers:iron_hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+	]
+}

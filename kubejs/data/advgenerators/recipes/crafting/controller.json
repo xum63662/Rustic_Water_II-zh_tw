@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "IRI",
+    "RQR",
+    "IRI"
+  ],
+  "key": {
+    "I": {
+      "item": "rustic_resources:aluminite_ingot"
+    },
+    "R": {
+      "item": "rustic_resources:redstonewire"
+    },
+    "Q": {
+      "tag": "forge:gems/quartz"
+    }
+  },
+  "result": {
+    "item": "advgenerators:controller"
+  }
+}

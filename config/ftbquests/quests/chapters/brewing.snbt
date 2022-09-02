@@ -1,0 +1,484 @@
+{
+	id: "1CFCA987324E8C29"
+	group: ""
+	order_index: 10
+	filename: "brewing"
+	title: "Farming and Food"
+	icon: "pamhc2foodextended:cookoutmealitem"
+	subtitle: ["This quest chapter guides you through crafting Hydrostatic Botany Pots for farming automation.  It also walks you through the brewing process for helpful drinks to fulfill your \"Spirited\" Diet needs."]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: 0.85d
+		y: 4.35d
+		width: 19.0d
+		height: 12.0d
+		rotation: 0.0d
+		image: "rusticwaters:textures/page9.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			x: -5.0d
+			y: 1.5d
+			subtitle: "Convert one Barley into a Barley Seed so you can grow more.  You can also obtain seeds from sluicing Coral."
+			description: ["Bitter Lily Pads can be found all over the surface of the water.  These sticky buds serve multiple purposes.  They can be ground into a mushy paste that water-seals your Hydrostatic Botany Pots or acts as an activating ingredient for Yeast."]
+			dependencies: ["4E7BA0FFD8BBC44F"]
+			id: "6D9A661A5541DEAD"
+			tasks: [{
+				id: "712F7989EA702CDD"
+				type: "item"
+				item: "tipsy:bitterlilybud"
+				count: 24L
+			}]
+			rewards: [
+				{
+					id: "16DA76D5D5C0FC76"
+					type: "item"
+					item: "pamhc2crops:barleyseeditem"
+				}
+				{
+					id: "644F6F521D677FD3"
+					type: "item"
+					item: "minecraft:brown_mushroom"
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: 1.5d
+			subtitle: "Remember that you get \"The Bends\" when you ascend to the surface, this causes your body to enter recovery mode, giving you a constant Hunger effect."
+			description: [
+				"You will need a seaworthy vessel to explore the surface of the water as well. The Small Ships mod will allow you build faster, larger, multi-passenger ships that have built in storage for your items.  Craft an Oak Cog and prepare to hit the high seas."
+				"Press \"R\" to open and close the sail.  Press \"J\" and \"K\" respectively to increase and decrease the sail.  Crouching + Right-Click will open the Inventory.  Press your \" I \" Key to open and close the Ship's Inventory while sailing. "
+			]
+			id: "4E7BA0FFD8BBC44F"
+			tasks: [{
+				id: "761C5E5D4C524615"
+				type: "item"
+				item: "smallships:oak_cog"
+			}]
+			rewards: [{
+				id: "279640577286FEEE"
+				type: "item"
+				item: "rustic_resources:keyfragment"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 0.0d
+			description: ["Bitter Lilies are semi-hollow pods that not only have a malty bitterness, but also allow fungus spores to grow inside their rind.  Grind them up, as this should make a flavorful yeast to brew very beneficial drinks with."]
+			dependencies: ["7FE6CF7F8E11D032"]
+			id: "1194EE428B08893F"
+			tasks: [{
+				id: "2A41E191ABB7C71C"
+				type: "item"
+				item: "tipsy:yeast"
+				count: 4L
+			}]
+			rewards: [{
+				id: "0FC6C4047DA44659"
+				type: "loot"
+				table_id: 4920136057121877850L
+			}]
+		}
+		{
+			x: -3.5d
+			y: 2.0d
+			description: [
+				"Hydrostatic Pressure Pots utilize the extreme pressure at the ocean bottom to extract fully grown plants and place them into an adjacent inventory. "
+				""
+			]
+			dependencies: ["6D9A661A5541DEAD"]
+			id: "5B0A9E971B7D22CF"
+			tasks: [{
+				id: "3DDFCF071996C7BB"
+				type: "item"
+				item: "rustic_resources:pressuretreatedplanks"
+			}]
+			rewards: [{
+				id: "6F23D81F5C73A744"
+				type: "item"
+				item: "rustic_resources:keyfragment"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 3.0d
+			description: [
+				"Only ocean pressure between Y55 and Y70 is sufficient for Hydrostatic Botany Pots.  Find or dig a flat area for your plots."
+				"{image:rusticwaters:textures/botpots1.png width:180 height:100 align:1}"
+			]
+			dependencies: ["5B0A9E971B7D22CF"]
+			id: "42CC0FDF0A328DFD"
+			tasks: [{
+				id: "63CA855308CAA05A"
+				type: "item"
+				item: "botanypots:hopper_botany_pot"
+				count: 4L
+			}]
+			rewards: [{
+				id: "2DDEB3377BBEA76A"
+				type: "item"
+				item: "ironchest:diamond_to_crystal_chest_upgrade"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 3.0d
+			description: ["While you can sluice Coral Blocks for seeds from Pam's Harvestcraft, you may want a more dependable way to secure seeds.  Emeralds can drop from dungeon mobs, be found in caches, or be traded from surface villagers."]
+			dependencies: ["26CBBC25299370D0"]
+			id: "2DB3BE53392F9EBB"
+			tasks: [{
+				id: "6F3600A9CE2C9E28"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 4L
+			}]
+			rewards: [{
+				id: "0FC4B7715AF119CA"
+				type: "item"
+				item: "artifacts:villager_hat"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 2.0d
+			description: [
+				"Cooking for Blockheads is a mod that allows you to organize and auto-craft complex food items. "
+				"If you choose to complete the \"Hero of Caladan\" quest tab, you will find that the utility of the Cooking for Blockheads kitchen is invaluable.  The cabinets, counters, and refrigerators can even be hooked up to your Applied Energistics system with a bit of ingenuity and a few Storage Buses."
+			]
+			dependencies: ["26CBBC25299370D0"]
+			id: "64D9B1D5CB135284"
+			tasks: [{
+				id: "3775D91963390703"
+				type: "item"
+				item: "cookingforblockheads:no_filter_edition"
+			}]
+			rewards: [{
+				id: "513267C1F03F4F4B"
+				type: "item"
+				item: "scalinghealth:enchanted_heart"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 2.0d
+			description: ["You can use regular dirt in your botany pots, but for a moderate increase in speed utilize other soils, such as Fertilized Farmland."]
+			dependencies: ["5B0A9E971B7D22CF"]
+			id: "26CBBC25299370D0"
+			tasks: [{
+				id: "5D43C172CECE7065"
+				type: "item"
+				item: "farmingforblockheads:fertilized_farmland_healthy"
+				count: 8L
+			}]
+			rewards: [{
+				id: "3F1C232CE7FD7532"
+				type: "item"
+				item: "doggytalents:master_treat"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 2.0d
+			description: ["The Cooking Table is similar to the Cooking for Blockheads Book Volume II, except that it is part of a Multiblock Kitchen.  It will assess any food ingredients you have connected to the Kitchen and allow you to craft meals automatically using those ingredients."]
+			dependencies: ["64D9B1D5CB135284"]
+			id: "2E75A9FBCE7809B4"
+			tasks: [{
+				id: "2DA6C30D39AC097A"
+				type: "item"
+				item: "cookingforblockheads:cooking_table"
+			}]
+			rewards: [{
+				id: "3AA92F506580B737"
+				type: "item"
+				item: "cookingforblockheads:cabinet"
+				count: 2
+			}]
+		}
+		{
+			x: 5.5d
+			y: 3.0d
+			description: [
+				"The oven is necessary for the Cooking for Blockheads kitchen to use cooked meats within your meals. "
+				"The Oven can hold up to three stacks of meat and runs on Combustible Fuel or Cooking Oil."
+			]
+			dependencies: ["2E75A9FBCE7809B4"]
+			id: "4C8E421641E69FBD"
+			tasks: [{
+				id: "458C1C32E71FB4A1"
+				type: "item"
+				item: "cookingforblockheads:oven"
+			}]
+			rewards: [{
+				id: "5AF2D68C008EC753"
+				type: "item"
+				item: "cookingforblockheads:counter"
+				count: 2
+			}]
+		}
+		{
+			x: 6.5d
+			y: 2.0d
+			subtitle: "The Ranged Pump is slow and requires FE/t.  It can, however, pump fluids from a 64-block radius.  It can be used to pump water but replaces the fluid blocks with stone.  This is great for Lava, but not so great for the water around your base.  If you do not want this, consider using the Manual Pumps you used for your Sluice automation until better pumps are available later."
+			description: [
+				"The sink provides a constant watersource to your kitchen recipes and is part of the Multiblock."
+				"{image:rusticwaters:textures/kitchen.png width:165 height:100 align:1}"
+			]
+			dependencies: ["2E75A9FBCE7809B4"]
+			id: "2BEE29C50D33283D"
+			tasks: [{
+				id: "3B4F6D13A475DDC2"
+				type: "item"
+				item: "cookingforblockheads:sink"
+			}]
+			rewards: [{
+				id: "013275C697B9F887"
+				type: "item"
+				item: "rangedpumps:pump"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 3.0d
+			subtitle: "In order to craft the Cow in a Jar you must drop an anvil onto a Cow sitting over an empty Jar.  You can obtain Cows by exploring the Bio Cylinder structures around the ocean floor."
+			description: ["The Cow in a Jar can sit on any attached piece of your Kitchen Multiblock.  It slowly fills with milk over time and provides said milk to recipes crafted at the Cooking Table."]
+			dependencies: ["2BEE29C50D33283D"]
+			id: "6CC60868107F9179"
+			tasks: [{
+				id: "696E68BC994BB21B"
+				type: "item"
+				item: "cookingforblockheads:cow_jar"
+			}]
+			rewards: [{
+				id: "69D5D04961CB38CE"
+				type: "item"
+				item: "cookingforblockheads:fridge"
+				count: 2
+			}]
+		}
+		{
+			x: 3.0d
+			y: 3.0d
+			subtitle: "Test your new book using the ingredients provided."
+			description: [
+				""
+				"The Cooking for Blockheads Volume II book will automatically assess what food items you have in your inventory and show you what meals you can make.  It will also craft the meals you select right in your inventory."
+			]
+			dependencies: ["64D9B1D5CB135284"]
+			id: "1900FFE70C3CE985"
+			tasks: [{
+				id: "74C647FDEBBAD0CE"
+				type: "item"
+				item: "cookingforblockheads:crafting_book"
+			}]
+			rewards: [
+				{
+					id: "4DB0D6CB8740D2C3"
+					type: "item"
+					item: "pamhc2foodextended:sausageitem"
+					count: 4
+				}
+				{
+					id: "4775139C96EB60AD"
+					type: "item"
+					item: "minecraft:bread"
+					count: 4
+				}
+				{
+					id: "4EAE7E8202A01FCB"
+					type: "item"
+					item: "pamhc2crops:onionitem"
+					count: 4
+				}
+				{
+					id: "180434873748B50A"
+					type: "item"
+					item: "pamhc2foodextended:relishitem"
+					count: 4
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 1.0d
+			description: ["The Tipsy mod offers a variety of different brews, each with very powerful, longer duration buffs. "]
+			dependencies: ["6D9A661A5541DEAD"]
+			id: "7FE6CF7F8E11D032"
+			tasks: [{
+				id: "260C6CC46B6FD3A3"
+				type: "item"
+				item: "pamhc2foodcore:grinderitem"
+			}]
+			rewards: [{
+				id: "4BEA675D421E2FD8"
+				type: "item"
+				item: "decimal_coins:coin_10"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 1.0d
+			description: ["The Fermenter will turn Wort and Yeast into drinkable beverages.  This process takes a few minutes.  Once the Wort has fermented it will appear in the Fermenter Output."]
+			dependencies: ["7FE6CF7F8E11D032"]
+			id: "1D52FFC52471A26D"
+			tasks: [{
+				id: "2B3180A661D215DB"
+				type: "item"
+				item: "tipsy:fermenterbarrel"
+				count: 2L
+			}]
+			rewards: [{
+				id: "406320601277DF62"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 5.5d
+			y: 0.0d
+			description: ["Poobst Blue Ribbon offers you Status Effect Immunity... meaning no Poison, Wither, Fire DOT, etc... and also causes you to heal for a portion of your damage dealt, both for a five-minute duration.  This is an invaluable brew to keep with you for dungeon runs."]
+			dependencies: ["336672AAABC8FA2B"]
+			id: "1F490B37D4524418"
+			tasks: [{
+				id: "74757E0372758ECC"
+				type: "item"
+				item: "tipsy:poobst"
+			}]
+			rewards: [{
+				id: "3248D657E6F14225"
+				type: "loot"
+				table_id: 3729081586183020876L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.0d
+			subtitle: "Drinking a brew of any type will give you the Tipsy status effect for 10 minutes.  This has no negative traits but does prevent you from drinking another brew.  You can’t stack these powerful brews back-to-back."
+			description: ["Coral's Wort, as the name suggests, is made from different varieties of reef coral, barley, and water... all boiled together."]
+			dependencies: ["1D52FFC52471A26D"]
+			id: "1337746FC00692A1"
+			tasks: [{
+				id: "657C67ADB9FFAEAD"
+				type: "item"
+				item: "tipsy:redwort"
+			}]
+			rewards: [{
+				id: "4957F094F4143545"
+				type: "item"
+				item: "decimal_coins:coin_10"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 0.0d
+			description: ["The Honeyken brew is quite powerful, offering a Magical Shield that reduces damage, additional Spell Power for all schools, and increased Mana Regeneration.  All at a 5-minute duration.  This is a mage's best friend."]
+			dependencies: ["7F1620F19070FF35"]
+			id: "6C82F3388EFEED29"
+			tasks: [{
+				id: "2C417162ACB0EEC6"
+				type: "item"
+				item: "tipsy:honeyken"
+			}]
+			rewards: [
+				{
+					id: "39DEEACEF62AA6A9"
+					type: "item"
+					item: "ars_nouveau:glyph_crush"
+				}
+				{
+					id: "1784FB08EE68D13B"
+					type: "item"
+					item: "ars_nouveau:glyph_conjure_water"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 1.0d
+			description: ["Brown Wort is used to make \"Poobst Blue Ribbon\" a dark brew with a nutty tinge.  It has a thick foam and small bits of corn sit at the bottom of your mug once drank."]
+			dependencies: ["1D52FFC52471A26D"]
+			id: "336672AAABC8FA2B"
+			tasks: [{
+				id: "4336AAA78409DC31"
+				type: "item"
+				item: "tipsy:wort"
+			}]
+			rewards: [{
+				id: "081375E9E9426FA2"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			description: ["Coral's Lite offers you Night Vision, Water Breathing, and Swim Speed at a five-minute duration each.  This is always a good brew to keep at least one of in your inventory for emergencies."]
+			dependencies: ["1337746FC00692A1"]
+			id: "7E3936C59E3B2026"
+			tasks: [{
+				id: "75047FD41D4FF3DD"
+				type: "item"
+				item: "tipsy:corals_lite"
+			}]
+			rewards: [{
+				id: "5A4944D01A5170C9"
+				type: "item"
+				item: "minecraft:diamond"
+				count: 6
+			}]
+		}
+		{
+			x: 6.5d
+			y: 1.0d
+			description: [
+				"For our mages, we have a delicious Honeyken.  This magical brew is crafted using Honeycombs.  Bees, Beehives, and Honey can be found easily in colorful biome orbs periodically found at the bottom of the ocean."
+				"{image:rusticwaters:textures/orbx.png width:160 height:100 align:1}"
+			]
+			dependencies: ["1D52FFC52471A26D"]
+			id: "7F1620F19070FF35"
+			tasks: [{
+				id: "62F4B02A15928F4B"
+				type: "item"
+				item: "tipsy:yellow_wort"
+			}]
+			rewards: [{
+				id: "6E1B2012F21E78AB"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 2s
+							id: "cyclic:beekeeper"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: 0.0d
+			description: ["The top slot of the Fermenter GUI is for Yeast.  The bottom slot is for whichever Wort type you want to ferment to make each of the three brews."]
+			dependencies: ["1D52FFC52471A26D"]
+			id: "2D3A5D875A952C65"
+			tasks: [{
+				id: "46ED740AB3E5E5E1"
+				type: "item"
+				item: "minecraft:glass_bottle"
+				count: 3L
+			}]
+			rewards: [{
+				id: "2D8E9B2815B42B6C"
+				type: "item"
+				item: "glassential:glass_ethereal"
+				count: 9
+			}]
+		}
+	]
+}

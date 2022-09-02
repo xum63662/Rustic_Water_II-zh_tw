@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+    "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:ingots/steel"
+      }
+    }
+  ],
+  "pattern": [
+    " RI",
+    " RI",
+    "  I"
+  ],
+  "key": {
+    "I": {
+      "item": "rustic_resources:aluminite_ingot"
+    },
+    "R": {
+      "tag": "forge:ingots/steel"
+    }
+  },
+  "result": {
+    "item": "advgenerators:turbine_blade",
+    "count": 4
+  }
+}

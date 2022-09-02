@@ -1,0 +1,1901 @@
+{
+	id: "0F0BE812181AFBA2"
+	group: ""
+	order_index: 20
+	filename: "evolution_of_power"
+	title: "Evolution of Power"
+	icon: "draconicevolution:reactor_core"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: -6.05d
+		y: 0.0d
+		width: 18.5d
+		height: 11.0d
+		rotation: 0.0d
+		image: "rusticwaters:textures/dcspace2.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			x: -11.0d
+			y: -3.0d
+			subtitle: "Draconium Ore is found in abundance right on the Sand Layers of Planet Atum.  This planet is reachable with an Enderium Rocket."
+			description: [
+				"While there are trace amounts of Draconic Ore found rarely on earth, the bulk of your Draconium resources will come from the Planet Atum.  If you have not already done so, you will need to explore the \"Returning To Space\" tab to learn how to get to Atum."
+				"Draconic Evolution has two main purposes.  Providing extreme Power Generation through the Draconic Reactor and providing extreme tools/armor to make you nigh untouchable."
+			]
+			dependencies: ["2FCE900DF98BB0BF"]
+			id: "3D0D88AA531F6DD9"
+			tasks: [{
+				id: "3C4CCAAD13338367"
+				type: "item"
+				item: "draconicevolution:draconium_dust"
+				count: 64L
+			}]
+			rewards: [{
+				id: "3044E984365C31E7"
+				type: "item"
+				item: "scalinghealth:enchanted_heart"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -1.625d
+			description: ["Ra was the king of the deities and the father of all creation. He was the patron of the sun, heaven, kingship, power, and light. He was not only the deity who governed the actions of the sun, he could also be the physical sun itself, as well as the day."]
+			dependencies: ["02C29B000A3F2725"]
+			size: 0.75d
+			id: "48B3DE9062F961FF"
+			tasks: [{
+				id: "200F7BE6FA4795F5"
+				type: "item"
+				item: {
+					id: "atum:body_of_ra"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "48485AECD02FA375"
+				type: "loot"
+				table_id: 1459128794121417282L
+			}]
+		}
+		{
+			x: -4.625d
+			y: 0.0d
+			description: ["Isis was the Egyptian Goddess of Magic.  She was the sister and wife of Osiris, and after his death, she became the protector of the dead."]
+			dependencies: ["02C29B000A3F2725"]
+			size: 0.75d
+			id: "7244FD3A5756006F"
+			tasks: [{
+				id: "6A47D5391FCB5E76"
+				type: "item"
+				item: "atum:isis_healing"
+			}]
+			rewards: [{
+				id: "19685A7099E50397"
+				type: "loot"
+				table_id: 1459128794121417282L
+			}]
+		}
+		{
+			x: -4.21d
+			y: -1.05d
+			description: ["Geb was the Egyptian god of the earth and a mythological member of the Ennead of Heliopolis. He could also be considered a father of snakes."]
+			dependencies: ["02C29B000A3F2725"]
+			size: 0.75d
+			id: "2CFB54FED5229665"
+			tasks: [{
+				id: "009A3F2D27D5BC92"
+				type: "item"
+				item: {
+					id: "atum:gebs_undoing"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "17FA52C9B40C1068"
+				type: "loot"
+				table_id: 1459128794121417282L
+			}]
+		}
+		{
+			x: -1.65d
+			y: -1.05d
+			description: ["Shu, in Egyptian religion, is the god of the air and supporter of the sky, created by Atum by his own power, without the aid of a woman. Shu and his sister and companion, Tefnut (goddess of moisture), were the first couple of the group of nine gods called the Ennead of Heliopolis."]
+			dependencies: ["02C29B000A3F2725"]
+			size: 0.75d
+			id: "44E6A6D938280675"
+			tasks: [{
+				id: "202009DE61F632E4"
+				type: "item"
+				item: {
+					id: "atum:shus_exile"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "30A04F444510EDA0"
+				type: "loot"
+				table_id: 1459128794121417282L
+			}]
+		}
+		{
+			x: -1.3d
+			y: 0.0d
+			description: ["Ptah, in Egyptian religion, is the creator-god and maker of things, a patron of craftsmen, especially sculptors; his high priest was called “chief controller of craftsmen.” The Greeks identified Ptah with Hephaestus (Vulcan), the divine blacksmith."]
+			dependencies: ["02C29B000A3F2725"]
+			size: 0.75d
+			id: "3D486D202DCB6111"
+			tasks: [{
+				id: "69F1E5DB5DB57257"
+				type: "item"
+				item: {
+					id: "atum:ptahs_decadence"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "4158364F5F922238"
+				type: "loot"
+				table_id: 1459128794121417282L
+			}]
+		}
+		{
+			x: -3.0d
+			y: 1.65d
+			description: ["Atem represented both the self-engendering origin of the cosmos as well as the setting sun. He was most renowned as the \"father and mother of the gods\", who he created through an act of self-gratification."]
+			dependencies: ["02C29B000A3F2725"]
+			size: 0.75d
+			id: "15F058818C7B850D"
+			tasks: [{
+				id: "72E691DFA32C164B"
+				type: "item"
+				item: {
+					id: "atum:atems_homecoming"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "2C9690877BD67B8B"
+				type: "loot"
+				table_id: 1459128794121417282L
+			}]
+		}
+		{
+			x: -1.65d
+			y: 1.0d
+			description: ["Nephthys, or “Mistress of the House,” was the goddess of the air and the head of the family. She also sometimes represented Lower Egypt along with Ptah-Tanen."]
+			dependencies: ["02C29B000A3F2725"]
+			size: 0.75d
+			id: "44529C11AF00DD69"
+			tasks: [{
+				id: "509A2968B2DF5503"
+				type: "item"
+				item: {
+					id: "atum:nepthys_banishing"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "6E68D0E84B7405C2"
+				type: "loot"
+				table_id: 1459128794121417282L
+			}]
+		}
+		{
+			x: -4.25d
+			y: 1.0d
+			description: ["Montu was a falcon-god of war in ancient Egyptian religion, an embodiment of the conquering vitality of the pharaoh."]
+			dependencies: ["02C29B000A3F2725"]
+			size: 0.75d
+			id: "4453BD032BAA9272"
+			tasks: [{
+				id: "1A2C19A5AE95220D"
+				type: "item"
+				item: {
+					id: "atum:montus_blast"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "35EBA7844695ACEF"
+				type: "loot"
+				table_id: 1459128794121417282L
+			}]
+		}
+		{
+			x: -3.0d
+			y: -2.75d
+			dependencies: ["48B3DE9062F961FF"]
+			size: 0.75d
+			id: "701487EDECBE6A1F"
+			tasks: [{
+				id: "76C246BC6A87500C"
+				type: "item"
+				item: {
+					id: "draconicevolution:wyvern_chestpiece"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									-2121044765
+									114772921
+									-1250684366
+									-1135098803
+								]
+								modules: [ ]
+								properties: { }
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "36FC8BF466DACB53"
+				type: "loot"
+				table_id: 1459128794121417282L
+			}]
+		}
+		{
+			x: -5.75d
+			y: 0.0d
+			dependencies: ["7244FD3A5756006F"]
+			size: 0.75d
+			id: "024B07929B56BE21"
+			tasks: [{
+				id: "13FD8B2B8D7BD0F0"
+				type: "item"
+				item: {
+					id: "draconicevolution:wyvern_shovel"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									32295358
+									-1679146142
+									-1842732712
+									1941331853
+								]
+								modules: [ ]
+								properties: {
+									mining_speed: {
+										hud: 1b
+										value: 1.0d
+									}
+								}
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "3222BDABCE9430A6"
+				type: "loot"
+				table_id: 1459128794121417282L
+			}]
+		}
+		{
+			x: -5.0d
+			y: -1.8d
+			dependencies: ["2CFB54FED5229665"]
+			size: 0.75d
+			id: "0E0AAB4CF47E46AE"
+			tasks: [{
+				id: "39373DF2B65B8CAB"
+				type: "item"
+				item: {
+					id: "draconicevolution:wyvern_hoe"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									-1668644112
+									490033047
+									-1099291337
+									78740478
+								]
+								modules: [ ]
+								properties: { }
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "656893CD45D98ED1"
+				type: "loot"
+				table_id: 1459128794121417282L
+			}]
+		}
+		{
+			x: -0.87d
+			y: -1.8d
+			dependencies: ["44E6A6D938280675"]
+			size: 0.75d
+			id: "27AD173F83CF9F1E"
+			tasks: [{
+				id: "3915113E6EE6FB81"
+				type: "item"
+				item: {
+					id: "draconicevolution:wyvern_axe"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									2144465455
+									1776241481
+									-1468174836
+									-806332176
+								]
+								modules: [ ]
+								properties: {
+									mining_speed: {
+										hud: 1b
+										value: 1.0d
+									}
+								}
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "7AADB63E027470E2"
+				type: "loot"
+				table_id: 1459128794121417282L
+			}]
+		}
+		{
+			x: -3.0d
+			y: 2.75d
+			dependencies: ["15F058818C7B850D"]
+			size: 0.75d
+			id: "0829C0D09FE1D0C9"
+			tasks: [
+				{
+					id: "6857DD83E7FF29DA"
+					type: "item"
+					item: {
+						id: "draconicevolution:draconic_shovel"
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								module_host: {
+									provider_id: [I;
+										1884656326
+										143870955
+										-1103805614
+										-147841195
+									]
+									modules: [ ]
+									properties: {
+										mining_speed: {
+											hud: 1b
+											value: 1.0d
+										}
+									}
+								}
+								energy: {
+									energy: 0L
+								}
+							}
+						}
+					}
+				}
+				{
+					id: "3FDD8F6082D01514"
+					type: "item"
+					item: {
+						id: "draconicevolution:draconic_pickaxe"
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								module_host: {
+									provider_id: [I;
+										116791689
+										-61257320
+										-1291631496
+										733373094
+									]
+									modules: [ ]
+									properties: {
+										mining_speed: {
+											hud: 1b
+											value: 1.0d
+										}
+									}
+								}
+								energy: {
+									energy: 0L
+								}
+							}
+						}
+					}
+				}
+				{
+					id: "269F5BAA16B83D20"
+					type: "item"
+					item: {
+						id: "draconicevolution:draconic_sword"
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								module_host: {
+									provider_id: [I;
+										1734738073
+										164253495
+										-1704227672
+										122149557
+									]
+									modules: [ ]
+									properties: { }
+								}
+								energy: {
+									energy: 0L
+								}
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "4A9A2003DDB2A099"
+					type: "item"
+					item: "draconicevolution:chaotic_proj_velocity_module"
+				}
+				{
+					id: "67C874ED9D16C195"
+					type: "loot"
+					table_id: 1459128794121417282L
+				}
+			]
+		}
+		{
+			x: -0.1d
+			y: 0.0d
+			dependencies: ["3D486D202DCB6111"]
+			size: 0.75d
+			id: "54DB0E586D2D524E"
+			tasks: [{
+				id: "7D4E583D36B13776"
+				type: "item"
+				item: {
+					id: "draconicevolution:wyvern_pickaxe"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									-244016608
+									-412989460
+									-1598693674
+									1019777376
+								]
+								modules: [ ]
+								properties: {
+									mining_speed: {
+										hud: 1b
+										value: 1.0d
+									}
+								}
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "48C5FECA34E46386"
+				type: "loot"
+				table_id: 1459128794121417282L
+			}]
+		}
+		{
+			x: -0.75d
+			y: 1.75d
+			dependencies: ["44529C11AF00DD69"]
+			size: 0.75d
+			id: "6D3612C63D3064D7"
+			tasks: [{
+				id: "731E80F875593842"
+				type: "item"
+				item: {
+					id: "draconicevolution:wyvern_sword"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									-215753400
+									-1833155787
+									-2028569475
+									-1531635160
+								]
+								modules: [ ]
+								properties: { }
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "61E5CA8F386B8438"
+				type: "loot"
+				table_id: 1459128794121417282L
+			}]
+		}
+		{
+			x: -5.0d
+			y: 1.75d
+			dependencies: ["4453BD032BAA9272"]
+			size: 0.75d
+			id: "7F8C491DDC7B8DD5"
+			tasks: [{
+				id: "7C82E8CEF884AEC2"
+				type: "item"
+				item: {
+					id: "draconicevolution:wyvern_bow"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									1290516577
+									140069675
+									-1593819846
+									1946668240
+								]
+								modules: [ ]
+								properties: { }
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "105C6DA57754D9D0"
+				type: "loot"
+				table_id: 1459128794121417282L
+			}]
+		}
+		{
+			x: -11.0d
+			y: -2.0d
+			description: [
+				""
+				"Tools/Armor from Draconic Evolution are primarily crafted using Fusion Crafting.  A catalyst item goes into the middle, and 8 Fusion Pedestals are placed facing it, as shown below.  The pedestals require an immense amount of power, which you will have plenty of soon.  Each Pedestal will require high tier energy transfer to supply the vast amounts of energy required."
+				"{image:rusticwaters:textures/infused.png width:190 height:100 align:1}"
+			]
+			dependencies: ["3D0D88AA531F6DD9"]
+			id: "064C95B0FC25B286"
+			tasks: [
+				{
+					id: "4F70A5AA7F493AFB"
+					type: "item"
+					item: "draconicevolution:crafting_core"
+				}
+				{
+					id: "0E181D77727A1B9A"
+					type: "item"
+					item: "draconicevolution:basic_crafting_injector"
+					count: 8L
+				}
+			]
+			rewards: [{
+				id: "7790755A9A68FA3A"
+				type: "item"
+				item: "miniutilities:experience_pearl_3x"
+			}]
+		}
+		{
+			x: -2.975d
+			y: -3.97d
+			dependencies: ["701487EDECBE6A1F"]
+			size: 0.85d
+			id: "17DE7766E98342DC"
+			tasks: [{
+				id: "221DE8C8720E5AC5"
+				type: "item"
+				item: {
+					id: "draconicevolution:draconic_chestpiece"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									1492028678
+									-1300938429
+									-2073815193
+									2043520479
+								]
+								modules: [ ]
+								properties: { }
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "05386CCEBF192285"
+				type: "loot"
+				table_id: 1459128794121417282L
+			}]
+		}
+		{
+			x: -0.10000000000000009d
+			y: -2.6d
+			dependencies: ["27AD173F83CF9F1E"]
+			size: 0.85d
+			id: "6BE92DB32F26B1CC"
+			tasks: [{
+				id: "6028B0C867CDE913"
+				type: "item"
+				item: {
+					id: "draconicevolution:draconic_axe"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									-933159517
+									1073368641
+									-1865438327
+									107542131
+								]
+								modules: [ ]
+								properties: {
+									mining_speed: {
+										hud: 1b
+										value: 1.0d
+									}
+								}
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "423D89992E37DEC3"
+				type: "loot"
+				table_id: 1459128794121417282L
+			}]
+		}
+		{
+			x: 0.3d
+			y: 2.5d
+			dependencies: ["6D3612C63D3064D7"]
+			size: 0.85d
+			id: "2E209FA93A172ED6"
+			tasks: [{
+				id: "0F47F2FE886CDF26"
+				type: "item"
+				item: {
+					id: "draconicevolution:draconic_sword"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									-305045183
+									644105353
+									-1162501080
+									-859533736
+								]
+								modules: [ ]
+								properties: { }
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "094E1ABD2DE30742"
+				type: "loot"
+				table_id: 1459128794121417282L
+			}]
+		}
+		{
+			x: 1.1d
+			y: 0.04d
+			dependencies: ["54DB0E586D2D524E"]
+			size: 0.85d
+			id: "54DF8538DA4030CB"
+			tasks: [{
+				id: "66E877FE11F65B36"
+				type: "item"
+				item: {
+					id: "draconicevolution:draconic_pickaxe"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									-819378948
+									1393445572
+									-1793185329
+									-1596482420
+								]
+								modules: [ ]
+								properties: {
+									mining_speed: {
+										hud: 1b
+										value: 1.0d
+									}
+								}
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "24C285FA2146DFCE"
+				type: "loot"
+				table_id: 1459128794121417282L
+			}]
+		}
+		{
+			x: -5.75d
+			y: 2.5d
+			dependencies: ["7F8C491DDC7B8DD5"]
+			size: 0.85d
+			id: "119CD53493169F36"
+			tasks: [{
+				id: "7ABD14EB47A45D05"
+				type: "item"
+				item: {
+					id: "draconicevolution:draconic_bow"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									-2104286659
+									438980084
+									-2000958801
+									-1851642010
+								]
+								modules: [ ]
+								properties: { }
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "2E5AFE69FD43006A"
+				type: "loot"
+				table_id: 1459128794121417282L
+			}]
+		}
+		{
+			x: -2.975d
+			y: 3.8d
+			dependencies: ["0829C0D09FE1D0C9"]
+			size: 0.85d
+			id: "25AE72AA43AF3C07"
+			tasks: [{
+				id: "19DB6CF04A961CD0"
+				type: "item"
+				item: {
+					id: "draconicevolution:draconic_staff"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									-423638312
+									-851557955
+									-1205767573
+									1077910965
+								]
+								modules: [ ]
+								properties: {
+									mining_speed: {
+										hud: 1b
+										value: 1.0d
+									}
+								}
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "749BC8E17FEF46C0"
+				type: "loot"
+				table_id: 6356432235294764866L
+			}]
+		}
+		{
+			x: -5.8d
+			y: -2.6d
+			dependencies: ["0E0AAB4CF47E46AE"]
+			size: 0.85d
+			id: "4E04EE4C3FF1C60C"
+			tasks: [{
+				id: "5ADA8EC20539C563"
+				type: "item"
+				item: {
+					id: "draconicevolution:draconic_hoe"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									-1441800219
+									1359499193
+									-1230377121
+									1240408564
+								]
+								modules: [ ]
+								properties: { }
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "51DB8BF906BB0CB4"
+				type: "loot"
+				table_id: 1459128794121417282L
+			}]
+		}
+		{
+			x: -6.89d
+			y: 0.04d
+			dependencies: ["024B07929B56BE21"]
+			size: 0.85d
+			id: "670C78E3473B0C62"
+			tasks: [{
+				id: "6C62314C4550C2B9"
+				type: "item"
+				item: {
+					id: "draconicevolution:draconic_shovel"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									1586738976
+									1085883434
+									-1860790811
+									1779940620
+								]
+								modules: [ ]
+								properties: {
+									mining_speed: {
+										hud: 1b
+										value: 1.0d
+									}
+								}
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "4F5D4F6F6F0E37BF"
+				type: "loot"
+				table_id: 1459128794121417282L
+			}]
+		}
+		{
+			x: -1.62d
+			y: 3.8d
+			shape: "octagon"
+			dependencies: ["25AE72AA43AF3C07"]
+			id: "61317A99607119AC"
+			tasks: [{
+				id: "111DEE96DAFC7EFA"
+				type: "item"
+				item: {
+					id: "draconicevolution:chaotic_staff"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									922601951
+									-164214851
+									-1087941812
+									-571212911
+								]
+								modules: [ ]
+								properties: {
+									mining_speed: {
+										hud: 1b
+										value: 1.0d
+									}
+								}
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "3456537FEF3831FB"
+				type: "loot"
+				table_id: 6356432235294764866L
+			}]
+		}
+		{
+			x: 0.9d
+			y: 1.5d
+			shape: "hexagon"
+			dependencies: ["2E209FA93A172ED6"]
+			id: "04779F35592A2E39"
+			tasks: [{
+				id: "11BD7EA5B99BD642"
+				type: "item"
+				item: {
+					id: "draconicevolution:chaotic_sword"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									-76760326
+									1670201870
+									-1834879596
+									1941467466
+								]
+								modules: [ ]
+								properties: { }
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "4D27352CF52A10EF"
+				type: "loot"
+				table_id: 6356432235294764866L
+			}]
+		}
+		{
+			x: 1.1d
+			y: -1.14d
+			shape: "hexagon"
+			dependencies: ["54DF8538DA4030CB"]
+			id: "63715C7BB4BF796B"
+			tasks: [{
+				id: "287167129E8D6749"
+				type: "item"
+				item: {
+					id: "draconicevolution:chaotic_pickaxe"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									2075468289
+									246825593
+									-1103401405
+									1985145725
+								]
+								modules: [ ]
+								properties: {
+									mining_speed: {
+										hud: 1b
+										value: 1.0d
+									}
+								}
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "4DE28E83ECD47628"
+				type: "loot"
+				table_id: 6356432235294764866L
+			}]
+		}
+		{
+			x: -1.0d
+			y: -3.5d
+			shape: "hexagon"
+			dependencies: ["6BE92DB32F26B1CC"]
+			id: "4D88D85CB4A4C027"
+			tasks: [{
+				id: "66ABA691A34BD751"
+				type: "item"
+				item: {
+					id: "draconicevolution:chaotic_axe"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									509604628
+									-1260761105
+									-1933546603
+									1530110279
+								]
+								modules: [ ]
+								properties: {
+									mining_speed: {
+										hud: 1b
+										value: 1.0d
+									}
+								}
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "360DD80B2028C417"
+				type: "loot"
+				table_id: 6356432235294764866L
+			}]
+		}
+		{
+			x: -4.25d
+			y: -3.99d
+			shape: "hexagon"
+			dependencies: ["17DE7766E98342DC"]
+			id: "70786B045E9B5E96"
+			tasks: [{
+				id: "3208BBCF9B9A4F64"
+				type: "item"
+				item: {
+					id: "draconicevolution:chaotic_chestpiece"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									2020449628
+									-626505751
+									-2009543631
+									1581068741
+								]
+								modules: [ ]
+								properties: { }
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "3EE120292954BB6C"
+				type: "loot"
+				table_id: 6356432235294764866L
+			}]
+		}
+		{
+			x: -6.57d
+			y: -1.73d
+			shape: "hexagon"
+			dependencies: ["4E04EE4C3FF1C60C"]
+			id: "0D34F654F5C704D7"
+			tasks: [{
+				id: "41055F8808FEE418"
+				type: "item"
+				item: {
+					id: "draconicevolution:chaotic_hoe"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									-712734862
+									1956397964
+									-2115254441
+									-1157544838
+								]
+								modules: [ ]
+								properties: { }
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "40BC9B561F2B16CF"
+				type: "loot"
+				table_id: 6356432235294764866L
+			}]
+		}
+		{
+			x: -6.9d
+			y: 1.15d
+			shape: "hexagon"
+			dependencies: ["670C78E3473B0C62"]
+			id: "7289E26C63BA45A1"
+			tasks: [{
+				id: "2A1A42F10B08500D"
+				type: "item"
+				item: {
+					id: "draconicevolution:chaotic_shovel"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									868207138
+									-655339912
+									-1981862963
+									610467514
+								]
+								modules: [ ]
+								properties: {
+									mining_speed: {
+										hud: 1b
+										value: 1.0d
+									}
+								}
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "1468A4A0114ABC79"
+				type: "loot"
+				table_id: 6356432235294764866L
+			}]
+		}
+		{
+			x: -4.7d
+			y: 3.25d
+			shape: "hexagon"
+			dependencies: ["119CD53493169F36"]
+			id: "7F62A2BFB4929E99"
+			tasks: [{
+				id: "49C4A7C78411312C"
+				type: "item"
+				item: {
+					id: "draconicevolution:chaotic_bow"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									558567424
+									322128075
+									-1081752923
+									888284922
+								]
+								modules: [ ]
+								properties: { }
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+		}
+		{
+			icon: "atum:scarab"
+			x: -11.0d
+			y: -4.0d
+			subtitle: "To complete this quest you need only to visit Atum and pick up a block of Strange Sand."
+			description: ["Atum is a medium sized planet located further from the Sun than Earth.  For this reason, they have not been heavily impacted by the recent Supernovas... yet.  There are resources to be gathered from this desert planet, but it will not be an easy journey."]
+			id: "2FCE900DF98BB0BF"
+			tasks: [{
+				id: "7EA8C8F294AD9A78"
+				type: "item"
+				item: "atum:sand"
+			}]
+			rewards: [{
+				id: "66AC6320118E7C2D"
+				type: "item"
+				item: "decimal_coins:coin_20"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 0.0d
+			shape: "diamond"
+			subtitle: "The Godforge breaks down unwanted God drops into crystals."
+			description: [
+				"You can awaken the ancient Pharaohs of planet Atum by finding their Pyramids and locating their Sarcophagus.  The Pyramid entrances are located on one side of the pillar, and require Nebu Torches to open.  Placing four Pharaoh-specific Nebu torches around the sarcophagus and then right click it.  Pharaohs will drop weapons and items that will allow you to craft the most powerful equipment in this adventure.  You can specify which God's Pharaoh you want to summon by using their specific Nebu Torch."
+				""
+				"{image:rusticwaters:textures/sarcs2.png width:200 height:100 align:1}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["6A4EE5051F9D1C7F"]
+			id: "02C29B000A3F2725"
+			tasks: [
+				{
+					id: "31DD180257FCD96E"
+					type: "item"
+					item: "atum:torch_of_ra"
+					count: 4L
+				}
+				{
+					id: "6A4618616F1C720D"
+					type: "item"
+					item: "atum:torch_of_montu"
+					count: 4L
+				}
+				{
+					id: "5A785720F54B00EB"
+					type: "item"
+					item: "atum:nebu_torch"
+					count: 8L
+				}
+			]
+			rewards: [{
+				id: "0054CD57AF2A05D2"
+				type: "item"
+				item: "atum:godforge"
+			}]
+		}
+		{
+			x: -12.0d
+			y: -2.0d
+			description: ["It can be complicated to automate Fusion Crafting due to the multiple pedestals in use at once.  The Crafting Injector Item Router helps to simplify this process.  It will wirelessly teleport items from itself to the location tagged by the corresponding appropriate Crafting Injector Location Card."]
+			dependencies: ["064C95B0FC25B286"]
+			id: "37AAAD6A2C497153"
+			tasks: [{
+				id: "73614119AE2FC840"
+				type: "item"
+				item: "draconicmachinery:crafting_injector_item_router"
+			}]
+			rewards: [{
+				id: "236D63D47B275668"
+				type: "loot"
+				table_id: 3729081586183020876L
+			}]
+		}
+		{
+			x: -13.0d
+			y: -2.5d
+			description: [
+				"The Item Router has slots to provide for up to 10 pedestals.  Each of these slots accepts a Crafting Injector Location Card.  Once you have set up your Fusion Crafting pedestals, place a Crafting Injector Location card into one of the pedestals and it will automatically store the coordinates.  Then place the Location Card into the Item Router so it knows which pedestal to send that item to."
+				"{image:rusticwaters:textures/router.png width:180 height:100 align:1}"
+			]
+			dependencies: ["37AAAD6A2C497153"]
+			id: "41D0C96DBE31003F"
+			tasks: [{
+				id: "4DF41A7D86E47596"
+				type: "item"
+				item: {
+					id: "draconicmachinery:crafting_injector_location_card"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "3D9C7828601FFCAD"
+				type: "command"
+				command: "/tellraw @p {\"text\":\"->Click for Item Router Video<-\",\"color\":\"#02FF00\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://youtu.be/sZy32k41hfo?t=639\"}}"
+				player_command: false
+			}]
+		}
+		{
+			x: -10.0d
+			y: -2.0d
+			description: ["Just like the tools and armor of Draconic Evolution have tiers, so do the Fusion Pedestals.  Higher crafting recipes require higher Fusion Pedestals and of course, more power.  You can see the tier of pedestals required for each recipe when you view the recipes in JEI."]
+			dependencies: ["064C95B0FC25B286"]
+			id: "6BF9437284F27E99"
+			tasks: [{
+				id: "287D731911744D34"
+				type: "item"
+				item: "draconicevolution:wyvern_crafting_injector"
+				count: 8L
+			}]
+			rewards: [{
+				id: "68669786319BF6CC"
+				type: "item"
+				item: "mekanism:ultimate_universal_cable"
+				count: 4
+			}]
+		}
+		{
+			x: -9.0d
+			y: -2.5d
+			description: ["The Third Tier of Fusion Pedestal, used to craft most Draconic tier tools and armor."]
+			dependencies: ["6BF9437284F27E99"]
+			id: "38594B85EE17B9F6"
+			tasks: [{
+				id: "2334B2474F46A888"
+				type: "item"
+				item: "draconicevolution:awakened_crafting_injector"
+				count: 8L
+			}]
+			rewards: [{
+				id: "75C8DC75C36BD77E"
+				type: "item"
+				item: "draconicevolution:draconic_proj_penetration_module"
+			}]
+		}
+		{
+			x: -13.0d
+			y: -1.5d
+			description: ["Item Receivers can act as destinations for your Crafting Injector Item Router as well, for other, non-Fusion Crafting related wireless item transfer needs."]
+			dependencies: ["41D0C96DBE31003F"]
+			id: "59F14E82F3FA5B2D"
+			tasks: [{
+				id: "70504DB8EF958B84"
+				type: "item"
+				item: "draconicmachinery:item_reciever"
+			}]
+			rewards: [{
+				id: "302F6B1C22DC72D7"
+				type: "item"
+				item: "appliedenergistics2:wireless_booster"
+				count: 2
+			}]
+		}
+		{
+			x: -9.0d
+			y: -1.5d
+			description: ["Chaotic Fusion Pedestals are required to craft most Chaotic tier tools and armor."]
+			dependencies: ["38594B85EE17B9F6"]
+			id: "4F388CE844C7CC16"
+			tasks: [{
+				id: "7ECD821A1BCA273D"
+				type: "item"
+				item: "draconicevolution:chaotic_crafting_injector"
+				count: 8L
+			}]
+			rewards: [{
+				id: "195239115E74005C"
+				type: "item"
+				item: "draconicevolution:chaotic_large_shield_capacity_module"
+			}]
+		}
+		{
+			x: -13.0d
+			y: -0.5d
+			description: ["Failing Draconic Reactors, in this adventure, DO NOT create the massive city-block sized explosions that you may have seen in videos.  They will however, meltdown and explode in a small 16x16(ish) area, spreading blotches of Lava in the area, if they do meltdown.  This could destroy some of the components used to control the reactor.  This is not a terrible playthrough ending event, but it is a waste of materials."]
+			dependencies: ["6007B8859A5CB09C"]
+			id: "07392500CB04FE8D"
+			tasks: [{
+				id: "265E0C1BA36D28E9"
+				type: "item"
+				item: "draconicevolution:reactor_prt_in_rotor"
+				count: 8L
+			}]
+			rewards: [{
+				id: "62B654372F7B2A5B"
+				type: "item"
+				item: {
+					id: "mysticalagriculture:infusion_crystal"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -10.0d
+			y: 0.0d
+			subtitle: "This quest reward will take you to a page that will allow you to read more in-depth information on this topic as well."
+			description: [
+				"Once you have set up your reactor as shown in the diagram in the previous quest, it will allow you to access its GUI.  The GUI will be explained in the following quests.  "
+				"{image:rusticwaters:textures/dcreacttemp.png width:175 height:100 align:1}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["4ED42F281CE3B5BC"]
+			id: "6291F7A5860A325E"
+			tasks: [{
+				id: "38E3B78B52072EB4"
+				type: "item"
+				item: "draconicevolution:reactor_prt_focus_ring"
+				count: 4L
+			}]
+			rewards: [{
+				id: "6E026E6E8A355515"
+				type: "command"
+				command: "/tellraw @p {\"text\":\"->Click for Draconic Reactor Wiki<-\",\"color\":\"#02FF00\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://ftb.fandom.com/wiki/Draconic_Evolution_Reactor_Guide\"}}"
+				player_command: false
+			}]
+		}
+		{
+			x: -13.0d
+			y: 0.5d
+			description: [
+				"Your Reactor must be set up in the following manner:"
+				"1.  Reactor Core, placed with enough clearance that there are no other items 6 blocks in any direction."
+				"2.  Place 1 Reactor Stabilizer facing the core, 6 blocks away, on each cardinal direction.  This can also be done on the vertical plane if you are feeling fancy."
+				"3.  Place the Reactor Energy Injector facing the Reactor Core, 6-7 blocks beneath the Reactor Core."
+				"{image:rusticwaters:textures/dcreact.png width:180 height:100 align:1}"
+			]
+			dependencies: ["07392500CB04FE8D"]
+			id: "4ED42F281CE3B5BC"
+			tasks: [{
+				id: "602549C04D5E30DA"
+				type: "item"
+				item: "draconicevolution:reactor_prt_rotor_full"
+				count: 4L
+			}]
+			rewards: [{
+				id: "716EF271B1A73D4B"
+				type: "item"
+				item: "mekanism:energy_tablet"
+			}]
+		}
+		{
+			x: -9.0d
+			y: -0.5d
+			description: [
+				"Maintaining an operational reactor is all about balancing the flow of energy out of your reactor, with the amount of energy funneled back into your reactor to maintain its Containment Shield Strength."
+				"{image:rusticwaters:textures/dcreactfield.png width:180 height:100 align:1}"
+			]
+			dependencies: ["6291F7A5860A325E"]
+			id: "129F6DA58C3D466B"
+			tasks: [{
+				id: "4A8B5E40A843B69D"
+				type: "item"
+				item: "draconicevolution:reactor_prt_stab_frame"
+				count: 4L
+			}]
+			rewards: [{
+				id: "3750C1411A7EA2DF"
+				type: "item"
+				item: "mekanism:elite_induction_provider"
+				count: 2
+			}]
+		}
+		{
+			x: -11.0d
+			y: -1.0d
+			subtitle: "There are many ways to get Nether Stars.  You can use an Industrial Foregoing Wither Builder to create a manual farm, the Woot Multiblock to create an automated farm, or the Ars Nouveau Enchanting Apparatus to conjure Nether Stars without ever touching the Wither."
+			description: ["You will require a steady flow of Nether Stars in order to progress through the end game recipes of Draconic Evolution.  Wyvern Cores especially, are a common component of the Draconic Reactor."]
+			dependencies: ["064C95B0FC25B286"]
+			id: "25B6A8C07B92F5C8"
+			tasks: [{
+				id: "11BCF0BDE1EF9F9F"
+				type: "item"
+				item: "minecraft:nether_star"
+				count: 20L
+			}]
+			rewards: [
+				{
+					id: "6A0950A47010D190"
+					type: "item"
+					item: "draconicevolution:draconium_ingot"
+					count: 24
+				}
+				{
+					id: "27C8A852BA0D9BE6"
+					type: "item"
+					item: "thermal:enderium_ingot"
+					count: 16
+				}
+			]
+		}
+		{
+			x: -11.0d
+			y: 1.0d
+			description: [
+				"This is an example of the reactor GUI when the reactor is running stable.  This reactor is producing 3.8 million FE/t, and 1 million of that is being redirected back into the reactor to keep the Containment Shield stable... for a net profit of roughly 2.8 million FE/t.  You could pull even more energy from this reactor, as long as your temps stay below 8000 degrees.  You would also need to feed the Containment Shield more energy to keep it stable.  15% is a great resting point for the shield."
+				"{image:rusticwaters:textures/stable.png width:120 height:105 align:1}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["05BA1D545160AA42"]
+			id: "47919CB647C98CC1"
+			tasks: [{
+				id: "4A9B96DBA8D53D8E"
+				type: "item"
+				item: "draconicevolution:reactor_stabilizer"
+			}]
+			rewards: [{
+				id: "5215CDEF7381AEDA"
+				type: "item"
+				item: "rustic_resources:awakdrac"
+				count: 4
+			}]
+		}
+		{
+			x: -11.0d
+			y: 0.0d
+			subtitle: "The assembly and operation of your Draconic Reactor will be explained in detail within the next dozen or so quests.  Refer back to these quests as needed."
+			description: ["The Draconic Reactor is your source for massive amounts of energy.  While it may seem like an expensive, dangerous, and complicated process, the end result is the ability to provide ample energy to your Farms, Automation, and most importantly, your Antimatter production."]
+			dependencies: ["064C95B0FC25B286"]
+			id: "6A4EE5051F9D1C7F"
+			tasks: [{
+				id: "76A5857E3A9629DE"
+				type: "item"
+				item: "draconicevolution:wyvern_core"
+				count: 16L
+			}]
+			rewards: [
+				{
+					id: "47DF14D7217AA15B"
+					type: "item"
+					item: "scalinghealth:enchanted_heart"
+				}
+				{
+					id: "44D6083EA87304B6"
+					type: "loot"
+					table_id: 6356432235294764866L
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: 0.5d
+			description: [
+				"Energy Saturation shows how much energy you are pulling out of your reactor, and how much it has available to give.  Your reactor TRIES to have full saturation, so the more energy you pull out, the harder your reactor works to replace the energy.  This does not mean YOU want full saturation.  Hovering around the 50% mark will mean your reactor is balancing the load well.  Watch your field containment strength as you figure out what saturation works for you."
+				"{image:rusticwaters:textures/dcreactsat.png width:180 height:100 align:1}"
+			]
+			dependencies: ["129F6DA58C3D466B"]
+			id: "05BA1D545160AA42"
+			tasks: [{
+				id: "3FB46EE259A3FFBE"
+				type: "item"
+				item: "draconicmachinery:redstone_core"
+				count: 8L
+			}]
+			rewards: [{
+				id: "27FDDDF45BD46DF4"
+				type: "item"
+				item: "mekanism:alloy_atomic"
+				count: 4
+			}]
+		}
+		{
+			x: -12.0d
+			y: 0.0d
+			description: [
+				"The Draconic Reactor can be thought of as a Multiblock.  Each piece is essential and must be positioned in a particular distance from the Reactor Core in order to maintain stability."
+				"You will require the following items to complete the Reactor itself:"
+				"4 Reactor Stabilizers"
+				"1 Reactor Energy Injector"
+				"1 Reactor Core"
+			]
+			dependencies: ["6A4EE5051F9D1C7F"]
+			id: "6007B8859A5CB09C"
+			tasks: [{
+				id: "74E6A679498C48BC"
+				type: "item"
+				item: "draconicevolution:reactor_prt_out_rotor"
+				count: 8L
+			}]
+			rewards: [{
+				id: "7CAF33B06A1BC206"
+				type: "item"
+				item: "mekanism:ultimate_control_circuit"
+				count: 2
+			}]
+		}
+		{
+			x: -11.0d
+			y: 2.0d
+			subtitle: "The positioning of the Reactor Energy Injector was shown in an image a few quests ago."
+			description: ["So how do you feed energy into your reactor to keep the Containment Shield Strength stable?  By using the Reactor Energy Injector.  Energy can be fed into the bottom of the injector and will then disperse upwards into the reactor.  You will learn how to control this flow of energy using Flux Gates in the upcoming quests."]
+			dependencies: ["47919CB647C98CC1"]
+			id: "776BD33BFAD87CBF"
+			tasks: [{
+				id: "37C6D975A198F7C9"
+				type: "item"
+				item: "draconicevolution:reactor_injector"
+			}]
+			rewards: [{
+				id: "58A980CA4D751F6A"
+				type: "item"
+				item: "rustic_resources:clumpdraconium"
+				count: 32
+			}]
+		}
+		{
+			x: -11.0d
+			y: 3.0d
+			description: [
+				""
+				"Your reactor must be \"charged\".  This is done by feeding the Containment Field a massive amount of energy during the \"Warmup\" phase.  This phase can be initiated in the Reactor GUI after you have placed Awakened Draconium into the Fuel In slot.  Make sure your Mekanism energy storage has a hundred million or more energy stored to feed the Energy Injector.  Make sure you have high tier cables that won't bottelneck your energy insertion.  Also double check to make sure your outgoing Flux Gate is set to ZERO, then it is safe to turn on your reactor."
+			]
+			dependencies: ["47919CB647C98CC1"]
+			id: "4599F8F39A99B3E6"
+			tasks: [{
+				id: "08A6D384B37B1188"
+				type: "item"
+				item: "draconicevolution:reactor_core"
+			}]
+			rewards: [{
+				id: "4263F43F3BDF2DAC"
+				type: "loot"
+				table_id: 6356432235294764866L
+			}]
+		}
+		{
+			x: -9.0d
+			y: 2.5d
+			subtitle: "The Flux Gate numbers below are just an example.  You only need two, one for your Injector and one for one of your Reactor Stabilizers."
+			description: [
+				"The Flux Gate lets you control the push/pull of energy from your reactor by using a redstone signal (switch).  You could also provide varying redstone signals (1 to 15) for more detailed flow control.  Or you could just leave the signal on or off, and only ever change the corresponding value when you want to pull/push more energy. "
+				"{image:rusticwaters:textures/dcflux.png width:195 height:100 align:1}"
+			]
+			dependencies: ["47919CB647C98CC1"]
+			id: "6E5CFE7542B4C9F9"
+			tasks: [{
+				id: "0FF4E6D8744DEB11"
+				type: "item"
+				item: "draconicevolution:flux_gate"
+				count: 2L
+			}]
+			rewards: [
+				{
+					id: "457C40CE41BF0466"
+					type: "item"
+					item: "cyclic:wireless_transmitter"
+				}
+				{
+					id: "1940005C13E31F28"
+					type: "item"
+					item: "cyclic:wireless_receiver"
+				}
+			]
+		}
+		{
+			x: -13.0d
+			y: 2.5d
+			description: ["The fuel for your reactor is Awakened Draconium.  Your reactor can fit up to 8 blocks of Awakened Draconium at any given time.  You need to turn your reactor off in order refuel it.  "]
+			dependencies: ["47919CB647C98CC1"]
+			id: "6A0EAB0DE15AE449"
+			tasks: [{
+				id: "14D91BF509A39014"
+				type: "item"
+				item: "draconicevolution:awakened_draconium_block"
+			}]
+			rewards: [{
+				id: "1E6316FE28A45D6B"
+				type: "item"
+				item: "draconicevolution:chaotic_jump_module"
+			}]
+		}
+		{
+			x: -11.0d
+			y: 4.0d
+			subtitle: "Your reactor will very slowly generate Chaos as a waste product."
+			description: [
+				"You will know your reactor has completed the warmup phase when the GUI shows the Activate button."
+				"Once you activate your reactor you should see the Containment Field and Fuel Saturation start to rise to 100%.  This means you are ready to start extracting power by adjusting the outgoing Flux Gate."
+				"Start by increasing your Flux Gate extraction by small amounts: 50k-100k increments.  Keep an eye on your Containment Field Strength meter to make sure you aren't pulling too much power out.  Continue to increase the Energy Injector Flux Gate amounts to increase the Containment Field as needed, depending on how much you pull from your output Flux Gate."
+			]
+			dependencies: ["4599F8F39A99B3E6"]
+			id: "0A3FB206918DEC3C"
+			tasks: [{
+				id: "21B0958BBBF0B970"
+				type: "item"
+				item: "draconicevolution:medium_chaos_frag"
+			}]
+			rewards: [{
+				id: "774107DA3767B3D9"
+				type: "item"
+				item: "draconicevolution:advanced_magnet"
+			}]
+		}
+		{
+			x: -4.125d
+			y: -2.42d
+			shape: "diamond"
+			description: ["The Draconic equipment requires massive amounts of power.  The last thing you want is to be left low on energy in a tough battle.  Wyvern (and the higher tier) Capacitors can store more energy than other portable devices.  Consider upgrading to higher tiers as you raise the tier level of your equipment."]
+			dependencies: ["02C29B000A3F2725"]
+			size: 0.75d
+			id: "775BB1A18CAF0B4B"
+			tasks: [{
+				id: "1C069F2238B0BC32"
+				type: "item"
+				item: {
+					id: "draconicevolution:wyvern_capacitor"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									-279964863
+									-1838921931
+									-2014494560
+									-1504807296
+								]
+								modules: [ ]
+								properties: {
+									charge_main: {
+										hud: 1b
+									}
+									charge_curios: {
+										hud: 1b
+									}
+									charge_hot_bar: {
+										hud: 1b
+									}
+									charge_armor: {
+										hud: 1b
+									}
+									charge_held_item: {
+										hud: 1b
+									}
+								}
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "7EE0DE586D8A6E13"
+				type: "loot"
+				table_id: 1459128794121417282L
+			}]
+		}
+		{
+			x: -4.125d
+			y: 2.25d
+			shape: "diamond"
+			description: ["Your Draconic equipment is modular.  Holding Shift+C will allow you to open the module installation GUI.  You can customize your equipment by placing modules into the GUI slots.  Some modules require more slots.  Hover over each module to see its stats and the \"size\" of the module.  Higher tier equipment allows you to use higher tier modules, with better stats."]
+			dependencies: ["02C29B000A3F2725"]
+			size: 0.75d
+			id: "5D656009179B816A"
+			tasks: [{
+				id: "180E837D31BC07D0"
+				type: "item"
+				item: "draconicevolution:wyvern_energy_module"
+			}]
+			rewards: [{
+				id: "16DD1BD02A963568"
+				type: "item"
+				item: "draconicevolution:wyvern_proj_damage_module"
+			}]
+		}
+		{
+			x: -1.875d
+			y: 2.25d
+			shape: "diamond"
+			description: ["The weapons in Draconic Evolution do more damage than any other weapons in this adventure.  They do, however, depend on your preparation.  "]
+			dependencies: ["02C29B000A3F2725"]
+			size: 0.75d
+			id: "444A7D393ABF9D6E"
+			tasks: [{
+				id: "3FC84F036A383701"
+				type: "item"
+				item: "draconicevolution:wyvern_damage_module"
+			}]
+			rewards: [{
+				id: "22B2A35B575F65AC"
+				type: "item"
+				item: "draconicevolution:wyvern_proj_velocity_module"
+			}]
+		}
+		{
+			x: -1.9d
+			y: -2.42d
+			shape: "diamond"
+			description: ["The Shield module(s) are unique in that they require other modules in order to work properly.  The Shield Controller module installs the shield onto your chest piece.  The Shield Recovery module determines how fast it recharges.  The Shield Capacity module determines how big of a shield it is.  You must install all three to get an appropriately functioning protective shield.  You are no longer \"Immune as long as you have FE/t\" like in olden days."]
+			dependencies: ["02C29B000A3F2725"]
+			size: 0.75d
+			id: "5373F343423321DD"
+			tasks: [
+				{
+					id: "5E72C9AE21AB45D4"
+					type: "item"
+					item: "draconicevolution:wyvern_shield_control_module"
+				}
+				{
+					id: "0D568A503EFCCA6B"
+					type: "item"
+					item: "draconicevolution:wyvern_shield_recovery_module"
+				}
+			]
+			rewards: [{
+				id: "32C6AD129B7FDAF1"
+				type: "item"
+				item: "draconicevolution:wyvern_shield_capacity_module"
+			}]
+		}
+	]
+}

@@ -1,0 +1,26 @@
+{
+  "type": "thermal:centrifuge",
+  "ingredient": {
+    "item": "thermal:oil_sand"
+  },
+  "result": [
+    {
+      "item": "minecraft:sand",
+      "chance": 0.25,
+      "locked": true
+    },
+    {
+      "item": "thermal:bitumen",
+      "chance": 2.0
+    },
+    {
+      "item": "thermal:tar",
+      "chance": 0.10
+    },
+    {
+      "fluid": "immersivepetroleum:oil",
+      "amount": 50
+    }
+  ],
+  "energy": 15000
+}

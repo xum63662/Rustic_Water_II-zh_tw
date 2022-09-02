@@ -1,0 +1,493 @@
+{
+	id: "709118D288C5CF94"
+	group: ""
+	order_index: 2
+	filename: "creating_space"
+	title: "The Foundation"
+	icon: "appliedenergistics2:wooden_gear"
+	subtitle: ["This tab will walk you through the beginning steps of using the Create mod for rudimentary automation and processing."]
+	default_quest_shape: "rsquare"
+	default_hide_dependency_lines: false
+	images: [{
+		x: -6.0d
+		y: -7.5d
+		width: 22.0d
+		height: 13.5d
+		rotation: 0.0d
+		image: "rusticwaters:textures/page4.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			x: 0.0d
+			y: -9.75d
+			description: ["Until you have secured the resources to make your Coke Bricks, you can create Creosote Oil by dropping Charcoal Clumps into a source block of water."]
+			dependencies: ["7A26781B17B34C6B"]
+			size: 1.5d
+			id: "6D224D53FA1504E0"
+			tasks: [{
+				id: "42791861D09FB80B"
+				type: "item"
+				item: "rustic_resources:charcoalclump"
+				count: 2L
+			}]
+			rewards: [{
+				id: "6E72F37B2B4F5030"
+				type: "item"
+				item: {
+					id: "cyclic:emerald_pickaxe"
+					Count: 1b
+					tag: {
+						RepairCost: 3
+						Damage: 0
+						display: {
+							Name: "{\"text\":\"Dimple of Venus\"}"
+						}
+						Enchantments: [
+							{
+								lvl: 3s
+								id: "cyclic:magnet"
+							}
+							{
+								lvl: 1s
+								id: "minecraft:efficiency"
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: -11.25d
+			shape: "hexagon"
+			subtitle: "This quest chain will show you how to automate your sluices, so you no longer have to manually bucket water or input resources."
+			description: ["You can make Creosote Oil using in-world crafting.  This is done by dropping a Charcoal Clump into a source block of water."]
+			size: 1.5d
+			id: "7A26781B17B34C6B"
+			tasks: [{
+				id: "299DE4D52A989A21"
+				type: "item"
+				item: "minecraft:water_bucket"
+			}]
+			rewards: [{
+				id: "02B02B9DB8DD2F90"
+				type: "item"
+				item: "cyclic:hopper_fluid"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -9.75d
+			subtitle: "You can always revisit quests later if you don't have the materials to craft the item now."
+			description: [
+				""
+				"Cyclic Fluid Tanks are versatile and hold up to 64 buckets of any fluid.  Another benefit is that they can be used in place of a bucket of fluid inside of the crafting grid."
+			]
+			dependencies: ["7A26781B17B34C6B"]
+			size: 1.5d
+			id: "609CFC4BEA6410DE"
+			tasks: [{
+				id: "403A208F1F0F4A9E"
+				type: "item"
+				item: "cyclic:tank"
+			}]
+			rewards: [{
+				id: "08B703A21385CB4D"
+				type: "item"
+				item: "decimal_coins:coin_5"
+			}]
+		}
+		{
+			x: -2.25d
+			y: -8.25d
+			description: ["Treated wood, Andesite Alloy, and Brass are common components to develop your early game automation with Create."]
+			dependencies: ["7A26781B17B34C6B"]
+			size: 1.5d
+			id: "3A8378CACEFE22DB"
+			tasks: [{
+				id: "14929E1CAE07E00C"
+				type: "item"
+				item: "immersiveengineering:creosote_bucket"
+			}]
+			rewards: [{
+				id: "3690B462AE7778C4"
+				type: "item"
+				item: "create:mechanical_drill"
+			}]
+		}
+		{
+			x: -0.75d
+			y: -8.25d
+			subtitle: "Ore clump crushing/washing is not necessary at this stage of the adventure.  You can still do so to maximize your resources if you choose, but it's not shown in this guide."
+			description: [
+				""
+				"You can make crushed brass by combining the crushed copper and zinc from your sluice, until better methods are available."
+			]
+			dependencies: ["3A8378CACEFE22DB"]
+			size: 1.5d
+			id: "4A407326E9D06D12"
+			tasks: [{
+				id: "5D40FD092AA003C9"
+				type: "item"
+				item: "immersiveengineering:treated_wood_horizontal"
+				count: 64L
+			}]
+			rewards: [{
+				id: "2DD773FE3078E18E"
+				type: "item"
+				item: "create:crushed_brass"
+				count: 6
+			}]
+		}
+		{
+			x: -2.25d
+			y: -3.75d
+			description: [
+				"Manual Pumps can be operated by Deployers to supply water to your sluices.  Deployers \"touch\" the block 2 spaces in front of them, so the pumps are placed directly in front of the gravel/dirt deployers, and over source blocks of water.  You can use another Gearbox and Mechanical Belts to direct some of your rotational power up to the new deployers."
+				"{image:rusticwaters:textures/sluice2.png width:160 height:100 align:1}"
+			]
+			dependencies: ["4F1E0381D78FCCC8"]
+			size: 1.5d
+			id: "34F489B7FA08E4E6"
+			tasks: [{
+				id: "131705399B4CB4CC"
+				type: "item"
+				item: "ftbsluice:pump"
+				count: 2L
+			}]
+			rewards: [{
+				id: "5779E2E93AA6C472"
+				type: "item"
+				item: "rustic_resources:keyfragment"
+			}]
+		}
+		{
+			x: 2.25d
+			y: -8.25d
+			subtitle: "The time in a bottle stores \"time\" as it is in your inventory and can then be used to speed up the tick rate of the machines you click it on, making them faster. Time in a bottles are great at speeding up your Repair Chest."
+			description: ["Using the Create mod you can automate many processes in the early game.  This quest page will walk you through the most useful automation for this point in your journey.  You are encouraged to use the link provided in the Rustic Waters 2 Guide to dive deeper into the mod's extensive capabilities if you choose to."]
+			dependencies: ["4A407326E9D06D12"]
+			size: 1.5d
+			id: "13D0499F11019AED"
+			tasks: [{
+				id: "6744BB0613CD3737"
+				type: "item"
+				item: "create:wrench"
+			}]
+			rewards: [{
+				id: "37D8F0DC71D60E6A"
+				type: "item"
+				item: {
+					id: "tiab:timeinabottle"
+					Count: 1b
+					tag: {
+						timeData: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 2.25d
+			y: -6.75d
+			description: ["There are many points of interest at the water's surface as well.  Village islands spawn with villagers that have unique trades that can aid you in your adventure.  These coins are a common currency with those villagers."]
+			dependencies: ["6D224D53FA1504E0"]
+			size: 1.5d
+			id: "5F144C57F8F68844"
+			tasks: [{
+				id: "2498814E126B3E46"
+				type: "item"
+				item: "create:andesite_alloy"
+				count: 16L
+			}]
+			rewards: [{
+				id: "242F38D492E6A0E6"
+				type: "item"
+				item: "rustic_resources:keyfragment"
+			}]
+		}
+		{
+			x: 0.75d
+			y: -6.75d
+			description: ["The \"theme\" of Create is using torque, or \"Kinetic Stress Units\" to make gears turn, and machines function.  Create does an excellent job of showing you how to utilize its common blocks.  In the JEI menu, hover over an item that you would like more information on, then hold the \"W\" key to ponder about the item."]
+			dependencies: ["5F144C57F8F68844"]
+			size: 1.5d
+			id: "7FE2E7D6E21CBCF6"
+			tasks: [{
+				id: "5C70C5DC9747FF8A"
+				type: "item"
+				item: "create:shaft"
+				count: 8L
+			}]
+			rewards: [{
+				id: "28F6B3CD1D7722A2"
+				type: "item"
+				item: "create:weighted_ejector"
+			}]
+		}
+		{
+			x: 0.75d
+			y: -8.25d
+			subtitle: "Combining the copper and zinc chunks you get from your sluice yields brass."
+			description: ["Wearing these Engineer's Goggles will allow you to see vital information about the blocks you look at from Create.  The goggles can be worn in your Head slot, or your Curios Goggles slot.  Want to know how much power your Water Wheels are generating?  Wear the goggles and look at them."]
+			dependencies: ["4A407326E9D06D12"]
+			size: 1.5d
+			id: "283183EC1ED39CED"
+			tasks: [{
+				id: "2B4039019B12492D"
+				type: "item"
+				item: "create:goggles"
+			}]
+			rewards: [{
+				id: "29010936F41463AB"
+				type: "item"
+				item: "rustic_resources:keyfragment"
+			}]
+		}
+		{
+			x: -2.25d
+			y: -6.75d
+			description: [
+				"The Windmill generates a great amount of \"Kinetic Stress\".  Thankfully, you can rig the Windmill to generate force underwater using the flow of water currents instead of wind currents.  Now that you have opened up a Hub Expansion, you should have plenty of room to place the Windmills on the outer wall with the shaft extending inwards."
+				"{image:rusticwaters:textures/windmill.png width:160 height:100 align:1}"
+			]
+			dependencies: ["3FEF827C676CFEB6"]
+			size: 1.5d
+			id: "1CFB601950B09A54"
+			tasks: [{
+				id: "4C8BAFFBC4242F98"
+				type: "item"
+				item: "create:windmill_bearing"
+			}]
+			rewards: [{
+				id: "5797A0981D908194"
+				type: "item"
+				item: "atum:linen_cloth"
+				count: 8
+			}]
+		}
+		{
+			x: -0.75d
+			y: -6.75d
+			description: ["Create machines have two metrics: Rotational Speed and Stress Units.  To better understand it, think of Rotational Speed being how fast tires spin... while Stress Units dictate how heavy of a load they can hold while still spinning.  Some machines require faster Rotational Speeds, which in turn creates more Stress.  Run out of Stress and your system still stop spinning."]
+			dependencies: ["7FE2E7D6E21CBCF6"]
+			size: 1.5d
+			id: "3FEF827C676CFEB6"
+			tasks: [{
+				id: "10C67866B40B99AA"
+				type: "item"
+				item: "create:hand_crank"
+			}]
+			rewards: [{
+				id: "2C3260A16E8F7793"
+				type: "item"
+				item: "decimal_coins:coin_5"
+			}]
+		}
+		{
+			x: -2.25d
+			y: -5.25d
+			description: ["The more Sails you have attached to your Windmill Bearing, the more water current they catch, and the more rotational power you generate.  You can add more than the 24 you are making for this quest."]
+			dependencies: ["1CFB601950B09A54"]
+			size: 1.5d
+			id: "158042A0D98BF780"
+			tasks: [{
+				id: "6B685376BA8AB39D"
+				type: "item"
+				item: "create:sail_frame"
+				count: 24L
+			}]
+			rewards: [{
+				id: "1912BA821A1BE166"
+				type: "item"
+				item: "tipsy:corals_lite"
+			}]
+		}
+		{
+			x: -0.75d
+			y: -5.25d
+			description: ["Once you have assembled your Windmill, click on its backside to start it up.  Place Shafts from the back extending into your Hub.  These shafts will be what turns the gears to power your operations.  You can make more Windmills if needed."]
+			dependencies: ["158042A0D98BF780"]
+			size: 1.5d
+			id: "7C54C77D59A11DEE"
+			tasks: [{
+				id: "0F600FE250F66224"
+				type: "item"
+				item: "create:white_sail"
+				count: 24L
+			}]
+			rewards: [{
+				id: "2528CB5E1F3836BC"
+				type: "item"
+				item: "immersiveengineering:treated_wood_horizontal"
+				count: 16
+			}]
+		}
+		{
+			x: 2.25d
+			y: -3.75d
+			description: ["Now that you have some Kinetic Stress, let’s put it to good use.  A gearbox will rotate the axes of your shaft 90 degrees and branch off into other directions."]
+			dependencies: ["7C54C77D59A11DEE"]
+			size: 1.5d
+			id: "40C15439401A6D3D"
+			tasks: [{
+				id: "1D3BE5B40DC45724"
+				type: "item"
+				item: "create:gearbox"
+			}]
+			rewards: [{
+				id: "3D43DA5FC78512CA"
+				type: "item"
+				item: "create:encased_chain_drive"
+				count: 4
+			}]
+		}
+		{
+			x: -0.75d
+			y: -3.75d
+			description: [
+				"Deployers are akin to \"automated users\".  They can place blocks, activate a lever, or even attack enemies.  They perform this action TWO SPACES in front of them, bypassing whatever is in the first space.  They can even place gravel and dirt into your sluice when hoppered in from above them."
+				"{image:rusticwaters:textures/sluice1.png width:165 height:100 align:1}"
+			]
+			dependencies: ["7C54C77D59A11DEE"]
+			size: 1.5d
+			id: "4F1E0381D78FCCC8"
+			tasks: [{
+				id: "75AA71A5F1347766"
+				type: "item"
+				item: "create:deployer"
+				count: 4L
+			}]
+			rewards: [{
+				id: "734E0004B3E7CBD3"
+				type: "item"
+				item: "minecraft:hopper"
+				count: 2
+			}]
+		}
+		{
+			x: 0.75d
+			y: -5.25d
+			subtitle: "You will gain access to a machine that simplifies increasing your rotational speed soon."
+			description: [
+				"Create machines work faster with more rotational speed.  Remember though, increasing the speed, increases the stress.  The turning radius of a large cogwheel covers more space than a [small] cogwheel.  You can use this to speed up the rotational output.  In the image below, the small Cogwheel will spin much faster when turned by the large cogwheel."
+				"{image:rusticwaters:textures/faster.png width:180 height:100 align:1}"
+			]
+			dependencies: ["7C54C77D59A11DEE"]
+			size: 1.5d
+			id: "31EFD1B2FA9E3643"
+			tasks: [{
+				id: "0E627F6888CC2B00"
+				type: "item"
+				item: "create:cogwheel"
+				count: 12L
+			}]
+			rewards: [{
+				id: "2B0FB2FE53795D22"
+				type: "item"
+				item: "decimal_coins:coin_5"
+			}]
+		}
+		{
+			x: 2.25d
+			y: -5.25d
+			description: [
+				"You can continue increasing the speed by adding a Large Cogwheel onto your small Cogwheel and then repeating the process, multiplying the rotational force each time.  There will be a limit to the amount of \"Stress\" you can apply a single chain.  Make sure to use your goggles for more information about each piece."
+				"{image:rusticwaters:textures/faster2.png width:160 height:100 align:1}"
+			]
+			dependencies: ["7C54C77D59A11DEE"]
+			size: 1.5d
+			id: "6998500CA9326C73"
+			tasks: [{
+				id: "2BE6454D7C8E13E5"
+				type: "item"
+				item: "create:large_cogwheel"
+				count: 2L
+			}]
+			rewards: [{
+				id: "75DAF1CA7766DC5D"
+				type: "item"
+				item: "create:stressometer"
+			}]
+		}
+		{
+			x: 0.75d
+			y: -3.75d
+			subtitle: "Kelp can be harvested from the Ocean Floor and dried in the furnace."
+			description: [
+				"Mechanical belts extend rotational power to an adjacent shaft.  A combination of Mechanical Belts and Gearboxes can redirect your rotational power almost anywhere.  There are Vertical and Horizontal gearboxes."
+				"{image:rusticwaters:textures/belts.png width:162 height:100 align:1}"
+			]
+			dependencies: ["7C54C77D59A11DEE"]
+			size: 1.5d
+			id: "2D664BD7A6FF4C15"
+			tasks: [{
+				id: "2728476BEDC1D942"
+				type: "item"
+				item: "create:belt_connector"
+				count: 2L
+			}]
+			rewards: [{
+				id: "0074B506CA98E525"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			icon: "rustic_resources:hubexpankey"
+			x: -5.9d
+			y: -8.5d
+			shape: "gear"
+			description: ["Congratulations.  You have earned your next Hub Expansion Key.  This should come in handy as you progress into the next quest chapter covering, Advanced Crafting and Power Generation."]
+			hide_dependency_lines: true
+			dependencies: ["4A407326E9D06D12"]
+			size: 2.0d
+			id: "1F5E1F4ABE3C56C0"
+			tasks: [{
+				id: "3AFD7B84B6F7AED5"
+				type: "item"
+				item: "rustic_resources:hubexpankey"
+			}]
+			rewards: [{
+				id: "75C45B22D3449E7E"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 1s
+							id: "minecraft:silk_touch"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: -9.75d
+			subtitle: "The Toolbox will come in quite handy as you manage all of the pieces of your Create factory.  Hold Shift while hovering over it for details."
+			description: [
+				"The Coke Oven will allow you to turn certain combustible fuels such as Coal and Charcoal into Creosote and Coal Coke.  Place Coke Bricks into a 3x3x3 pattern, then right click it with the Engineer's Hammer."
+				"Charcoal and Coal can both be used in the Coke Over.  Charcoal is slightly faster, but gives slightly less Creosote output.  See JEI for recipes."
+			]
+			dependencies: ["7A26781B17B34C6B"]
+			size: 1.5d
+			id: "0379415231D25F77"
+			tasks: [{
+				id: "6D3FB19308F78D41"
+				type: "item"
+				item: "immersiveengineering:cokebrick"
+				count: 27L
+			}]
+			rewards: [{
+				id: "1E82DAC84426220F"
+				type: "item"
+				item: "create:brown_toolbox"
+			}]
+		}
+	]
+}

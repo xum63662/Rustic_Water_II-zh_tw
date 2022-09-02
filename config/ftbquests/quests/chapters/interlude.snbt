@@ -1,0 +1,32 @@
+{
+	id: "2A2C776C7249FFA1"
+	group: ""
+	order_index: 0
+	filename: "interlude"
+	title: "     Act I"
+	icon: "rustic_resources:placeholder"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: 1.0d
+		y: -1.0d
+		width: 14.0d
+		height: 8.5d
+		rotation: 0.0d
+		image: "rusticwaters:textures/act1xb.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [{
+		x: 6.0d
+		y: -0.5d
+		id: "79DAB07D4E0C97BB"
+		tasks: [{
+			id: "10B8AB314446FF10"
+			type: "checkmark"
+			title: "New player"
+		}]
+	}]
+}

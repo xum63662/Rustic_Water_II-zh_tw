@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "rustic_resources:crystalsand"
+  },
+  "result": "appliedenergistics2:certus_quartz_crystal",
+  "experience": 0.2,
+  "cookingtime": 200
+}

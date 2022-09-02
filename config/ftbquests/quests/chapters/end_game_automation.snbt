@@ -1,0 +1,681 @@
+{
+	id: "3CBE7FCFB903736D"
+	group: ""
+	order_index: 18
+	filename: "end_game_automation"
+	title: "Mystical Foregoing"
+	icon: "industrialforegoing:hydroponic_bed"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: -1.15d
+		y: -7.5d
+		width: 20.0d
+		height: 13.0d
+		rotation: 0.0d
+		image: "rusticwaters:textures/page13.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			x: -7.0d
+			y: -11.5d
+			description: [
+				"Industrial Foregoing is a mod that will allow increased factory production through the use of machines like the Dissolution Chamber, to create Machine Frames, Tools, and even a Laser Drill quarry if you choose."
+				"You should already have been producing Resin for use in other mods.  It will be a common binding agent for machines in this mod.  Using a Fractioning Still you can extract Rosin from the Resin, and turn that into Tiny Rubber, which can be combined into Dry Rubber."
+			]
+			id: "3468622C7660AB52"
+			tasks: [{
+				id: "080229F35BC98FF0"
+				type: "item"
+				item: "industrialforegoing:dryrubber"
+				count: 16L
+			}]
+			rewards: [{
+				id: "32C07E26D1D3711C"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "industrialforegoing:industrial_foregoing"
+					}
+				}
+			}]
+		}
+		{
+			x: -7.0d
+			y: -10.5d
+			subtitle: "You will eventually want to automate the Dissolution Chamber, as the components it produces will be a heavy part of your end-game progression."
+			description: [
+				"The Dissolution Chamber is a high tech assembling factory for machine frames and other components.  "
+				"Each recipe requires a fluid component in addition to the material components."
+				"Because of the complex layout of the Dissolution Chamber, it can be challenging to automate it with pipes and hoppers.  You CAN, however, automate the Dissolution Chamber using autocrafting from Applied Energistics.  For a visual How-To guide, the reward for this quest will place a link in your chat that you can follow."
+			]
+			dependencies: ["3468622C7660AB52"]
+			id: "3C25584ACEF81F6D"
+			tasks: [{
+				id: "336BB216AB68AF0C"
+				type: "item"
+				item: "industrialforegoing:dissolution_chamber"
+			}]
+			rewards: [{
+				id: "44D99718604B2918"
+				type: "command"
+				command: "/tellraw @p {\"text\":\"->Click for Dissolution Chamber Video<-\",\"color\":\"#02FF00\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://www.youtube.com/watch?v=0sFCp4BOpVA\"}}"
+				player_command: false
+			}]
+		}
+		{
+			x: -7.0d
+			y: -9.5d
+			subtitle: "You will want to set up animal pens for \"breeders\" of each passive animal type if you have not done so already, likely at the water's surface."
+			description: ["In an earlier quest page you learned how to get animals to spawn using Mycelium.  That is a slow and unreliable process.  It's time set up proper livestock management.  This will allow you to fulfill your obligations for the \"Hero of Caladan\" tab, which requires massive amounts of animal byproducts and food."]
+			dependencies: ["3C25584ACEF81F6D"]
+			id: "2E195C83D2A045B0"
+			tasks: [{
+				id: "61FB016B917852FA"
+				type: "item"
+				item: "industrialforegoing:machine_frame_simple"
+				count: 4L
+			}]
+			rewards: [{
+				id: "237E697F22CE6D7C"
+				type: "item"
+				item: "industrialforegoing:mob_imprisonment_tool"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -9.5d
+			subtitle: "The \"Child\" filter block will allow only baby animals to pass through it.  Shift Clicking on a Child Filter block will invert it, allowing all but babies to pass through it.  You can use this to further separate babies from adult animals."
+			description: [
+				"While the Animal Feeder will keep your animals breeding, you will need a Baby Separator to relocate them from the breeding pen to the slaughter pen."
+				"The Baby Separator will move baby animals from the front side of it to the back side of it."
+			]
+			dependencies: ["2E195C83D2A045B0"]
+			id: "324A8B80AE7EB082"
+			tasks: [
+				{
+					id: "7D964D5D3D69B94C"
+					type: "item"
+					item: "industrialforegoing:animal_baby_separator"
+				}
+				{
+					id: "7E254878E7B60475"
+					type: "item"
+					item: "darkutils:filter_child"
+					count: 4L
+				}
+			]
+			rewards: [{
+				id: "522D2F4B713C041A"
+				type: "loot"
+				table_id: 4920136057121877850L
+			}]
+		}
+		{
+			x: -7.0d
+			y: -7.5d
+			description: [
+				"Once the baby animals have been moved to the slaughter pen, you will want to filter them out once they grow into adulthood.  After that point, the Mob Crusher takes care of the dirty work.  "
+				"The Mob Crusher has two modes... Essence Mode, which produces XP Essence, or Looting mode, which increases the drops from the animals."
+			]
+			dependencies: ["2E195C83D2A045B0"]
+			id: "04976DCA7AE77ADE"
+			tasks: [{
+				id: "63DFCEB724103264"
+				type: "item"
+				item: "industrialforegoing:mob_crusher"
+			}]
+			rewards: [{
+				id: "16F6D3AD5ED8FE3D"
+				type: "item"
+				item: "decimal_coins:coin_20"
+			}]
+		}
+		{
+			x: -7.0d
+			y: -6.5d
+			subtitle: "Without Ether Gas, the Hydroponic Beds are \"a bit\" quicker than Botany Pots and require external sowing machines.  But WITH Ether Gas, they are your ultimate, lightning fast, automated means of end-game resource generation."
+			description: [
+				"The Hydroponic Beds can be Shift+Right Clicked with a crop, which they will grow if you supply them with Power and Water.  HOWEVER, by injecting each Hydroponic Pot with a small, steady flow of Ether Gas, you can speed them up tremendously, and enable them to harvest and plant the crops they contain."
+				"If you have learned to utilize Ars Nouveau, you can magically conjure Super Turds without Sewage, using the Enchanting Apparatus."
+			]
+			dependencies: ["2E195C83D2A045B0"]
+			id: "440FAABED120B9CE"
+			tasks: [{
+				id: "6D9EFC580BD71FC2"
+				type: "item"
+				item: "industrialforegoing:hydroponic_bed"
+				count: 4L
+			}]
+			rewards: [{
+				id: "7004F389636980F3"
+				type: "loot"
+				table_id: 6356432235294764866L
+			}]
+		}
+		{
+			x: -9.0d
+			y: -9.5d
+			description: ["Most Industrial Foregoing machines accept addons.  The default coverage area for many of the machines is a 1x1 area directly in front of it.  This can be viewed by selecting the \"Show Working Area\" button in the GUI of the machine.  Particularly useful are the ranged addons, which you will need in order to make sure your feeders and other machinery cover the pens you want them to."]
+			dependencies: ["2E195C83D2A045B0"]
+			id: "396038D70DC68BB2"
+			tasks: [{
+				id: "1DE3BFAF58847B85"
+				type: "item"
+				item: {
+					id: "industrialforegoing:range_addon2"
+					Count: 1b
+					tag: {
+						TitaniumAugment: {
+							Range: 2.0f
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "51A88ECDD2676490"
+				type: "item"
+				item: {
+					id: "industrialforegoing:efficiency_addon_1"
+					Count: 1b
+					tag: {
+						TitaniumAugment: {
+							Efficiency: 0.9f
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -6.0d
+			y: -7.5d
+			subtitle: "Your Industrial Foregoing guide can give you further details on the Addons available under the \"Basics\" category."
+			description: ["There are multiple Addon options for your Industrial Foregoing machines.  Many of the addons effect the amount of \"work progress\" the machine requires.  \"Work progress\" is how long it takes a machine to complete the task it is assigned to do."]
+			dependencies: ["04976DCA7AE77ADE"]
+			id: "11F4A29D55F90A75"
+			tasks: [{
+				id: "222FED9D47D2B897"
+				type: "item"
+				item: {
+					id: "industrialforegoing:processing_addon_2"
+					Count: 1b
+					tag: {
+						TitaniumAugment: {
+							Processing: 3.0f
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "24853F8C194D6E39"
+				type: "item"
+				item: {
+					id: "industrialforegoing:speed_addon_1"
+					Count: 1b
+					tag: {
+						TitaniumAugment: {
+							Speed: 2.0f
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -7.0d
+			y: -8.5d
+			subtitle: "Place the Sewer Underneath your animal pens.  Each Sewer supports up to 11 animals.  Its range can be upgrade via Range Addons."
+			description: ["The Sewer Collects the large amounts of waste excreted by your farm animals.  You can then process this waste into some useful, albeit smelly resources.  In its fluid form, it is used for making Super Turds, the fertile soil which your Hydroponic Beds are crafted from.  Using the Sewage Composter, you can turn the Sewage into Fertilizer.  Using a Blast Chiller, you can cool the Sewage into Turds."]
+			dependencies: ["2E195C83D2A045B0"]
+			id: "0BBCB9752689FB9E"
+			tasks: [{
+				id: "78F3518EEDCED29F"
+				type: "item"
+				item: "industrialforegoing:sewer"
+			}]
+			rewards: [{
+				id: "4C446A0089CB1E98"
+				type: "item"
+				item: "mekanism:basic_mechanical_pipe"
+				count: 8
+			}]
+		}
+		{
+			x: -6.0d
+			y: -9.5d
+			description: ["is used to automatically collect resources from passive mobs. Each operation will milk cows, shear sheep, and collect dye from squid within the working area. The default working area of the machine is 1x2x1 in front of the machine which can be expanded with Range Addons."]
+			dependencies: ["2E195C83D2A045B0"]
+			id: "4D3737FFC584772D"
+			tasks: [{
+				id: "2C2A7C2711951246"
+				type: "item"
+				item: "industrialforegoing:animal_rancher"
+			}]
+			rewards: [{
+				id: "2AD4D65447CDA408"
+				type: "item"
+				item: "scalinghealth:enchanted_heart"
+			}]
+		}
+		{
+			x: -8.0d
+			y: -9.5d
+			subtitle: "If the number of animals within the Working Area exceeds 20, the Feeder will cease feedings.  This is to reduce lag."
+			description: ["The Animal Feeder does exactly what you would expect.  When supplied with the appropriate food type for the livestock within its range, it will automatically dish out food when they are hungry.  This will of course cause the animals to enter a euphoric state where they are inclined to \"bump uglies\", producing offspring."]
+			dependencies: ["2E195C83D2A045B0"]
+			id: "6E0DA2C027A75A80"
+			tasks: [{
+				id: "68D46F6D7A30D098"
+				type: "item"
+				item: "industrialforegoing:animal_feeder"
+			}]
+			rewards: [
+				{
+					id: "154AA036449BAA71"
+					type: "item"
+					item: "minecraft:carrot"
+					count: 16
+				}
+				{
+					id: "1CD8A612634117AA"
+					type: "item"
+					item: "minecraft:wheat_seeds"
+					count: 16
+				}
+				{
+					id: "3FDC623976527821"
+					type: "item"
+					item: "minecraft:hay_block"
+					count: 8
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: -7.5d
+			description: ["Essence is a fluid form of Experience.  Experience is not only a valuable commodity in life, but also a physical resource used in crafting.  Many end-game recipes will require XP contributions.  You can convert XP crystals and fluids from multiple mods in this adventure.  For example: You can run Essence through the Dissolution chamber to create Experience Pearls, which can be eaten for XP or used in crafting."]
+			dependencies: ["04976DCA7AE77ADE"]
+			id: "1662DF6165E6026B"
+			tasks: [{
+				id: "31CC5CFA2DE483A7"
+				type: "item"
+				item: "industrialforegoing:essence_bucket"
+			}]
+			rewards: [{
+				id: "404288AB2B713D63"
+				type: "item"
+				item: "miniutilities:experience_pearl"
+				count: 4
+			}]
+		}
+		{
+			x: -7.0d
+			y: -4.5d
+			subtitle: "Ether Gas can be found in large pools on planet Atum.  It can also be Electrolytically Separated from the chemical Ethylene."
+			description: [
+				"There are multiple ways to acquire Ether Gas.  You will need Ether Gas for many of your end-game crafting recipes and to empower your Hydroponic Beds."
+				"While you can set up and run your Hydroponic Farm without Ether Gas, it isn't really practical, as Ether Gas allows the Hydroponic Beds to self-maintain, sowing their own crops."
+			]
+			dependencies: ["440FAABED120B9CE"]
+			id: "06AAC9E793CCD234"
+			tasks: [{
+				id: "78E4E6D6366DDD19"
+				type: "item"
+				item: "industrialforegoing:ether_gas_bucket"
+			}]
+			rewards: [{
+				id: "1DC105A1C7C9892F"
+				type: "loot"
+				table_id: 3729081586183020876L
+			}]
+		}
+		{
+			x: -7.0d
+			y: -5.5d
+			subtitle: "Hydroponics Pots follow similar planting rules as soil for most seeds.  Make sure there is appropriate lighting for the pots to operate."
+			description: ["It is not required for you to install Addons into your Hydroponic Beds, but giving each one a full suite of Processing, Speed, and Efficiency addons will make them grow plants extremely fast.  Remember though, the energy demands of your Hydroponic Farm will be extensive.  Make sure your Draconic Reactor is pumping out the juice."]
+			dependencies: ["2E195C83D2A045B0"]
+			id: "65CF84F4ACBDE371"
+			tasks: [{
+				id: "6B7CE4D83D6FD6EF"
+				type: "item"
+				item: {
+					id: "industrialforegoing:processing_addon_2"
+					Count: 1b
+					tag: {
+						TitaniumAugment: {
+							Processing: 3.0f
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "43D557F9CD9772A1"
+				type: "item"
+				item: "decimal_coins:coin_10"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -11.5d
+			description: [
+				"Inferium Essence is a powerful resource for creating, well... resources.  It will be the foundation of allowing you to grow crops of everything from ores to mob drops.  You will need incredible amounts of this to fully expand your Mystical Agriculture system."
+				"Prosperity Shards work in tandem with Inferium Essence, though in slightly lesser amounts, to create the gems, tools, and crystals used within the mod.  Prosperity Shard ore can be found in abundance throughout the Dark Caverns mining dimension."
+			]
+			id: "4B4729A998AB5E1E"
+			tasks: [
+				{
+					id: "1192A960D30195D6"
+					type: "item"
+					item: "mysticalagriculture:inferium_essence"
+					count: 64L
+				}
+				{
+					id: "069CCC7852A7D5C1"
+					type: "item"
+					item: "mysticalagriculture:prosperity_shard"
+					count: 32L
+				}
+			]
+			rewards: [{
+				id: "0CAA53D586B2D4EE"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "mysticalagriculture:guide"
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: -9.5d
+			subtitle: "There are armor, weapon, and tool options for use from Mystical Agriculture... but even these powerful options have stronger counterparts available from other mods, such as Draconic Evolution.  So they are not explored within this quest chain.  If you would, however, like to explore the tool options from this mod, follow the link provided from this quest reward."
+			description: ["Every Mystical Agriculture crop comes in tiers.  Usually rarer resources are grown from higher tier seeds.  You can infuse your Inferium Essence, using an Infusion Crystal, to get the next tier of essence... Prudentium."]
+			dependencies: ["725D08CF26988D5F"]
+			id: "7DA2895E568E59A2"
+			tasks: [{
+				id: "75B502C300941533"
+				type: "item"
+				item: {
+					id: "mysticalagriculture:infusion_crystal"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "51A4E4FAF55B554F"
+					type: "command"
+					command: "/tellraw @p {\"text\":\"->Click for Mystical Agriculture Tools and Armor Video<-\",\"color\":\"#02FF00\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://youtu.be/9tiSENrp_kA?t=1440\"}}"
+					player_command: false
+				}
+				{
+					id: "2E5B183D0579A9A5"
+					type: "item"
+					item: "mysticalagriculture:tinkering_table"
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -10.5d
+			description: [
+				"Inferium Seeds should be your first Mystical Agriculture Crop.  Placing these into a Hydroponic Bed (or two), especially when fully upgraded and supplied with Ether Gas will provide you with a steady source of Inferium Essence."
+				"This concept of crops that grow resources is the foundation of Mystical Agriculture."
+			]
+			dependencies: ["4B4729A998AB5E1E"]
+			id: "725D08CF26988D5F"
+			tasks: [{
+				id: "599A4EE3AE3F02E8"
+				type: "item"
+				item: "mysticalagriculture:inferium_seeds"
+			}]
+			rewards: [{
+				id: "5718C4A14C1D9DB1"
+				type: "item"
+				item: "minecraft:emerald_ore"
+				count: 2
+			}]
+		}
+		{
+			x: 3.5d
+			y: -9.5d
+			shape: "diamond"
+			dependencies: ["7DA2895E568E59A2"]
+			id: "61A9621EC1F39C50"
+			tasks: [{
+				id: "429BAECDBC153E8D"
+				type: "item"
+				item: "mysticalagriculture:prudentium_essence"
+			}]
+			rewards: [{
+				id: "7F6D339AE515D866"
+				type: "item"
+				item: "mysticalagriculture:silver_seeds"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -9.5d
+			shape: "diamond"
+			dependencies: ["61A9621EC1F39C50"]
+			id: "3AC042B2A74364DE"
+			tasks: [{
+				id: "0BC7DA7653DDDF55"
+				type: "item"
+				item: "mysticalagriculture:tertium_essence"
+			}]
+			rewards: [{
+				id: "1C1DA43D15E8F03A"
+				type: "item"
+				item: "mysticalagriculture:constantan_seeds"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -9.5d
+			shape: "diamond"
+			dependencies: ["3AC042B2A74364DE"]
+			id: "1FA70130054F02DE"
+			tasks: [{
+				id: "3A954E992F020424"
+				type: "item"
+				item: "mysticalagriculture:imperium_essence"
+			}]
+			rewards: [{
+				id: "04A5CE5D28C041CB"
+				type: "item"
+				item: "mysticalagriculture:enderman_seeds"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -9.5d
+			shape: "diamond"
+			dependencies: ["1FA70130054F02DE"]
+			id: "5041B375957F7FFD"
+			tasks: [{
+				id: "46C3B46C7219EFA8"
+				type: "item"
+				item: "mysticalagriculture:supremium_essence"
+			}]
+			rewards: [{
+				id: "2624D7CF0133DA8D"
+				type: "item"
+				item: "mysticalagriculture:enderium_seeds"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -8.5d
+			description: ["In order to create seeds for resources, you must infuse a Seed Base.  For this you will need an Infusion Altar multiblock.  "]
+			dependencies: ["7DA2895E568E59A2"]
+			id: "6F86458FC335AA9E"
+			tasks: [{
+				id: "2259B3E17FEF7991"
+				type: "item"
+				item: "mysticalagriculture:infusion_pedestal"
+				count: 8L
+			}]
+			rewards: [{
+				id: "409C87D61019DE5C"
+				type: "item"
+				item: "mysticalagriculture:redstone_seeds"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -7.5d
+			subtitle: "Once your components are placed, use a Button to initiate the Altar."
+			description: [
+				"The Infusion Altar multiblock is created by surrounding an Infusion Altar with 8x Infusion Pedestals.  If you place the Infusion Altar down first, it will show you an outline of where to place your pedestals."
+				"JEI will show you the necessary recipes for your Infusion Altar, each requiring one of two types of Seed Base."
+				"{image:rusticwaters:textures/mystped.png width:120 height:100 align:1}"
+			]
+			dependencies: ["7DA2895E568E59A2"]
+			id: "3EDFB3AEA3EAE943"
+			tasks: [{
+				id: "6BB57C5085B3BFDD"
+				type: "item"
+				item: "mysticalagriculture:infusion_altar"
+			}]
+			rewards: [{
+				id: "7C67EDF3D7C50885"
+				type: "item"
+				item: "mysticalagriculture:electrum_seeds"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -7.5d
+			description: ["Most resource crops require a Prosperity Seed Base as a catalyst in your Infusion Altar."]
+			dependencies: ["3EDFB3AEA3EAE943"]
+			id: "7394FA7FA84A755F"
+			tasks: [{
+				id: "69F6838C278F8BA9"
+				type: "item"
+				item: "mysticalagriculture:prosperity_seed_base"
+			}]
+			rewards: [{
+				id: "104454076A04CF95"
+				type: "item"
+				item: "mysticalagriculture:copper_seeds"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -7.5d
+			description: ["Most mob seeds require a Soulium Seed Base as your Infusion Altar catalyst."]
+			dependencies: ["3EDFB3AEA3EAE943"]
+			id: "5603C77834AD409C"
+			tasks: [{
+				id: "4D02821562074F45"
+				type: "item"
+				item: "mysticalagriculture:soulium_seed_base"
+			}]
+			rewards: [{
+				id: "75F79366CD09E9B2"
+				type: "item"
+				item: "mysticalagriculture:creeper_seeds"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -6.5d
+			subtitle: "Once you have completed this quest, the two daggers you craft will be consumed and replaced with Hostile and Passively attuned daggers that will further aid you in collecting souls."
+			description: ["Mob Drop seeds require the souls of the mob in order to create the seeds.  To craft a Soulium Dagger you will need to find Soulstone and Soulium Ore within the Nether.  It can be found in large veins at all Y-Levels."]
+			dependencies: ["3EDFB3AEA3EAE943"]
+			id: "51570C4FDF022CBB"
+			tasks: [{
+				id: "3E15CAE6A4F13E03"
+				type: "item"
+				item: {
+					id: "mysticalagriculture:soulium_dagger"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "72CB2155C5F79AF8"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:hostile_soulium_dagger"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "705638343A1DD72E"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:passive_soulium_dagger"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -5.5d
+			description: ["While killing mobs with your Soulium Dagger releases their soul, you will still need to capture it within a Soul Jar in order to use the souls on your Infusion Altar.  Simply having the Soul Jar on your Hotbar will allow the souls you free to fill the jars.  It can take multiple mob souls to completely fill a Soul Jar."]
+			dependencies: ["3EDFB3AEA3EAE943"]
+			id: "1F02793B4182FDB7"
+			tasks: [{
+				id: "723D53249A496D56"
+				type: "item"
+				item: "mysticalagriculture:soul_jar"
+				count: 4L
+			}]
+			rewards: [{
+				id: "4A8DFC994FB8D3DF"
+				type: "item"
+				item: {
+					id: "mysticalagriculture:soul_jar"
+					Count: 1b
+					tag: {
+						Souls: 10.0d
+						Type: "mysticalagriculture:spider"
+					}
+				}
+				count: 4
+			}]
+		}
+		{
+			x: 4.5d
+			y: -4.5d
+			description: ["Most Mystical Agriculture crops have a small percentage chance to drop a seed when they are harvested, even by Hydroponic Beds.  If you do not wish to use these seeds to plant more crops, you can recycle them using a Seed Reprocessor.  The Seed Reprocessor will turn the seeds into their corresponding essence at the cost of FE/t.  The Seed Reprocessors have multiple tiers that speed this process up."]
+			dependencies: ["3EDFB3AEA3EAE943"]
+			id: "337E59E3FB8BD9C6"
+			tasks: [{
+				id: "339E5AC123FEEF85"
+				type: "item"
+				item: "mysticalagriculture:basic_reprocessor"
+			}]
+			rewards: [{
+				id: "2F411F49FD1202B7"
+				type: "item"
+				item: "mysticalagriculture:aluminum_seeds"
+			}]
+		}
+	]
+}

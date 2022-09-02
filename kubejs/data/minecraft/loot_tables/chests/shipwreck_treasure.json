@@ -1,0 +1,1423 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 3.0,
+        "max": 5.0,
+        "type": "minecraft:uniform"
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 90,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 5.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:iron_ingot"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 40,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 5.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:string"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 40,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 5.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:bone"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 5.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:gold_ingot"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 30,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 2.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:emerald"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "minecraft:diamond"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:creeper_spawn_egg"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "alexsmobs:spawn_egg_bald_eagle"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:music_disc_13"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:music_disc_11"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:music_disc_strad"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:music_disc_wait"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "mowziesmobs:music_disc_petiole"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "outer_end:music_disc_galactic_wave"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:music_disc_chirp"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "outer_end:music_disc_unknown_frontier"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:music_disc_cat"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:music_disc_ward"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:music_disc_mall"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:music_disc_stal"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:music_disc_blocks"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:music_disc_pigstep"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:music_disc_far"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:music_disc_mellohi"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "alexsmobs:music_disc_daze"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "alexsmobs:music_disc_thime"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "alexsmobs:spawn_egg_capuchin_monkey"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "alexsmobs:spawn_egg_centipede"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "alexsmobs:spawn_egg_cockroach"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "alexsmobs:spawn_egg_crocodile"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "alexsmobs:spawn_egg_dropbear"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "alexsmobs:spawn_egg_elephant"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "alexsmobs:spawn_egg_emu"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "alexsmobs:spawn_egg_frilled_shark"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "ars_nouveau:glyph_phantom_block"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "ars_nouveau:glyph_underfoot"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "ars_nouveau:glyph_crush"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "ars_nouveau:glyph_wither"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "ars_nouveau:glyph_gravity"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "ars_nouveau:glyph_split"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "ars_nouveau:glyph_accelerate"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "ars_nouveau:glyph_snare"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "ars_nouveau:glyph_dispel"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "ars_nouveau:glyph_fangs"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "ars_nouveau:glyph_interact"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "ars_nouveau:glyph_pickup"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "ars_nouveau:glyph_glide"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "ars_nouveau:glyph_leap"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "ars_nouveau:glyph_lightning"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "ars_nouveau:glyph_rune"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "ars_nouveau:glyph_duration_down"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "alexsmobs:spiked_turtle_shell"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "alexsmobs:pocket_sand"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "alexsmobs:hemolymph_blaster"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "alexsmobs:straddleboard"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "alexsmobs:emu_leggings"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "alexsmobs:platypus_bucket"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "alexsmobs:fedora"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "alexsmobs:echolocator"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "alexsmobs:hummingbird_feeder"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "alexsmobs:sombrero"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "alexsmobs:enderiophage_rocket"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "alexsmobs:maraca"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "alexsmobs:moose_headgear"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "alexsmobs:blood_sprayer"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "alexsmobs:crocodile_chestplate"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "alexsmobs:roadrunner_boots"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "alexsmobs:falconry_glove"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "alexsmobs:falconry_hood"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "alexsmobs:gustmaker"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "alexsmobs:spawn_egg_gazelle"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "alexsmobs:spawn_egg_gorilla"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "alexsmobs:spawn_egg_grizzly_bear"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "alexsmobs:spawn_egg_hammerhead_shark"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "alexsmobs:spawn_egg_kangaroo"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "alexsmobs:spawn_egg_komodo_dragon"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "alexsmobs:spawn_egg_moose"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "alexsmobs:spawn_egg_orca"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "alexsmobs:spawn_egg_raccoon"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "alexsmobs:spawn_egg_seal"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "alexsmobs:spawn_egg_shoebill"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "alexsmobs:spawn_egg_snow_leopard"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "alexsmobs:spawn_egg_tarantula_hawk"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "alexsmobs:spawn_egg_tasmanian_devil"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "alexsmobs:spawn_egg_tiger"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "betteranimalsplus:badger_spawn_egg"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "betteranimalsplus:blackbear_spawn_egg"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "betteranimalsplus:boar_spawn_egg"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "betteranimalsplus:brownbear_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "appliedenergistics2:capacity_card"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "appliedenergistics2:basic_card"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "appliedenergistics2:biometric_card"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "appliedenergistics2:speed_card"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "appliedenergistics2:fuzzy_card"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "appliedenergistics2:redstone_card"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "appliedenergistics2:crafting_card"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "appliedenergistics2:advanced_card"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "appliedenergistics2:memory_card"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "hats:h_plus_welding_helmet_helmet"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "hats:h_plus_villager_nose_helmet"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "hats:h_plus_beer_hat_helmet"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "hats:h_plus_sparklez_helmet"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "hats:h_plus_turban_helmet"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "hats:h_plus_ml_glasses_helmet"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "hats:h_plus_cat_ears_helmet"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "hats:h_plus_beanie_helmet"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "hats:h_plus_super_top_hat_helmet"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "hats:h_plus_headband_helmet"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "hats:h_plus_dream_mask_helmet"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "hats:h_plus_guard_hat_helmet"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "hats:h_plus_crown_helmet"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "hats:h_plus_cow_boy_hat_helmet"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "hats:h_plus_top_hat_helmet"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "hats:h_plus_fez_helmet"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "hats:h_plus_mask_helmet"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "betteranimalsplus:butterfly_spawn_egg"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "betteranimalsplus:coyote_spawn_egg"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "betteranimalsplus:deer_spawn_egg"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "betteranimalsplus:feralwolf_spawn_egg"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "betteranimalsplus:goat_spawn_egg"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "betteranimalsplus:goose_spawn_egg"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "betteranimalsplus:moose_spawn_egg"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "betteranimalsplus:reindeer_spawn_egg"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:bat_spawn_egg"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:bee_spawn_egg"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:blaze_spawn_egg"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:cat_spawn_egg"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:cave_spider_spawn_egg"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:chicken_spawn_egg"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:cod_spawn_egg"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:cow_spawn_egg"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:creeper_spawn_egg"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:dolphin_spawn_egg"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:donkey_spawn_egg"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:drowned_spawn_egg"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:elder_guardian_spawn_egg"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:enderman_spawn_egg"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:endermite_spawn_egg"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:evoker_spawn_egg"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:fox_spawn_egg"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:ghast_spawn_egg"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:guardian_spawn_egg"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:hoglin_spawn_egg"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:horse_spawn_egg"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:husk_spawn_egg"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:llama_spawn_egg"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:magma_cube_spawn_egg"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:mooshroom_spawn_egg"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:mule_spawn_egg"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:ocelot_spawn_egg"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:panda_spawn_egg"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:parrot_spawn_egg"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:phantom_spawn_egg"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:pig_spawn_egg"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:piglin_brute_spawn_egg"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:piglin_spawn_egg"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:pillager_spawn_egg"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:polar_bear_spawn_egg"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:pufferfish_spawn_egg"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:rabbit_spawn_egg"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:ravager_spawn_egg"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:salmon_spawn_egg"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:sheep_spawn_egg"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:skeleton_horse_spawn_egg"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:skeleton_spawn_egg"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:slime_spawn_egg"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:spider_spawn_egg"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:squid_spawn_egg"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:stray_spawn_egg"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:strider_spawn_egg"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:tropical_fish_spawn_egg"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:turtle_spawn_egg"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:wither_skeleton_spawn_egg"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:wolf_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 8,
+          "name": "minecraft:experience_bottle"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 1.0,
+        "max": 4.0,
+        "type": "minecraft:uniform"
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 3.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "decimal_coins:coin_1"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly"
+            }
+          ],
+          "name": "spartanweaponry:longbow_silver"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly"
+            }
+          ],
+          "name": "spartanweaponry:longbow_tin"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly"
+            }
+          ],
+          "name": "spartanweaponry:longbow_bronze"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "ars_nouveau:glyph_evaporate"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "ars_nouveau:glyph_bounce"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "ars_nouveau:glyph_cut"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "ars_nouveau:glyph_launch"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "ars_nouveau:glyph_invisibility"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "ars_nouveau:glyph_extract"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "ars_nouveau:glyph_cold_snap"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "ars_nouveau:glyph_redstone_signal"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "ars_nouveau:glyph_aoe"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "ars_nouveau:glyph_wind_shear"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "ars_nouveau:glyph_grow"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "ars_nouveau:glyph_grow"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "modularrouters:detector_module"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "modularrouters:void_module"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "modularrouters:distributor_module"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "modularrouters:breaker_module"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "modularrouters:extruder_module_1"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "modularrouters:puller_module_1"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "modularrouters:fluid_module"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "modularrouters:dropper_module"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "modularrouters:flinger_module"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "modularrouters:sender_module_1"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "modularrouters:placer_module"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "modularrouters:energy_distributor_module"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "modularrouters:energy_output_module"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "modularrouters:activator_module"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "modularrouters:blank_module"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "modularrouters:player_module"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "modularrouters:vacuum_module"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "ars_nouveau:glyph_summon_wolves"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "ars_nouveau:glyph_place_block"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "ars_nouveau:glyph_break"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "ars_nouveau:glyph_flare"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "ars_nouveau:glyph_slowfall"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "ars_nouveau:glyph_ender_inventory"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "ars_nouveau:glyph_summon_steed"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "ars_nouveau:glyph_blink"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "ars_nouveau:glyph_explosion"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "ars_nouveau:glyph_summon_vex"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "ars_nouveau:glyph_strength"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "ars_nouveau:glyph_ignite"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "ars_nouveau:glyph_summon_decoy"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 8,
+          "name": "minecraft:ender_eye"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 8,
+          "name": "minecraft:writable_book"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 8,
+          "name": "minecraft:golden_carrot"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 8,
+          "name": "minecraft:nautilus_shell"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 8,
+          "name": "create:precision_mechanism"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 8,
+          "name": "cyclic:experience_food"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 8,
+          "name": "cyclic:toxic_carrot"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "ars_nouveau:glyph_pull"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "ars_nouveau:glyph_projectile"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "ars_nouveau:glyph_aquatic"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "ars_nouveau:glyph_self"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "ars_nouveau:glyph_firework"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "ars_nouveau:glyph_dampen"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "ars_nouveau:glyph_intangible"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "ars_nouveau:glyph_extend_time"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "ars_nouveau:glyph_exchange"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly"
+            }
+          ],
+          "name": "spartanweaponry:longbow_gold"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly"
+            }
+          ],
+          "name": "spartanweaponry:longbow_invar"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly"
+            }
+          ],
+          "name": "spartanweaponry:longbow_steel"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly"
+            }
+          ],
+          "name": "spartanweaponry:longbow_nickel"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly"
+            }
+          ],
+          "name": "spartanweaponry:battleaxe_steel"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly"
+            }
+          ],
+          "name": "spartanweaponry:battleaxe_bronze"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly"
+            }
+          ],
+          "name": "spartanweaponry:battleaxe_silver"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly"
+            }
+          ],
+          "name": "spartanweaponry:battleaxe_nickel"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly"
+            }
+          ],
+          "name": "spartanweaponry:battleaxe_tin"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly"
+            }
+          ],
+          "name": "spartanweaponry:battleaxe_invar"
+        },
+{
+          "type": "minecraft:item",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly"
+            }
+          ],
+          "name": "spartanweaponry:battleaxe_gold"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 6.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:gold_nugget"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 4.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:white_wool"
+        }
+      ]
+    }
+  ]
+}

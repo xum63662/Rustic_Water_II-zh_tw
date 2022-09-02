@@ -1,0 +1,606 @@
+{
+	id: "75A6175CDABA9E00"
+	group: ""
+	order_index: 22
+	filename: "a_heros_welcome"
+	title: "Hero of Caladan"
+	icon: {
+		id: "cyclic:charm_ultimate"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: -5.0d
+		y: -5.5d
+		width: 18.0d
+		height: 10.5d
+		rotation: 0.0d
+		image: "rusticwaters:textures/page18.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			x: -6.5d
+			y: -7.5d
+			id: "20FF8FF01C3B2DF9"
+			tasks: [{
+				id: "77101991B39E1666"
+				type: "item"
+				item: {
+					id: "ars_nouveau:creative_spell_book"
+					Count: 1b
+					tag: {
+						mode: 0
+						spells: ",intangible,ignite,flare,underfoot,strength,bounce,craft,cold_snap,rune,snare,slowfall,freeze,split,crush,smelt,summon_decoy,summon_steed,accelerate,hex,summon_vex,orbit,lightning,grow,dampen,touch,sensitive,toss,invisibility,firework,extract,delay,light,duration_down,exchange,place_block,summon_wolves,shield,conjure_water,cut,harm,interact,blink,amplify,phantom_block,fell,extend_time,heal,evaporate,leap,redstone_signal,pierce,harvest,fortune,break,linger,pickup,launch,dispel,haste,wind_shear,ender_inventory,pull,explosion,fangs,aoe,gravity,self,glide,aquatic,projectile,wither,gust"
+					}
+				}
+			}]
+			rewards: [{
+				id: "449EF0FB1325EB21"
+				type: "loot"
+				table_id: 1459128794121417282L
+			}]
+		}
+		{
+			x: -4.0d
+			y: -4.5d
+			id: "701201746E1679A8"
+			tasks: [{
+				id: "47782AB274A8CFF3"
+				type: "item"
+				item: "create:creative_motor"
+			}]
+			rewards: [{
+				id: "19D9F30F4B114B2B"
+				type: "loot"
+				table_id: 1459128794121417282L
+			}]
+		}
+		{
+			x: -5.5d
+			y: -2.5d
+			description: ["Caladan is not a starving nation by any means, but they are a hungry one.  The Food Supply shipment will do wonders for invigorating their stale palettes.  Bring home an abundance of culinary delights made from the resources you have gathered on Earth. "]
+			id: "42BAC2DA3BFA90F0"
+			tasks: [{
+				id: "3089C1DB1A9144D0"
+				type: "item"
+				item: "rustic_resources:shipping_1"
+				count: 4L
+			}]
+			rewards: [{
+				id: "4360A7FB2643EACC"
+				type: "loot"
+				table_id: 1459128794121417282L
+			}]
+		}
+		{
+			x: -7.5d
+			y: -5.5d
+			id: "3C3E1C08CEE3D283"
+			tasks: [{
+				id: "6C9661F12E1FEB47"
+				type: "item"
+				item: "create:creative_blaze_cake"
+			}]
+			rewards: [{
+				id: "5FC6CAC81A800513"
+				type: "loot"
+				table_id: 1459128794121417282L
+			}]
+		}
+		{
+			x: -5.5d
+			y: -8.5d
+			id: "6B1E090FD1946F65"
+			tasks: [{
+				id: "54B60E9F017F1E03"
+				type: "item"
+				item: {
+					id: "draconicevolution:creative_capacitor"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									452087260
+									-1344255626
+									-1234667832
+									1918597560
+								]
+								modules: [ ]
+								properties: {
+									charge_main: {
+										hud: 1b
+									}
+									charge_curios: {
+										hud: 1b
+									}
+									charge_hot_bar: {
+										hud: 1b
+									}
+									charge_armor: {
+										hud: 1b
+									}
+									charge_held_item: {
+										hud: 1b
+									}
+								}
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "669C135F2C9F5608"
+				type: "loot"
+				table_id: 1459128794121417282L
+			}]
+		}
+		{
+			x: -6.5d
+			y: -3.5d
+			id: "784342066001D8B0"
+			tasks: [{
+				id: "23A905B2E8E16802"
+				type: "item"
+				item: "immersiveengineering:capacitor_creative"
+			}]
+			rewards: [{
+				id: "4647D5D165F78BF7"
+				type: "loot"
+				table_id: 1459128794121417282L
+			}]
+		}
+		{
+			x: -7.0d
+			y: -4.5d
+			id: "3B77FF6872F8B704"
+			tasks: [{
+				id: "3F2628D0D05E5AB9"
+				type: "item"
+				item: "mekanism:creative_fluid_tank"
+			}]
+			rewards: [{
+				id: "2E7504D4739D93AF"
+				type: "loot"
+				table_id: 1459128794121417282L
+			}]
+		}
+		{
+			x: -3.5d
+			y: -5.5d
+			id: "3E7D5878B046B523"
+			tasks: [{
+				id: "6B1ED0DEDF664D93"
+				type: "item"
+				item: "mysticalagriculture:creative_soulium_dagger"
+			}]
+			rewards: [{
+				id: "32083364A3357801"
+				type: "loot"
+				table_id: 1459128794121417282L
+			}]
+		}
+		{
+			x: -7.0d
+			y: -6.5d
+			id: "1782FAB08BAC278E"
+			tasks: [{
+				id: "340500543D47A7AD"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:creative_storage_cell"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "7931DC60884B256C"
+				type: "loot"
+				table_id: 1459128794121417282L
+			}]
+		}
+		{
+			x: -4.5d
+			y: -3.5d
+			id: "0F173A807D484616"
+			tasks: [{
+				id: "2CD88FCE7AD273A6"
+				type: "item"
+				item: "storagedrawers:creative_storage_upgrade"
+			}]
+			rewards: [{
+				id: "6EB371ED5B1417EC"
+				type: "loot"
+				table_id: 1459128794121417282L
+			}]
+		}
+		{
+			x: -4.5d
+			y: -7.5d
+			id: "69148ED2FFC85B1A"
+			tasks: [{
+				id: "09CCEF062EFD26D6"
+				type: "item"
+				item: "thermal:machine_efficiency_creative_augment"
+			}]
+			rewards: [{
+				id: "3F6D0445526BB3CC"
+				type: "loot"
+				table_id: 1459128794121417282L
+			}]
+		}
+		{
+			x: -4.0d
+			y: -6.5d
+			id: "3315786C09F911A1"
+			tasks: [{
+				id: "257EFFEFDA2FF71A"
+				type: "item"
+				item: "thermal:rf_coil_creative_augment"
+			}]
+			rewards: [{
+				id: "6639056D2CC7D432"
+				type: "loot"
+				table_id: 1459128794121417282L
+			}]
+		}
+		{
+			icon: {
+				id: "cyclic:charm_ultimate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -5.5d
+			y: -5.5d
+			shape: "octagon"
+			subtitle: "The Caladan Medal of Merit can be equipped in a Curios slot to provide you special bonusses.  Shift over the item to see details."
+			description: [
+				"Your original mission was to recover samples and resources from what remained of the Earth.  Even though your mission went horribly wrong, you can still fulfill this decree.  You'll need to combine massive amounts of resources, energy, and ingenuity into these thirteen tasks, each representing a different part of your adventure."
+				""
+				"If you are able to complete these tasks you will gain the favor of all of Caladan.  Your heroic tales will be told for centuries to come.  In addition, you will receive the Caladan Medal of Merit, only given to the most honorable veterans, and most importantly, solidify your spot as a member of the Royal Guard."
+			]
+			dependencies: [
+				"6B1E090FD1946F65"
+				"20FF8FF01C3B2DF9"
+				"1782FAB08BAC278E"
+				"3C3E1C08CEE3D283"
+				"3B77FF6872F8B704"
+				"784342066001D8B0"
+				"42BAC2DA3BFA90F0"
+				"0F173A807D484616"
+				"701201746E1679A8"
+				"3E7D5878B046B523"
+				"3315786C09F911A1"
+				"69148ED2FFC85B1A"
+			]
+			size: 1.5d
+			id: "3AF9F07025DF9811"
+			tasks: [{
+				id: "4CE4A650246B6B4D"
+				type: "checkmark"
+				title: "Acquisition Decree"
+			}]
+			rewards: [{
+				id: "6DC28F408402EBA2"
+				type: "item"
+				item: {
+					id: "cyclic:charm_ultimate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: -8.0d
+			description: ["It was not uncommon for fleet Captains to keep a record of their thoughts and happenings around the ship.  As the old saying goes \"It's lonely at the top.\" and this practice allowed them to stay focused amidst tremendous responsibility."]
+			id: "2ECC699D128836B8"
+			tasks: [{
+				id: "6D32AC18998A8DE3"
+				type: "item"
+				item: "overlays:rec_1start"
+			}]
+			rewards: [{
+				id: "0C900974CF3C3140"
+				type: "item"
+				item: "decimal_coins:coin_20"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -7.0d
+			description: ["It was not uncommon for fleet Captains to keep a record of their thoughts and happenings around the ship.  As the old saying goes \"It's lonely at the top.\" and this practice allowed them to stay focused amidst tremendous responsibility."]
+			id: "685E67E00EC501E5"
+			tasks: [{
+				id: "3A968FBAFAC32321"
+				type: "item"
+				item: "overlays:rec_2start"
+			}]
+			rewards: [{
+				id: "7A3388106585C456"
+				type: "item"
+				item: "decimal_coins:coin_20"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -6.0d
+			description: ["It was not uncommon for fleet Captains to keep a record of their thoughts and happenings around the ship.  As the old saying goes \"It's lonely at the top.\" and this practice allowed them to stay focused amidst tremendous responsibility."]
+			id: "05F5C0D957D4FEBE"
+			tasks: [{
+				id: "54F3D1D09E4F5C7E"
+				type: "item"
+				item: "overlays:rec_3start"
+			}]
+			rewards: [{
+				id: "49E145EA3A53073D"
+				type: "item"
+				item: "decimal_coins:coin_20"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -5.0d
+			description: ["It was not uncommon for fleet Captains to keep a record of their thoughts and happenings around the ship.  As the old saying goes \"It's lonely at the top.\" and this practice allowed them to stay focused amidst tremendous responsibility."]
+			id: "557DA04150F2DFAD"
+			tasks: [{
+				id: "02BFA4CA058C34BC"
+				type: "item"
+				item: "overlays:rec_4start"
+			}]
+			rewards: [{
+				id: "7415A37636083F7F"
+				type: "item"
+				item: "decimal_coins:coin_20"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -4.0d
+			description: ["It was not uncommon for fleet Captains to keep a record of their thoughts and happenings around the ship.  As the old saying goes \"It's lonely at the top.\" and this practice allowed them to stay focused amidst tremendous responsibility."]
+			id: "6F60A32E8B9AAB7B"
+			tasks: [{
+				id: "23CF255A9A482CFD"
+				type: "item"
+				item: "overlays:rec_5start"
+			}]
+			rewards: [{
+				id: "26844805CA29A922"
+				type: "item"
+				item: "decimal_coins:coin_20"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -3.0d
+			description: ["It was not uncommon for fleet Captains to keep a record of their thoughts and happenings around the ship.  As the old saying goes \"It's lonely at the top.\" and this practice allowed them to stay focused amidst tremendous responsibility."]
+			id: "04045AE103198795"
+			tasks: [{
+				id: "790DFC61CC404FF2"
+				type: "item"
+				item: "overlays:rec_6start"
+			}]
+			rewards: [{
+				id: "715BF91C90E71799"
+				type: "item"
+				item: "decimal_coins:coin_20"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.5d
+			description: ["It was not uncommon for fleet Captains to keep a record of their thoughts and happenings around the ship.  As the old saying goes \"It's lonely at the top.\" and this practice allowed them to stay focused amidst tremendous responsibility."]
+			id: "68BE7F033ACD36FE"
+			tasks: [{
+				id: "014A7017D2BBB052"
+				type: "item"
+				item: "overlays:rec_7start"
+			}]
+			rewards: [{
+				id: "097901E26891BAED"
+				type: "item"
+				item: "decimal_coins:coin_20"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -8.5d
+			description: ["It was not uncommon for fleet Captains to keep a record of their thoughts and happenings around the ship.  As the old saying goes \"It's lonely at the top.\" and this practice allowed them to stay focused amidst tremendous responsibility."]
+			id: "4E8B7FCEF197EB79"
+			tasks: [{
+				id: "6035A7D8254556C2"
+				type: "item"
+				item: "overlays:rec_8start"
+			}]
+			rewards: [{
+				id: "5E1DA015DA4A7E1B"
+				type: "item"
+				item: "decimal_coins:coin_20"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -8.0d
+			description: ["It was not uncommon for fleet Captains to keep a record of their thoughts and happenings around the ship.  As the old saying goes \"It's lonely at the top.\" and this practice allowed them to stay focused amidst tremendous responsibility."]
+			id: "29DB16589F0E27DD"
+			tasks: [{
+				id: "1D7E7C65BC13ECF1"
+				type: "item"
+				item: "overlays:rec_9start"
+			}]
+			rewards: [{
+				id: "4E9C9E600870DEAD"
+				type: "item"
+				item: "decimal_coins:coin_20"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -3.0d
+			description: ["It was not uncommon for fleet Captains to keep a record of their thoughts and happenings around the ship.  As the old saying goes \"It's lonely at the top.\" and this practice allowed them to stay focused amidst tremendous responsibility."]
+			id: "126749FB4122C421"
+			tasks: [{
+				id: "1171EFC3619A911D"
+				type: "item"
+				item: "overlays:rec_10start"
+			}]
+			rewards: [{
+				id: "5CC268BD3BC2249B"
+				type: "item"
+				item: "decimal_coins:coin_20"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -7.0d
+			description: ["It was not uncommon for fleet Captains to keep a record of their thoughts and happenings around the ship.  As the old saying goes \"It's lonely at the top.\" and this practice allowed them to stay focused amidst tremendous responsibility."]
+			id: "1324FE3AFC32FD3C"
+			tasks: [{
+				id: "636D608A0D61E5AE"
+				type: "item"
+				item: "overlays:rec_11start"
+			}]
+			rewards: [{
+				id: "74F3CA5B0EDC71D3"
+				type: "item"
+				item: "decimal_coins:coin_20"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -6.0d
+			description: ["It was not uncommon for fleet Captains to keep a record of their thoughts and happenings around the ship.  As the old saying goes \"It's lonely at the top.\" and this practice allowed them to stay focused amidst tremendous responsibility."]
+			id: "77186A2F88321006"
+			tasks: [{
+				id: "0C714DB38A3CC3AD"
+				type: "item"
+				item: "overlays:rec_12start"
+			}]
+			rewards: [{
+				id: "2F3EA1B358BE3C2F"
+				type: "item"
+				item: "decimal_coins:coin_20"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -5.0d
+			description: ["It was not uncommon for fleet Captains to keep a record of their thoughts and happenings around the ship.  As the old saying goes \"It's lonely at the top.\" and this practice allowed them to stay focused amidst tremendous responsibility."]
+			id: "59475EEA3196FA57"
+			tasks: [{
+				id: "344F10597EAA8D14"
+				type: "item"
+				item: "overlays:rec_13start"
+			}]
+			rewards: [{
+				id: "20BD3C0D6AEEC9DA"
+				type: "item"
+				item: "decimal_coins:coin_20"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -4.0d
+			description: ["It was not uncommon for fleet Captains to keep a record of their thoughts and happenings around the ship.  As the old saying goes \"It's lonely at the top.\" and this practice allowed them to stay focused amidst tremendous responsibility."]
+			id: "3172BF07DF0E343C"
+			tasks: [{
+				id: "5E6B503E21AE2D47"
+				type: "item"
+				item: "overlays:rec_14start"
+			}]
+			rewards: [{
+				id: "3AF1F6D7F0AA300E"
+				type: "item"
+				item: "decimal_coins:coin_20"
+			}]
+		}
+		{
+			icon: {
+				id: "relics:hunter_belt"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 0.0d
+			y: -5.5d
+			shape: "octagon"
+			subtitle: "Michelle's Memento can be equipped in a Curios slot to provide you special bonusses.  Shift over the item to see details."
+			description: [
+				"As the sole survivor of Recon Frigate Liberty's horrible explosion over Earth's atmosphere, you will be the first to convey the news to Michelle Valentine's father, the Imperator."
+				""
+				"As you have travelled through the world, you have likely scavenged pieces of Liberty's wreckage on the ocean floor.  Breaking open the machinery inside, you found Captain's Log Recorders.  If you have found all 15 of these pieces, you will gain Michelle's Memento... the last photo taken of the captain. Give it to her father on your return to Caladan."
+			]
+			dependencies: [
+				"2ECC699D128836B8"
+				"4E8B7FCEF197EB79"
+				"29DB16589F0E27DD"
+				"1324FE3AFC32FD3C"
+				"77186A2F88321006"
+				"59475EEA3196FA57"
+				"126749FB4122C421"
+				"3172BF07DF0E343C"
+				"68BE7F033ACD36FE"
+				"04045AE103198795"
+				"6F60A32E8B9AAB7B"
+				"557DA04150F2DFAD"
+				"685E67E00EC501E5"
+				"05F5C0D957D4FEBE"
+				"2F18475B6985E35C"
+			]
+			size: 1.5d
+			id: "0BD0DA5AAC1ACFCD"
+			tasks: [{
+				id: "7D59F04664D027F0"
+				type: "checkmark"
+				title: "Valentine's Memento"
+			}]
+			rewards: [{
+				id: "3F595FB5498BC4A3"
+				type: "item"
+				item: {
+					id: "relics:hunter_belt"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			disable_toast: true
+			x: 0.0d
+			y: -7.0d
+			shape: "square"
+			subtitle: "This is just a quest to show you how to keep track of the recorders you find.  You will want to return to the \"A Tragic Start\" quest tab to begin your adventure."
+			description: ["The first of Michelle Valentine's Captains Log Recorders, found after you crashed down on Earth's watery surface.  As you find more recorders in your travels you will uncover information about the Captain, Caladan, and maybe even some hints as to how or why Recon Frigate Liberty 2592B fell from the sky."]
+			id: "2F18475B6985E35C"
+			tasks: [{
+				id: "42A857D144264AFE"
+				type: "item"
+				item: "overlays:recorderstart"
+			}]
+			rewards: [{
+				id: "630795F628D6CDBE"
+				type: "item"
+				item: "rustic_resources:keyfragment"
+			}]
+		}
+	]
+}

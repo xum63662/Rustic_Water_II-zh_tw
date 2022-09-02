@@ -1,0 +1,491 @@
+{
+	id: "41AC4BEE35023C0D"
+	group: ""
+	order_index: 12
+	filename: "early_farm_automation"
+	title: "Flux Generating"
+	icon: "thermal:machine_efficiency_augment"
+	default_quest_shape: "gear"
+	default_hide_dependency_lines: false
+	images: [{
+		x: -0.25d
+		y: -0.75d
+		width: 22.5d
+		height: 12.5d
+		rotation: 0.0d
+		image: "rusticwaters:textures/page5.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			x: 5.5d
+			y: -4.0d
+			shape: "gear"
+			subtitle: "If you have not already set up your Hydrostatic Pressure Pots for farming, or crafted your scuba gear, you may want to do so before starting this chain.  You will need CORN."
+			description: ["You can generate much more efficient mid to late game power by fueling an Advanced Generator. This will supply you with ample FE/t for Thermal Series and Industrial Foregoing machines."]
+			dependencies: ["1F433CD5AF9656E1"]
+			id: "4D5824BC348CC04D"
+			tasks: [{
+				id: "6C4A7F7AA9886E5A"
+				type: "item"
+				item: "immersiveengineering:steel_scaffolding_standard"
+				count: 12L
+			}]
+			rewards: [
+				{
+					id: "4942AB41B305EFD7"
+					type: "item"
+					item: "botanypots:hopper_blue_botany_pot"
+					count: 2
+				}
+				{
+					id: "755DF559A81C9C34"
+					type: "item"
+					item: "pamhc2crops:cornseeditem"
+					count: 2
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -4.5d
+			subtitle: "Other fuel types are available to fuel your Advanced Generators if you want to bypass Oil, but they produce much less FE/t."
+			description: ["The Immersive Engineering Mixer will blend Bitumen and Corn into Crude Oil to make Ethanol.  Ethanol will fuel your Advanced Generator."]
+			dependencies: ["4D5824BC348CC04D"]
+			id: "02375E0739B78280"
+			tasks: [{
+				id: "70BE29695DD4711E"
+				type: "item"
+				item: "immersiveengineering:fluid_pipe"
+				count: 7L
+			}]
+			rewards: [{
+				id: "4FF78321B4E3BAC6"
+				type: "item"
+				item: "decimal_coins:coin_10"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -2.5d
+			description: ["The Mixer has one fluid output.  In this case, the fluid will be Ethanol that can be stored, or piped directly into your Advanced Generator."]
+			dependencies: ["35D3EA6B1B052F13"]
+			id: "23359E2D412E4F54"
+			tasks: [{
+				id: "33A5C986D81008C5"
+				type: "item"
+				item: "immersiveengineering:rs_engineering"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -1.0d
+			description: ["Your mixer will need initial FE/t to begin processing.  This can be provided by your Create Alternator for now.  Once you begin producing Ethanol, you will likely not need your Alternator setup again."]
+			dependencies: ["23359E2D412E4F54"]
+			id: "05F8ED6F59B35555"
+			tasks: [{
+				id: "061E9CCAE4708BAD"
+				type: "item"
+				item: "immersiveengineering:heavy_engineering"
+				count: 2L
+			}]
+			rewards: [
+				{
+					id: "1B50EEED0351E10C"
+					type: "item"
+					item: "archers_paradox:prismarine_arrow"
+					count: 24
+				}
+				{
+					id: "0669D0B1A5361C77"
+					type: "item"
+					item: "pamhc2crops:cornitem"
+					count: 64
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -0.5d
+			description: ["Crude Oil is a coveted commodity on Caladan.  Bringing home a large quantity of it will go far to earn your favor with the Imperator."]
+			dependencies: ["05F8ED6F59B35555"]
+			id: "297346394417BC3F"
+			tasks: [{
+				id: "1FCB16CD454A15F8"
+				type: "item"
+				item: "immersiveengineering:light_engineering"
+				count: 6L
+			}]
+			rewards: [{
+				id: "5CE9920DAC9DC9FC"
+				type: "loot"
+				table_id: 3729081586183020876L
+			}]
+		}
+		{
+			x: 2.5d
+			y: -4.0d
+			description: ["The Mixer is a multiblock structure with three inputs, two being item inputs (Bitumen and Corn), and one for fluid input (Crude Oil)."]
+			dependencies: ["02375E0739B78280"]
+			id: "35D3EA6B1B052F13"
+			tasks: [{
+				id: "172487209309A811"
+				type: "item"
+				item: "immersiveengineering:sheetmetal_iron"
+				count: 4L
+			}]
+			rewards: [{
+				id: "0760A1956519F882"
+				type: "item"
+				item: "pipez:improved_upgrade"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -5.5d
+			subtitle: "Bitumous Sand forms on the ocean floor as oily residue seeps up from the planet's crust."
+			description: ["Advanced Generators allows you to turn Ethanol into Forge Energy (FE/t).  To do this you will combine Crude Oil, Bitumen, and Corn."]
+			size: 1.5d
+			id: "1F433CD5AF9656E1"
+			tasks: [{
+				id: "1A44B830FDDFEA6C"
+				type: "item"
+				item: "thermal:oil_sand"
+				count: 16L
+			}]
+			rewards: [{
+				id: "50F6E098E151DFC1"
+				type: "loot"
+				table_id: 3729081586183020876L
+			}]
+		}
+		{
+			x: 5.5d
+			y: -2.5d
+			subtitle: "Core Sample Drills craft fully charged and can be refilled on-the-go by combining them with 2 blocks of redstone.  This will allow you to avoid having to repeatedly set up an energy provider each time you move the Drill."
+			description: ["In order to drill for oil, you need to find the oil.  Core Sample Drills will survey the chunk they are in for Oil (and other resources) and print them onto a Core Sample.  Oil is very common, but if you happen to find a chunk with no oil, move to a new chunk and try again."]
+			dependencies: ["4D5824BC348CC04D"]
+			id: "7A99B732F75BEC89"
+			tasks: [{
+				id: "7F5E151CB3443FD5"
+				type: "item"
+				item: "immersiveengineering:sample_drill"
+			}]
+			rewards: [{
+				id: "52F300841F36A08C"
+				type: "item"
+				item: "tipsy:corals_lite"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -1.0d
+			subtitle: "Use F3+G to view chunk borders when core campling."
+			description: ["Core Samples are small tubes that will be inserted into the ground to collect sediment.  This process takes roughly 1 minute to complete.  Once it is finished, right click the drill to remove the sample, and read what it says.  If you have found Crude Oil, that is where you can place your Pumpjack."]
+			dependencies: ["7A99B732F75BEC89"]
+			id: "389AD139B7C46F7F"
+			tasks: [{
+				id: "3B8B1D19E0B4D2DA"
+				type: "item"
+				item: {
+					id: "immersiveengineering:coresample"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: 0.5d
+			description: ["The Pumpjack Deployer is an item that will automatically deploy a pumpjack when used on a block on the ocean floor.  Once you have deployed the pumpjack, right click on the Heavy Engineering Block that's located on the 2nd level of the structure.  It will then form the full pumpjack."]
+			dependencies: ["389AD139B7C46F7F"]
+			id: "3BA5474A60B6BDE9"
+			tasks: [{
+				id: "469EE16897375115"
+				type: "item"
+				item: "immersiveengineering:treated_fence"
+				count: 3L
+			}]
+		}
+		{
+			x: 4.0d
+			y: 2.0d
+			description: ["Oil Pumpjacks only work between Y55 and Y70, on the ocean floor.  Make sure you aim the Pumpjack Deployer at a spot with no other important blocks nearby."]
+			dependencies: ["3BA5474A60B6BDE9"]
+			id: "0A4C2CDEB4CC711D"
+			tasks: [{
+				id: "58EEE2FAAADE73E6"
+				type: "item"
+				item: "immersiveengineering:storage_steel"
+				count: 3L
+			}]
+			rewards: [{
+				id: "53F47D44F1D36E04"
+				type: "item"
+				item: "immersivepetroleum:projector"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 3.5d
+			subtitle: "Make sure your Pumpjack is placed -completely- inside the chunk which contains Oil."
+			description: [
+				"Once you deploy your Pumpjack, you will need to provide it with power.  You can place capacitors and energy storage blocks underwater.  There are two fluid outputs on each side of the Pumpjack.  On the backside you will find a red node, for a redstone signal, and a power port for FE/t."
+				"Place a tank next to the Pumpjack fluid output, THEN you can pipe the oil from the tank to your storage."
+			]
+			dependencies: ["0A4C2CDEB4CC711D"]
+			id: "3255EA625FB8043E"
+			tasks: [{
+				id: "2F2909E36CA78A10"
+				type: "item"
+				item: "rustic_resources:pumpjack"
+			}]
+			rewards: [{
+				id: "2BABF1E416A83576"
+				type: "loot"
+				table_id: 1459128794121417282L
+			}]
+		}
+		{
+			x: 8.5d
+			y: -2.5d
+			description: [
+				"While the Gas Turbine Controller does have a very small internal buffer, a complete Advanced Generator multiblock should include the following:                                 "
+				"-1 Gas Turbine Controller"
+				"-1 Fluid Intake Valve"
+				"-1 Flux Generator"
+				"-1 Fuel Tank"
+				"-1 Capacitor"
+				"-1 Basic (or higher tier) Turbine                  "
+				"Your generator can use multiples of some of these blocks, which will be explained as you craft each."
+			]
+			dependencies: ["3EA294DC8D58E8E1"]
+			id: "0491F59D8D904FCD"
+			tasks: [{
+				id: "6810E58C26474179"
+				type: "item"
+				item: "advgenerators:fuel_turbine_controller"
+			}]
+			rewards: [{
+				id: "7B60311A7942BFAC"
+				type: "item"
+				item: "scalinghealth:enchanted_heart"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -4.5d
+			subtitle: "Luminite is found in abundance in the Dark Caverns dimension."
+			description: ["Aluminite is a conductive alloy that allows you to build the inner workings of Advanced Generators.  It is created by combining Aluminium and Luminite."]
+			dependencies: ["4D5824BC348CC04D"]
+			id: "2A12AE6A5A967164"
+			tasks: [{
+				id: "02012C1ED0573359"
+				type: "item"
+				item: "rustic_resources:aluminiteblend"
+				count: 64L
+			}]
+			rewards: [{
+				id: "279A0088B3A1FEEF"
+				type: "item"
+				item: "dark_caverns:throwable_luminite_torch"
+				count: 32
+			}]
+		}
+		{
+			x: 8.5d
+			y: -4.0d
+			description: ["Advanced Generators require Ethanol (or other less efficient) fuels to produce energy.  The generator is a multiblock that can be improved, added to, or reshaped at any point."]
+			dependencies: ["2A12AE6A5A967164"]
+			id: "3EA294DC8D58E8E1"
+			tasks: [
+				{
+					id: "6B2DC59389A327F4"
+					type: "item"
+					item: "advgenerators:iron_tubing"
+					count: 12L
+				}
+				{
+					id: "27A5762AD6CB6705"
+					type: "item"
+					item: "advgenerators:iron_wiring"
+					count: 8L
+				}
+			]
+			rewards: [{
+				id: "1E84CBB1A29B8415"
+				type: "item"
+				item: "decimal_coins:coin_10"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -1.0d
+			description: ["You can install up to 5 Fluid Intake Valves in your generator multiblock, however, for most purposes you will only require one intake for Ethanol."]
+			dependencies: ["0491F59D8D904FCD"]
+			id: "66C63099F42DE21B"
+			tasks: [{
+				id: "4031CB1AF2E896F8"
+				type: "item"
+				item: "advgenerators:fluid_input"
+			}]
+			rewards: [{
+				id: "57381E50C0AF8E18"
+				type: "item"
+				item: "scalinghealth:enchanted_heart"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -0.5d
+			description: ["You can attach up to 6 Flux Generators to your generator multiblock.  These act as a \"socket\" to output your stored Forge Energy (FE/t).  If multiple Flux Generators are in your multiblock, the output will be divided between them."]
+			dependencies: ["66C63099F42DE21B"]
+			id: "5B1946C095688255"
+			tasks: [{
+				id: "42B8E7092E50D8DE"
+				type: "item"
+				item: "advgenerators:fe_output"
+			}]
+			rewards: [{
+				id: "5C65E3FD1424DCB5"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 4
+			}]
+		}
+		{
+			x: 7.0d
+			y: 2.0d
+			description: ["You can install up to 10 total Fuel Tanks in your generator multiblock.  Each tank increases the internal capacity by 16,000mb."]
+			dependencies: ["5A3883D2A83AF28E"]
+			id: "29E1DF02966FB084"
+			tasks: [{
+				id: "183CC6A0FFA4EB17"
+				type: "item"
+				item: "advgenerators:fuel_tank"
+			}]
+			rewards: [{
+				id: "1476D23A5D83E0CE"
+				type: "item"
+				item: "xreliquary:holy_hand_grenade"
+				count: 16
+			}]
+		}
+		{
+			x: 6.5d
+			y: 0.5d
+			description: ["The Power Capacitor holds the energy that your generator multiblock produces.  You can have up to 10 capacitors within your multiblock.  You can upgrade or add higher tier capacitors, but external storage may be a more flexible option when the technology becomes available."]
+			dependencies: ["5B1946C095688255"]
+			id: "5A3883D2A83AF28E"
+			tasks: [{
+				id: "291FA010A97E7A10"
+				type: "item"
+				item: "advgenerators:power_capacitor_tier1"
+			}]
+			rewards: [{
+				id: "1EA15C61CE3FCB40"
+				type: "item"
+				item: {
+					id: "thermal:energy_cell"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							EnergyMax: 1000000
+							EnergySend: 1000
+							Energy: 0
+							EnergyRecv: 1000
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 8.0d
+			y: 3.5d
+			description: ["The \"hearts\" of your generator multiblock power production are the Turbines.  The more turbines you have, the higher your FE/t (FE/t) is."]
+			dependencies: ["29E1DF02966FB084"]
+			id: "7133ADA392923EF5"
+			tasks: [{
+				id: "6DDF09E996D2E31D"
+				type: "item"
+				item: "advgenerators:turbine_blade"
+				count: 16L
+			}]
+			rewards: [{
+				id: "5FFD1874D1ACC561"
+				type: "loot"
+				table_id: 3729081586183020876L
+			}]
+		}
+		{
+			x: 5.5d
+			y: 4.0d
+			description: [
+				"Turbines come in 5 Tiers:                     "
+				"-Basic Turbine: 128 FE/t"
+				"-T2 Electrum Turbine: 256 FE/t"
+				"-T3 Lumium Turbine: 512 FE/t"
+				"-T4 Signalum Turbine: 1024 FE/t"
+				"-T5 Enderium Turbine: 2048 FE/t                  "
+				"You can have up to 20 Turbines of any combination within your generator multiblock, for a total of a bit over 40,000 FE/t fully upgraded.  The more Turbines you have, the more fuel they will consume."
+			]
+			dependencies: ["7133ADA392923EF5"]
+			id: "271605A33AAC982C"
+			tasks: [{
+				id: "3DA6B4C227686547"
+				type: "item"
+				item: "advgenerators:turbine_rotor_tier1"
+				count: 2L
+			}]
+			rewards: [{
+				id: "26116CD7934ECE63"
+				type: "item"
+				item: "pipez:energy_pipe"
+				count: 8
+			}]
+		}
+		{
+			x: 5.5d
+			y: 2.5d
+			subtitle: "Once you have all of these pieces crafted, you can form your multiblock in nearly any shape you would like."
+			description: [
+				"You can also upgrade your Turbines, instead of adding more or replacing them.  You do this by right clicking them with an Upgrade Kit that is ONE TIER above them.  You cannot, for example, upgrade a Basic Turbine directly to a T3 Lumium Turbine."
+				"{image:rusticwaters:textures/generatorx.png width:180 height:100 align:1}"
+			]
+			dependencies: ["271605A33AAC982C"]
+			id: "6FDE418AC09E2F23"
+			tasks: [{
+				id: "6C37F0DDFD770C74"
+				type: "item"
+				item: "advgenerators:turbine_tier1"
+				count: 2L
+			}]
+			rewards: [{
+				id: "37C7CE4383ADCFF4"
+				type: "item"
+				item: "advgenerators:turbine_kit_tier2"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 1.0d
+			subtitle: "Now you can form your generator multiblock."
+			description: ["There are also two more highly optional blocks you can place within your generator multiblock.  The Fuel/Air Mixer and the Gas Mix Compressor.  They each increase the fuel efficiency of your generator by 135% and 185% respectively.  You must have a Fuel/Air mixer installed to install the Gas/Air Compressor."]
+			dependencies: ["6FDE418AC09E2F23"]
+			id: "4114D02BA0E5F268"
+			tasks: [{
+				id: "39D86C810250AC3D"
+				type: "item"
+				item: "advgenerators:efficiency_upgrade_tier1"
+			}]
+			rewards: [{
+				id: "37FDB30B83651EE9"
+				type: "loot"
+				table_id: 3729081586183020876L
+			}]
+		}
+	]
+}

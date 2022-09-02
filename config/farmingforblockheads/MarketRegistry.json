@@ -1,0 +1,3340 @@
+{
+  "groupOverrides": {
+    "Vanilla Seeds": {
+      "enabled": true
+    },
+    "Vanilla Saplings": {
+      "enabled": true
+      }
+  },
+    "customCategories": {
+    "coin_trades": {
+      "name": "Coin Trades",
+      "icon": {
+        "item": "decimal_coins:coin_20"
+      }
+    },
+    "egg_trades": {
+      "name": "Spawn Eggs",
+      "icon": {
+        "item": "minecraft:creeper_spawn_egg"
+      }
+    },
+    "decorative": {
+      "name": "Decorative",
+      "icon": {
+        "item": "atum:ceramic_stairs_cyan"
+      }
+    }
+  },
+  "customEntries": [
+    {
+      "output": {
+        "item": "minecraft:iron_ingot",
+        "count": 32
+      },
+      "payment": {
+        "item": "decimal_coins:coin_20"
+      },
+      "category": "coin_trades"
+    },
+    {
+      "output": {
+        "item": "thermal:tin_ingot",
+        "count": 32
+      },
+      "payment": {
+        "item": "decimal_coins:coin_20"
+      },
+      "category": "coin_trades"
+    },
+    {
+      "output": {
+        "item": "thermal:copper_ingot",
+        "count": 32
+      },
+      "payment": {
+        "item": "decimal_coins:coin_20"
+      },
+      "category": "coin_trades"
+    },
+    {
+      "output": {
+        "item": "thermal:silver_ingot",
+        "count": 24
+      },
+      "payment": {
+        "item": "decimal_coins:coin_20"
+      },
+      "category": "coin_trades"
+    },
+    {
+      "output": {
+        "item": "thermal:nickel_ingot",
+        "count": 32
+      },
+      "payment": {
+        "item": "decimal_coins:coin_20"
+      },
+      "category": "coin_trades"
+    },
+    {
+      "output": {
+        "item": "thermal:lead_ingot",
+        "count": 32
+      },
+      "payment": {
+        "item": "decimal_coins:coin_20"
+      },
+      "category": "coin_trades"
+    },
+    {
+      "output": {
+        "item": "minecraft:gold_ingot",
+        "count": 8
+      },
+      "payment": {
+        "item": "decimal_coins:coin_20"
+      },
+      "category": "coin_trades"
+    },
+    {
+      "output": {
+        "item": "dark_caverns:luminite_dust",
+        "count": 16
+      },
+      "payment": {
+        "item": "decimal_coins:coin_20"
+      },
+      "category": "coin_trades"
+    },
+    {
+      "output": {
+        "item": "immersiveengineering:ingot_aluminum",
+        "count": 32
+      },
+      "payment": {
+        "item": "decimal_coins:coin_20"
+      },
+      "category": "coin_trades"
+    },
+    {
+      "output": {
+        "item": "create:zinc_ingot",
+        "count": 32
+      },
+      "payment": {
+        "item": "decimal_coins:coin_20"
+      },
+      "category": "coin_trades"
+    },
+    {
+      "output": {
+        "item": "create:brass_ingot",
+        "count": 16
+      },
+      "payment": {
+        "item": "decimal_coins:coin_20"
+      },
+      "category": "coin_trades"
+    },
+    {
+      "output": {
+        "item": "minecraft:redstone",
+        "count": 64
+      },
+      "payment": {
+        "item": "decimal_coins:coin_20"
+      },
+      "category": "coin_trades"
+    },
+    {
+      "output": {
+        "item": "minecraft:string",
+        "count": 64
+      },
+      "payment": {
+        "item": "decimal_coins:coin_20"
+      },
+      "category": "coin_trades"
+    },
+    {
+      "output": {
+        "item": "waterstrainer:strainer_survivalist",
+        "count": 4
+      },
+      "payment": {
+        "item": "decimal_coins:coin_20"
+      },
+      "category": "coin_trades"
+    },
+    {
+      "output": {
+        "item": "allthecompressed:sand_block_1x",
+        "count": 64
+      },
+      "payment": {
+        "item": "decimal_coins:coin_20"
+      },
+      "category": "coin_trades"
+    },
+    {
+      "output": {
+        "item": "allthecompressed:cobblestone_block_1x",
+        "count": 64
+      },
+      "payment": {
+        "item": "decimal_coins:coin_20"
+      },
+      "category": "coin_trades"
+    },
+    {
+      "output": {
+        "item": "allthecompressed:stone_block_1x",
+        "count": 64
+      },
+      "payment": {
+        "item": "decimal_coins:coin_20"
+      },
+      "category": "coin_trades"
+    },
+    {
+      "output": {
+        "item": "allthecompressed:gravel_block_1x",
+        "count": 64
+      },
+      "payment": {
+        "item": "decimal_coins:coin_20"
+      },
+      "category": "coin_trades"
+    },
+    {
+      "output": {
+        "item": "allthecompressed:dirt_block_1x",
+        "count": 64
+      },
+      "payment": {
+        "item": "decimal_coins:coin_20"
+      },
+      "category": "coin_trades"
+    },
+    {
+      "output": {
+        "item": "allthecompressed:andesite_block_1x",
+        "count": 32
+      },
+      "payment": {
+        "item": "decimal_coins:coin_20"
+      },
+      "category": "coin_trades"
+    },
+        {
+      "output": {
+        "item": "minecraft:ice",
+        "count": 64
+      },
+      "payment": {
+        "item": "decimal_coins:coin_20"
+      },
+      "category": "coin_trades"
+    },
+    {
+      "output": {
+        "item": "minecraft:clay",
+        "count": 32
+      },
+      "payment": {
+        "item": "decimal_coins:coin_20"
+      },
+      "category": "coin_trades"
+    },
+    {
+      "output": {
+        "item": "minecraft:glass",
+        "count": 64
+      },
+      "payment": {
+        "item": "decimal_coins:coin_20"
+      },
+      "category": "coin_trades"
+    },
+    {
+      "output": {
+        "item": "minecraft:ender_pearl",
+        "count": 4
+      },
+      "payment": {
+        "item": "decimal_coins:coin_20"
+      },
+      "category": "coin_trades"
+    },
+    {
+      "output": {
+        "item": "minecraft:netherite_pickaxe"
+      },
+      "payment": {
+        "item": "decimal_coins:coin_20"
+      },
+      "category": "coin_trades"
+    },
+    {
+      "output": {
+        "item": "minecraft:netherite_shovel"
+      },
+      "payment": {
+        "item": "decimal_coins:coin_20"
+      },
+      "category": "coin_trades"
+    },
+    {
+      "output": {
+        "item": "minecraft:netherite_hoe"
+      },
+      "payment": {
+        "item": "decimal_coins:coin_20"
+      },
+      "category": "coin_trades"
+    },
+    {
+      "output": {
+        "item": "minecraft:netherite_axe"
+      },
+      "payment": {
+        "item": "decimal_coins:coin_20"
+      },
+      "category": "coin_trades"
+    },
+        {
+      "output": {
+        "item": "vanillahammers:diamond_hammer"
+      },
+      "payment": {
+        "item": "decimal_coins:coin_20",
+        "count": 4
+      },
+      "category": "coin_trades"
+    },
+    {
+      "output": {
+        "item": "archers_paradox:prismarine_arrow",
+        "count": 64
+      },
+      "payment": {
+        "item": "decimal_coins:coin_20"
+      },
+      "category": "coin_trades"
+    },
+    {
+      "output": {
+        "item": "minecraft:trident"
+      },
+      "payment": {
+        "item": "decimal_coins:coin_20"
+      },
+      "category": "coin_trades"
+    },
+    {
+      "output": {
+        "item": "elevatorid:elevator_gray",
+      "count": 2
+      },
+      "payment": {
+        "item": "decimal_coins:coin_20"
+      },
+      "category": "coin_trades"
+    },
+    {
+      "output": {
+        "item": "minecraft:red_shulker_box"
+      },
+      "payment": {
+        "item": "decimal_coins:coin_20"
+      },
+      "category": "coin_trades"
+    },
+    {
+      "output": {
+        "item": "ironchest:diamond_chest"
+      },
+      "payment": {
+        "item": "decimal_coins:coin_20"
+      },
+      "category": "coin_trades"
+    },
+    {
+      "output": {
+        "item": "ftbsluice:diamond_sluice"
+      },
+      "payment": {
+        "item": "decimal_coins:coin_20",
+        "count": 2
+      },
+      "category": "coin_trades"
+    },
+    {
+      "output": {
+        "item": "minecraft:light_gray_dye",
+        "count": 16
+      },
+      "payment": {
+        "item": "decimal_coins:coin_20"
+      },
+      "category": "coin_trades"
+    },
+{
+      "output": {
+        "item": "minecraft:green_dye",
+        "count": 16
+      },
+      "payment": {
+        "item": "decimal_coins:coin_20"
+      },
+      "category": "coin_trades"
+    },
+{
+      "output": {
+        "item": "minecraft:cyan_dye",
+        "count": 16
+      },
+      "payment": {
+        "item": "decimal_coins:coin_20"
+      },
+      "category": "coin_trades"
+    },
+{
+      "output": {
+        "item": "minecraft:yellow_dye",
+        "count": 16
+      },
+      "payment": {
+        "item": "decimal_coins:coin_20"
+      },
+      "category": "coin_trades"
+    },
+{
+      "output": {
+        "item": "minecraft:orange_dye",
+        "count": 16
+      },
+      "payment": {
+        "item": "decimal_coins:coin_20"
+      },
+      "category": "coin_trades"
+    },
+{
+      "output": {
+        "item": "minecraft:black_dye",
+        "count": 16
+      },
+      "payment": {
+        "item": "decimal_coins:coin_20"
+      },
+      "category": "coin_trades"
+    },
+{
+      "output": {
+        "item": "minecraft:light_blue_dye",
+        "count": 16
+      },
+      "payment": {
+        "item": "decimal_coins:coin_20"
+      },
+      "category": "coin_trades"
+    },
+{
+      "output": {
+        "item": "minecraft:purple_dye",
+        "count": 16
+      },
+      "payment": {
+        "item": "decimal_coins:coin_20"
+      },
+      "category": "coin_trades"
+    },
+{
+      "output": {
+        "item": "minecraft:blue_dye",
+        "count": 16
+      },
+      "payment": {
+        "item": "decimal_coins:coin_20"
+      },
+      "category": "coin_trades"
+    },
+{
+      "output": {
+        "item": "minecraft:magenta_dye",
+        "count": 16
+      },
+      "payment": {
+        "item": "decimal_coins:coin_20"
+      },
+      "category": "coin_trades"
+    },
+{
+      "output": {
+        "item": "minecraft:white_dye",
+        "count": 16
+      },
+      "payment": {
+        "item": "decimal_coins:coin_20"
+      },
+      "category": "coin_trades"
+    },
+{
+      "output": {
+        "item": "minecraft:lime_dye",
+        "count": 16
+      },
+      "payment": {
+        "item": "decimal_coins:coin_20"
+      },
+      "category": "coin_trades"
+    },
+{
+      "output": {
+        "item": "minecraft:pink_dye",
+        "count": 16
+      },
+      "payment": {
+        "item": "decimal_coins:coin_20"
+      },
+      "category": "coin_trades"
+    },
+{
+      "output": {
+        "item": "minecraft:brown_dye",
+        "count": 16
+      },
+      "payment": {
+        "item": "decimal_coins:coin_20"
+      },
+      "category": "coin_trades"
+    },
+{
+      "output": {
+        "item": "minecraft:red_dye",
+        "count": 16
+      },
+      "payment": {
+        "item": "decimal_coins:coin_20"
+      },
+      "category": "coin_trades"
+    },
+{
+      "output": {
+        "item": "minecraft:gray_dye",
+        "count": 16
+      },
+      "payment": {
+        "item": "decimal_coins:coin_20"
+      },
+      "category": "coin_trades"
+    },
+    {
+      "output": {
+        "item": "pamhc2foodcore:epicbaconitem",
+        "count": 24
+      },
+      "payment": {
+        "item": "decimal_coins:coin_20"
+      },
+      "category": "coin_trades"
+    },
+    {
+      "output": {
+        "item": "pamhc2foodextended:raspberrytrifleitem",
+        "count": 24
+      },
+      "payment": {
+        "item": "decimal_coins:coin_20"
+      },
+      "category": "coin_trades"
+    },
+    {
+      "output": {
+        "item": "tipsy:poobst",
+        "count": 8
+      },
+      "payment": {
+        "item": "decimal_coins:coin_20"
+      },
+      "category": "coin_trades"
+    },
+    {
+      "output": {
+        "item": "tipsy:corals_lite",
+        "count": 8
+      },
+      "payment": {
+        "item": "decimal_coins:coin_20"
+      },
+      "category": "coin_trades"
+    },
+    {
+      "output": {
+        "item": "tipsy:honeyken",
+        "count": 8
+      },
+      "payment": {
+        "item": "decimal_coins:coin_20"
+      },
+      "category": "coin_trades"
+    },
+    {
+      "output": {
+        "item": "tipsy:bitterlilybud",
+        "count": 24
+      },
+      "payment": {
+        "item": "decimal_coins:coin_20"
+      },
+      "category": "coin_trades"
+    },
+    {
+      "output": {
+        "item": "mysticalagriculture:infusion_crystal"
+      },
+      "payment": {
+        "item": "decimal_coins:coin_20"
+      },
+      "category": "coin_trades"
+    },
+    {
+      "output": {
+        "item": "telepastries:overworld_cake"
+      },
+      "payment": {
+        "item": "decimal_coins:coin_20"
+      },
+      "category": "coin_trades"
+    },
+    {
+      "output": {
+        "item": "miniutilities:experience_pearl_3x"
+      },
+      "payment": {
+        "item": "decimal_coins:coin_20"
+      },
+      "category": "coin_trades"
+    },
+    {
+      "output": {
+        "item": "repairchests:advanced_chest"
+      },
+      "payment": {
+        "item": "decimal_coins:coin_20"
+      },
+      "category": "coin_trades"
+    },
+    {
+      "output": {
+        "item": "chickenchunks:spot_loader"
+      },
+      "payment": {
+        "item": "decimal_coins:coin_20"
+      },
+      "category": "coin_trades"
+    },
+    {
+      "output": {
+        "item": "minecraft:totem_of_undying"
+      },
+      "payment": {
+        "item": "decimal_coins:coin_20"
+      },
+      "category": "coin_trades"
+    },
+    {
+      "output": {
+        "item": "rustic_resources:activatedxpidol"
+      },
+      "payment": {
+        "item": "decimal_coins:coin_20"
+      },
+      "category": "coin_trades"
+    },
+    {
+      "output": {
+        "item": "scalinghealth:heart_crystal"
+      },
+      "payment": {
+        "item": "decimal_coins:coin_20",
+        "count": 2
+      },
+      "category": "coin_trades"
+    },
+    {
+      "output": {
+        "item": "scalinghealth:power_crystal"
+      },
+      "payment": {
+        "item": "decimal_coins:coin_20",
+        "count": 2
+      },
+      "category": "coin_trades"
+    },
+    {
+      "output": {
+        "item": "scalinghealth:enchanted_heart"
+      },
+      "payment": {
+        "item": "decimal_coins:coin_20"
+      },
+      "category": "coin_trades"
+    },
+    {
+      "output": {
+        "item": "minecraft:enchanting_table"
+      },
+      "payment": {
+        "item": "decimal_coins:coin_20",
+      "count": 2
+      },
+      "category": "coin_trades"
+    },
+    {
+      "output": {
+        "item": "minecraft:brewing_stand"
+      },
+      "payment": {
+        "item": "decimal_coins:coin_20",
+      "count": 2
+      },
+      "category": "coin_trades"
+    },
+    {
+      "output": {
+        "item": "storagedrawers:emerald_storage_upgrade"
+      },
+      "payment": {
+        "item": "decimal_coins:coin_20"
+      },
+      "category": "coin_trades"
+    },
+    {
+      "output": {
+        "item": "doggytalents:training_treat"
+      },
+      "payment": {
+        "item": "decimal_coins:coin_20"
+      },
+      "category": "coin_trades"
+    },
+    {
+      "output": {
+        "item": "doggytalents:super_treat"
+      },
+      "payment": {
+        "item": "decimal_coins:coin_20",
+      "count": 3
+      },
+      "category": "coin_trades"
+    },
+    {
+      "output": {
+        "item": "doggytalents:master_treat"
+      },
+      "payment": {
+        "item": "decimal_coins:coin_20",
+      "count": 5
+      },
+      "category": "coin_trades"
+    },
+    {
+      "output": {
+        "item": "ironfurnaces:diamond_furnace"
+      },
+      "payment": {
+        "item": "decimal_coins:coin_20",
+      "count": 2
+      },
+      "category": "coin_trades"
+    },
+    {
+      "output": {
+        "item": "rustic_resources:bosskey"
+      },
+      "payment": {
+        "item": "decimal_coins:coin_20",
+      "count": 5
+      },
+      "category": "coin_trades"
+    },
+    {
+      "output": {
+        "item": "mysticalagriculture:inferium_farmland",
+        "count": 10
+      },
+      "payment": {
+        "item": "decimal_coins:coin_20"
+      },
+      "category": "coin_trades"
+    },
+{
+      "output": {
+        "item": "mysticalagriculture:prudentium_farmland",
+        "count": 8
+      },
+      "payment": {
+        "item": "decimal_coins:coin_20"
+      },
+      "category": "coin_trades"
+    },
+{
+      "output": {
+        "item": "mysticalagriculture:tertium_farmland",
+        "count": 6
+      },
+      "payment": {
+        "item": "decimal_coins:coin_20"
+      },
+      "category": "coin_trades"
+    },
+{
+      "output": {
+        "item": "mysticalagriculture:imperium_farmland",
+        "count": 4
+      },
+      "payment": {
+        "item": "decimal_coins:coin_20"
+      },
+      "category": "coin_trades"
+    },
+{
+      "output": {
+        "item": "mysticalagriculture:supremium_farmland",
+        "count": 2
+      },
+      "payment": {
+        "item": "decimal_coins:coin_20"
+      },
+      "category": "coin_trades"
+    },
+    {
+      "output": {
+        "item": "boss_tools:steel_ingot",
+        "count": 16
+      },
+      "payment": {
+        "item": "decimal_coins:coin_20"
+      },
+      "category": "coin_trades"
+    },
+    {
+      "output": {
+        "item": "boss_tools:iron_plate",
+        "count": 12
+      },
+      "payment": {
+        "item": "decimal_coins:coin_20"
+      },
+      "category": "coin_trades"
+    },
+    {
+      "output": {
+        "item": "boss_tools:desh_plate",
+        "count": 4
+      },
+      "payment": {
+        "item": "decimal_coins:coin_20"
+      },
+      "category": "coin_trades"
+    },
+    {
+      "output": {
+        "item": "abyssaldepths:sailfish_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "abyssaldepths:swordfish_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "alexsmobs:spawn_egg_alligator_snapping_turtle"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "alexsmobs:spawn_egg_bald_eagle"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "alexsmobs:spawn_egg_cachalot_whale"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "alexsmobs:spawn_egg_capuchin_monkey"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "alexsmobs:spawn_egg_centipede"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "alexsmobs:spawn_egg_cockroach"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "alexsmobs:spawn_egg_crimson_mosquito"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "alexsmobs:spawn_egg_crocodile"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "alexsmobs:spawn_egg_dropbear"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "alexsmobs:spawn_egg_elephant"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "alexsmobs:spawn_egg_emu"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "alexsmobs:spawn_egg_frilled_shark"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "alexsmobs:spawn_egg_gazelle"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "alexsmobs:spawn_egg_gorilla"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "alexsmobs:spawn_egg_grizzly_bear"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "alexsmobs:spawn_egg_guster"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "alexsmobs:spawn_egg_hammerhead_shark"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "alexsmobs:spawn_egg_kangaroo"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "alexsmobs:spawn_egg_komodo_dragon"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "alexsmobs:spawn_egg_mantis_shrimp"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "alexsmobs:spawn_egg_moose"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "alexsmobs:spawn_egg_orca"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "alexsmobs:spawn_egg_raccoon"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "alexsmobs:spawn_egg_seal"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "alexsmobs:spawn_egg_shoebill"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "alexsmobs:spawn_egg_snow_leopard"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "alexsmobs:spawn_egg_tarantula_hawk"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "alexsmobs:spawn_egg_tasmanian_devil"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "alexsmobs:spawn_egg_tiger"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "betteranimalsplus:badger_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "betteranimalsplus:blackbear_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "betteranimalsplus:boar_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "betteranimalsplus:brownbear_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "betteranimalsplus:butterfly_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "betteranimalsplus:coyote_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "betteranimalsplus:deer_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "betteranimalsplus:feralwolf_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "betteranimalsplus:goat_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "betteranimalsplus:goose_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "betteranimalsplus:moose_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "betteranimalsplus:reindeer_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "betteranimalsplus:shark_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "betteranimalsplus:walrus_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "betteranimalsplus:whale_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "dungeons_mobs:armored_drowned_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "dungeons_mobs:armored_mountaineer_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "dungeons_mobs:armored_piglin_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "dungeons_mobs:armored_pillager_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "dungeons_mobs:armored_skeleton_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "dungeons_mobs:armored_sunken_skeleton_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "dungeons_mobs:armored_vindicator_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "dungeons_mobs:armored_zombie_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "dungeons_mobs:conjured_slime_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "dungeons_mobs:drowned_necromancer_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "dungeons_mobs:frozen_zombie_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "dungeons_mobs:fungus_thrower_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "dungeons_mobs:geomancer_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "dungeons_mobs:iceologer_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "dungeons_mobs:icy_creeper_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "dungeons_mobs:illusioner_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "dungeons_mobs:jungle_zombie_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "dungeons_mobs:leapleaf_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+    {
+"output": {
+        "item": "atum:black_stained_crystal_glass",
+        "count": 32
+      },
+      "payment": {
+        "item": "decimal_coins:coin_1",
+        "count": 3
+      },
+      "category": "decorative"
+    },
+{
+"output": {
+        "item": "atum:black_stained_deadwood_framed_crystal_glass",
+        "count": 32
+      },
+      "payment": {
+        "item": "decimal_coins:coin_1",
+        "count": 3
+      },
+      "category": "decorative"
+    },
+{
+"output": {
+        "item": "atum:black_stained_palm_framed_crystal_glass",
+        "count": 32
+      },
+      "payment": {
+        "item": "decimal_coins:coin_1",
+        "count": 3
+      },
+      "category": "decorative"
+    },
+{
+"output": {
+        "item": "atum:blue_stained_crystal_glass",
+        "count": 32
+      },
+      "payment": {
+        "item": "decimal_coins:coin_1",
+        "count": 3
+      },
+      "category": "decorative"
+    },
+{
+"output": {
+        "item": "atum:blue_stained_deadwood_framed_crystal_glass",
+        "count": 32
+      },
+      "payment": {
+        "item": "decimal_coins:coin_1",
+        "count": 3
+      },
+      "category": "decorative"
+    },
+{
+"output": {
+        "item": "atum:blue_stained_palm_framed_crystal_glass",
+        "count": 32
+      },
+      "payment": {
+        "item": "decimal_coins:coin_1",
+        "count": 3
+      },
+      "category": "decorative"
+    },
+{
+"output": {
+        "item": "atum:brown_stained_crystal_glass",
+        "count": 32
+      },
+      "payment": {
+        "item": "decimal_coins:coin_1",
+        "count": 3
+      },
+      "category": "decorative"
+    },
+{
+"output": {
+        "item": "atum:brown_stained_deadwood_framed_crystal_glass",
+        "count": 32
+      },
+      "payment": {
+        "item": "decimal_coins:coin_1",
+        "count": 3
+      },
+      "category": "decorative"
+    },
+{
+"output": {
+        "item": "atum:brown_stained_palm_framed_crystal_glass",
+        "count": 32
+      },
+      "payment": {
+        "item": "decimal_coins:coin_1",
+        "count": 3
+      },
+      "category": "decorative"
+    },
+{
+"output": {
+        "item": "atum:ceramic_black",
+        "count": 32
+      },
+      "payment": {
+        "item": "decimal_coins:coin_1",
+        "count": 3
+      },
+      "category": "decorative"
+    },
+{
+"output": {
+        "item": "atum:ceramic_blue",
+        "count": 32
+      },
+      "payment": {
+        "item": "decimal_coins:coin_1",
+        "count": 3
+      },
+      "category": "decorative"
+    },
+{
+"output": {
+        "item": "atum:ceramic_brown",
+        "count": 32
+      },
+      "payment": {
+        "item": "decimal_coins:coin_1",
+        "count": 3
+      },
+      "category": "decorative"
+    },
+{
+"output": {
+        "item": "atum:ceramic_cyan",
+        "count": 32
+      },
+      "payment": {
+        "item": "decimal_coins:coin_1",
+        "count": 3
+      },
+      "category": "decorative"
+    },
+{
+"output": {
+        "item": "atum:ceramic_gray",
+        "count": 32
+      },
+      "payment": {
+        "item": "decimal_coins:coin_1",
+        "count": 3
+      },
+      "category": "decorative"
+    },
+{
+"output": {
+        "item": "atum:ceramic_green",
+        "count": 32
+      },
+      "payment": {
+        "item": "decimal_coins:coin_1",
+        "count": 3
+      },
+      "category": "decorative"
+    },
+{
+"output": {
+        "item": "atum:ceramic_light_blue",
+        "count": 32
+      },
+      "payment": {
+        "item": "decimal_coins:coin_1",
+        "count": 3
+      },
+      "category": "decorative"
+    },
+{
+"output": {
+        "item": "atum:ceramic_light_gray",
+        "count": 32
+      },
+      "payment": {
+        "item": "decimal_coins:coin_1",
+        "count": 3
+      },
+      "category": "decorative"
+    },
+{
+"output": {
+        "item": "atum:ceramic_lime",
+        "count": 32
+      },
+      "payment": {
+        "item": "decimal_coins:coin_1",
+        "count": 3
+      },
+      "category": "decorative"
+    },
+{
+"output": {
+        "item": "atum:ceramic_magenta",
+        "count": 32
+      },
+      "payment": {
+        "item": "decimal_coins:coin_1",
+        "count": 3
+      },
+      "category": "decorative"
+    },
+{
+"output": {
+        "item": "atum:ceramic_orange",
+        "count": 32
+      },
+      "payment": {
+        "item": "decimal_coins:coin_1",
+        "count": 3
+      },
+      "category": "decorative"
+    },
+{
+"output": {
+        "item": "atum:ceramic_pink",
+        "count": 32
+      },
+      "payment": {
+        "item": "decimal_coins:coin_1",
+        "count": 3
+      },
+      "category": "decorative"
+    },
+{
+"output": {
+        "item": "atum:ceramic_purple",
+        "count": 32
+      },
+      "payment": {
+        "item": "decimal_coins:coin_1",
+        "count": 3
+      },
+      "category": "decorative"
+    },
+{
+"output": {
+        "item": "atum:ceramic_red",
+        "count": 32
+      },
+      "payment": {
+        "item": "decimal_coins:coin_1",
+        "count": 3
+      },
+      "category": "decorative"
+    },
+{
+"output": {
+        "item": "atum:ceramic_white",
+        "count": 32
+      },
+      "payment": {
+        "item": "decimal_coins:coin_1",
+        "count": 3
+      },
+      "category": "decorative"
+    },
+{
+"output": {
+        "item": "atum:ceramic_yellow",
+        "count": 32
+      },
+      "payment": {
+        "item": "decimal_coins:coin_1",
+        "count": 3
+      },
+      "category": "decorative"
+    },
+{
+"output": {
+        "item": "atum:crystal_glass",
+        "count": 32
+      },
+      "payment": {
+        "item": "decimal_coins:coin_1",
+        "count": 3
+      },
+      "category": "decorative"
+    },
+{
+"output": {
+        "item": "atum:cyan_stained_crystal_glass",
+        "count": 32
+      },
+      "payment": {
+        "item": "decimal_coins:coin_1",
+        "count": 3
+      },
+      "category": "decorative"
+    },
+{
+"output": {
+        "item": "atum:cyan_stained_deadwood_framed_crystal_glass",
+        "count": 32
+      },
+      "payment": {
+        "item": "decimal_coins:coin_1",
+        "count": 3
+      },
+      "category": "decorative"
+    },
+{
+"output": {
+        "item": "atum:cyan_stained_palm_framed_crystal_glass",
+        "count": 32
+      },
+      "payment": {
+        "item": "decimal_coins:coin_1",
+        "count": 3
+      },
+      "category": "decorative"
+    },
+{
+"output": {
+        "item": "atum:deadwood_framed_crystal_glass",
+        "count": 32
+      },
+      "payment": {
+        "item": "decimal_coins:coin_1",
+        "count": 3
+      },
+      "category": "decorative"
+    },
+{
+"output": {
+        "item": "atum:gray_stained_crystal_glass",
+        "count": 32
+      },
+      "payment": {
+        "item": "decimal_coins:coin_1",
+        "count": 3
+      },
+      "category": "decorative"
+    },
+{
+"output": {
+        "item": "atum:gray_stained_deadwood_framed_crystal_glass",
+        "count": 32
+      },
+      "payment": {
+        "item": "decimal_coins:coin_1",
+        "count": 3
+      },
+      "category": "decorative"
+    },
+{
+"output": {
+        "item": "atum:gray_stained_palm_framed_crystal_glass",
+        "count": 32
+      },
+      "payment": {
+        "item": "decimal_coins:coin_1",
+        "count": 3
+      },
+      "category": "decorative"
+    },
+{
+"output": {
+        "item": "atum:green_stained_crystal_glass",
+        "count": 32
+      },
+      "payment": {
+        "item": "decimal_coins:coin_1",
+        "count": 3
+      },
+      "category": "decorative"
+    },
+{
+"output": {
+        "item": "atum:green_stained_deadwood_framed_crystal_glass",
+        "count": 32
+      },
+      "payment": {
+        "item": "decimal_coins:coin_1",
+        "count": 3
+      },
+      "category": "decorative"
+    },
+{
+"output": {
+        "item": "atum:green_stained_palm_framed_crystal_glass",
+        "count": 32
+      },
+      "payment": {
+        "item": "decimal_coins:coin_1",
+        "count": 3
+      },
+      "category": "decorative"
+    },
+{
+"output": {
+        "item": "atum:light_blue_stained_crystal_glass",
+        "count": 32
+      },
+      "payment": {
+        "item": "decimal_coins:coin_1",
+        "count": 3
+      },
+      "category": "decorative"
+    },
+{
+"output": {
+        "item": "atum:light_blue_stained_deadwood_framed_crystal_glass",
+        "count": 32
+      },
+      "payment": {
+        "item": "decimal_coins:coin_1",
+        "count": 3
+      },
+      "category": "decorative"
+    },
+{
+"output": {
+        "item": "atum:light_blue_stained_palm_framed_crystal_glass",
+        "count": 32
+      },
+      "payment": {
+        "item": "decimal_coins:coin_1",
+        "count": 3
+      },
+      "category": "decorative"
+    },
+{
+"output": {
+        "item": "atum:light_gray_stained_crystal_glass",
+        "count": 32
+      },
+      "payment": {
+        "item": "decimal_coins:coin_1",
+        "count": 3
+      },
+      "category": "decorative"
+    },
+{
+"output": {
+        "item": "atum:light_gray_stained_deadwood_framed_crystal_glass",
+        "count": 32
+      },
+      "payment": {
+        "item": "decimal_coins:coin_1",
+        "count": 3
+      },
+      "category": "decorative"
+    },
+{
+"output": {
+        "item": "atum:light_gray_stained_palm_framed_crystal_glass",
+        "count": 32
+      },
+      "payment": {
+        "item": "decimal_coins:coin_1",
+        "count": 3
+      },
+      "category": "decorative"
+    },
+{
+"output": {
+        "item": "atum:lime_stained_crystal_glass",
+        "count": 32
+      },
+      "payment": {
+        "item": "decimal_coins:coin_1",
+        "count": 3
+      },
+      "category": "decorative"
+    },
+{
+"output": {
+        "item": "atum:lime_stained_deadwood_framed_crystal_glass",
+        "count": 32
+      },
+      "payment": {
+        "item": "decimal_coins:coin_1",
+        "count": 3
+      },
+      "category": "decorative"
+    },
+{
+"output": {
+        "item": "atum:lime_stained_palm_framed_crystal_glass",
+        "count": 32
+      },
+      "payment": {
+        "item": "decimal_coins:coin_1",
+        "count": 3
+      },
+      "category": "decorative"
+    },
+{
+"output": {
+        "item": "atum:magenta_stained_crystal_glass",
+        "count": 32
+      },
+      "payment": {
+        "item": "decimal_coins:coin_1",
+        "count": 3
+      },
+      "category": "decorative"
+    },
+{
+"output": {
+        "item": "atum:magenta_stained_deadwood_framed_crystal_glass",
+        "count": 32
+      },
+      "payment": {
+        "item": "decimal_coins:coin_1",
+        "count": 3
+      },
+      "category": "decorative"
+    },
+{
+"output": {
+        "item": "atum:magenta_stained_palm_framed_crystal_glass",
+        "count": 32
+      },
+      "payment": {
+        "item": "decimal_coins:coin_1",
+        "count": 3
+      },
+      "category": "decorative"
+    },
+{
+"output": {
+        "item": "atum:orange_stained_crystal_glass",
+        "count": 32
+      },
+      "payment": {
+        "item": "decimal_coins:coin_1",
+        "count": 3
+      },
+      "category": "decorative"
+    },
+{
+"output": {
+        "item": "atum:orange_stained_deadwood_framed_crystal_glass",
+        "count": 32
+      },
+      "payment": {
+        "item": "decimal_coins:coin_1",
+        "count": 3
+      },
+      "category": "decorative"
+    },
+{
+"output": {
+        "item": "atum:orange_stained_palm_framed_crystal_glass",
+        "count": 32
+      },
+      "payment": {
+        "item": "decimal_coins:coin_1",
+        "count": 3
+      },
+      "category": "decorative"
+    },
+{
+"output": {
+        "item": "atum:palm_framed_crystal_glass",
+        "count": 32
+      },
+      "payment": {
+        "item": "decimal_coins:coin_1",
+        "count": 3
+      },
+      "category": "decorative"
+    },
+{
+"output": {
+        "item": "atum:pink_stained_crystal_glass",
+        "count": 32
+      },
+      "payment": {
+        "item": "decimal_coins:coin_1",
+        "count": 3
+      },
+      "category": "decorative"
+    },
+{
+"output": {
+        "item": "atum:pink_stained_deadwood_framed_crystal_glass",
+        "count": 32
+      },
+      "payment": {
+        "item": "decimal_coins:coin_1",
+        "count": 3
+      },
+      "category": "decorative"
+    },
+{
+"output": {
+        "item": "atum:pink_stained_palm_framed_crystal_glass",
+        "count": 32
+      },
+      "payment": {
+        "item": "decimal_coins:coin_1",
+        "count": 3
+      },
+      "category": "decorative"
+    },
+{
+"output": {
+        "item": "atum:purple_stained_crystal_glass",
+        "count": 32
+      },
+      "payment": {
+        "item": "decimal_coins:coin_1",
+        "count": 3
+      },
+      "category": "decorative"
+    },
+{
+"output": {
+        "item": "atum:purple_stained_deadwood_framed_crystal_glass",
+        "count": 32
+      },
+      "payment": {
+        "item": "decimal_coins:coin_1",
+        "count": 3
+      },
+      "category": "decorative"
+    },
+{
+"output": {
+        "item": "atum:purple_stained_palm_framed_crystal_glass",
+        "count": 32
+      },
+      "payment": {
+        "item": "decimal_coins:coin_1",
+        "count": 3
+      },
+      "category": "decorative"
+    },
+{
+"output": {
+        "item": "atum:red_stained_crystal_glass",
+        "count": 32
+      },
+      "payment": {
+        "item": "decimal_coins:coin_1",
+        "count": 3
+      },
+      "category": "decorative"
+    },
+{
+"output": {
+        "item": "atum:red_stained_deadwood_framed_crystal_glass",
+        "count": 32
+      },
+      "payment": {
+        "item": "decimal_coins:coin_1",
+        "count": 3
+      },
+      "category": "decorative"
+    },
+{
+"output": {
+        "item": "atum:red_stained_palm_framed_crystal_glass",
+        "count": 32
+      },
+      "payment": {
+        "item": "decimal_coins:coin_1",
+        "count": 3
+      },
+      "category": "decorative"
+    },
+{
+"output": {
+        "item": "atum:white_stained_crystal_glass",
+        "count": 32
+      },
+      "payment": {
+        "item": "decimal_coins:coin_1",
+        "count": 3
+      },
+      "category": "decorative"
+    },
+{
+"output": {
+        "item": "atum:white_stained_deadwood_framed_crystal_glass",
+        "count": 32
+      },
+      "payment": {
+        "item": "decimal_coins:coin_1",
+        "count": 3
+      },
+      "category": "decorative"
+    },
+{
+"output": {
+        "item": "atum:white_stained_palm_framed_crystal_glass",
+        "count": 32
+      },
+      "payment": {
+        "item": "decimal_coins:coin_1",
+        "count": 3
+      },
+      "category": "decorative"
+    },
+{
+"output": {
+        "item": "atum:yellow_stained_crystal_glass",
+        "count": 32
+      },
+      "payment": {
+        "item": "decimal_coins:coin_1",
+        "count": 3
+      },
+      "category": "decorative"
+    },
+{
+"output": {
+        "item": "atum:yellow_stained_deadwood_framed_crystal_glass",
+        "count": 32
+      },
+      "payment": {
+        "item": "decimal_coins:coin_1",
+        "count": 3
+      },
+      "category": "decorative"
+    },
+{
+"output": {
+        "item": "atum:yellow_stained_palm_framed_crystal_glass",
+        "count": 32
+      },
+      "payment": {
+        "item": "decimal_coins:coin_1",
+        "count": 3
+      },
+      "category": "decorative"
+    },
+{
+"output": {
+        "item": "upgrade_aquatic:acan_coralstone",
+        "count": 32
+      },
+      "payment": {
+        "item": "decimal_coins:coin_1",
+        "count": 3
+      },
+      "category": "decorative"
+    },
+{
+"output": {
+        "item": "upgrade_aquatic:brain_coralstone",
+        "count": 32
+      },
+      "payment": {
+        "item": "decimal_coins:coin_1",
+        "count": 3
+      },
+      "category": "decorative"
+    },
+{
+"output": {
+        "item": "upgrade_aquatic:branch_coralstone",
+        "count": 32
+      },
+      "payment": {
+        "item": "decimal_coins:coin_1",
+        "count": 3
+      },
+      "category": "decorative"
+    },
+{
+"output": {
+        "item": "upgrade_aquatic:bubble_coralstone",
+        "count": 32
+      },
+      "payment": {
+        "item": "decimal_coins:coin_1",
+        "count": 3
+      },
+      "category": "decorative"
+    },
+{
+"output": {
+        "item": "upgrade_aquatic:chrome_coralstone",
+        "count": 32
+      },
+      "payment": {
+        "item": "decimal_coins:coin_1",
+        "count": 3
+      },
+      "category": "decorative"
+    },
+{
+"output": {
+        "item": "upgrade_aquatic:coralstone"
+      },
+      "payment": {
+        "item": "decimal_coins:coin_1",
+        "count": 3
+      },
+      "category": "decorative"
+    },
+{
+"output": {
+        "item": "upgrade_aquatic:dead_coralstone",
+        "count": 32
+      },
+      "payment": {
+        "item": "decimal_coins:coin_1",
+        "count": 3
+      },
+      "category": "decorative"
+    },
+{
+"output": {
+        "item": "upgrade_aquatic:elder_prismarine_coralstone",
+        "count": 32
+      },
+      "payment": {
+        "item": "decimal_coins:coin_1",
+        "count": 3
+      },
+      "category": "decorative"
+    },
+{
+"output": {
+        "item": "upgrade_aquatic:finger_coralstone",
+        "count": 32
+      },
+      "payment": {
+        "item": "decimal_coins:coin_1",
+        "count": 3
+      },
+      "category": "decorative"
+    },
+{
+"output": {
+        "item": "upgrade_aquatic:fire_coralstone",
+        "count": 32
+      },
+      "payment": {
+        "item": "decimal_coins:coin_1",
+        "count": 3
+      },
+      "category": "decorative"
+    },
+{
+"output": {
+        "item": "upgrade_aquatic:horn_coralstone",
+        "count": 32
+      },
+      "payment": {
+        "item": "decimal_coins:coin_1",
+        "count": 3
+      },
+      "category": "decorative"
+    },
+{
+"output": {
+        "item": "upgrade_aquatic:moss_coralstone",
+        "count": 32
+      },
+      "payment": {
+        "item": "decimal_coins:coin_1",
+        "count": 3
+      },
+      "category": "decorative"
+    },
+{
+"output": {
+        "item": "upgrade_aquatic:petal_coralstone",
+        "count": 32
+      },
+      "payment": {
+        "item": "decimal_coins:coin_1",
+        "count": 3
+      },
+      "category": "decorative"
+    },
+{
+"output": {
+        "item": "upgrade_aquatic:pillow_coralstone",
+        "count": 32
+      },
+      "payment": {
+        "item": "decimal_coins:coin_1",
+        "count": 3
+      },
+      "category": "decorative"
+    },
+{
+"output": {
+        "item": "upgrade_aquatic:prismarine_coralstone",
+        "count": 32
+      },
+      "payment": {
+        "item": "decimal_coins:coin_1",
+        "count": 3
+      },
+      "category": "decorative"
+    },
+{
+"output": {
+        "item": "upgrade_aquatic:rock_coralstone",
+        "count": 32
+      },
+      "payment": {
+        "item": "decimal_coins:coin_1",
+        "count": 3
+      },
+      "category": "decorative"
+    },
+{
+"output": {
+        "item": "upgrade_aquatic:silk_coralstone",
+        "count": 32
+      },
+      "payment": {
+        "item": "decimal_coins:coin_1",
+        "count": 3
+      },
+      "category": "decorative"
+    },
+{
+"output": {
+        "item": "upgrade_aquatic:star_coralstone",
+        "count": 32
+      },
+      "payment": {
+        "item": "decimal_coins:coin_1",
+        "count": 3
+      },
+      "category": "decorative"
+    },
+{
+"output": {
+        "item": "upgrade_aquatic:tube_coralstone",
+        "count": 32
+      },
+      "payment": {
+        "item": "decimal_coins:coin_1",
+        "count": 3
+      },
+      "category": "decorative"
+    },
+{
+      "output": {
+        "item": "dungeons_mobs:mossy_skeleton_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "dungeons_mobs:mountaineer_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "dungeons_mobs:necromancer_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "dungeons_mobs:poison_anemone_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "dungeons_mobs:poison_quill_vine_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "dungeons_mobs:quick_growing_anemone_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "dungeons_mobs:quick_growing_vine_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "dungeons_mobs:redstone_cube_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "dungeons_mobs:royal_guard_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "dungeons_mobs:skeleton_horseman_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "dungeons_mobs:skeleton_vanguard_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "dungeons_mobs:sunken_skeleton_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "dungeons_mobs:vindicator_chef_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "dungeons_mobs:wavewhisperer_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "dungeons_mobs:whisperer_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "dungeons_mobs:windcaller_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "dungeons_mobs:wraith_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "dungeons_mobs:zombified_armored_piglin_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "dungeons_mobs:zombified_fungus_thrower_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "minecraft:bat_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "minecraft:bee_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "minecraft:blaze_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "minecraft:cat_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "minecraft:cave_spider_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "minecraft:chicken_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "minecraft:cod_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "minecraft:cow_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "minecraft:creeper_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "minecraft:dolphin_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "minecraft:donkey_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "minecraft:drowned_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "minecraft:elder_guardian_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "minecraft:enderman_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "minecraft:endermite_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "minecraft:evoker_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "minecraft:fox_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "minecraft:ghast_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "minecraft:guardian_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "minecraft:hoglin_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "minecraft:horse_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "minecraft:husk_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "minecraft:llama_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "minecraft:magma_cube_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "minecraft:mooshroom_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "minecraft:mule_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "minecraft:ocelot_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "minecraft:panda_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "minecraft:parrot_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "minecraft:phantom_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "minecraft:pig_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "minecraft:piglin_brute_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "minecraft:piglin_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "minecraft:pillager_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "minecraft:polar_bear_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "minecraft:pufferfish_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "minecraft:rabbit_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "minecraft:ravager_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "minecraft:salmon_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "minecraft:sheep_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "minecraft:silverfish_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "minecraft:skeleton_horse_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "minecraft:skeleton_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "minecraft:slime_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "minecraft:spider_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "minecraft:squid_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "minecraft:stray_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "minecraft:strider_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "minecraft:tropical_fish_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "minecraft:turtle_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "minecraft:vex_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "minecraft:villager_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "minecraft:vindicator_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "minecraft:wandering_trader_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "minecraft:witch_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "minecraft:wither_skeleton_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "minecraft:wolf_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "minecraft:zoglin_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "minecraft:zombie_horse_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "minecraft:zombie_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "minecraft:zombie_villager_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "minecraft:zombified_piglin_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "mowziesmobs:foliaath_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "mowziesmobs:naga_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "thermal:basalz_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "thermal:blitz_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "thermal:blizz_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "upgrade_aquatic:flare_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "upgrade_aquatic:glow_squid_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "upgrade_aquatic:goose_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "upgrade_aquatic:great_thrasher_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    },
+{
+      "output": {
+        "item": "upgrade_aquatic:thrasher_spawn_egg"
+      },
+      "payment": {
+        "item": "woot:t2shard",
+      "count": 2
+      },
+      "category": "egg_trades"
+    }
+  ]
+}

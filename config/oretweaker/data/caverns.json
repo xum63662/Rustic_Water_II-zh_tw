@@ -1,0 +1,205 @@
+{
+  "oreConfig": [
+    {
+      "ore": "thermal:silver_ore",
+      "filler": "dark_caverns:carfstone",
+      "minY": 5,
+      "maxY": 250,
+      "maxVeinSize": 8,
+      "spawnRate": 8.0,
+      "biomeBlacklist": ["minecraft:overworld"],
+      "biomeWhitelist": ["dark_caverns:glimmershroom_forest", "dark_caverns:molten_depths", "dark_caverns:rocky_caverns"]
+    },
+    {
+      "ore": "thermal:lead_ore",
+      "filler": "dark_caverns:carfstone",
+      "minY": 5,
+      "maxY": 250,
+      "maxVeinSize": 8,
+      "spawnRate": 8.0,
+      "biomeBlacklist": [],
+      "biomeWhitelist": ["dark_caverns:glimmershroom_forest", "dark_caverns:molten_depths", "dark_caverns:rocky_caverns"]
+    },
+        {
+      "ore": "thermal:lead_ore",
+      "filler": "minecraft:stone",
+      "minY": 5,
+      "maxY": 75,
+      "maxVeinSize": 8,
+      "spawnRate": 8.0,
+      "biomeBlacklist": [],
+      "biomeWhitelist": ["minecraft:deep_ocean"]
+    },
+    {
+      "ore": "dark_caverns:carfstone_lapis_ore",
+      "filler": "dark_caverns:carfstone",
+      "minY": 5,
+      "maxY": 250,
+      "maxVeinSize": 6,
+      "spawnRate": 6.0,
+      "biomeBlacklist": [],
+      "biomeWhitelist": ["dark_caverns:glimmershroom_forest", "dark_caverns:molten_depths", "dark_caverns:rocky_caverns"]
+    },
+    {
+      "ore": "thermal:copper_ore",
+      "filler": "dark_caverns:carfstone",
+      "minY": 5,
+      "maxY": 250,
+      "maxVeinSize": 14,
+      "spawnRate": 12.0,
+      "biomeBlacklist": [],
+      "biomeWhitelist": ["dark_caverns:glimmershroom_forest", "dark_caverns:molten_depths", "dark_caverns:rocky_caverns"]
+    },
+            {
+      "ore": "thermal:copper_ore",
+      "filler": "minecraft:stone",
+      "minY": 5,
+      "maxY": 75,
+      "maxVeinSize": 8,
+      "spawnRate": 10.0,
+      "biomeBlacklist": [],
+      "biomeWhitelist": ["minecraft:deep_ocean"]
+    },
+    {
+      "ore": "thermal:tin_ore",
+      "filler": "dark_caverns:carfstone",
+      "minY": 5,
+      "maxY": 250,
+      "maxVeinSize": 8,
+      "spawnRate": 8.0,
+      "biomeBlacklist": [],
+      "biomeWhitelist": ["dark_caverns:glimmershroom_forest", "dark_caverns:molten_depths", "dark_caverns:rocky_caverns"]
+    },
+            {
+      "ore": "thermal:tin_ore",
+      "filler": "minecraft:stone",
+      "minY": 5,
+      "maxY": 75,
+      "maxVeinSize": 8,
+      "spawnRate": 8.0,
+      "biomeBlacklist": [],
+      "biomeWhitelist": ["minecraft:deep_ocean"]
+    },
+        {
+      "ore": "mysticalagriculture:prosperity_ore",
+      "filler": "dark_caverns:carfstone",
+      "minY": 5,
+      "maxY": 250,
+      "maxVeinSize": 10,
+      "spawnRate": 8.0,
+      "biomeBlacklist": [],
+      "biomeWhitelist": ["dark_caverns:glimmershroom_forest", "dark_caverns:molten_depths", "dark_caverns:rocky_caverns"]
+    },
+        {
+      "ore": "dark_caverns:carfstone_gold_ore",
+      "filler": "dark_caverns:carfstone",
+      "minY": 5,
+      "maxY": 250,
+      "maxVeinSize": 8,
+      "spawnRate": 12.0,
+      "biomeBlacklist": [],
+      "biomeWhitelist": ["dark_caverns:glimmershroom_forest", "dark_caverns:molten_depths", "dark_caverns:rocky_caverns"]
+    },
+    {
+      "ore": "thermal:nickel_ore",
+      "filler": "dark_caverns:carfstone",
+      "minY": 5,
+      "maxY": 250,
+      "maxVeinSize": 10,
+      "spawnRate": 8.0,
+      "biomeBlacklist": [],
+      "biomeWhitelist": ["dark_caverns:glimmershroom_forest", "dark_caverns:molten_depths", "dark_caverns:rocky_caverns"]
+    },
+            {
+      "ore": "thermal:nickel_ore",
+      "filler": "minecraft:stone",
+      "minY": 5,
+      "maxY": 75,
+      "maxVeinSize": 8,
+      "spawnRate": 8.0,
+      "biomeBlacklist": [],
+      "biomeWhitelist": ["minecraft:deep_ocean"]
+    },
+        {
+      "ore": "ars_nouveau:arcane_stone",
+      "filler": "dark_caverns:carfstone",
+      "minY": 1,
+      "maxY": 80,
+      "maxVeinSize": 16,
+      "spawnRate": 8.0,
+      "biomeBlacklist": [],
+      "biomeWhitelist": ["minecraft:overworld", "dark_caverns:glimmershroom_forest", "dark_caverns:molten_depths", "dark_caverns:rocky_caverns"]
+    },
+            {
+      "ore": "ars_nouveau:arcane_stone",
+      "filler": "minecraft:stone",
+      "minY": 1,
+      "maxY": 64,
+      "maxVeinSize": 20,
+      "spawnRate": 6.0,
+      "biomeBlacklist": [],
+      "biomeWhitelist": ["minecraft:deep_ocean"]
+    },
+    {
+      "ore": "ars_nouveau:arcane_ore",
+      "filler": "dark_caverns:carfstone",
+      "minY": 5,
+      "maxY": 250,
+      "maxVeinSize": 8,
+      "spawnRate": 12.0,
+      "biomeBlacklist": [],
+      "biomeWhitelist": ["dark_caverns:glimmershroom_forest", "dark_caverns:molten_depths", "dark_caverns:rocky_caverns"]
+    },
+    {
+      "ore": "mekanism:osmium_ore",
+      "filler": "dark_caverns:carfstone",
+      "minY": 5,
+      "maxY": 250,
+      "maxVeinSize": 10,
+      "spawnRate": 16.0,
+      "biomeBlacklist": [],
+      "biomeWhitelist": ["dark_caverns:glimmershroom_forest", "dark_caverns:molten_depths", "dark_caverns:rocky_caverns"]
+    },
+    {
+      "ore": "immersiveengineering:ore_aluminum",
+      "filler": "dark_caverns:carfstone",
+      "minY": 5,
+      "maxY": 250,
+      "maxVeinSize": 8,
+      "spawnRate": 8.0,
+      "biomeBlacklist": [],
+      "biomeWhitelist": ["dark_caverns:glimmershroom_forest", "dark_caverns:molten_depths", "dark_caverns:rocky_caverns"]
+    },
+    {
+      "ore": "mysticalagriculture:inferium_ore",
+      "filler": "dark_caverns:carfstone",
+      "minY": 5,
+      "maxY": 250,
+      "maxVeinSize": 10,
+      "spawnRate": 8.0,
+      "biomeBlacklist": [],
+      "biomeWhitelist": ["dark_caverns:glimmershroom_forest", "dark_caverns:molten_depths", "dark_caverns:rocky_caverns"]
+    },
+    {
+      "ore": "immersiveengineering:ore_aluminum",
+      "filler": "dark_caverns:carfstone",
+      "minY": 5,
+      "maxY": 250,
+      "maxVeinSize": 8,
+      "spawnRate": 8.0,
+      "biomeBlacklist": [],
+      "biomeWhitelist": ["dark_caverns:glimmershroom_forest", "dark_caverns:molten_depths", "dark_caverns:rocky_caverns"]
+    },
+            {
+      "ore": "immersiveengineering:ore_aluminum",
+      "filler": "minecraft:stone",
+      "minY": 5,
+      "maxY": 75,
+      "maxVeinSize": 8,
+      "spawnRate": 8.0,
+      "biomeBlacklist": [],
+      "biomeWhitelist": ["minecraft:deep_ocean"]
+    }
+
+  ]
+}

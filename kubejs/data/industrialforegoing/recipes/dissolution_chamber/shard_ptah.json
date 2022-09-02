@@ -1,0 +1,35 @@
+{
+  "input": [
+    {
+      "tag": "forge:dusts/electrum"
+    },
+    {
+      "tag": "forge:dusts/electrum"
+    },
+    {
+      "tag": "forge:dusts/electrum"
+    },
+    {
+      "tag": "forge:dusts/electrum"
+    },
+    {
+      "tag": "forge:dusts/electrum"
+    },
+    {
+      "tag": "forge:dusts/electrum"
+    },
+    {
+      "tag": "forge:dusts/electrum"
+    },
+    {
+      "tag": "forge:dusts/electrum"
+    }
+  ],
+  "inputFluid": "{FluidName:\"industrialforegoing:essence\",Amount:1000}",
+  "processingTime": 400,
+  "output": {
+    "item": "atum:ptah_godshard",
+    "count": 1
+  },
+  "type": "industrialforegoing:dissolution_chamber"
+}

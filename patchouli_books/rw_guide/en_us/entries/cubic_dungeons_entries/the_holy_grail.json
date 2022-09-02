@@ -1,0 +1,16 @@
+{
+    "name": "Choose Wisely",
+    "icon": "rustic_resources:jeweledgoblet",
+    "category": "patchouli:cubic_dungeons",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Each Cubic Dungeon consists of 4 floors.  On the bottom floor you will encounter the Knight of the Grail.  This helpful NPC will warn you that you must choose a goblet in order to begin the final boss fight.  Your choice of goblet will determine the difficulty of your boss fight, and the amount of loot you gain. Will you choose the safe route? Or the dangerous route to riches?"  
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item":  "rustic_resources:jeweledgoblet"
+        }
+    ]
+}

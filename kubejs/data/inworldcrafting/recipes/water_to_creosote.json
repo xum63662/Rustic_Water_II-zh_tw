@@ -1,0 +1,15 @@
+{
+  "type": "interactio:fluid_fluid_transform",
+  "items": [
+    {
+      "item": "rustic_resources:charcoalclump",
+      "count": 1
+    }
+  ],
+  "input": {
+    "fluid": "water"
+  },
+  "output": {
+              "fluid": "immersiveengineering:creosote"
+        }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "thermal:rosin"
+  },
+  "result": "industrialforegoing:tinydryrubber",
+  "experience": 0.2,
+  "cookingtime": 200
+}

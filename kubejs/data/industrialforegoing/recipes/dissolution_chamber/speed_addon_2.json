@@ -1,0 +1,36 @@
+{
+  "input": [
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "create:framed_glass"
+    },
+    {
+      "item": "create:framed_glass"
+    },
+    {
+      "tag": "forge:gears/diamond"
+    },
+    {
+      "tag": "forge:gears/diamond"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "inputFluid": "{FluidName:\"thermal:resin\",Amount:1000}",
+  "processingTime": 200,
+  "output": {
+    "item": "industrialforegoing:speed_addon_2",
+    "count": 1,
+    "nbt": "{TitaniumAugment:{Speed:3.0f}}"
+  },
+  "type": "industrialforegoing:dissolution_chamber"
+}

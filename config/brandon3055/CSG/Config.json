@@ -1,0 +1,11 @@
+{
+  "inventory": {
+    "0:12": "{id:\"ftbquests:book\",Count:1b}",
+    "0:27": "{id:\"hats:hp_lus_cap_helmet\",Count:1b,tag:{RepairCost:1,Damage:0,Enchantments:[{lvl:1s,id:\"ma-enchants:night_vision\"},{lvl:2s,id:\"minecraft:respiration\"}]}}",
+    "1:0": "{id:\"minecraft:leather_boots\",Count:1b,tag:{RepairCost:0,Damage:0,display:{color:3949738,Name:'{\"text\":\"Crewman\\'s Boots\"}'}}}",
+    "1:1": "{id:\"minecraft:leather_leggings\",Count:1b,tag:{RepairCost:0,Damage:0,display:{color:3949738,Name:'{\"text\":\"Crewman\\'s Trousers\"}'}}}",
+    "1:2": "{id:\"minecraft:leather_chestplate\",Count:1b,tag:{RepairCost:0,Damage:0,display:{color:3949738,Name:'{\"text\":\"Crewman\\'s Tunic\"}'}}}",
+    "0:34": "{id:\"overlays:recorderstart\",Count:1b}"
+  },
+  "wipeBlacklist": []
+}

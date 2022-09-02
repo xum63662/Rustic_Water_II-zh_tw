@@ -1,0 +1,17 @@
+{
+  "modId": "minecraft",
+  "group": {
+    "name": "Bone Meal",
+    "enabledByDefault": false,
+    "defaultPayment": {
+      "item": "minecraft:emerald"
+    },
+    "defaultCategory": "farmingforblockheads:other"
+  },
+  "customEntries": [
+    {
+      "output": "minecraft:iron_ingot",
+      "count": 3
+    }
+  ]
+}

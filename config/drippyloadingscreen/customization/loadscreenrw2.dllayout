@@ -1,0 +1,40 @@
+type = hud
+
+customization-meta {
+  randomgroup = 1
+  keepaspectratio = true
+  backgroundimage = resources/loadingbg.png
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  visible = false
+  x = -3
+  action = editlogo
+  y = 69
+}
+
+customization {
+  orientation = bottom-centered
+  x = 0
+  textcolor = #420d0d
+  action = editforgememoryinfo
+  y = -5
+}
+
+customization {
+  orientation = mid-centered
+  visible = false
+  x = 0
+  action = editforgestatustext
+  y = 0
+}
+
+customization {
+  x = 0
+  action = editprogressbar
+  y = -18
+}
+

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "F F",
+    " H ",
+    "F F"
+  ],
+  "key": {
+    "F": {
+      "item": "rustic_resources:reinforcedwood"
+    },
+    "H": {
+      "item": "minecraft:hopper"
+    }
+  },
+  "result": {
+    "item": "advgenerators:item_output"
+  }
+}
