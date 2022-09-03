@@ -1,0 +1,16 @@
+{
+    "name": "Deep Sea Hub",
+    "icon": "create:framed_glass",
+    "category": "patchouli:deep_sea_hub",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "這個廣闊的海洋星球從地面到接近建築高度都充滿了水。 看來這個世界並非沒有資源，而是大部分旱地都沒有。 您注意到每個牆壁和天花板上都有“集線器擴展鎖”。 你唯一的希望是收集資源並推進你的技術，直到你能找到一個更適合稱之為家的地方。"
+        },
+        {
+            "type": "patchouli:image",
+            "images":  ["rwguide:textures/categories/hub.png"]
+        }
+    ]
+}

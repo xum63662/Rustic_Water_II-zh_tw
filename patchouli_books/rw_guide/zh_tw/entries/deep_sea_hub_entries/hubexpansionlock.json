@@ -1,0 +1,16 @@
+{
+    "name": "Hub Expansion Locks",
+    "icon": "rustic_resources:hubexpankey",
+    "category": "patchouli:deep_sea_hub",
+    "sortnum": 2,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "您的集線器中有 5 個集線器擴展鎖，每面牆上一個，天花板上一個。 這些將擴展以在您的主樞紐上創建一個額外的房間，為您提供更多的構建空間。 這些只能使用集線器擴展鑰匙打開。 您將通過完成任務獲得關鍵碎片。 將碎片組合成一把鑰匙，解鎖你的樞紐擴展"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item":  "rustic_resources:hubblock_1"
+        }
+    ]
+}

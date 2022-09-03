@@ -1,0 +1,16 @@
+{
+    "name": "Green Dungeon",
+    "icon": "rustic_resources:poison_nettle",
+    "category": "patchouli:cubic_dungeons",
+    "sortnum": 3,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "綠色的“叢林”立方地牢是一個困難的步驟。 此地牢中的所有生物都會生成一個或多個 I 級效果，例如吸收 I 或力量 I。陷阱很少，水桶奶酪會受到懲罰，但許多刷怪籠的位置並不方便。 中毒狀態效果非常猖獗。 這個地牢有更高級別的戰利品緩存可用於掠奪。"  
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item":  "rustic_resources:poison_nettle"
+        }
+    ]
+}

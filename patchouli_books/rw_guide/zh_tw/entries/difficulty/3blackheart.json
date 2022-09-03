@@ -1,0 +1,15 @@
+{
+    "name": "Cursed Hearts",
+    "icon": "scalinghealth:cursed_heart",
+    "category": "patchouli:difficulty",
+    "pages": [
+        {
+            "type": "text",
+            "text": "詛咒之心允許您將難度計增加 10 點。 這些可以使用來自下界的材料相當容易地製作。"
+        },
+        {
+            "type": "spotlight",
+            "item": "scalinghealth:cursed_heart"
+        }    
+            ]
+}

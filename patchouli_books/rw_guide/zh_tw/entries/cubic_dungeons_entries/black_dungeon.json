@@ -1,0 +1,16 @@
+{
+    "name": "Black Dungeon",
+    "icon": "rustic_resources:hardwall",
+    "category": "patchouli:cubic_dungeons",
+    "sortnum": 4,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "“黑暗”地牢是立方地牢中最難的。 此地牢中的所有生物都帶有一種或多種 II 級效果，例如吸收 II 或力量 II。 以魔法和紅石為主題的生物兇猛而豐富。 陷阱多，水桶奶酪受罰，大部分產卵器位置不便。 這個地牢有頂級戰利品緩存。"  
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item":  "rustic_resources:hardwall"
+        }
+    ]
+}

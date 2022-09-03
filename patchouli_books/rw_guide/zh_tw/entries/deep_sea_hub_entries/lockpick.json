@@ -1,0 +1,16 @@
+{
+    "name": "Lockpicks",
+    "icon": "rustic_resources:lockpick",
+    "category": "patchouli:deep_sea_hub",
+    "sortnum": 3,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "您不必使用集線器擴展系統。 如果您想手動構建您的基地，您可以使用開鎖器移除集線器擴展鎖。 開鎖器由集線器擴展鑰匙和鐵錠製成。 開鎖器可重複使用。"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item":  "rustic_resources:lockpick"
+        }
+    ]
+}

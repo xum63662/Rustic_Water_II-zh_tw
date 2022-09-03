@@ -1,0 +1,16 @@
+{
+    "name": "Light Blue Dungeon",
+    "icon": "rustic_resources:hardice_2",
+    "category": "patchouli:cubic_dungeons",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "儘管“冰”地牢被認為是最低的難度層，但仍然具有挑戰性。與所有立方地下城一樣，牆壁是堅不可摧的，走廊蜿蜒曲折，冰為主題的怪物很多。陷阱很少，大多數產卵者都可以輕鬆訪問。"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item":  "rustic_resources:hardice_3"
+        }
+    ]
+}

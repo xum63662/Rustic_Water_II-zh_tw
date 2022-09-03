@@ -1,0 +1,6 @@
+{
+    "name": "Diet",
+    "description": "只吃“簡單”的食物不會受到懲罰，但吃複雜的食物會有好處。 你有三種“渴望”； 滿足這些渴望將改善您的情緒水平。 如果您的情緒在這三種渴望中的任何一種中保持在 80% 以上，您就會獲得強大的增益。",
+    "icon": "rwguide:textures/categories/ploughmanslunchitem.png",
+    "sortnum": 3
+}

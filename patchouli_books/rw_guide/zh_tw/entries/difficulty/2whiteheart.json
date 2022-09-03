@@ -1,0 +1,15 @@
+{
+    "name": "Enchanted Hearts",
+    "icon": "scalinghealth:enchanted_heart",
+    "category": "patchouli:difficulty",
+    "pages": [
+        {
+            "type": "text",
+            "text": "蘊魔之心可讓您將難度表降低 10 點。 這些可以使用來自您的濾水器的材料相當容易地製作。 它們也可以從商人處購買並從任務中獲得。 如果您願意，您可以輕鬆獲得足夠多的心，以便在整個遊戲過程中保持零難度。"
+        },
+        {
+            "type": "spotlight",
+            "item": "scalinghealth:enchanted_heart"
+        }
+            ]
+}

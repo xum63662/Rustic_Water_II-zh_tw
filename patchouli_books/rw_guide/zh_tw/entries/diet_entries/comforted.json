@@ -1,0 +1,15 @@
+{
+    "name": "Comforted Diet Craving",
+    "icon": "pamhc2foodextended:chocolatesprinklecakeitem",
+    "category": "patchouli:diet",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "舒適的渴望代表了您對所吃的舒適食物的滿意程度。 舒適食品通常包括零食和含糖糖果。 您可以通過在 JEI 中搜索“舒適”來查看所有符合此類別的食物。"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item":  "pamhc2foodextended:chocolatesprinklecakeitem",
+            "text": "Maintaining a Comforted craving level above 80% will give you +25% Attack Speed, +25% Movement Speed, and Regeneration II."
+        }    ]
+}

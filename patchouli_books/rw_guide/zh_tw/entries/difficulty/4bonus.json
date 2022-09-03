@@ -1,0 +1,15 @@
+{
+    "name": "Difficulty Bonuses",
+    "icon": "inventorypets:holiday_gift",
+    "category": "patchouli:difficulty",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "如前所述，保持低難度不會受到任何懲罰。 雖然有增加它的獎金。 當您的儀表通過某些閾值時，您戰鬥的小怪將有機會掉落對您的冒險有用的物品。 這些獎金在本頁的右側進行了描述。"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "scalinghealth:power_crystal",
+            "text": "儀表等級 100 及更高等級允許縮放健康之心和能量水晶掉落。 這些可用於分別永久升級您的健康或攻擊力。 您最多可以達到 80 生命值（40 顆心）和 +20 攻擊強度（10 顆傷害之心）。$(br2) 儀表等級 200 或更高允許 Netherite 和 Draconium 偶爾從小怪中掉落。 這些是強大的最終遊戲製作組件。"
+        }    ]
+}

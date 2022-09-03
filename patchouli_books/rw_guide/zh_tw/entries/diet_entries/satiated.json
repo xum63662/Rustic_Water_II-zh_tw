@@ -1,0 +1,16 @@
+{
+    "name": "Satiated Diet Craving",
+    "icon": "pamhc2foodextended:ploughmanslunchitem",
+    "category": "patchouli:diet",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "滿足的渴望代表您對所吃食物的質量的滿意程度。 提升這種情緒的食物通常是由多種成分組成的複雜膳食。 您可以通過在 JEI 中搜索“飽腹感”來查看所有有助於您獲得飽腹感的食物"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item":  "pamhc2foodextended:ploughmanslunchitem",
+            "text": "Maintaining a Satiated mood level above 80% will give you +4 Armor, +2 Toughness, and +4 Maximum Health.  This is a very worthwhile mood to keep active while you are exploring the tough Cubic Dungeons located around the world."
+        }
+    ]
+}

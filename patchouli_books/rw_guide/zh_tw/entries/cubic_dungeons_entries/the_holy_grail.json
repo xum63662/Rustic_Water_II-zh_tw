@@ -1,0 +1,16 @@
+{
+    "name": "Choose Wisely",
+    "icon": "rustic_resources:jeweledgoblet",
+    "category": "patchouli:cubic_dungeons",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "每個立方地牢由 4 個樓層組成。 在底層你會遇到聖杯騎士。 這個樂於助人的 NPC 會警告你，你必須選擇一個高腳杯才能開始最後的 Boss 戰。 您選擇的高腳杯將決定您的老闆戰鬥的難度以及您獲得的戰利品數量。 你會選擇安全的路線嗎？ 還是危險的致富之路？"  
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item":  "rustic_resources:jeweledgoblet"
+        }
+    ]
+}

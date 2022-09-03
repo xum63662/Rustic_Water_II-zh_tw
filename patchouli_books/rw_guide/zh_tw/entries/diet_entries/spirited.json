@@ -1,0 +1,16 @@
+{
+    "name": "Spirited Diet Craving",
+    "icon": "tipsy:poobst",
+    "category": "patchouli:diet",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Spirited 渴望代表您從“啤酒”中獲得的放鬆。 除了將您的渴望水平保持在 80% 以上所獲得的增益之外，啤酒還提供強大的增益。 喝啤酒對狀態沒有負面影響（即沒有噁心），但確實會讓你“昏昏欲睡”，在一段時間內阻止你喝得更多。"
+        },
+        {
+            "type": "patchouli:image",
+            "images":  ["rwguide:textures/categories/brews.png"]
+        }
+    ]
+}
+
